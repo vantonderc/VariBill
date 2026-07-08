@@ -203,3 +203,4 @@ C:\WerkSoekAssessments\FinalAssessment\Bongoe2\VariBillWebApp.Blazor\obj\Debug\n
 C:\WerkSoekAssessments\FinalAssessment\Bongoe2\VariBillWebApp.Blazor\obj\Debug\net9.0\compressed\3yfpluosov-{0}-63fj8s7r0e-63fj8s7r0e.gz
 C:\WerkSoekAssessments\FinalAssessment\Bongoe2\VariBillWebApp.Blazor\obj\Debug\net9.0\compressed\z6s8k1gcii-{0}-0j3bgjxly4-0j3bgjxly4.gz
 C:\WerkSoekAssessments\FinalAssessment\Bongoe2\VariBillWebApp.Blazor\obj\Debug\net9.0\swae.build.ex.cache
+C:\WerkSoekAssessments\FinalAssessment\Bongoe2\VariBillWebApp.Blazor\obj\Debug\net9.0\VariBillWebApp.Blazor.sourcelink.json

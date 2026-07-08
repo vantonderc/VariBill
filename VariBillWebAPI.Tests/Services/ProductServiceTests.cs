@@ -2,11 +2,13 @@ using Microsoft.Extensions.Logging;
 using Moq;
 using System.Linq.Expressions;
 using VariBillWebAPI.Data.Entities;
-using VariBillWebAPI.Data.Repository.Interface;
+using VariBillWebAPI.Data.Repository.Interfaces;
 using VariBillWebAPI.Data.UnitOfWork.Interfaces;
 using VariBillWebAPI.Models.DTO;
 using VariBillWebAPI.Services;
+using VariBillWebAPI.Services.Abstractions;
 using VariBillWebAPI.Tests.Helpers;
+using VariBillWebAPI.Exceptions;
 using Xunit;
 
 namespace VariBillWebAPI.Tests.Services;
@@ -97,7 +99,7 @@ public class ProductServiceTests
     {
         // Arrange
         var productId = Guid.NewGuid();
-        var product = new Product1
+        var product = new Product
         {
             Id = productId,
             Name = "Test Product",
@@ -105,13 +107,12 @@ public class ProductServiceTests
             Price = 99.99m,
             Quantity = 5,
             ProductTypeId = Guid.NewGuid(),
-            ProductType = new ProductType1 { Name = "Test Type" },
+            ProductType = new ProductType { Name = "Test Type" },
             IsActive = true,
             DateCreated = DateTime.UtcNow
         };
 
-        _productRepoMock
-            .Setup(r => r.GetByIdWithProductTypeAsync(productId))
+        _productRepoMock.Setup(r => r.GetByIdWithProductTypeAsync(productId))
             .ReturnsAsync(product);
 
         // Act
@@ -132,7 +133,7 @@ public class ProductServiceTests
 
         _productRepoMock
             .Setup(r => r.GetByIdWithProductTypeAsync(productId))
-            .ReturnsAsync((Product1?)null);
+            .ReturnsAsync((Product?)null);
 
         // Act
         var result = await _service.GetByIdAsync(productId);
@@ -156,19 +157,18 @@ public class ProductServiceTests
             "Test description",
             productTypeId);
 
-        var productType = new ProductType1 { Id = productTypeId, Name = "Test Type" };
+        var productType = new ProductType { Id = productTypeId, Name = "Test Type" };
 
         _productTypeRepoMock
             .Setup(r => r.GetByIdAsync(productTypeId))
             .ReturnsAsync(productType);
 
         _productRepoMock
-            .Setup(r => r.FindAsync(It.IsAny<Expression<Func<Product1, bool>>>()))
-            .ReturnsAsync(new List<Product1>());
+            .Setup(r => r.FindAsync(It.IsAny<Expression<Func<Product, bool>>>()));
 
         _productRepoMock
-             .Setup(r => r.AddAsync(It.IsAny<Product1>()))
-             .ReturnsAsync((Product1 p) =>
+             .Setup(r => r.AddAsync(It.IsAny<Product>()))
+             .ReturnsAsync((Product p) =>
              {
                  p.Id = Guid.NewGuid(); // Simulate the service setting an ID
                  return p;
@@ -179,7 +179,7 @@ public class ProductServiceTests
             .ReturnsAsync(1);
 
         // Create a specific product to return
-        var createdProduct = new Product1
+        var createdProduct = new Product
         {
             Id = Guid.NewGuid(),
             Name = "New Product",
@@ -224,7 +224,7 @@ public class ProductServiceTests
 
         _productTypeRepoMock
             .Setup(r => r.GetByIdAsync(It.IsAny<Guid>()))
-            .ReturnsAsync((ProductType1?)null);
+            .ReturnsAsync((ProductType?)null);
 
         // Act & Assert
         var exception = await Assert.ThrowsAsync<ValidationException>(
@@ -246,8 +246,8 @@ public class ProductServiceTests
             null,
             productTypeId);
 
-        var productType = new ProductType1 { Id = productTypeId };
-        var existingProducts = new List<Product1>
+        var productType = new ProductType { Id = productTypeId };
+        var existingProducts = new List<Product>
         {
             new() { Id = Guid.NewGuid(), SKU = "SKU-001" }
         };
@@ -257,7 +257,10 @@ public class ProductServiceTests
             .ReturnsAsync(productType);
 
         _productRepoMock
-            .Setup(r => r.FindAsync(It.IsAny<Expression<Func<Product1, bool>>>()))
+            .Setup(r => r.FindAsync(It.IsAny<Expression<Func<Product, bool>>>()));
+
+        _productRepoMock
+            .Setup(r => r.FindAsync(It.IsAny<Expression<Func<Product, bool>>>()))
             .ReturnsAsync(existingProducts);
 
         // Act & Assert
@@ -275,7 +278,7 @@ public class ProductServiceTests
         // Arrange
         var productId = Guid.NewGuid();
         var productTypeId = Guid.NewGuid();
-        var product = new Product1
+        var product = new Product
         {
             Id = productId,
             Name = "Old Name",
@@ -295,7 +298,7 @@ public class ProductServiceTests
             productTypeId,
             true);
 
-        var productType = new ProductType1 { Id = productTypeId };
+        var productType = new ProductType { Id = productTypeId };
 
         _productRepoMock
             .Setup(r => r.GetByIdAsync(productId))
@@ -306,8 +309,11 @@ public class ProductServiceTests
             .ReturnsAsync(productType);
 
         _productRepoMock
-            .Setup(r => r.FindAsync(It.IsAny<Expression<Func<Product1, bool>>>()))
-            .ReturnsAsync(new List<Product1>());
+            .Setup(r => r.FindAsync(It.IsAny<Expression<Func<Product, bool>>>()));
+
+        _productRepoMock
+            .Setup(r => r.FindAsync(It.IsAny<Expression<Func<Product, bool>>>()))
+            .ReturnsAsync(new List<Product>());
 
         _unitOfWorkMock
             .Setup(u => u.SaveChangesAsync())
@@ -346,7 +352,7 @@ public class ProductServiceTests
 
         _productRepoMock
             .Setup(r => r.GetByIdAsync(productId))
-            .ReturnsAsync((Product1?)null);
+            .ReturnsAsync((Product?)null);
 
         // Act
         var result = await _service.UpdateAsync(productId, dto);
@@ -361,7 +367,7 @@ public class ProductServiceTests
         // Arrange
         var productId = Guid.NewGuid();
         var productTypeId = Guid.NewGuid();
-        var product = new Product1
+        var product = new Product
         {
             Id = productId,
             Name = "Old Name",
@@ -381,8 +387,8 @@ public class ProductServiceTests
             productTypeId,
             true);
 
-        var productType = new ProductType1 { Id = productTypeId };
-        var duplicateProducts = new List<Product1>
+        var productType = new ProductType { Id = productTypeId };
+        var duplicateProducts = new List<Product>
         {
             new() { Id = Guid.NewGuid(), SKU = "DUPLICATE-001" }
         };
@@ -396,7 +402,10 @@ public class ProductServiceTests
             .ReturnsAsync(productType);
 
         _productRepoMock
-            .Setup(r => r.FindAsync(It.IsAny<Expression<Func<Product1, bool>>>()))
+            .Setup(r => r.FindAsync(It.IsAny<Expression<Func<Product, bool>>>()));
+
+        _productRepoMock
+            .Setup(r => r.FindAsync(It.IsAny<Expression<Func<Product, bool>>>()))
             .ReturnsAsync(duplicateProducts);
 
         // Act & Assert
@@ -413,7 +422,7 @@ public class ProductServiceTests
     {
         // Arrange
         var productId = Guid.NewGuid();
-        var product = new Product1
+        var product = new Product
         {
             Id = productId,
             Name = "Test Product",
@@ -450,7 +459,7 @@ public class ProductServiceTests
 
         _productRepoMock
             .Setup(r => r.GetByIdAsync(productId))
-            .ReturnsAsync((Product1?)null);
+            .ReturnsAsync((Product?)null);
 
         // Act
         var result = await _service.DeleteAsync(productId);

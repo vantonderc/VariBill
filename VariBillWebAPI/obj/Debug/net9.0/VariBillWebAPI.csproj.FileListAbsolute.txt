@@ -672,4 +672,4 @@ C:\WerkSoekAssessments\FinalAssessment\Bongoe2\VariBillWebAPI\obj\Debug\net9.0\V
 C:\WerkSoekAssessments\FinalAssessment\Bongoe2\VariBillWebAPI\obj\Debug\net9.0\VariBillWebAPI.genruntimeconfig.cache
 C:\WerkSoekAssessments\FinalAssessment\Bongoe2\VariBillWebAPI\obj\Debug\net9.0\ref\VariBillWebAPI.dll
 C:\WerkSoekAssessments\FinalAssessment\Bongoe2\VariBillWebAPI\obj\Debug\net9.0\swae.build.ex.cache
-C:\WerkSoekAssessments\FinalAssessment\Bongoe2\VariBillWebAPI\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt
+C:\WerkSoekAssessments\FinalAssessment\Bongoe2\VariBillWebAPI\obj\Debug\net9.0\VariBillWebAPI.sourcelink.json

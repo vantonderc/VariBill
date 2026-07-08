@@ -1,112 +1,141 @@
-using System.ComponentModel.DataAnnotations;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
 using Microsoft.Extensions.Logging;
+using Moq;
 using VariBillWebAPI.Data.Entities;
 using VariBillWebAPI.Data.UnitOfWork.Interfaces;
-using VariBillWebAPI.Exceptions; // <-- Ensure this is present
+using VariBillWebAPI.Data.Repository.Interfaces;
 using VariBillWebAPI.Models.DTO;
-using VariBillWebAPI.Services.Abstractions;
-using VariBillWebAPI.Services.Interfaces;
+using VariBillWebAPI.Services;
+using Xunit;
 
-namespace VariBillWebAPI.Services;
-
-/// <summary>
-/// Product type service implementation.
-/// </summary>
-public class ProductTypeService : IProductTypeService
+namespace VariBillWebAPI.Tests.Services
 {
-    private readonly IUnitOfWork _unitOfWork;
-    private readonly ILogger<ProductTypeService> _logger;
-
-    public ProductTypeService(IUnitOfWork unitOfWork, ILogger<ProductTypeService> logger)
+    public class ProductTypeServiceTests
     {
-        _unitOfWork = unitOfWork;
-        _logger = logger;
-    }
+        private readonly Mock<IUnitOfWork> _unitOfWorkMock;
+        private readonly Mock<IProductTypeRepository> _productTypeRepoMock;
+        private readonly Mock<ILogger<ProductTypeService>> _loggerMock;
+        private readonly ProductTypeService _service;
 
-    public async Task<IReadOnlyList<ProductTypeResponseDto>> GetAllAsync()
-    {
-        var typesWithCounts = await _unitOfWork.ProductTypes.GetAllWithProductCountsAsync();
-        return typesWithCounts
-            .Select(t => new ProductTypeResponseDto(
-                t.ProductType.Id,
-                t.ProductType.Name,
-                t.ProductType.Description,
-                t.Count))
-            .ToList();
-    }
-
-    public async Task<ProductTypeResponseDto?> GetByIdAsync(Guid id)
-    {
-        var type = await _unitOfWork.ProductTypes.GetByIdWithProductsAsync(id);
-        if (type is null)
-            return null;
-
-        return new ProductTypeResponseDto(
-            type.Id,
-            type.Name,
-            type.Description,
-            type.Products?.Count(p => !p.IsDeleted) ?? 0);
-    }
-
-    public async Task<ProductTypeResponseDto> CreateAsync(CreateProductTypeDto dto)
-    {
-      
-        if (string.IsNullOrWhiteSpace(dto.Name))
-            throw new ValidationException("Product type name is required.");
-
-        var productType = new ProductType1
+        public ProductTypeServiceTests()
         {
-            Id = Guid.NewGuid(),
-            Name = dto.Name.Trim(),
-            Description = dto.Description?.Trim(),
-            IsActive = true,
-            IsDeleted = false
-        };
+            _unitOfWorkMock = new Mock<IUnitOfWork>();
+            _productTypeRepoMock = new Mock<IProductTypeRepository>();
+            _loggerMock = new Mock<ILogger<ProductTypeService>>();
 
-        await _unitOfWork.ProductTypes.AddAsync(productType);
-        await _unitOfWork.SaveChangesAsync();
+            _unitOfWorkMock.Setup(u => u.ProductTypes).Returns(_productTypeRepoMock.Object);
 
-        return new ProductTypeResponseDto(productType.Id, productType.Name, productType.Description, 0);
-    }
+            _service = new ProductTypeService(_unitOfWorkMock.Object, _loggerMock.Object);
+        }
 
-    public async Task<bool> UpdateAsync(Guid id, UpdateProductTypeDto dto)
-    {
-       
-        if (string.IsNullOrWhiteSpace(dto.Name))
-            throw new ValidationException("Product type name is required.");
+        [Fact]
+        public async Task GetAllAsync_ReturnsMappedDtos()
+        {
+            // Arrange
+            var types = new List<(ProductType ProductType, int Count)>
+            {
+                (new ProductType { Id = Guid.NewGuid(), Name = "A", Description = "desc" }, 2),
+                (new ProductType { Id = Guid.NewGuid(), Name = "B", Description = "desc2" }, 0)
+            };
 
-        var productType = await _unitOfWork.ProductTypes.GetByIdAsync(id);
-        if (productType is null)
-            return false;
+            _productTypeRepoMock.Setup(r => r.GetAllWithProductCountsAsync())
+                .ReturnsAsync(types);
 
-        productType.Name = dto.Name.Trim();
-        productType.Description = dto.Description?.Trim();
-        productType.IsActive = dto.IsActive;
+            // Act
+            var result = await _service.GetAllAsync();
 
-        await _unitOfWork.ProductTypes.UpdateAsync(productType);
-        await _unitOfWork.SaveChangesAsync();
+            // Assert
+            Assert.NotNull(result);
+            Assert.Equal(2, result.Count);
+            Assert.Contains(result, r => r.Name == "A" && r.ProductCount == 2);
+        }
 
-        return true;
-    }
+        [Fact]
+        public async Task CreateAsync_ValidDto_AddsAndReturnsDto()
+        {
+            // Arrange
+            var dto = new CreateProductTypeDto("NewType", "d");
+            ProductType captured = null!;
+            _productTypeRepoMock.Setup(r => r.AddAsync(It.IsAny<ProductType>()))
+                .ReturnsAsync((ProductType p) =>
+                {
+                    captured = p;
+                    return p;
+                });
+            _unitOfWorkMock.Setup(u => u.SaveChangesAsync()).ReturnsAsync(1);
 
-    public async Task<(bool Success, string? ErrorMessage)> DeleteAsync(Guid id)
-    {
-        var type = await _unitOfWork.ProductTypes.GetByIdAsync(id);
-        if (type is null)
-            return (false, null);
+            // Act
+            var result = await _service.CreateAsync(dto);
 
-        // Check if any active products still reference this type
-        var hasActiveProducts = await _unitOfWork.ProductTypes.HasActiveProductsAsync(id);
-        if (hasActiveProducts)
-            return (false, "Cannot delete a product type that still has active products.");
+            // Assert
+            Assert.NotNull(result);
+            Assert.Equal(dto.Name, result.Name);
+            Assert.Equal(0, result.ProductCount);
+            Assert.Equal(captured?.Name, dto.Name.Trim());
+        }
 
-        // Soft delete
-        type.IsDeleted = true;
-        type.IsActive = false;
+        [Fact]
+        public async Task UpdateAsync_NonExisting_ReturnsFalse()
+        {
+            // Arrange
+            var id = Guid.NewGuid();
+            _productTypeRepoMock.Setup(r => r.GetByIdAsync(id)).ReturnsAsync((ProductType?)null);
 
-        await _unitOfWork.ProductTypes.UpdateAsync(type);
-        await _unitOfWork.SaveChangesAsync();
+            // Act
+            var result = await _service.UpdateAsync(id, new UpdateProductTypeDto(id, "X", null, true));
 
-        return (true, null);
+            // Assert
+            Assert.False(result);
+        }
+
+        [Fact]
+        public async Task DeleteAsync_HasActiveProducts_ReturnsFalseWithMessage()
+        {
+            // Arrange
+            var id = Guid.NewGuid();
+            var pt = new ProductType { Id = id, Name = "T" };
+            _productTypeRepoMock.Setup(r => r.GetByIdAsync(id)).ReturnsAsync(pt);
+            _productTypeRepoMock.Setup(r => r.HasActiveProductsAsync(id)).ReturnsAsync(true);
+
+            // Act
+            var (success, message) = await _service.DeleteAsync(id);
+
+            // Assert
+            Assert.False(success);
+            Assert.False(string.IsNullOrWhiteSpace(message));
+        }
+
+        [Fact]
+        public async Task DeleteAsync_NoActiveProducts_Succeeds()
+        {
+            // Arrange
+            var id = Guid.NewGuid();
+            var pt = new ProductType { Id = id, Name = "T" };
+            _productTypeRepoMock.Setup(r => r.GetByIdAsync(id)).ReturnsAsync(pt);
+            _productTypeRepoMock.Setup(r => r.HasActiveProductsAsync(id)).ReturnsAsync(false);
+            _unitOfWorkMock.Setup(u => u.SaveChangesAsync()).ReturnsAsync(1);
+
+            // Act
+            var (success, message) = await _service.DeleteAsync(id);
+
+            // Assert
+            Assert.True(success);
+            Assert.Null(message);
+            Assert.True(pt.IsDeleted);
+            Assert.False(pt.IsActive);
+        }
+
+        [Fact]
+        public async Task CreateAsync_EmptyName_ThrowsValidationException()
+        {
+            // Arrange
+            var dto = new CreateProductTypeDto("   ", null);
+
+            // Act & Assert
+            await Assert.ThrowsAsync<System.ComponentModel.DataAnnotations.ValidationException>(() => _service.CreateAsync(dto));
+        }
     }
 }

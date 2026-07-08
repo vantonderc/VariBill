@@ -9,6 +9,7 @@ using VariBillWebAPI.Data.Repository.Interfaces;
 using VariBillWebAPI.Data.UnitOfWork;
 using VariBillWebAPI.Data.UnitOfWork.Interfaces;
 using VariBillWebAPI.HealthChecks;
+using VariBillWebAPI.Middleware;
 using VariBillWebAPI.Services;
 using VariBillWebAPI.Services.Abstractions;
 using VariBillWebAPI.Services.Caching;
@@ -27,6 +28,10 @@ builder.Host.UseSerilog();
 
 // Add services
 builder.Services.AddControllers();
+
+builder.Services.AddProblemDetails();
+builder.Services.AddExceptionHandler<GlobalExceptionHandler>();
+
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen(c =>
 {

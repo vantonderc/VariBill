@@ -10,11 +10,11 @@ public static class TestDataFactory
     /// <summary>
     /// Creates a list of test products.
     /// </summary>
-    public static List<Product1> CreateTestProducts()
+    public static List<Product> CreateTestProducts()
     {
         var productTypeId = Guid.NewGuid();
 
-        return new List<Product1>
+        return new List<Product>
         {
             new()
             {
@@ -48,9 +48,9 @@ public static class TestDataFactory
     /// <summary>
     /// Creates a list of test product types.
     /// </summary>
-    public static List<ProductType1> CreateTestProductTypes()
+    public static List<ProductType> CreateTestProductTypes()
     {
-        return new List<ProductType1>
+        return new List<ProductType>
         {
             new()
             {

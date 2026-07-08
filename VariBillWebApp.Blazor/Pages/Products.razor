@@ -40,8 +40,12 @@ else
                             </span>
                         </td>
                         <td>
-                            <a href="/product/edit/@p.Id" class="btn btn-sm btn-warning">Edit</a>
-                            <a href="/product/delete/@p.Id" class="btn btn-sm btn-danger">Delete</a>
+                            <AuthorizeView Policy="RequireAdminRole">
+                                <Authorized>
+                                    <a href="/product/edit/@p.Id" class="btn btn-sm btn-warning">Edit</a>
+                                    <a href="/product/delete/@p.Id" class="btn btn-sm btn-danger">Delete</a>
+                                </Authorized>
+                            </AuthorizeView>
                             <a href="/product/details/@p.Id" class="btn btn-sm btn-info">Details</a>
                         </td>
                     </tr>

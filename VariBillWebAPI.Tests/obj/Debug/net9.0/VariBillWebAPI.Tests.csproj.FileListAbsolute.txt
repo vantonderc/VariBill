@@ -182,3 +182,4 @@ C:\WerkSoekAssessments\FinalAssessment\Bongoe2\VariBillWebAPI.Tests\obj\Debug\ne
 C:\WerkSoekAssessments\FinalAssessment\Bongoe2\VariBillWebAPI.Tests\obj\Debug\net9.0\VariBillWebAPI.Tests.dll
 C:\WerkSoekAssessments\FinalAssessment\Bongoe2\VariBillWebAPI.Tests\obj\Debug\net9.0\refint\VariBillWebAPI.Tests.dll
 C:\WerkSoekAssessments\FinalAssessment\Bongoe2\VariBillWebAPI.Tests\obj\Debug\net9.0\VariBillWebAPI.Tests.pdb
+C:\WerkSoekAssessments\FinalAssessment\Bongoe2\VariBillWebAPI.Tests\obj\Debug\net9.0\VariBillWebAPI.Tests.sourcelink.json

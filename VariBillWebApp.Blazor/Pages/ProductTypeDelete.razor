@@ -1,0 +1,51 @@
+@page "/producttype/delete/{Id:guid}"
+@using VariBillWebApp.Blazor.Models.DTOs
+@using VariBillWebApp.Blazor.Services.Abstractions
+@inject IProductTypeService ProductTypeService
+@inject NavigationManager Navigation
+
+<h3>Delete Product Type</h3>
+
+@if (type == null)
+{
+    <p><em>Loading...</em></p>
+}
+else
+{
+    <p>Are you sure you want to delete the product type <strong>@type.Name</strong>?</p>
+    <AuthorizeView Policy="RequireAdminRole">
+        <Authorized Context="auth">
+            <button class="btn btn-danger" @onclick="Delete">Yes, Delete</button>
+        </Authorized>
+        <NotAuthorized Context="auth">
+            <div class="alert alert-warning">You do not have permission to delete product types.</div>
+        </NotAuthorized>
+    </AuthorizeView>
+    <a href="/producttypes" class="btn btn-secondary">Cancel</a>
+}
+
+@code {
+    [Parameter] public Guid Id { get; set; }
+
+    private ProductTypeApiResponseDto? type;
+
+    protected override async Task OnInitializedAsync()
+    {
+        type = await ProductTypeService.GetProductTypeByIdAsync(Id);
+    }
+
+    private async Task Delete()
+    {
+        var (Success, ErrorMessage) = await ProductTypeService.DeleteProductTypeAsync(Id);
+        if (Success)
+        {
+            var uri = $"/producttypes?status=success&message={Uri.EscapeDataString("Product type deleted.")}";
+            Navigation.NavigateTo(uri);
+            return;
+        }
+
+        // show error message
+        var uriError = $"/producttypes?status=error&message={Uri.EscapeDataString(ErrorMessage ?? "Unable to delete product type.")}";
+        Navigation.NavigateTo(uriError);
+    }
+}

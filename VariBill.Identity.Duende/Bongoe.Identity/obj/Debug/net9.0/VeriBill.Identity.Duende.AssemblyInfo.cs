@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("VeriBill.Identity.Duende")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+66e4c84d6b970de04f8ead09c4567e42f1b5c947")]
 [assembly: System.Reflection.AssemblyProductAttribute("VeriBill.Identity.Duende")]
 [assembly: System.Reflection.AssemblyTitleAttribute("VeriBill.Identity.Duende")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

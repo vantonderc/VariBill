@@ -1,10 +1,16 @@
 @page "/producttypes"
 @using VariBillWebApp.Blazor.Models.DTOs
 @using VariBillWebApp.Blazor.Services.Abstractions
+@using Microsoft.AspNetCore.WebUtilities
 @inject IProductTypeService ProductTypeService
 @inject NavigationManager Navigation
 
 <h3>Product Types</h3>
+
+@if (!string.IsNullOrEmpty(statusMessage))
+{
+    <div class="alert @statusClass" role="alert">@statusMessage</div>
+}
 
 @if (types == null)
 {
@@ -18,7 +24,7 @@ else
                 <tr>
                     <th>Name</th>
                     <th>Description</th>
-            <th>Product Count</th>
+                    <th>Product Count</th>
                     <th>Actions</th>
                 </tr>
             </thead>
@@ -28,7 +34,6 @@ else
                     <tr>
                         <td><strong>@t.Name</strong></td>
                         <td>@t.Description</td>
-                        <td><span class="badge bg-info">@t.ProductCount</span></td>
                         <td><span class="badge bg-info">@t.ProductCount</span></td>
                         <td>
                             <a href="/producttype/edit/@t.Id" class="btn btn-sm btn-warning">Edit</a>
@@ -44,9 +49,13 @@ else
 
 @code {
     private List<ProductTypeApiResponseDto>? types;
+    private string? statusMessage;
+    private string statusClass = "alert-info";
 
     protected override async Task OnInitializedAsync()
     {
+        ParseStatusFromQuery();
+
         try
         {
             types = await ProductTypeService.GetAllProductTypesAsync();
@@ -55,6 +64,31 @@ else
         {
             Console.Error.WriteLine($"ProductTypes.razor: failed to load types: {ex}");
             types = new List<ProductTypeApiResponseDto>();
+            statusMessage = "Failed to load product types.";
+            statusClass = "alert-danger";
+        }
+    }
+
+    private void ParseStatusFromQuery()
+    {
+        var uri = Navigation.ToAbsoluteUri(Navigation.Uri);
+        if (string.IsNullOrEmpty(uri.Query))
+            return;
+
+        var qs = QueryHelpers.ParseQuery(uri.Query);
+        if (qs.TryGetValue("status", out var s))
+        {
+            var status = s.ToString();
+            if (qs.TryGetValue("message", out var m))
+            {
+                statusMessage = Uri.UnescapeDataString(m.ToString());
+            }
+            else
+            {
+                statusMessage = status;
+            }
+
+            statusClass = status == "success" ? "alert-success" : "alert-danger";
         }
     }
 }

@@ -51,6 +51,18 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvZHVjdHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/WerkSoekAssessments/FinalAssessment/Bongoe2/VariBillWebApp.Blazor/Pages/ProductTypeCreate.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvZHVjdFR5cGVDcmVhdGUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/WerkSoekAssessments/FinalAssessment/Bongoe2/VariBillWebApp.Blazor/Pages/ProductTypeDelete.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvZHVjdFR5cGVEZWxldGUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/WerkSoekAssessments/FinalAssessment/Bongoe2/VariBillWebApp.Blazor/Pages/ProductTypeEdit.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvZHVjdFR5cGVFZGl0LnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/WerkSoekAssessments/FinalAssessment/Bongoe2/VariBillWebApp.Blazor/Pages/ProductTypes.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvZHVjdFR5cGVzLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
