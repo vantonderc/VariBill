@@ -1,0 +1,46 @@
+2026-07-04 00:31:50.162 +02:00 [INF] Now listening on: https://localhost:7090
+2026-07-04 00:31:50.359 +02:00 [INF] Now listening on: http://localhost:5153
+2026-07-04 00:31:50.634 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-07-04 00:31:50.636 +02:00 [INF] Hosting environment: Development
+2026-07-04 00:31:50.638 +02:00 [INF] Content root path: C:\WerkSoekAssessments\FinalAssessment\Bongoe2\VariBillWebAPI
+2026-07-04 04:08:17.985 +02:00 [INF] Now listening on: https://localhost:7090
+2026-07-04 04:08:18.074 +02:00 [INF] Now listening on: http://localhost:5153
+2026-07-04 04:08:18.194 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-07-04 04:08:18.206 +02:00 [INF] Hosting environment: Development
+2026-07-04 04:08:18.207 +02:00 [INF] Content root path: C:\WerkSoekAssessments\FinalAssessment\Bongoe2\VariBillWebAPI
+2026-07-04 04:13:09.077 +02:00 [INF] HTTP GET /api/products responded 307 in 2.8261 ms
+2026-07-04 04:13:09.248 +02:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2026-07-04 04:13:09.261 +02:00 [INF] AuthenticationScheme: Bearer was challenged.
+2026-07-04 04:13:09.262 +02:00 [INF] HTTP GET /api/products responded 401 in 112.7905 ms
+2026-07-04 04:14:23.404 +02:00 [INF] HTTP GET /api/producttypes responded 307 in 0.1720 ms
+2026-07-04 04:14:23.415 +02:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2026-07-04 04:14:23.417 +02:00 [INF] AuthenticationScheme: Bearer was challenged.
+2026-07-04 04:14:23.418 +02:00 [INF] HTTP GET /api/producttypes responded 401 in 4.6497 ms
+2026-07-04 04:14:31.695 +02:00 [INF] HTTP POST /api/producttypes responded 307 in 0.0232 ms
+2026-07-04 04:14:31.699 +02:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2026-07-04 04:14:31.701 +02:00 [INF] AuthenticationScheme: Bearer was challenged.
+2026-07-04 04:14:31.703 +02:00 [INF] HTTP POST /api/producttypes responded 401 in 5.2864 ms
+2026-07-04 04:14:38.923 +02:00 [INF] HTTP POST /api/producttypes responded 307 in 0.0260 ms
+2026-07-04 04:14:38.927 +02:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2026-07-04 04:14:38.928 +02:00 [INF] AuthenticationScheme: Bearer was challenged.
+2026-07-04 04:14:38.929 +02:00 [INF] HTTP POST /api/producttypes responded 401 in 2.1416 ms
+2026-07-04 04:32:52.733 +02:00 [INF] HTTP GET /api/producttypes responded 307 in 0.0355 ms
+2026-07-04 04:32:52.741 +02:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2026-07-04 04:32:52.742 +02:00 [INF] AuthenticationScheme: Bearer was challenged.
+2026-07-04 04:32:52.743 +02:00 [INF] HTTP GET /api/producttypes responded 401 in 2.2975 ms
+2026-07-04 04:33:01.148 +02:00 [INF] HTTP POST /api/producttypes responded 307 in 0.0363 ms
+2026-07-04 04:33:01.151 +02:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2026-07-04 04:33:01.153 +02:00 [INF] AuthenticationScheme: Bearer was challenged.
+2026-07-04 04:33:01.153 +02:00 [INF] HTTP POST /api/producttypes responded 401 in 2.2285 ms
+2026-07-04 04:33:13.158 +02:00 [INF] HTTP POST /api/producttypes responded 307 in 0.1109 ms
+2026-07-04 04:33:13.162 +02:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2026-07-04 04:33:13.166 +02:00 [INF] AuthenticationScheme: Bearer was challenged.
+2026-07-04 04:33:13.168 +02:00 [INF] HTTP POST /api/producttypes responded 401 in 5.4305 ms
+2026-07-04 04:33:17.229 +02:00 [INF] HTTP POST /api/producttypes responded 307 in 0.0237 ms
+2026-07-04 04:33:17.233 +02:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2026-07-04 04:33:17.235 +02:00 [INF] AuthenticationScheme: Bearer was challenged.
+2026-07-04 04:33:17.236 +02:00 [INF] HTTP POST /api/producttypes responded 401 in 3.7434 ms
+2026-07-04 04:33:27.160 +02:00 [INF] HTTP POST /api/producttypes responded 307 in 0.0343 ms
+2026-07-04 04:33:27.167 +02:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2026-07-04 04:33:27.169 +02:00 [INF] AuthenticationScheme: Bearer was challenged.
+2026-07-04 04:33:27.172 +02:00 [INF] HTTP POST /api/producttypes responded 401 in 4.8319 ms

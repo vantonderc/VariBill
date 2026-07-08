@@ -1,0 +1,117 @@
+# azure-pipelines.yml
+trigger:
+  branches:
+    include:
+    - main
+    - develop
+
+pool:
+  vmImage: 'ubuntu-latest'
+
+variables:
+  buildConfiguration: 'Release'
+  dotnetVersion: '9.0.x'
+
+steps:
+- task: UseDotNet@2
+  displayName: 'Use .NET SDK'
+  inputs:
+    packageType: 'sdk'
+    version: '$(dotnetVersion)'
+
+- task: DotNetCoreCLI@2
+  displayName: 'Restore packages'
+  inputs:
+    command: 'restore'
+    projects: '**/*.csproj'
+
+- task: DotNetCoreCLI@2
+  displayName: 'Build solution'
+  inputs:
+    command: 'build'
+    projects: '**/*.csproj'
+    arguments: '--configuration $(buildConfiguration)'
+
+- task: DotNetCoreCLI@2
+  displayName: 'Run Unit Tests'
+  inputs:
+    command: 'test'
+    projects: 'VariBillWebAPI.Tests/VariBillWebAPI.Tests.csproj'
+    arguments: '--configuration $(buildConfiguration) --collect:"XPlat Code Coverage"'
+
+- task: DotNetCoreCLI@2
+  displayName: 'Run Integration Tests'
+  inputs:
+    command: 'test'
+    projects: 'VariBillWebAPI.IntegrationTests/VariBillWebAPI.IntegrationTests.csproj'
+    arguments: '--configuration $(buildConfiguration)'
+
+- task: DotNetCoreCLI@2
+  displayName: 'Publish API'
+  inputs:
+    command: 'publish'
+    projects: 'VariBillWebAPI/VariBillWebAPI.csproj'
+    arguments: '--configuration $(buildConfiguration) --output $(Build.ArtifactStagingDirectory)/api'
+
+- task: DotNetCoreCLI@2
+  displayName: 'Publish MVC'
+  inputs:
+    command: 'publish'
+    projects: 'VariBillWebApp.Mvc/VariBillWebApp.Mvc.csproj'
+    arguments: '--configuration $(buildConfiguration) --output $(Build.ArtifactStagingDirectory)/mvc'
+
+- task: DotNetCoreCLI@2
+  displayName: 'Publish Blazor'
+  inputs:
+    command: 'publish'
+    projects: 'VariBillWebApp.Blazor/VariBillWebApp.Blazor.csproj'
+    arguments: '--configuration $(buildConfiguration) --output $(Build.ArtifactStagingDirectory)/blazor'
+
+- task: DotNetCoreCLI@2
+  displayName: 'Publish IdentityServer'
+  inputs:
+    command: 'publish'
+    projects: 'Bongoe.Identity/Bongoe.Identity.csproj'
+    arguments: '--configuration $(buildConfiguration) --output $(Build.ArtifactStagingDirectory)/identity'
+
+- task: PublishBuildArtifacts@1
+  displayName: 'Publish Artifacts'
+  inputs:
+    PathtoPublish: '$(Build.ArtifactStagingDirectory)'
+    ArtifactName: 'drop'
+
+- task: AzureWebApp@1
+  displayName: 'Deploy API to Azure'
+  inputs:
+    azureSubscription: '$(AzureServiceConnection)'
+    appType: 'webApp'
+    appName: 'varibill-api-dev'
+    package: '$(Build.ArtifactStagingDirectory)/api/*.zip'
+    deploymentMethod: 'zipDeploy'
+
+- task: AzureWebApp@1
+  displayName: 'Deploy MVC to Azure'
+  inputs:
+    azureSubscription: '$(AzureServiceConnection)'
+    appType: 'webApp'
+    appName: 'varibill-mvc-dev'
+    package: '$(Build.ArtifactStagingDirectory)/mvc/*.zip'
+    deploymentMethod: 'zipDeploy'
+
+- task: AzureWebApp@1
+  displayName: 'Deploy Blazor to Azure'
+  inputs:
+    azureSubscription: '$(AzureServiceConnection)'
+    appType: 'webApp'
+    appName: 'varibill-blazor-dev'
+    package: '$(Build.ArtifactStagingDirectory)/blazor/*.zip'
+    deploymentMethod: 'zipDeploy'
+
+- task: AzureWebApp@1
+  displayName: 'Deploy IdentityServer to Azure'
+  inputs:
+    azureSubscription: '$(AzureServiceConnection)'
+    appType: 'webApp'
+    appName: 'varibill-identity-dev'
+    package: '$(Build.ArtifactStagingDirectory)/identity/*.zip'
+    deploymentMethod: 'zipDeploy'

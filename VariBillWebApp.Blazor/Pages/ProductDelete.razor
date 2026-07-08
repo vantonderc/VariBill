@@ -1,0 +1,37 @@
+﻿@page "/product/delete/{Id:guid}"
+@using VariBillWebApp.Blazor.Models.DTOs
+@using VariBillWebApp.Blazor.Services.Abstractions
+@inject IProductService ProductService
+@inject NavigationManager Navigation
+
+<h3>Delete Product</h3>
+
+@if (product == null)
+{
+    <p><em>Loading...</em></p>
+}
+else
+{
+    <p>Are you sure you want to delete the product <strong>@product.Name</strong>?</p>
+    <button class="btn btn-danger" @onclick="Delete">Yes, Delete</button>
+    <a href="/products" class="btn btn-secondary">Cancel</a>
+}
+
+@code {
+    [Parameter] public Guid Id { get; set; }
+
+    private ProductApiResponseDto? product;
+
+    protected override async Task OnInitializedAsync()
+    {
+        product = await ProductService.GetProductByIdAsync(Id);
+    }
+
+    private async Task Delete()
+    {
+        var success = await ProductService.DeleteProductAsync(Id);
+        if (success)
+            Navigation.NavigateTo("/products");
+        // else show error
+    }
+}

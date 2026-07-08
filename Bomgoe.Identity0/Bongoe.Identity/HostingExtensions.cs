@@ -1,0 +1,63 @@
+using Bongoe.Identity;
+using Serilog;
+
+namespace Bongoe.Identity;
+
+internal static class HostingExtensions
+{
+    public static WebApplicationBuilder ConfigureLogging(this WebApplicationBuilder builder)
+    {
+        builder.Host.UseSerilog((ctx, lc) => lc
+            .WriteTo.Console()
+            .ReadFrom.Configuration(ctx.Configuration));
+        return builder;
+    }
+
+    public static WebApplication ConfigureServices(this WebApplicationBuilder builder)
+    {
+        // We only need RazorPages if you want a UI/Login screen later.
+        // For ClientCredentials (service-to-service), this is optional.
+        builder.Services.AddRazorPages();
+
+        builder.Services
+            .AddIdentityServer(options =>
+            {
+                options.Events.RaiseErrorEvents = true;
+                options.Events.RaiseInformationEvents = true;
+                options.Events.RaiseFailureEvents = true;
+                options.Events.RaiseSuccessEvents = true;
+                options.EmitStaticAudienceClaim = true; 
+                options.KeyManagement.Enabled = false; // Add this line
+            })
+            // Use your Config.cs classes directly
+            .AddInMemoryIdentityResources(Config2.IdentityResources)
+            .AddInMemoryApiScopes(Config2.ApiScopes)
+            .AddInMemoryApiResources(Config2.ApiResources)
+            .AddInMemoryClients(Config2.Clients)
+            // This replaces the real DB with a temporary signing key
+            .AddDeveloperSigningCredential();
+
+        return builder.Build();
+    }
+
+    public static WebApplication ConfigurePipeline(this WebApplication app)
+    {
+        app.UseSerilogRequestLogging();
+
+        if (app.Environment.IsDevelopment())
+        {
+            app.UseDeveloperExceptionPage();
+        }
+
+        app.UseStaticFiles();
+        app.UseRouting();
+
+        // This is the core middleware that handles the tokens
+        app.UseIdentityServer();
+        app.UseAuthorization();
+
+        app.MapRazorPages();
+
+        return app;
+    }
+}

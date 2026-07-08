@@ -1,0 +1,68 @@
+﻿using VariBillWebApp.Mvc.Models.ViewModels;
+using VariBillWebApp.Mvc.Services.Abstractions;
+
+namespace VariBillWebApp.Mvc.Services;
+
+public sealed class ProductTypeService : VariBillDomainServiceBase, IProductTypeService
+{
+    private readonly ILogger<ProductTypeService> _logger;
+
+    public ProductTypeService(IVariBillApiClient apiClient, ILogger<ProductTypeService> logger)
+        : base(apiClient)
+    {
+        _logger = logger;
+    }
+
+    public async Task<IReadOnlyList<ProductTypeModel>> GetAllProductTypesAsync()
+    {
+        var productTypes = await GetAsync<List<ProductTypeModel>>("api/producttypes");
+        return productTypes ?? [];
+    }
+
+    public async Task<ProductTypeModel?> GetProductTypeByIdAsync(Guid id)
+    {
+        return await GetAsync<ProductTypeModel>($"api/producttypes/{id}");
+    }
+
+    public async Task<ProductTypeModel?> CreateProductTypeAsync(CreateProductTypeModel model)
+    {
+        return await PostAsync<CreateProductTypeModel, ProductTypeModel>("api/producttypes", model);
+    }
+
+    public async Task<bool> UpdateProductTypeAsync(Guid id, UpdateProductTypeModel model)
+    {
+        var response = await PutAsync($"api/producttypes/{id}", model);
+        if (!response.IsSuccessStatusCode)
+        {
+            _logger.LogWarning("Failed to update product type {ProductTypeId}. Status: {StatusCode}", id, response.StatusCode);
+        }
+
+        return response.IsSuccessStatusCode;
+    }
+
+    public async Task<(bool Success, string? ErrorMessage)> DeleteProductTypeAsync(Guid id)
+    {
+        var response = await DeleteAsync($"api/producttypes/{id}");
+
+        if (response.IsSuccessStatusCode)
+        {
+            return (true, null);
+        }
+
+        if (response.StatusCode == System.Net.HttpStatusCode.Conflict)
+        {
+            var message = await response.Content.ReadAsStringAsync();
+            return (false, string.IsNullOrWhiteSpace(message)
+                ? "Cannot delete a product type that still has products."
+                : message);
+        }
+
+        if (response.StatusCode == System.Net.HttpStatusCode.NotFound)
+        {
+            return (false, null);
+        }
+
+        _logger.LogWarning("Failed to delete product type {ProductTypeId}. Status: {StatusCode}", id, response.StatusCode);
+        return (false, "Unable to delete the product type.");
+    }
+}

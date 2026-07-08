@@ -1,0 +1,23 @@
+[
+  {
+    "Name": "New Profile",
+    "Projects": [
+      {
+        "Path": "VariBillWebApp.Mvc\\VariBillWebApp.Mvc.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "VariBillWebAPI\\VariBillWebAPI.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "VariBill.Identity.Duende\\Bongoe.Identity\\VeriBill.Identity.Duende.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "Bongoe.Identity\\Bongoe.Identity.csproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]

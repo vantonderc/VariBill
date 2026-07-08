@@ -1,0 +1,120 @@
+2026-07-01 13:23:01.046 +02:00 [INF] User profile is available. Using 'C:\Users\charl\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-07-01 13:23:01.650 +02:00 [INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2026-07-01 13:23:01.992 +02:00 [INF] Now listening on: https://localhost:7055
+2026-07-01 13:23:01.994 +02:00 [INF] Now listening on: http://localhost:5183
+2026-07-01 13:23:02.201 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-07-01 13:23:02.203 +02:00 [INF] Hosting environment: Development
+2026-07-01 13:23:02.204 +02:00 [INF] Content root path: C:\WerkSoekAssessments\Bongoe2\VariBillWebApp.Blazor
+2026-07-01 13:23:10.029 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7055/ - null null
+2026-07-01 13:23:10.223 +02:00 [ERR] HTTP GET / responded 500 in 27.6921 ms
+System.InvalidOperationException: Cannot find the fallback endpoint specified by route values: { page: /_Host, area:  }.
+   at Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.DynamicPageEndpointMatcherPolicy.ApplyAsync(HttpContext httpContext, CandidateSet candidates)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcher.SelectEndpointWithPoliciesAsync(HttpContext httpContext, IEndpointSelectorPolicy[] policies, CandidateSet candidateSet)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.<Invoke>g__AwaitMatch|10_1(EndpointRoutingMiddleware middleware, HttpContext httpContext, Task matchTask)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2026-07-01 13:23:10.265 +02:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Cannot find the fallback endpoint specified by route values: { page: /_Host, area:  }.
+   at Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.DynamicPageEndpointMatcherPolicy.ApplyAsync(HttpContext httpContext, CandidateSet candidates)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcher.SelectEndpointWithPoliciesAsync(HttpContext httpContext, IEndpointSelectorPolicy[] policies, CandidateSet candidateSet)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.<Invoke>g__AwaitMatch|10_1(EndpointRoutingMiddleware middleware, HttpContext httpContext, Task matchTask)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2026-07-01 13:23:10.371 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7055/ - 500 null text/html; charset=utf-8 344.8519ms
+2026-07-01 13:23:10.388 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7055/_framework/aspnetcore-browser-refresh.js - null null
+2026-07-01 13:23:10.390 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7055/_vs/browserLink - null null
+2026-07-01 13:23:10.410 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7055/_framework/aspnetcore-browser-refresh.js - 200 14947 application/javascript; charset=utf-8 21.237ms
+2026-07-01 13:23:10.464 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7055/_vs/browserLink - 200 null text/javascript; charset=UTF-8 73.3379ms
+2026-07-01 13:23:15.724 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7055/favicon.ico - null null
+2026-07-01 13:23:15.869 +02:00 [INF] HTTP GET /favicon.ico responded 404 in 141.1482 ms
+2026-07-01 13:23:15.873 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7055/favicon.ico - 404 0 null 148.5646ms
+2026-07-01 13:23:15.878 +02:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7055/favicon.ico, Response status code: 404
+2026-07-01 14:24:21.985 +02:00 [INF] User profile is available. Using 'C:\Users\charl\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-07-01 14:24:22.351 +02:00 [INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2026-07-01 14:24:22.679 +02:00 [INF] Now listening on: https://localhost:7055
+2026-07-01 14:24:22.685 +02:00 [INF] Now listening on: http://localhost:5183
+2026-07-01 14:24:22.772 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-07-01 14:24:22.773 +02:00 [INF] Hosting environment: Development
+2026-07-01 14:24:22.775 +02:00 [INF] Content root path: C:\WerkSoekAssessments\Bongoe2\VariBillWebApp.Blazor
+2026-07-01 14:24:34.594 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7055/ - null null
+2026-07-01 14:24:34.850 +02:00 [ERR] HTTP GET / responded 500 in 37.7759 ms
+System.InvalidOperationException: Cannot find the fallback endpoint specified by route values: { page: /_Host, area:  }.
+   at Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.DynamicPageEndpointMatcherPolicy.ApplyAsync(HttpContext httpContext, CandidateSet candidates)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcher.SelectEndpointWithPoliciesAsync(HttpContext httpContext, IEndpointSelectorPolicy[] policies, CandidateSet candidateSet)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.<Invoke>g__AwaitMatch|10_1(EndpointRoutingMiddleware middleware, HttpContext httpContext, Task matchTask)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2026-07-01 14:24:34.908 +02:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Cannot find the fallback endpoint specified by route values: { page: /_Host, area:  }.
+   at Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.DynamicPageEndpointMatcherPolicy.ApplyAsync(HttpContext httpContext, CandidateSet candidates)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcher.SelectEndpointWithPoliciesAsync(HttpContext httpContext, IEndpointSelectorPolicy[] policies, CandidateSet candidateSet)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.<Invoke>g__AwaitMatch|10_1(EndpointRoutingMiddleware middleware, HttpContext httpContext, Task matchTask)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2026-07-01 14:24:35.025 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7055/ - 500 null text/html; charset=utf-8 432.8542ms
+2026-07-01 14:24:35.042 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7055/_framework/aspnetcore-browser-refresh.js - null null
+2026-07-01 14:24:35.049 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7055/_vs/browserLink - null null
+2026-07-01 14:24:35.065 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7055/_framework/aspnetcore-browser-refresh.js - 200 14947 application/javascript; charset=utf-8 23.4203ms
+2026-07-01 14:24:35.142 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7055/_vs/browserLink - 200 null text/javascript; charset=UTF-8 93.804ms
+2026-07-01 14:25:23.165 +02:00 [INF] User profile is available. Using 'C:\Users\charl\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-07-01 14:25:23.370 +02:00 [INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2026-07-01 14:25:23.591 +02:00 [INF] Now listening on: https://localhost:7055
+2026-07-01 14:25:23.595 +02:00 [INF] Now listening on: http://localhost:5183
+2026-07-01 14:25:23.662 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-07-01 14:25:23.664 +02:00 [INF] Hosting environment: Development
+2026-07-01 14:25:23.665 +02:00 [INF] Content root path: C:\WerkSoekAssessments\Bongoe2\VariBillWebApp.Blazor
+2026-07-01 14:25:24.707 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7055/ - null null
+2026-07-01 14:25:24.938 +02:00 [ERR] HTTP GET / responded 500 in 23.0150 ms
+System.InvalidOperationException: Cannot find the fallback endpoint specified by route values: { page: /_Host, area:  }.
+   at Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.DynamicPageEndpointMatcherPolicy.ApplyAsync(HttpContext httpContext, CandidateSet candidates)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcher.SelectEndpointWithPoliciesAsync(HttpContext httpContext, IEndpointSelectorPolicy[] policies, CandidateSet candidateSet)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.<Invoke>g__AwaitMatch|10_1(EndpointRoutingMiddleware middleware, HttpContext httpContext, Task matchTask)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2026-07-01 14:25:24.977 +02:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Cannot find the fallback endpoint specified by route values: { page: /_Host, area:  }.
+   at Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.DynamicPageEndpointMatcherPolicy.ApplyAsync(HttpContext httpContext, CandidateSet candidates)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcher.SelectEndpointWithPoliciesAsync(HttpContext httpContext, IEndpointSelectorPolicy[] policies, CandidateSet candidateSet)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.<Invoke>g__AwaitMatch|10_1(EndpointRoutingMiddleware middleware, HttpContext httpContext, Task matchTask)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2026-07-01 14:25:25.040 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7055/ - 500 null text/html; charset=utf-8 334.8786ms
+2026-07-01 14:25:25.098 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7055/_vs/browserLink - null null
+2026-07-01 14:25:25.098 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7055/_framework/aspnetcore-browser-refresh.js - null null
+2026-07-01 14:25:25.130 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7055/_framework/aspnetcore-browser-refresh.js - 200 14947 application/javascript; charset=utf-8 31.7742ms
+2026-07-01 14:25:25.205 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7055/_vs/browserLink - 200 null text/javascript; charset=UTF-8 107.1131ms
+2026-07-01 14:25:25.301 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7055/favicon.ico - null null
+2026-07-01 14:25:25.389 +02:00 [INF] HTTP GET /favicon.ico responded 404 in 81.8619 ms
+2026-07-01 14:25:25.395 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7055/favicon.ico - 404 0 null 93.6609ms
+2026-07-01 14:25:25.403 +02:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7055/favicon.ico, Response status code: 404
+2026-07-01 14:25:37.652 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7055/.well-known/appspecific/com.chrome.devtools.json - null null
+2026-07-01 14:25:37.671 +02:00 [INF] HTTP GET /.well-known/appspecific/com.chrome.devtools.json responded 404 in 5.5712 ms
+2026-07-01 14:25:37.680 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7055/.well-known/appspecific/com.chrome.devtools.json - 404 0 null 29.0808ms
+2026-07-01 14:25:37.686 +02:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7055/.well-known/appspecific/com.chrome.devtools.json, Response status code: 404
+2026-07-01 14:28:07.750 +02:00 [INF] User profile is available. Using 'C:\Users\charl\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-07-01 14:28:08.057 +02:00 [INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2026-07-01 14:28:08.417 +02:00 [INF] Now listening on: https://localhost:7055
+2026-07-01 14:28:08.433 +02:00 [INF] Now listening on: http://localhost:5183
+2026-07-01 14:28:08.524 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-07-01 14:28:08.526 +02:00 [INF] Hosting environment: Development
+2026-07-01 14:28:08.528 +02:00 [INF] Content root path: C:\WerkSoekAssessments\Bongoe2\VariBillWebApp.Blazor
+2026-07-01 14:28:14.539 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7055/ - null null
+2026-07-01 14:28:15.141 +02:00 [ERR] HTTP GET / responded 500 in 44.4734 ms
+System.InvalidOperationException: Cannot find the fallback endpoint specified by route values: { page: /_Host, area:  }.
+   at Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.DynamicPageEndpointMatcherPolicy.ApplyAsync(HttpContext httpContext, CandidateSet candidates)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcher.SelectEndpointWithPoliciesAsync(HttpContext httpContext, IEndpointSelectorPolicy[] policies, CandidateSet candidateSet)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.<Invoke>g__AwaitMatch|10_1(EndpointRoutingMiddleware middleware, HttpContext httpContext, Task matchTask)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2026-07-01 14:28:15.191 +02:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Cannot find the fallback endpoint specified by route values: { page: /_Host, area:  }.
+   at Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.DynamicPageEndpointMatcherPolicy.ApplyAsync(HttpContext httpContext, CandidateSet candidates)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcher.SelectEndpointWithPoliciesAsync(HttpContext httpContext, IEndpointSelectorPolicy[] policies, CandidateSet candidateSet)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.<Invoke>g__AwaitMatch|10_1(EndpointRoutingMiddleware middleware, HttpContext httpContext, Task matchTask)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2026-07-01 14:28:15.282 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7055/ - 500 null text/html; charset=utf-8 746.5534ms
+2026-07-01 14:28:15.296 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7055/_framework/aspnetcore-browser-refresh.js - null null
+2026-07-01 14:28:15.296 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7055/_vs/browserLink - null null
+2026-07-01 14:28:15.311 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7055/_framework/aspnetcore-browser-refresh.js - 200 14947 application/javascript; charset=utf-8 13.5763ms
+2026-07-01 14:28:15.383 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7055/_vs/browserLink - 200 null text/javascript; charset=UTF-8 86.984ms
+2026-07-01 14:28:17.772 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7055/favicon.ico - null null
+2026-07-01 14:28:17.956 +02:00 [INF] HTTP GET /favicon.ico responded 404 in 178.6089 ms
+2026-07-01 14:28:17.961 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7055/favicon.ico - 404 0 null 189.693ms
+2026-07-01 14:28:17.969 +02:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7055/favicon.ico, Response status code: 404

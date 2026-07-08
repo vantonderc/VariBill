@@ -1,0 +1,56 @@
+﻿@{
+    ViewData["Title"] = "Dashboard";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome to VariBill</h1>
+    <p class="lead">Product Management System</p>
+    <hr />
+    <div class="row mt-4">
+        <div class="col-md-4">
+            <div class="card bg-primary text-white">
+                <div class="card-body">
+                    <h5 class="card-title">Products</h5>
+                    <h2 id="productCount">-</h2>
+                    <p class="card-text">Total products in catalog</p>
+                    <a href="@Url.Action("Index", "Product")" class="btn btn-light">Manage Products</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card bg-success text-white">
+                <div class="card-body">
+                    <h5 class="card-title">Product Types</h5>
+                    <h2 id="productTypeCount">-</h2>
+                    <p class="card-text">Available product categories</p>
+                    <a href="@Url.Action("Index", "ProductType")" class="btn btn-light">Manage Types</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card bg-info text-white">
+                <div class="card-body">
+                    <h5 class="card-title">System Status</h5>
+                    <h2>@DateTime.Now.ToString("HH:mm")</h2>
+                    <p class="card-text">System running normally</p>
+                    <a href="#" class="btn btn-light">View Reports</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script>
+        $(document).ready(function() {
+            $.get('/catalog/products', function(data) {
+                if (data && data.length) $('#productCount').text(data.length);
+            }).fail(function() { $('#productCount').text('0'); });
+            $.get('/catalog/producttypes', function(data) {
+                if (data && data.length) $('#productTypeCount').text(data.length);
+            }).fail(function() { $('#productTypeCount').text('0'); });
+        });
+    </script>
+}
+
+

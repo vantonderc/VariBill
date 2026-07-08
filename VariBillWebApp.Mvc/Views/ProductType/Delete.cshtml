@@ -1,0 +1,66 @@
+﻿@model ProductTypeViewModel
+
+@{
+    ViewData["Title"] = "Delete Product Type";
+    ViewData["PageTitle"] = "Delete Product Type";
+}
+
+<div class="row justify-content-center">
+    <div class="col-lg-6 col-md-8 col-sm-12">
+        <div class="card shadow">
+            <div class="card-header bg-danger text-white">
+                <h4 class="mb-0"><i class="fas fa-trash"></i> Delete Product Type</h4>
+            </div>
+            <div class="card-body">
+                <div class="alert alert-warning">
+                    <i class="fas fa-exclamation-triangle"></i>
+                    <strong>Warning:</strong> This action cannot be undone.
+                </div>
+
+                @if (Model.ProductCount > 0)
+                {
+                    <div class="alert alert-danger">
+                        <i class="fas fa-exclamation-circle"></i>
+                        <strong>Cannot delete:</strong> This product type has <strong>@Model.ProductCount</strong> associated product(s).
+                        You must reassign or delete these products before deleting this type.
+                    </div>
+                }
+
+                <dl class="row">
+                    <dt class="col-sm-4">Name</dt>
+                    <dd class="col-sm-8">@Model.Name</dd>
+
+                    <dt class="col-sm-4">Description</dt>
+                    <dd class="col-sm-8">@(Model.Description ?? "No description")</dd>
+
+                    <dt class="col-sm-4">Product Count</dt>
+                    <dd class="col-sm-8"><span class="badge bg-primary">@Model.ProductCount</span></dd>
+
+                    <dt class="col-sm-4">Status</dt>
+                    <dd class="col-sm-8">
+                        <span class="badge @(Model.IsActive ? "bg-success" : "bg-secondary")">
+                            @(Model.IsActive ? "Active" : "Inactive")
+                        </span>
+                    </dd>
+                </dl>
+
+                <form asp-action="DeleteConfirmed" method="post">
+                    @Html.AntiForgeryToken()
+                    <input type="hidden" asp-for="Id" />
+
+                    <div class="d-flex justify-content-center gap-2">
+                        <a asp-action="Index" class="btn btn-secondary"><i class="fas fa-arrow-left"></i> Cancel</a>
+                        @if (Model.ProductCount == 0)
+                        {
+                            <button type="submit" class="btn btn-danger"><i class="fas fa-trash"></i> Delete</button>
+                        }
+                        else
+                        {
+                            <button type="button" class="btn btn-danger" disabled title="Cannot delete because it has products">Delete</button>
+                        }
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>

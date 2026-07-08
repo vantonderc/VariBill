@@ -1,0 +1,10 @@
+C:\WerkSoekAssessments\Bongoe2\VariBillWebApp.Blazor\obj\Debug\net10.0\EmbeddedAttribute.cs
+C:\WerkSoekAssessments\Bongoe2\VariBillWebApp.Blazor\obj\Debug\net10.0\ValidatableTypeAttribute.cs
+C:\WerkSoekAssessments\Bongoe2\VariBillWebApp.Blazor\obj\Debug\net10.0\VariBillWebApp.Blazor.csproj.AssemblyReference.cache
+C:\WerkSoekAssessments\Bongoe2\VariBillWebApp.Blazor\obj\Debug\net10.0\rpswa.dswa.cache.json
+C:\WerkSoekAssessments\Bongoe2\VariBillWebApp.Blazor\obj\Debug\net10.0\VariBillWebApp.Blazor.GeneratedMSBuildEditorConfig.editorconfig
+C:\WerkSoekAssessments\Bongoe2\VariBillWebApp.Blazor\obj\Debug\net10.0\VariBillWebApp.Blazor.AssemblyInfoInputs.cache
+C:\WerkSoekAssessments\Bongoe2\VariBillWebApp.Blazor\obj\Debug\net10.0\VariBillWebApp.Blazor.AssemblyInfo.cs
+C:\WerkSoekAssessments\Bongoe2\VariBillWebApp.Blazor\obj\Debug\net10.0\VariBillWebApp.Blazor.csproj.CoreCompileInputs.cache
+C:\WerkSoekAssessments\Bongoe2\VariBillWebApp.Blazor\obj\Debug\net10.0\VariBillWebApp.Blazor.MvcApplicationPartsAssemblyInfo.cache
+C:\WerkSoekAssessments\Bongoe2\VariBillWebApp.Blazor\obj\Debug\net10.0\VariBillWebApp.Blazor.sourcelink.json

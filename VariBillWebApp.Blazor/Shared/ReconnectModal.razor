@@ -1,0 +1,36 @@
+﻿<dialog id="components-reconnect-modal" class="components-reconnect-modal">
+    <div class="components-reconnect-container">
+
+        <div class="components-reconnect-first-attempt-visible">
+            <p>Attempting to reconnect…</p>
+        </div>
+
+        <div class="components-reconnect-repeated-attempt-visible">
+            <p>Still trying…</p>
+            <button class="btn btn-primary" id="components-reconnect-button">Retry now</button>
+        </div>
+
+        <div class="components-reconnect-failed-visible">
+            <p>Failed to reconnect to the server.</p>
+            <p>Your data may be lost.</p>
+            <button class="btn btn-primary" onclick="location.reload()">Reload</button>
+        </div>
+
+        <div class="components-pause-visible">
+            <p>Server connection lost.</p>
+            <button class="btn btn-primary" id="components-resume-button">Resume</button>
+        </div>
+
+        <div class="components-resume-failed-visible">
+            <p>Could not resume connection.</p>
+            <button class="btn btn-primary" onclick="location.reload()">Reload</button>
+        </div>
+
+        <div class="components-rejoining-animation">
+            <div></div>
+            <div></div>
+        </div>
+    </div>
+</dialog>
+
+<script src="~/js/ReconnectModal.razor.js"></script>

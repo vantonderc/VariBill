@@ -1,0 +1,33 @@
+html, body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.table-responsive {
+    margin-top: 1rem;
+}
+
+.btn {
+    margin-right: 0.25rem;
+}
+
+.navbar-brand {
+    font-weight: 600;
+}
+
+.top-row {
+    background-color: #f8f9fa;
+    border-bottom: 1px solid #dee2e6;
+    padding: 0.75rem 1rem;
+}
+
+.content {
+    padding-top: 1.5rem;
+}
+
+.validation-message {
+    color: #dc3545;
+}
+
+.spinner-border {
+    margin: 2rem auto;
+}

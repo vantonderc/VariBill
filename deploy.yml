@@ -1,0 +1,81 @@
+# .github/workflows/deploy.yml
+name: Build and Deploy to Azure
+
+on:
+  push:
+    branches: [ main, master, develop ]
+  pull_request:
+    branches: [ main ]
+
+env:
+  DOTNET_VERSION: '9.0.x'
+  AZURE_WEBAPP_NAME_API: 'varibill-api-dev'
+  AZURE_WEBAPP_NAME_MVC: 'varibill-mvc-dev'
+  AZURE_WEBAPP_NAME_BLAZOR: 'varibill-blazor-dev'
+  AZURE_WEBAPP_NAME_IDENTITY: 'varibill-identity-dev'
+  AZURE_RESOURCE_GROUP: 'VariBillRG'
+
+jobs:
+  build-and-test:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+
+    - name: Setup .NET
+      uses: actions/setup-dotnet@v4
+      with:
+        dotnet-version: ${{ env.DOTNET_VERSION }}
+
+    - name: Restore dependencies
+      run: dotnet restore
+
+    - name: Build
+      run: dotnet build --no-restore -c Release
+
+    - name: Run Unit Tests
+      run: dotnet test VariBillWebAPI.Tests --no-build -c Release --verbosity normal
+
+    - name: Run Integration Tests
+      run: dotnet test VariBillWebAPI.IntegrationTests --no-build -c Release --verbosity normal
+
+    - name: Publish API
+      run: dotnet publish VariBillWebAPI/VariBillWebAPI.csproj -c Release -o ./publish/api
+
+    - name: Publish MVC
+      run: dotnet publish VariBillWebApp.Mvc/VariBillWebApp.Mvc.csproj -c Release -o ./publish/mvc
+
+    - name: Publish Blazor
+      run: dotnet publish VariBillWebApp.Blazor/VariBillWebApp.Blazor.csproj -c Release -o ./publish/blazor
+
+    - name: Publish IdentityServer
+      run: dotnet publish Bongoe.Identity/Bongoe.Identity.csproj -c Release -o ./publish/identity
+
+    - name: Deploy API to Azure Web App
+      uses: azure/webapps-deploy@v2
+      with:
+        app-name: ${{ env.AZURE_WEBAPP_NAME_API }}
+        publish-profile: ${{ secrets.AZURE_WEBAPP_PUBLISH_PROFILE_API }}
+        package: ./publish/api
+
+    - name: Deploy MVC to Azure Web App
+      uses: azure/webapps-deploy@v2
+      with:
+        app-name: ${{ env.AZURE_WEBAPP_NAME_MVC }}
+        publish-profile: ${{ secrets.AZURE_WEBAPP_PUBLISH_PROFILE_MVC }}
+        package: ./publish/mvc
+
+    - name: Deploy Blazor to Azure Web App
+      uses: azure/webapps-deploy@v2
+      with:
+        app-name: ${{ env.AZURE_WEBAPP_NAME_BLAZOR }}
+        publish-profile: ${{ secrets.AZURE_WEBAPP_PUBLISH_PROFILE_BLAZOR }}
+        package: ./publish/blazor
+
+    - name: Deploy IdentityServer to Azure Web App
+      uses: azure/webapps-deploy@v2
+      with:
+        app-name: ${{ env.AZURE_WEBAPP_NAME_IDENTITY }}
+        publish-profile: ${{ secrets.AZURE_WEBAPP_PUBLISH_PROFILE_IDENTITY }}
+        package: ./publish/identity

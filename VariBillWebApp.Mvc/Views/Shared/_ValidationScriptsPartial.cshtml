@@ -1,0 +1,16 @@
+﻿<script src="~/lib/jquery-validation/dist/jquery.validate.min.js"></script>
+<script src="~/lib/jquery-validation-unobtrusive/dist/jquery.validate.unobtrusive.min.js"></script>
+<script>
+    (function() {
+        // Wait for jQuery and validation to be ready
+        if (typeof $ !== 'undefined' && typeof $.validator !== 'undefined') {
+            $.validator.addMethod('validsku', function(value, element) {
+                return this.optional(element) || /^[A-Z0-9\-]+$/.test(value);
+            }, 'SKU must be uppercase alphanumeric with hyphens.');
+
+            $.validator.unobtrusive.adapters.addBool('validsku', 'validsku');
+        } else {
+            console.warn('jQuery or jQuery Validation is not loaded.');
+        }
+    })();
+</script>

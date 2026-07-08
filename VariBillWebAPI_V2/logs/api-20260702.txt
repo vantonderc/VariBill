@@ -1,0 +1,285 @@
+2026-07-02 14:52:07.084 +02:00 [INF] Starting database seeding...
+2026-07-02 14:52:17.709 +02:00 [INF] Database seeding completed.
+2026-07-02 14:52:19.363 +02:00 [INF] Now listening on: https://localhost:7090
+2026-07-02 14:52:19.369 +02:00 [INF] Now listening on: http://localhost:5153
+2026-07-02 14:52:19.873 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-07-02 14:52:19.973 +02:00 [INF] Hosting environment: Development
+2026-07-02 14:52:19.974 +02:00 [INF] Content root path: C:\WerkSoekAssessments\Bongoe2\VariBillWebAPI
+2026-07-02 14:53:40.196 +02:00 [INF] Starting database seeding...
+2026-07-02 14:53:47.126 +02:00 [INF] Database seeding completed.
+2026-07-02 14:53:48.183 +02:00 [INF] Now listening on: https://localhost:7090
+2026-07-02 14:53:49.126 +02:00 [INF] Now listening on: http://localhost:5153
+2026-07-02 14:53:49.356 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-07-02 14:53:49.380 +02:00 [INF] Hosting environment: Development
+2026-07-02 14:53:49.382 +02:00 [INF] Content root path: C:\WerkSoekAssessments\Bongoe2\VariBillWebAPI
+2026-07-02 14:55:06.087 +02:00 [INF] HTTP GET /api/products responded 307 in 21.6790 ms
+2026-07-02 14:55:06.372 +02:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2026-07-02 14:55:06.390 +02:00 [INF] AuthenticationScheme: Bearer was challenged.
+2026-07-02 14:55:06.394 +02:00 [INF] HTTP GET /api/products responded 401 in 210.9670 ms
+2026-07-02 14:55:13.530 +02:00 [INF] HTTP GET /api/producttypes responded 307 in 0.4410 ms
+2026-07-02 14:55:13.541 +02:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2026-07-02 14:55:13.543 +02:00 [INF] AuthenticationScheme: Bearer was challenged.
+2026-07-02 14:55:13.545 +02:00 [INF] HTTP GET /api/producttypes responded 401 in 9.8661 ms
+2026-07-02 14:55:50.154 +02:00 [INF] HTTP GET /api/producttypes responded 307 in 0.2077 ms
+2026-07-02 14:55:50.160 +02:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2026-07-02 14:55:50.165 +02:00 [INF] AuthenticationScheme: Bearer was challenged.
+2026-07-02 14:55:50.168 +02:00 [INF] HTTP GET /api/producttypes responded 401 in 9.0388 ms
+2026-07-02 14:56:22.265 +02:00 [INF] HTTP GET /api/products responded 307 in 0.0893 ms
+2026-07-02 14:56:22.274 +02:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2026-07-02 14:56:22.275 +02:00 [INF] AuthenticationScheme: Bearer was challenged.
+2026-07-02 14:56:22.277 +02:00 [INF] HTTP GET /api/products responded 401 in 3.3659 ms
+2026-07-02 14:56:24.732 +02:00 [INF] HTTP GET /api/products responded 307 in 0.1452 ms
+2026-07-02 14:56:24.735 +02:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2026-07-02 14:56:24.736 +02:00 [INF] AuthenticationScheme: Bearer was challenged.
+2026-07-02 14:56:24.737 +02:00 [INF] HTTP GET /api/products responded 401 in 2.6239 ms
+2026-07-02 14:56:30.268 +02:00 [INF] HTTP GET /api/producttypes responded 307 in 0.1938 ms
+2026-07-02 14:56:30.327 +02:00 [INF] HTTP GET /api/products responded 307 in 0.1306 ms
+2026-07-02 14:56:30.329 +02:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2026-07-02 14:56:30.332 +02:00 [INF] AuthenticationScheme: Bearer was challenged.
+2026-07-02 14:56:30.334 +02:00 [INF] HTTP GET /api/producttypes responded 401 in 5.1514 ms
+2026-07-02 14:56:30.337 +02:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2026-07-02 14:56:30.339 +02:00 [INF] AuthenticationScheme: Bearer was challenged.
+2026-07-02 14:56:30.341 +02:00 [INF] HTTP GET /api/products responded 401 in 4.7483 ms
+2026-07-02 14:56:31.273 +02:00 [INF] HTTP GET /api/producttypes responded 307 in 0.0863 ms
+2026-07-02 14:56:31.276 +02:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2026-07-02 14:56:31.278 +02:00 [INF] AuthenticationScheme: Bearer was challenged.
+2026-07-02 14:56:31.280 +02:00 [INF] HTTP GET /api/producttypes responded 401 in 3.9770 ms
+2026-07-02 14:56:47.326 +02:00 [INF] HTTP POST /api/producttypes responded 307 in 0.0623 ms
+2026-07-02 14:56:47.329 +02:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2026-07-02 14:56:47.331 +02:00 [INF] AuthenticationScheme: Bearer was challenged.
+2026-07-02 14:56:47.332 +02:00 [INF] HTTP POST /api/producttypes responded 401 in 2.6962 ms
+2026-07-02 14:56:57.994 +02:00 [INF] HTTP GET /api/producttypes responded 307 in 0.1365 ms
+2026-07-02 14:56:57.999 +02:00 [INF] HTTP GET /api/products responded 307 in 0.0880 ms
+2026-07-02 14:56:58.013 +02:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2026-07-02 14:56:58.014 +02:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2026-07-02 14:56:58.015 +02:00 [INF] AuthenticationScheme: Bearer was challenged.
+2026-07-02 14:56:58.018 +02:00 [INF] AuthenticationScheme: Bearer was challenged.
+2026-07-02 14:56:58.020 +02:00 [INF] HTTP GET /api/producttypes responded 401 in 8.0696 ms
+2026-07-02 14:56:58.026 +02:00 [INF] HTTP GET /api/products responded 401 in 12.0100 ms
+2026-07-02 14:57:02.185 +02:00 [INF] HTTP GET /api/products responded 307 in 0.1826 ms
+2026-07-02 14:57:02.190 +02:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2026-07-02 14:57:02.191 +02:00 [INF] AuthenticationScheme: Bearer was challenged.
+2026-07-02 14:57:02.192 +02:00 [INF] HTTP GET /api/products responded 401 in 2.3573 ms
+2026-07-02 15:30:27.463 +02:00 [INF] Starting database seeding...
+2026-07-02 15:30:31.814 +02:00 [INF] Database seeding completed.
+2026-07-02 15:30:32.291 +02:00 [INF] Now listening on: https://localhost:7090
+2026-07-02 15:30:32.294 +02:00 [INF] Now listening on: http://localhost:5153
+2026-07-02 15:30:32.503 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-07-02 15:30:32.518 +02:00 [INF] Hosting environment: Development
+2026-07-02 15:30:32.519 +02:00 [INF] Content root path: C:\WerkSoekAssessments\Bongoe2\VariBillWebAPI
+2026-07-02 15:36:29.247 +02:00 [INF] Starting database seeding...
+2026-07-02 15:36:34.488 +02:00 [INF] Database seeding completed.
+2026-07-02 15:36:35.276 +02:00 [INF] Now listening on: https://localhost:7090
+2026-07-02 15:36:35.280 +02:00 [INF] Now listening on: http://localhost:5153
+2026-07-02 15:36:35.646 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-07-02 15:36:35.653 +02:00 [INF] Hosting environment: Development
+2026-07-02 15:36:35.654 +02:00 [INF] Content root path: C:\WerkSoekAssessments\Bongoe2\VariBillWebAPI
+2026-07-02 15:39:51.489 +02:00 [INF] Starting database seeding...
+2026-07-02 15:39:55.867 +02:00 [INF] Database seeding completed.
+2026-07-02 15:39:56.961 +02:00 [INF] Now listening on: https://localhost:7090
+2026-07-02 15:39:56.966 +02:00 [INF] Now listening on: http://localhost:5153
+2026-07-02 15:39:57.289 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-07-02 15:39:57.295 +02:00 [INF] Hosting environment: Development
+2026-07-02 15:39:57.297 +02:00 [INF] Content root path: C:\WerkSoekAssessments\Bongoe2\VariBillWebAPI
+2026-07-02 15:40:13.697 +02:00 [INF] HTTP GET /api/products responded 307 in 28.3897 ms
+2026-07-02 15:40:13.697 +02:00 [INF] HTTP GET /api/producttypes responded 307 in 28.3851 ms
+2026-07-02 15:40:13.887 +02:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2026-07-02 15:40:13.887 +02:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2026-07-02 15:40:13.900 +02:00 [INF] AuthenticationScheme: Bearer was challenged.
+2026-07-02 15:40:13.900 +02:00 [INF] AuthenticationScheme: Bearer was challenged.
+2026-07-02 15:40:13.902 +02:00 [INF] HTTP GET /api/producttypes responded 401 in 130.2983 ms
+2026-07-02 15:40:13.903 +02:00 [INF] HTTP GET /api/products responded 401 in 131.4782 ms
+2026-07-02 15:40:15.973 +02:00 [INF] HTTP GET /api/producttypes responded 307 in 0.2340 ms
+2026-07-02 15:40:15.980 +02:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2026-07-02 15:40:15.982 +02:00 [INF] AuthenticationScheme: Bearer was challenged.
+2026-07-02 15:40:15.983 +02:00 [INF] HTTP GET /api/producttypes responded 401 in 5.6560 ms
+2026-07-02 15:43:42.292 +02:00 [INF] Starting database seeding...
+2026-07-02 15:43:46.954 +02:00 [INF] Database seeding completed.
+2026-07-02 15:43:47.738 +02:00 [INF] Now listening on: https://localhost:7090
+2026-07-02 15:43:47.751 +02:00 [INF] Now listening on: http://localhost:5153
+2026-07-02 15:43:48.176 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-07-02 15:43:48.177 +02:00 [INF] Hosting environment: Development
+2026-07-02 15:43:48.179 +02:00 [INF] Content root path: C:\WerkSoekAssessments\Bongoe2\VariBillWebAPI
+2026-07-02 15:44:02.611 +02:00 [INF] HTTP GET /api/products responded 307 in 18.5952 ms
+2026-07-02 15:44:02.611 +02:00 [INF] HTTP GET /api/producttypes responded 307 in 18.5911 ms
+2026-07-02 15:44:02.836 +02:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2026-07-02 15:44:02.836 +02:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2026-07-02 15:44:02.853 +02:00 [INF] AuthenticationScheme: Bearer was challenged.
+2026-07-02 15:44:02.853 +02:00 [INF] AuthenticationScheme: Bearer was challenged.
+2026-07-02 15:44:02.856 +02:00 [INF] HTTP GET /api/producttypes responded 401 in 139.9718 ms
+2026-07-02 15:44:02.858 +02:00 [INF] HTTP GET /api/products responded 401 in 141.8717 ms
+2026-07-02 15:44:03.759 +02:00 [INF] HTTP GET /api/producttypes responded 307 in 0.1761 ms
+2026-07-02 15:44:03.767 +02:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2026-07-02 15:44:03.770 +02:00 [INF] AuthenticationScheme: Bearer was challenged.
+2026-07-02 15:44:03.771 +02:00 [INF] HTTP GET /api/producttypes responded 401 in 6.1852 ms
+2026-07-02 16:03:22.559 +02:00 [INF] Starting database seeding...
+2026-07-02 16:03:28.840 +02:00 [INF] Database seeding completed.
+2026-07-02 16:03:29.586 +02:00 [INF] Now listening on: https://localhost:7090
+2026-07-02 16:03:29.596 +02:00 [INF] Now listening on: http://localhost:5153
+2026-07-02 16:03:29.751 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-07-02 16:03:29.762 +02:00 [INF] Hosting environment: Development
+2026-07-02 16:03:29.763 +02:00 [INF] Content root path: C:\WerkSoekAssessments\Bongoe2\VariBillWebAPI
+2026-07-02 16:04:20.763 +02:00 [INF] Starting database seeding...
+2026-07-02 16:04:25.131 +02:00 [INF] Database seeding completed.
+2026-07-02 16:04:26.541 +02:00 [INF] Now listening on: https://localhost:7090
+2026-07-02 16:04:26.563 +02:00 [INF] Now listening on: http://localhost:5153
+2026-07-02 16:04:26.763 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-07-02 16:04:26.773 +02:00 [INF] Hosting environment: Development
+2026-07-02 16:04:26.784 +02:00 [INF] Content root path: C:\WerkSoekAssessments\Bongoe2\VariBillWebAPI
+2026-07-02 16:04:38.281 +02:00 [INF] HTTP GET /api/products responded 307 in 18.8813 ms
+2026-07-02 16:04:38.281 +02:00 [INF] HTTP GET /api/producttypes responded 307 in 18.8763 ms
+2026-07-02 16:04:38.535 +02:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2026-07-02 16:04:38.535 +02:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2026-07-02 16:04:38.549 +02:00 [INF] AuthenticationScheme: Bearer was challenged.
+2026-07-02 16:04:38.549 +02:00 [INF] AuthenticationScheme: Bearer was challenged.
+2026-07-02 16:04:38.551 +02:00 [INF] HTTP GET /api/producttypes responded 401 in 162.6163 ms
+2026-07-02 16:04:38.553 +02:00 [INF] HTTP GET /api/products responded 401 in 164.9177 ms
+2026-07-02 16:04:39.335 +02:00 [INF] HTTP GET /api/producttypes responded 307 in 0.1608 ms
+2026-07-02 16:04:39.344 +02:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2026-07-02 16:04:39.347 +02:00 [INF] AuthenticationScheme: Bearer was challenged.
+2026-07-02 16:04:39.348 +02:00 [INF] HTTP GET /api/producttypes responded 401 in 9.0565 ms
+2026-07-02 16:04:59.480 +02:00 [INF] HTTP POST /api/producttypes responded 307 in 0.0670 ms
+2026-07-02 16:04:59.484 +02:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2026-07-02 16:04:59.486 +02:00 [INF] AuthenticationScheme: Bearer was challenged.
+2026-07-02 16:04:59.488 +02:00 [INF] HTTP POST /api/producttypes responded 401 in 3.7310 ms
+2026-07-02 16:18:15.937 +02:00 [INF] Starting database seeding...
+2026-07-02 16:18:21.822 +02:00 [INF] Database seeding completed.
+2026-07-02 16:18:22.412 +02:00 [INF] Now listening on: https://localhost:7090
+2026-07-02 16:18:22.415 +02:00 [INF] Now listening on: http://localhost:5153
+2026-07-02 16:18:22.816 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-07-02 16:18:22.819 +02:00 [INF] Hosting environment: Development
+2026-07-02 16:18:22.821 +02:00 [INF] Content root path: C:\WerkSoekAssessments\Bongoe2\VariBillWebAPI
+2026-07-02 16:18:36.250 +02:00 [INF] HTTP GET /api/products responded 307 in 16.8328 ms
+2026-07-02 16:18:36.250 +02:00 [INF] HTTP GET /api/producttypes responded 307 in 16.8423 ms
+2026-07-02 16:18:36.417 +02:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2026-07-02 16:18:36.417 +02:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2026-07-02 16:18:36.431 +02:00 [INF] AuthenticationScheme: Bearer was challenged.
+2026-07-02 16:18:36.431 +02:00 [INF] AuthenticationScheme: Bearer was challenged.
+2026-07-02 16:18:36.434 +02:00 [INF] HTTP GET /api/products responded 401 in 107.2101 ms
+2026-07-02 16:18:36.435 +02:00 [INF] HTTP GET /api/producttypes responded 401 in 108.4767 ms
+2026-07-02 16:18:37.536 +02:00 [INF] HTTP GET /api/producttypes responded 307 in 0.1553 ms
+2026-07-02 16:18:37.544 +02:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2026-07-02 16:18:37.547 +02:00 [INF] AuthenticationScheme: Bearer was challenged.
+2026-07-02 16:18:37.548 +02:00 [INF] HTTP GET /api/producttypes responded 401 in 7.3071 ms
+2026-07-02 16:26:41.185 +02:00 [INF] Starting database seeding...
+2026-07-02 16:26:46.619 +02:00 [INF] Database seeding completed.
+2026-07-02 16:26:47.420 +02:00 [INF] Now listening on: https://localhost:7090
+2026-07-02 16:26:47.435 +02:00 [INF] Now listening on: http://localhost:5153
+2026-07-02 16:26:47.917 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-07-02 16:26:47.919 +02:00 [INF] Hosting environment: Development
+2026-07-02 16:26:47.920 +02:00 [INF] Content root path: C:\WerkSoekAssessments\Bongoe2\VariBillWebAPI
+2026-07-02 16:27:36.619 +02:00 [INF] HTTP GET /api/products responded 307 in 24.8652 ms
+2026-07-02 16:27:36.619 +02:00 [INF] HTTP GET /api/producttypes responded 307 in 24.8606 ms
+2026-07-02 16:27:36.798 +02:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2026-07-02 16:27:36.798 +02:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2026-07-02 16:27:36.812 +02:00 [INF] AuthenticationScheme: Bearer was challenged.
+2026-07-02 16:27:36.812 +02:00 [INF] AuthenticationScheme: Bearer was challenged.
+2026-07-02 16:27:36.815 +02:00 [INF] HTTP GET /api/producttypes responded 401 in 126.5433 ms
+2026-07-02 16:27:36.818 +02:00 [INF] HTTP GET /api/products responded 401 in 129.2776 ms
+2026-07-02 16:27:38.216 +02:00 [INF] HTTP GET /api/producttypes responded 307 in 0.1498 ms
+2026-07-02 16:27:38.224 +02:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2026-07-02 16:27:38.226 +02:00 [INF] AuthenticationScheme: Bearer was challenged.
+2026-07-02 16:27:38.228 +02:00 [INF] HTTP GET /api/producttypes responded 401 in 7.1485 ms
+2026-07-02 16:30:14.396 +02:00 [INF] Starting database seeding...
+2026-07-02 16:31:31.786 +02:00 [INF] Starting database seeding...
+2026-07-02 16:31:34.700 +02:00 [INF] Database seeding completed.
+2026-07-02 16:31:35.160 +02:00 [INF] Now listening on: https://localhost:7090
+2026-07-02 16:31:35.163 +02:00 [INF] Now listening on: http://localhost:5153
+2026-07-02 16:31:35.360 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-07-02 16:31:35.361 +02:00 [INF] Hosting environment: Development
+2026-07-02 16:31:35.362 +02:00 [INF] Content root path: C:\WerkSoekAssessments\Bongoe2\VariBillWebAPI
+2026-07-02 16:31:47.377 +02:00 [INF] HTTP GET /api/products responded 307 in 16.2187 ms
+2026-07-02 16:31:47.377 +02:00 [INF] HTTP GET /api/producttypes responded 307 in 16.2231 ms
+2026-07-02 16:31:47.601 +02:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2026-07-02 16:31:47.601 +02:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2026-07-02 16:31:47.619 +02:00 [INF] AuthenticationScheme: Bearer was challenged.
+2026-07-02 16:31:47.619 +02:00 [INF] AuthenticationScheme: Bearer was challenged.
+2026-07-02 16:31:47.623 +02:00 [INF] HTTP GET /api/products responded 401 in 175.0438 ms
+2026-07-02 16:31:47.624 +02:00 [INF] HTTP GET /api/producttypes responded 401 in 176.2678 ms
+2026-07-02 16:31:49.065 +02:00 [INF] HTTP GET /api/producttypes responded 307 in 0.3031 ms
+2026-07-02 16:31:49.074 +02:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2026-07-02 16:31:49.076 +02:00 [INF] AuthenticationScheme: Bearer was challenged.
+2026-07-02 16:31:49.077 +02:00 [INF] HTTP GET /api/producttypes responded 401 in 6.9443 ms
+2026-07-02 16:35:16.006 +02:00 [INF] Starting database seeding...
+2026-07-02 16:35:19.858 +02:00 [INF] Database seeding completed.
+2026-07-02 16:35:20.421 +02:00 [INF] Now listening on: https://localhost:7090
+2026-07-02 16:35:20.425 +02:00 [INF] Now listening on: http://localhost:5153
+2026-07-02 16:35:20.685 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-07-02 16:35:20.687 +02:00 [INF] Hosting environment: Development
+2026-07-02 16:35:20.688 +02:00 [INF] Content root path: C:\WerkSoekAssessments\Bongoe2\VariBillWebAPI
+2026-07-02 16:35:31.471 +02:00 [INF] HTTP GET /api/producttypes responded 307 in 17.4927 ms
+2026-07-02 16:35:31.626 +02:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2026-07-02 16:35:31.638 +02:00 [INF] AuthenticationScheme: Bearer was challenged.
+2026-07-02 16:35:31.640 +02:00 [INF] HTTP GET /api/producttypes responded 401 in 105.4923 ms
+2026-07-02 16:44:26.560 +02:00 [INF] Starting database seeding...
+2026-07-02 16:44:31.254 +02:00 [INF] Database seeding completed.
+2026-07-02 16:44:31.864 +02:00 [INF] Now listening on: https://localhost:7090
+2026-07-02 16:44:31.866 +02:00 [INF] Now listening on: http://localhost:5153
+2026-07-02 16:44:32.120 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-07-02 16:44:32.121 +02:00 [INF] Hosting environment: Development
+2026-07-02 16:44:32.122 +02:00 [INF] Content root path: C:\WerkSoekAssessments\Bongoe2\VariBillWebAPI
+2026-07-02 16:44:40.904 +02:00 [INF] HTTP GET /api/producttypes responded 307 in 17.1639 ms
+2026-07-02 16:44:41.111 +02:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2026-07-02 16:44:41.123 +02:00 [INF] AuthenticationScheme: Bearer was challenged.
+2026-07-02 16:44:41.125 +02:00 [INF] HTTP GET /api/producttypes responded 401 in 162.4004 ms
+2026-07-02 16:44:48.691 +02:00 [INF] HTTP POST /api/producttypes responded 307 in 0.2825 ms
+2026-07-02 16:44:48.698 +02:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2026-07-02 16:44:48.701 +02:00 [INF] AuthenticationScheme: Bearer was challenged.
+2026-07-02 16:44:48.702 +02:00 [INF] HTTP POST /api/producttypes responded 401 in 6.8469 ms
+2026-07-02 16:44:58.600 +02:00 [INF] HTTP GET /api/producttypes responded 307 in 0.0952 ms
+2026-07-02 16:44:58.606 +02:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2026-07-02 16:44:58.608 +02:00 [INF] AuthenticationScheme: Bearer was challenged.
+2026-07-02 16:44:58.610 +02:00 [INF] HTTP GET /api/producttypes responded 401 in 4.6931 ms
+2026-07-02 16:49:15.259 +02:00 [INF] Starting database seeding...
+2026-07-02 16:49:18.359 +02:00 [INF] Database seeding completed.
+2026-07-02 16:49:19.049 +02:00 [INF] Now listening on: https://localhost:7090
+2026-07-02 16:49:19.053 +02:00 [INF] Now listening on: http://localhost:5153
+2026-07-02 16:49:19.286 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-07-02 16:49:19.287 +02:00 [INF] Hosting environment: Development
+2026-07-02 16:49:19.288 +02:00 [INF] Content root path: C:\WerkSoekAssessments\Bongoe2\VariBillWebAPI
+2026-07-02 16:49:30.258 +02:00 [INF] HTTP GET /api/producttypes responded 307 in 15.9622 ms
+2026-07-02 16:49:30.429 +02:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2026-07-02 16:49:30.447 +02:00 [INF] AuthenticationScheme: Bearer was challenged.
+2026-07-02 16:49:30.450 +02:00 [INF] HTTP GET /api/producttypes responded 401 in 121.1329 ms
+2026-07-02 16:49:35.237 +02:00 [INF] HTTP POST /api/producttypes responded 307 in 0.2872 ms
+2026-07-02 16:49:35.244 +02:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2026-07-02 16:49:35.247 +02:00 [INF] AuthenticationScheme: Bearer was challenged.
+2026-07-02 16:49:35.248 +02:00 [INF] HTTP POST /api/producttypes responded 401 in 6.5651 ms
+2026-07-02 16:56:45.623 +02:00 [INF] Starting database seeding...
+2026-07-02 16:56:50.559 +02:00 [INF] Database seeding completed.
+2026-07-02 16:56:51.212 +02:00 [INF] Now listening on: https://localhost:7090
+2026-07-02 16:56:51.214 +02:00 [INF] Now listening on: http://localhost:5153
+2026-07-02 16:56:51.286 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-07-02 16:56:51.288 +02:00 [INF] Hosting environment: Development
+2026-07-02 16:56:51.290 +02:00 [INF] Content root path: C:\WerkSoekAssessments\Bongoe2\VariBillWebAPI
+2026-07-02 16:57:02.168 +02:00 [INF] HTTP GET /api/producttypes responded 307 in 16.4430 ms
+2026-07-02 16:57:02.322 +02:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2026-07-02 16:57:02.333 +02:00 [INF] AuthenticationScheme: Bearer was challenged.
+2026-07-02 16:57:02.335 +02:00 [INF] HTTP GET /api/producttypes responded 401 in 102.6445 ms
+2026-07-02 16:57:12.686 +02:00 [INF] HTTP GET /api/products responded 307 in 0.8162 ms
+2026-07-02 16:57:12.690 +02:00 [INF] HTTP GET /api/producttypes responded 307 in 0.1257 ms
+2026-07-02 16:57:12.696 +02:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2026-07-02 16:57:12.697 +02:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2026-07-02 16:57:12.698 +02:00 [INF] AuthenticationScheme: Bearer was challenged.
+2026-07-02 16:57:12.699 +02:00 [INF] HTTP GET /api/products responded 401 in 7.2790 ms
+2026-07-02 16:57:12.700 +02:00 [INF] AuthenticationScheme: Bearer was challenged.
+2026-07-02 16:57:12.702 +02:00 [INF] HTTP GET /api/producttypes responded 401 in 5.7892 ms
+2026-07-02 16:57:13.811 +02:00 [INF] HTTP GET /api/products responded 307 in 0.0799 ms
+2026-07-02 16:57:13.814 +02:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2026-07-02 16:57:13.815 +02:00 [INF] AuthenticationScheme: Bearer was challenged.
+2026-07-02 16:57:13.816 +02:00 [INF] HTTP GET /api/products responded 401 in 2.0624 ms
+2026-07-02 16:57:17.869 +02:00 [INF] HTTP GET /api/producttypes responded 307 in 0.1399 ms
+2026-07-02 16:57:17.872 +02:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2026-07-02 16:57:17.874 +02:00 [INF] AuthenticationScheme: Bearer was challenged.
+2026-07-02 16:57:17.874 +02:00 [INF] HTTP GET /api/producttypes responded 401 in 2.1993 ms
+2026-07-02 17:14:08.262 +02:00 [INF] Starting database seeding...
+2026-07-02 17:14:12.729 +02:00 [INF] Database seeding completed.
+2026-07-02 17:14:13.315 +02:00 [INF] Now listening on: https://localhost:7090
+2026-07-02 17:14:13.319 +02:00 [INF] Now listening on: http://localhost:5153
+2026-07-02 17:14:13.576 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-07-02 17:14:13.578 +02:00 [INF] Hosting environment: Development
+2026-07-02 17:14:13.579 +02:00 [INF] Content root path: C:\WerkSoekAssessments\Bongoe2\VariBillWebAPI
+2026-07-02 17:15:39.390 +02:00 [INF] HTTP GET /api/producttypes responded 307 in 18.8808 ms
+2026-07-02 17:15:39.577 +02:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2026-07-02 17:15:39.591 +02:00 [INF] AuthenticationScheme: Bearer was challenged.
+2026-07-02 17:15:39.593 +02:00 [INF] HTTP GET /api/producttypes responded 401 in 124.2074 ms

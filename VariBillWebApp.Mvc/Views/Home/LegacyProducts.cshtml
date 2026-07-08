@@ -1,0 +1,66 @@
+﻿@using VariBillWebApp.Mvc.Models.ViewModels
+@model ProductModel
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+@section Styles
+{
+    <link href="~/css/product.css" rel="stylesheet" type="text/css" />
+}
+
+<div>
+<header class="site-header charl">
+    <div class="logo">Varibill</div>
+    <h1>Product Management</h1>
+</header>
+<main>
+    <section class="card form-section">
+        <h2 id="form-title">Add Product</h2>
+        <input type="hidden" id="product-id">
+        <div class="form-grid">
+            <div class="form-group">
+                <label for="name">Product Name</label>
+                <input type="text" id="name" placeholder="Enter product name" required>
+            </div>
+            <div class="form-group">
+                <label for="price">Price (R)</label>
+                <input type="number" id="price" step="0.01" min="0.01" placeholder="0.00">
+            </div>
+            <div class="form-group">
+                <label for="product-type">Product Type</label>
+                <select id="product-type"><option value="">Select type...</option></select>
+            </div>
+            <div class="form-group full-width">
+                <label for="description">Description</label>
+                <textarea id="description" rows="3" placeholder="Optional"></textarea>
+            </div>
+        </div>
+        <div class="btn-group">
+            <button class="btn btn-primary" onclick="saveProduct()">Save Product</button>
+            <button class="btn btn-secondary" onclick="clearForm()">Cancel</button>
+        </div>
+        <div id="message" class="message"></div>
+    </section>
+    <section class="card">
+        <h2>Products</h2>
+        <div id="loading" class="loading">Loading products...</div>
+        <table id="products-table" style="display:none">
+            <thead>
+                <tr><th>Name</th><th>Type</th><th>Price</th><th>Description</th><th>Actions</th></tr>
+            </thead>
+            <tbody id="products-body"></tbody>
+        </table>
+    </section>
+</main>
+</div>
+
+
+ @section Scripts
+{
+  @{
+        <script src="~/js/product.js" asp-append-version="true"></script>
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+} 
+

@@ -1,0 +1,6 @@
+C:\WerkSoekAssessments\Bongoe2\VariBillWebAPI.Tests\obj\Debug\net10.0\VariBillWebAPI.Tests.csproj.AssemblyReference.cache
+C:\WerkSoekAssessments\Bongoe2\VariBillWebAPI.Tests\obj\Debug\net10.0\VariBillWebAPI.Tests.GeneratedMSBuildEditorConfig.editorconfig
+C:\WerkSoekAssessments\Bongoe2\VariBillWebAPI.Tests\obj\Debug\net10.0\VariBillWebAPI.Tests.AssemblyInfoInputs.cache
+C:\WerkSoekAssessments\Bongoe2\VariBillWebAPI.Tests\obj\Debug\net10.0\VariBillWebAPI.Tests.AssemblyInfo.cs
+C:\WerkSoekAssessments\Bongoe2\VariBillWebAPI.Tests\obj\Debug\net10.0\VariBillWebAPI.Tests.csproj.CoreCompileInputs.cache
+C:\WerkSoekAssessments\Bongoe2\VariBillWebAPI.Tests\obj\Debug\net10.0\VariBillWebAPI.Tests.sourcelink.json

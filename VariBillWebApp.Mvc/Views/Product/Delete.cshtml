@@ -1,0 +1,43 @@
+﻿@using VariBillWebApp.Mvc.Models.ViewModels
+@model ProductViewModel
+
+@{
+    ViewData["Title"] = "Delete Product";
+    ViewData["PageTitle"] = "Delete Product";
+}
+
+<div class="row justify-content-center">
+    <div class="col-lg-6 col-md-8">
+        <div class="card shadow">
+            <div class="card-header bg-danger text-white"><h4 class="mb-0"><i class="fas fa-trash"></i> Delete Product</h4></div>
+            <div class="card-body">
+                <div class="alert alert-warning"><i class="fas fa-exclamation-triangle"></i> <strong>Warning:</strong> This action cannot be undone.</div>
+                <dl class="row">
+                    <dt class="col-sm-4">Name</dt>
+                    <dd class="col-sm-8">@Model.Name</dd>
+                    <dt class="col-sm-4">SKU</dt>
+                    <dd class="col-sm-8">@Model.SKU</dd>
+                    <dt class="col-sm-4">Price</dt>
+                    <dd class="col-sm-8">@Model.Price.ToString("C")</dd>
+                    <dt class="col-sm-4">Quantity</dt>
+                    <dd class="col-sm-8">@Model.Quantity</dd>
+                    <dt class="col-sm-4">Type</dt>
+                    <dd class="col-sm-8">@Model.ProductTypeName</dd>
+                    <dt class="col-sm-4">Status</dt>
+                    <dd class="col-sm-8"><span class="badge @(Model.IsActive ? "bg-success" : "bg-secondary")">@(Model.IsActive ? "Active" : "Inactive")</span></dd>
+                </dl>
+                <form asp-action="DeleteConfirmed" method="post">
+                    @Html.AntiForgeryToken()
+                    <input type="hidden" asp-for="Id" />
+                    <div class="d-flex justify-content-center gap-2">
+                        <a asp-action="Index" class="btn btn-secondary"><i class="fas fa-arrow-left"></i> Cancel</a>
+                        <button type="submit" class="btn btn-danger"><i class="fas fa-trash"></i> Delete</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+

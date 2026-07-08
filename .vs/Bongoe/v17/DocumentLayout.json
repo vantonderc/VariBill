@@ -1,0 +1,274 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\WerkSoekAssessments\\FinalAssessment\\Bongoe2\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{FF5D6E36-9659-4917-B284-25707E016EDF}|VariBillWebApp.Blazor\\VariBillWebApp.Blazor.csproj|c:\\werksoekassessments\\finalassessment\\bongoe2\\varibillwebapp.blazor\\shared\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FF5D6E36-9659-4917-B284-25707E016EDF}|VariBillWebApp.Blazor\\VariBillWebApp.Blazor.csproj|solutionrelative:varibillwebapp.blazor\\shared\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36C7AC23-0798-4F66-8F96-5BEEB0F49FED}|Bongoe.Identity\\Bongoe.Identity.csproj|c:\\werksoekassessments\\finalassessment\\bongoe2\\bongoe.identity\\bongoe.identity.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{36C7AC23-0798-4F66-8F96-5BEEB0F49FED}|Bongoe.Identity\\Bongoe.Identity.csproj|solutionrelative:bongoe.identity\\bongoe.identity.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36C7AC23-0798-4F66-8F96-5BEEB0F49FED}|Bongoe.Identity\\Bongoe.Identity.csproj|c:\\werksoekassessments\\finalassessment\\bongoe2\\bongoe.identity\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{36C7AC23-0798-4F66-8F96-5BEEB0F49FED}|Bongoe.Identity\\Bongoe.Identity.csproj|solutionrelative:bongoe.identity\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36C7AC23-0798-4F66-8F96-5BEEB0F49FED}|Bongoe.Identity\\Bongoe.Identity.csproj|c:\\werksoekassessments\\finalassessment\\bongoe2\\bongoe.identity\\properties\\resources.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}",
+      "RelativeMoniker": "D:0:0:{36C7AC23-0798-4F66-8F96-5BEEB0F49FED}|Bongoe.Identity\\Bongoe.Identity.csproj|solutionrelative:bongoe.identity\\properties\\resources.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36C7AC23-0798-4F66-8F96-5BEEB0F49FED}|Bongoe.Identity\\Bongoe.Identity.csproj|c:\\werksoekassessments\\finalassessment\\bongoe2\\bongoe.identity\\models\\config.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36C7AC23-0798-4F66-8F96-5BEEB0F49FED}|Bongoe.Identity\\Bongoe.Identity.csproj|solutionrelative:bongoe.identity\\models\\config.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36C7AC23-0798-4F66-8F96-5BEEB0F49FED}|Bongoe.Identity\\Bongoe.Identity.csproj|c:\\werksoekassessments\\finalassessment\\bongoe2\\bongoe.identity\\bongoe.identity.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{36C7AC23-0798-4F66-8F96-5BEEB0F49FED}|Bongoe.Identity\\Bongoe.Identity.csproj|solutionrelative:bongoe.identity\\bongoe.identity.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36C7AC23-0798-4F66-8F96-5BEEB0F49FED}|Bongoe.Identity\\Bongoe.Identity.csproj|c:\\werksoekassessments\\finalassessment\\bongoe2\\bongoe.identity\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36C7AC23-0798-4F66-8F96-5BEEB0F49FED}|Bongoe.Identity\\Bongoe.Identity.csproj|solutionrelative:bongoe.identity\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{477C221C-2662-4BEA-B656-224A5D477BA6}|VariBillWebApp.Mvc\\VariBillWebApp.Mvc.csproj|c:\\werksoekassessments\\finalassessment\\bongoe2\\varibillwebapp.mvc\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{477C221C-2662-4BEA-B656-224A5D477BA6}|VariBillWebApp.Mvc\\VariBillWebApp.Mvc.csproj|solutionrelative:varibillwebapp.mvc\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{477C221C-2662-4BEA-B656-224A5D477BA6}|VariBillWebApp.Mvc\\VariBillWebApp.Mvc.csproj|c:\\werksoekassessments\\finalassessment\\bongoe2\\varibillwebapp.mvc\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{477C221C-2662-4BEA-B656-224A5D477BA6}|VariBillWebApp.Mvc\\VariBillWebApp.Mvc.csproj|solutionrelative:varibillwebapp.mvc\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF5D6E36-9659-4917-B284-25707E016EDF}|VariBillWebApp.Blazor\\VariBillWebApp.Blazor.csproj|c:\\werksoekassessments\\finalassessment\\bongoe2\\varibillwebapp.blazor\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{FF5D6E36-9659-4917-B284-25707E016EDF}|VariBillWebApp.Blazor\\VariBillWebApp.Blazor.csproj|solutionrelative:varibillwebapp.blazor\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{477C221C-2662-4BEA-B656-224A5D477BA6}|VariBillWebApp.Mvc\\VariBillWebApp.Mvc.csproj|c:\\werksoekassessments\\finalassessment\\bongoe2\\varibillwebapp.mvc\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{477C221C-2662-4BEA-B656-224A5D477BA6}|VariBillWebApp.Mvc\\VariBillWebApp.Mvc.csproj|solutionrelative:varibillwebapp.mvc\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1054A9BC-1D82-4E81-8BDE-BB9C44B256BE}|VariBillWebAPI\\VariBillWebAPI.csproj|c:\\werksoekassessments\\finalassessment\\bongoe2\\varibillwebapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1054A9BC-1D82-4E81-8BDE-BB9C44B256BE}|VariBillWebAPI\\VariBillWebAPI.csproj|solutionrelative:varibillwebapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{477C221C-2662-4BEA-B656-224A5D477BA6}|VariBillWebApp.Mvc\\VariBillWebApp.Mvc.csproj|c:\\werksoekassessments\\finalassessment\\bongoe2\\varibillwebapp.mvc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{477C221C-2662-4BEA-B656-224A5D477BA6}|VariBillWebApp.Mvc\\VariBillWebApp.Mvc.csproj|solutionrelative:varibillwebapp.mvc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 60,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Config.cs",
+              "DocumentMoniker": "C:\\WerkSoekAssessments\\FinalAssessment\\Bongoe2\\Bongoe.Identity\\Models\\Config.cs",
+              "RelativeDocumentMoniker": "Bongoe.Identity\\Models\\Config.cs",
+              "ToolTip": "C:\\WerkSoekAssessments\\FinalAssessment\\Bongoe2\\Bongoe.Identity\\Models\\Config.cs",
+              "RelativeToolTip": "Bongoe.Identity\\Models\\Config.cs",
+              "ViewState": "AgIAAE8AAAAAAAAAAAAwwFsAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-03T11:37:11.013Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainLayout.razor",
+              "DocumentMoniker": "C:\\WerkSoekAssessments\\FinalAssessment\\Bongoe2\\VariBillWebApp.Blazor\\Shared\\MainLayout.razor",
+              "RelativeDocumentMoniker": "VariBillWebApp.Blazor\\Shared\\MainLayout.razor",
+              "ToolTip": "C:\\WerkSoekAssessments\\FinalAssessment\\Bongoe2\\VariBillWebApp.Blazor\\Shared\\MainLayout.razor",
+              "RelativeToolTip": "VariBillWebApp.Blazor\\Shared\\MainLayout.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-07-03T12:12:47.288Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Bongoe.Identity",
+              "DocumentMoniker": "C:\\WerkSoekAssessments\\FinalAssessment\\Bongoe2\\Bongoe.Identity\\Bongoe.Identity.csproj",
+              "RelativeDocumentMoniker": "Bongoe.Identity\\Bongoe.Identity.csproj",
+              "ToolTip": "C:\\WerkSoekAssessments\\FinalAssessment\\Bongoe2\\Bongoe.Identity\\Bongoe.Identity.csproj",
+              "RelativeToolTip": "Bongoe.Identity\\Bongoe.Identity.csproj",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABEAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-07-03T11:30:09.489Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Resources.resx",
+              "DocumentMoniker": "C:\\WerkSoekAssessments\\FinalAssessment\\Bongoe2\\Bongoe.Identity\\Properties\\Resources.resx",
+              "RelativeDocumentMoniker": "Bongoe.Identity\\Properties\\Resources.resx",
+              "ToolTip": "C:\\WerkSoekAssessments\\FinalAssessment\\Bongoe2\\Bongoe.Identity\\Properties\\Resources.resx",
+              "RelativeToolTip": "Bongoe.Identity\\Properties\\Resources.resx",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
+              "WhenOpened": "2026-07-03T11:28:13.596Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Bongoe.Identity",
+              "DocumentMoniker": "C:\\WerkSoekAssessments\\FinalAssessment\\Bongoe2\\Bongoe.Identity\\Bongoe.Identity.csproj",
+              "RelativeDocumentMoniker": "Bongoe.Identity\\Bongoe.Identity.csproj",
+              "ToolTip": "C:\\WerkSoekAssessments\\FinalAssessment\\Bongoe2\\Bongoe.Identity\\Bongoe.Identity.csproj",
+              "RelativeToolTip": "Bongoe.Identity\\Bongoe.Identity.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-07-03T11:26:16.752Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\WerkSoekAssessments\\FinalAssessment\\Bongoe2\\Bongoe.Identity\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Bongoe.Identity\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\WerkSoekAssessments\\FinalAssessment\\Bongoe2\\Bongoe.Identity\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Bongoe.Identity\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAswBkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-07-03T11:30:15.212Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\WerkSoekAssessments\\FinalAssessment\\Bongoe2\\Bongoe.Identity\\Program.cs",
+              "RelativeDocumentMoniker": "Bongoe.Identity\\Program.cs",
+              "ToolTip": "C:\\WerkSoekAssessments\\FinalAssessment\\Bongoe2\\Bongoe.Identity\\Program.cs",
+              "RelativeToolTip": "Bongoe.Identity\\Program.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-03T07:07:14.131Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\WerkSoekAssessments\\FinalAssessment\\Bongoe2\\VariBillWebApp.Mvc\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "VariBillWebApp.Mvc\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\WerkSoekAssessments\\FinalAssessment\\Bongoe2\\VariBillWebApp.Mvc\\Properties\\launchSettings.json",
+              "RelativeToolTip": "VariBillWebApp.Mvc\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABIAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-07-03T07:23:17.643Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\WerkSoekAssessments\\FinalAssessment\\Bongoe2\\VariBillWebApp.Blazor\\appsettings.json",
+              "RelativeDocumentMoniker": "VariBillWebApp.Blazor\\appsettings.json",
+              "ToolTip": "C:\\WerkSoekAssessments\\FinalAssessment\\Bongoe2\\VariBillWebApp.Blazor\\appsettings.json",
+              "RelativeToolTip": "VariBillWebApp.Blazor\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-07-03T07:22:50.484Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\WerkSoekAssessments\\FinalAssessment\\Bongoe2\\VariBillWebApp.Mvc\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "VariBillWebApp.Mvc\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\WerkSoekAssessments\\FinalAssessment\\Bongoe2\\VariBillWebApp.Mvc\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "VariBillWebApp.Mvc\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAGoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-07-03T07:12:09.76Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\WerkSoekAssessments\\FinalAssessment\\Bongoe2\\VariBillWebApp.Mvc\\appsettings.json",
+              "RelativeDocumentMoniker": "VariBillWebApp.Mvc\\appsettings.json",
+              "ToolTip": "C:\\WerkSoekAssessments\\FinalAssessment\\Bongoe2\\VariBillWebApp.Mvc\\appsettings.json",
+              "RelativeToolTip": "VariBillWebApp.Mvc\\appsettings.json",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAMAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-07-03T07:10:04.985Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\WerkSoekAssessments\\FinalAssessment\\Bongoe2\\VariBillWebAPI\\Program.cs",
+              "RelativeDocumentMoniker": "VariBillWebAPI\\Program.cs",
+              "ToolTip": "C:\\WerkSoekAssessments\\FinalAssessment\\Bongoe2\\VariBillWebAPI\\Program.cs",
+              "RelativeToolTip": "VariBillWebAPI\\Program.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAgwBgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-03T06:45:13.339Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\WerkSoekAssessments\\FinalAssessment\\Bongoe2\\VariBillWebApp.Mvc\\Program.cs",
+              "RelativeDocumentMoniker": "VariBillWebApp.Mvc\\Program.cs",
+              "ToolTip": "C:\\WerkSoekAssessments\\FinalAssessment\\Bongoe2\\VariBillWebApp.Mvc\\Program.cs",
+              "RelativeToolTip": "VariBillWebApp.Mvc\\Program.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-03T04:12:58.468Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedHeight": 355,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

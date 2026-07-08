@@ -1,0 +1,202 @@
+2026-07-01 13:04:25.366 +02:00 [INF] Starting database seeding...
+2026-07-01 13:04:32.705 +02:00 [ERR] An error occurred using the connection to database 'VariBillDB' on server '(localdb)\mssqllocaldb'.
+2026-07-01 13:04:32.725 +02:00 [ERR] An error occurred using the connection to database 'VariBillDB' on server '(localdb)\mssqllocaldb'.
+2026-07-01 13:04:33.777 +02:00 [ERR] An error occurred using the connection to database 'VariBillDB' on server '(localdb)\mssqllocaldb'.
+2026-07-01 13:04:37.014 +02:00 [ERR] An error occurred using the connection to database 'VariBillDB' on server '(localdb)\mssqllocaldb'.
+2026-07-01 13:04:45.333 +02:00 [ERR] An error occurred using the connection to database 'VariBillDB' on server '(localdb)\mssqllocaldb'.
+2026-07-01 13:09:47.188 +02:00 [INF] Starting database seeding...
+2026-07-01 13:09:51.337 +02:00 [INF] Seeded 5 product types.
+2026-07-01 13:09:51.820 +02:00 [INF] Seeded 7 products.
+2026-07-01 13:09:51.823 +02:00 [INF] Database seeding completed.
+2026-07-01 13:09:52.447 +02:00 [INF] Now listening on: https://localhost:7090
+2026-07-01 13:09:52.449 +02:00 [INF] Now listening on: http://localhost:5153
+2026-07-01 13:09:53.539 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-07-01 13:09:53.554 +02:00 [INF] Hosting environment: Development
+2026-07-01 13:09:53.560 +02:00 [INF] Content root path: C:\WerkSoekAssessments\Bongoe2\VariBillWebAPI
+2026-07-01 13:11:23.610 +02:00 [INF] Starting database seeding...
+2026-07-01 13:11:27.095 +02:00 [INF] Database seeding completed.
+2026-07-01 13:14:35.532 +02:00 [INF] Starting database seeding...
+2026-07-01 13:14:40.173 +02:00 [INF] Database seeding completed.
+2026-07-01 13:14:42.598 +02:00 [INF] Now listening on: https://localhost:7090
+2026-07-01 13:14:42.602 +02:00 [INF] Now listening on: http://localhost:5153
+2026-07-01 13:14:42.751 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-07-01 13:14:42.763 +02:00 [INF] Hosting environment: Development
+2026-07-01 13:14:42.766 +02:00 [INF] Content root path: C:\WerkSoekAssessments\Bongoe2\VariBillWebAPI
+2026-07-01 13:22:58.894 +02:00 [INF] Starting database seeding...
+2026-07-01 13:23:03.606 +02:00 [INF] Database seeding completed.
+2026-07-01 13:23:05.244 +02:00 [INF] Now listening on: https://localhost:7090
+2026-07-01 13:23:05.364 +02:00 [INF] Now listening on: http://localhost:5153
+2026-07-01 13:23:05.579 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-07-01 13:23:05.593 +02:00 [INF] Hosting environment: Development
+2026-07-01 13:23:05.615 +02:00 [INF] Content root path: C:\WerkSoekAssessments\Bongoe2\VariBillWebAPI
+2026-07-01 13:26:49.292 +02:00 [INF] Starting database seeding...
+2026-07-01 13:26:53.250 +02:00 [INF] Database seeding completed.
+2026-07-01 13:26:54.645 +02:00 [INF] Now listening on: https://localhost:7090
+2026-07-01 13:26:54.649 +02:00 [INF] Now listening on: http://localhost:5153
+2026-07-01 13:26:55.062 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-07-01 13:26:55.071 +02:00 [INF] Hosting environment: Development
+2026-07-01 13:26:55.073 +02:00 [INF] Content root path: C:\WerkSoekAssessments\Bongoe2\VariBillWebAPI
+2026-07-01 13:29:47.177 +02:00 [INF] Starting database seeding...
+2026-07-01 13:29:51.279 +02:00 [INF] Database seeding completed.
+2026-07-01 13:29:52.136 +02:00 [INF] Now listening on: https://localhost:7090
+2026-07-01 13:29:52.241 +02:00 [INF] Now listening on: http://localhost:5153
+2026-07-01 13:29:52.589 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-07-01 13:29:52.592 +02:00 [INF] Hosting environment: Development
+2026-07-01 13:29:52.594 +02:00 [INF] Content root path: C:\WerkSoekAssessments\Bongoe2\VariBillWebAPI
+2026-07-01 13:30:31.356 +02:00 [INF] Starting database seeding...
+2026-07-01 13:30:35.333 +02:00 [INF] Database seeding completed.
+2026-07-01 13:30:36.622 +02:00 [INF] Now listening on: https://localhost:7090
+2026-07-01 13:30:36.628 +02:00 [INF] Now listening on: http://localhost:5153
+2026-07-01 13:30:37.096 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-07-01 13:30:37.098 +02:00 [INF] Hosting environment: Development
+2026-07-01 13:30:37.100 +02:00 [INF] Content root path: C:\WerkSoekAssessments\Bongoe2\VariBillWebAPI
+2026-07-01 13:38:42.841 +02:00 [INF] Starting database seeding...
+2026-07-01 13:38:49.442 +02:00 [INF] Database seeding completed.
+2026-07-01 13:38:50.573 +02:00 [INF] Now listening on: https://localhost:7090
+2026-07-01 13:38:50.578 +02:00 [INF] Now listening on: http://localhost:5153
+2026-07-01 13:38:51.094 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-07-01 13:38:51.109 +02:00 [INF] Hosting environment: Development
+2026-07-01 13:38:51.111 +02:00 [INF] Content root path: C:\WerkSoekAssessments\Bongoe2\VariBillWebAPI
+2026-07-01 13:48:00.580 +02:00 [INF] Starting database seeding...
+2026-07-01 13:48:06.768 +02:00 [INF] Database seeding completed.
+2026-07-01 13:48:07.642 +02:00 [INF] Now listening on: https://localhost:7090
+2026-07-01 13:48:07.646 +02:00 [INF] Now listening on: http://localhost:5153
+2026-07-01 13:48:07.933 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-07-01 13:48:07.935 +02:00 [INF] Hosting environment: Development
+2026-07-01 13:48:07.936 +02:00 [INF] Content root path: C:\WerkSoekAssessments\Bongoe2\VariBillWebAPI
+2026-07-01 13:52:26.347 +02:00 [INF] Starting database seeding...
+2026-07-01 13:52:29.898 +02:00 [INF] Database seeding completed.
+2026-07-01 13:52:30.701 +02:00 [INF] Now listening on: https://localhost:7090
+2026-07-01 13:52:30.820 +02:00 [INF] Now listening on: http://localhost:5153
+2026-07-01 13:52:31.053 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-07-01 13:52:31.154 +02:00 [INF] Hosting environment: Development
+2026-07-01 13:52:31.156 +02:00 [INF] Content root path: C:\WerkSoekAssessments\Bongoe2\VariBillWebAPI
+2026-07-01 13:56:05.666 +02:00 [INF] Starting database seeding...
+2026-07-01 13:56:09.339 +02:00 [INF] Database seeding completed.
+2026-07-01 13:56:10.128 +02:00 [INF] Now listening on: https://localhost:7090
+2026-07-01 13:56:10.132 +02:00 [INF] Now listening on: http://localhost:5153
+2026-07-01 13:56:10.664 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-07-01 13:56:10.936 +02:00 [INF] Hosting environment: Development
+2026-07-01 13:56:10.939 +02:00 [INF] Content root path: C:\WerkSoekAssessments\Bongoe2\VariBillWebAPI
+2026-07-01 13:56:32.393 +02:00 [INF] HTTP GET /api/products responded 307 in 34.5459 ms
+2026-07-01 13:56:32.393 +02:00 [INF] HTTP GET /api/producttypes responded 307 in 34.5427 ms
+2026-07-01 13:56:32.727 +02:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2026-07-01 13:56:32.727 +02:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2026-07-01 13:56:32.748 +02:00 [INF] AuthenticationScheme: Bearer was challenged.
+2026-07-01 13:56:32.748 +02:00 [INF] AuthenticationScheme: Bearer was challenged.
+2026-07-01 13:56:32.751 +02:00 [INF] HTTP GET /api/products responded 401 in 214.7463 ms
+2026-07-01 13:56:32.754 +02:00 [INF] HTTP GET /api/producttypes responded 401 in 217.8593 ms
+2026-07-01 13:56:44.381 +02:00 [INF] HTTP GET /api/products responded 307 in 0.3282 ms
+2026-07-01 13:56:44.392 +02:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2026-07-01 13:56:44.396 +02:00 [INF] AuthenticationScheme: Bearer was challenged.
+2026-07-01 13:56:44.398 +02:00 [INF] HTTP GET /api/products responded 401 in 10.4015 ms
+2026-07-01 13:56:56.920 +02:00 [INF] HTTP GET /api/products responded 307 in 0.1331 ms
+2026-07-01 13:56:56.923 +02:00 [INF] HTTP GET /api/producttypes responded 307 in 0.1131 ms
+2026-07-01 13:56:56.925 +02:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2026-07-01 13:56:56.927 +02:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2026-07-01 13:56:56.927 +02:00 [INF] AuthenticationScheme: Bearer was challenged.
+2026-07-01 13:56:56.929 +02:00 [INF] AuthenticationScheme: Bearer was challenged.
+2026-07-01 13:56:56.930 +02:00 [INF] HTTP GET /api/products responded 401 in 6.2174 ms
+2026-07-01 13:56:56.932 +02:00 [INF] HTTP GET /api/producttypes responded 401 in 5.1256 ms
+2026-07-01 13:57:03.283 +02:00 [INF] HTTP GET /api/producttypes responded 307 in 0.1155 ms
+2026-07-01 13:57:03.287 +02:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2026-07-01 13:57:03.289 +02:00 [INF] AuthenticationScheme: Bearer was challenged.
+2026-07-01 13:57:03.290 +02:00 [INF] HTTP GET /api/producttypes responded 401 in 3.5004 ms
+2026-07-01 13:57:23.757 +02:00 [INF] HTTP GET /api/products responded 307 in 3.4171 ms
+2026-07-01 13:57:23.761 +02:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2026-07-01 13:57:23.763 +02:00 [INF] AuthenticationScheme: Bearer was challenged.
+2026-07-01 13:57:23.764 +02:00 [INF] HTTP GET /api/products responded 401 in 4.0624 ms
+2026-07-01 14:00:09.539 +02:00 [INF] Starting database seeding...
+2026-07-01 14:00:13.245 +02:00 [INF] Database seeding completed.
+2026-07-01 14:00:14.080 +02:00 [INF] Now listening on: https://localhost:7090
+2026-07-01 14:00:14.084 +02:00 [INF] Now listening on: http://localhost:5153
+2026-07-01 14:00:14.641 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-07-01 14:00:14.870 +02:00 [INF] Hosting environment: Development
+2026-07-01 14:00:14.879 +02:00 [INF] Content root path: C:\WerkSoekAssessments\Bongoe2\VariBillWebAPI
+2026-07-01 14:01:56.196 +02:00 [INF] HTTP GET /api/producttypes responded 307 in 28.6302 ms
+2026-07-01 14:01:56.196 +02:00 [INF] HTTP GET /api/products responded 307 in 28.6260 ms
+2026-07-01 14:01:56.456 +02:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2026-07-01 14:01:56.456 +02:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2026-07-01 14:01:56.479 +02:00 [INF] AuthenticationScheme: Bearer was challenged.
+2026-07-01 14:01:56.479 +02:00 [INF] AuthenticationScheme: Bearer was challenged.
+2026-07-01 14:01:56.483 +02:00 [INF] HTTP GET /api/producttypes responded 401 in 188.0865 ms
+2026-07-01 14:01:56.485 +02:00 [INF] HTTP GET /api/products responded 401 in 190.5526 ms
+2026-07-01 14:03:39.004 +02:00 [INF] HTTP GET /api/producttypes responded 307 in 0.2438 ms
+2026-07-01 14:03:39.028 +02:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2026-07-01 14:03:39.032 +02:00 [INF] AuthenticationScheme: Bearer was challenged.
+2026-07-01 14:03:39.033 +02:00 [INF] HTTP GET /api/producttypes responded 401 in 7.4530 ms
+2026-07-01 14:06:31.995 +02:00 [INF] Starting database seeding...
+2026-07-01 14:06:35.548 +02:00 [INF] Database seeding completed.
+2026-07-01 14:06:36.240 +02:00 [INF] Now listening on: https://localhost:7090
+2026-07-01 14:06:36.244 +02:00 [INF] Now listening on: http://localhost:5153
+2026-07-01 14:06:36.380 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-07-01 14:06:36.387 +02:00 [INF] Hosting environment: Development
+2026-07-01 14:06:36.388 +02:00 [INF] Content root path: C:\WerkSoekAssessments\Bongoe2\VariBillWebAPI
+2026-07-01 14:12:23.440 +02:00 [INF] Starting database seeding...
+2026-07-01 14:12:28.559 +02:00 [INF] Database seeding completed.
+2026-07-01 14:12:29.353 +02:00 [INF] Now listening on: https://localhost:7090
+2026-07-01 14:12:29.356 +02:00 [INF] Now listening on: http://localhost:5153
+2026-07-01 14:12:29.732 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-07-01 14:12:29.734 +02:00 [INF] Hosting environment: Development
+2026-07-01 14:12:29.737 +02:00 [INF] Content root path: C:\WerkSoekAssessments\Bongoe2\VariBillWebAPI
+2026-07-01 14:13:56.138 +02:00 [INF] HTTP GET /api/products responded 307 in 82.9240 ms
+2026-07-01 14:13:56.138 +02:00 [INF] HTTP GET /api/producttypes responded 307 in 82.9234 ms
+2026-07-01 14:13:56.400 +02:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2026-07-01 14:13:56.400 +02:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2026-07-01 14:13:56.418 +02:00 [INF] AuthenticationScheme: Bearer was challenged.
+2026-07-01 14:13:56.418 +02:00 [INF] AuthenticationScheme: Bearer was challenged.
+2026-07-01 14:13:56.422 +02:00 [INF] HTTP GET /api/producttypes responded 401 in 186.9217 ms
+2026-07-01 14:13:56.424 +02:00 [INF] HTTP GET /api/products responded 401 in 188.9213 ms
+2026-07-01 14:16:01.882 +02:00 [INF] HTTP GET /api/products responded 307 in 0.2178 ms
+2026-07-01 14:16:01.903 +02:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2026-07-01 14:16:01.907 +02:00 [INF] AuthenticationScheme: Bearer was challenged.
+2026-07-01 14:16:01.910 +02:00 [INF] HTTP GET /api/products responded 401 in 10.0438 ms
+2026-07-01 14:16:05.235 +02:00 [INF] HTTP GET /api/products responded 307 in 0.0951 ms
+2026-07-01 14:16:05.238 +02:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2026-07-01 14:16:05.240 +02:00 [INF] AuthenticationScheme: Bearer was challenged.
+2026-07-01 14:16:05.241 +02:00 [INF] HTTP GET /api/products responded 401 in 3.4298 ms
+2026-07-01 14:16:06.831 +02:00 [INF] HTTP GET /api/producttypes responded 307 in 0.1014 ms
+2026-07-01 14:16:06.836 +02:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2026-07-01 14:16:06.837 +02:00 [INF] AuthenticationScheme: Bearer was challenged.
+2026-07-01 14:16:06.838 +02:00 [INF] HTTP GET /api/producttypes responded 401 in 3.1275 ms
+2026-07-01 14:23:06.740 +02:00 [INF] Starting database seeding...
+2026-07-01 14:23:12.176 +02:00 [INF] Database seeding completed.
+2026-07-01 14:23:13.076 +02:00 [INF] Now listening on: https://localhost:7090
+2026-07-01 14:23:13.085 +02:00 [INF] Now listening on: http://localhost:5153
+2026-07-01 14:23:13.522 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-07-01 14:23:13.524 +02:00 [INF] Hosting environment: Development
+2026-07-01 14:23:13.526 +02:00 [INF] Content root path: C:\WerkSoekAssessments\Bongoe2\VariBillWebAPI
+2026-07-01 14:23:26.213 +02:00 [INF] HTTP GET /api/products responded 307 in 32.3577 ms
+2026-07-01 14:23:26.213 +02:00 [INF] HTTP GET /api/producttypes responded 307 in 32.3548 ms
+2026-07-01 14:23:26.524 +02:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2026-07-01 14:23:26.524 +02:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2026-07-01 14:23:26.544 +02:00 [INF] AuthenticationScheme: Bearer was challenged.
+2026-07-01 14:23:26.544 +02:00 [INF] AuthenticationScheme: Bearer was challenged.
+2026-07-01 14:23:26.547 +02:00 [INF] HTTP GET /api/producttypes responded 401 in 202.8669 ms
+2026-07-01 14:23:26.549 +02:00 [INF] HTTP GET /api/products responded 401 in 205.5699 ms
+2026-07-01 14:23:28.980 +02:00 [INF] HTTP GET /api/producttypes responded 307 in 0.2285 ms
+2026-07-01 14:23:28.987 +02:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2026-07-01 14:23:28.992 +02:00 [INF] AuthenticationScheme: Bearer was challenged.
+2026-07-01 14:23:28.993 +02:00 [INF] HTTP GET /api/producttypes responded 401 in 8.5145 ms
+2026-07-01 14:23:52.394 +02:00 [INF] Starting database seeding...
+2026-07-01 14:24:21.046 +02:00 [INF] Starting database seeding...
+2026-07-01 14:24:25.196 +02:00 [INF] Database seeding completed.
+2026-07-01 14:24:26.982 +02:00 [INF] Now listening on: https://localhost:7090
+2026-07-01 14:24:27.027 +02:00 [INF] Now listening on: http://localhost:5153
+2026-07-01 14:24:27.175 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-07-01 14:24:27.177 +02:00 [INF] Hosting environment: Development
+2026-07-01 14:24:27.179 +02:00 [INF] Content root path: C:\WerkSoekAssessments\Bongoe2\VariBillWebAPI
+2026-07-01 14:25:22.563 +02:00 [INF] Starting database seeding...
+2026-07-01 14:25:26.441 +02:00 [INF] Database seeding completed.
+2026-07-01 14:25:27.130 +02:00 [INF] Now listening on: https://localhost:7090
+2026-07-01 14:25:27.135 +02:00 [INF] Now listening on: http://localhost:5153
+2026-07-01 14:25:27.257 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-07-01 14:25:27.268 +02:00 [INF] Hosting environment: Development
+2026-07-01 14:25:27.272 +02:00 [INF] Content root path: C:\WerkSoekAssessments\Bongoe2\VariBillWebAPI
+2026-07-01 14:28:05.258 +02:00 [INF] Starting database seeding...
+2026-07-01 14:28:11.726 +02:00 [INF] Database seeding completed.
+2026-07-01 14:28:14.186 +02:00 [INF] Now listening on: https://localhost:7090
+2026-07-01 14:28:14.196 +02:00 [INF] Now listening on: http://localhost:5153
+2026-07-01 14:28:14.681 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-07-01 14:28:14.683 +02:00 [INF] Hosting environment: Development
+2026-07-01 14:28:14.685 +02:00 [INF] Content root path: C:\WerkSoekAssessments\Bongoe2\VariBillWebAPI
