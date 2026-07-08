@@ -3,10 +3,6 @@
     "Name": "New Profile",
     "Projects": [
       {
-        "Path": "VariBillWebApp.Mvc\\VariBillWebApp.Mvc.csproj",
-        "Action": "Start"
-      },
-      {
         "Path": "VariBillWebAPI\\VariBillWebAPI.csproj",
         "Action": "Start"
       },
@@ -15,7 +11,7 @@
         "Action": "Start"
       },
       {
-        "Path": "Bongoe.Identity\\Bongoe.Identity.csproj",
+        "Path": "VariBillWebApp.Mvc\\VariBillWebApp.Mvc.csproj",
         "Action": "Start"
       }
     ]

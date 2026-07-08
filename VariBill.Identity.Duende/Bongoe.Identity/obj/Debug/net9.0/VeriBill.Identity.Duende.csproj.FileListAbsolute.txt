@@ -281,10 +281,10 @@ C:\WerkSoekAssessments\FinalAssessment\Bongoe2\VariBill.Identity.Duende\Bongoe.I
 C:\WerkSoekAssessments\FinalAssessment\Bongoe2\VariBill.Identity.Duende\Bongoe.Identity\obj\Debug\net9.0\staticwebassets.development.json
 C:\WerkSoekAssessments\FinalAssessment\Bongoe2\VariBill.Identity.Duende\Bongoe.Identity\obj\Debug\net9.0\staticwebassets.build.endpoints.json
 C:\WerkSoekAssessments\FinalAssessment\Bongoe2\VariBill.Identity.Duende\Bongoe.Identity\obj\Debug\net9.0\swae.build.ex.cache
-C:\WerkSoekAssessments\FinalAssessment\Bongoe2\VariBill.Identity.Duende\Bongoe.Identity\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt
 C:\WerkSoekAssessments\FinalAssessment\Bongoe2\VariBill.Identity.Duende\Bongoe.Identity\obj\Debug\net9.0\VeriBill.48D7198E.Up2Date
 C:\WerkSoekAssessments\FinalAssessment\Bongoe2\VariBill.Identity.Duende\Bongoe.Identity\obj\Debug\net9.0\VeriBill.Identity.Duende.dll
 C:\WerkSoekAssessments\FinalAssessment\Bongoe2\VariBill.Identity.Duende\Bongoe.Identity\obj\Debug\net9.0\refint\VeriBill.Identity.Duende.dll
 C:\WerkSoekAssessments\FinalAssessment\Bongoe2\VariBill.Identity.Duende\Bongoe.Identity\obj\Debug\net9.0\VeriBill.Identity.Duende.pdb
 C:\WerkSoekAssessments\FinalAssessment\Bongoe2\VariBill.Identity.Duende\Bongoe.Identity\obj\Debug\net9.0\VeriBill.Identity.Duende.genruntimeconfig.cache
 C:\WerkSoekAssessments\FinalAssessment\Bongoe2\VariBill.Identity.Duende\Bongoe.Identity\obj\Debug\net9.0\ref\VeriBill.Identity.Duende.dll
+C:\WerkSoekAssessments\FinalAssessment\Bongoe2\VariBill.Identity.Duende\Bongoe.Identity\obj\Debug\net9.0\VeriBill.Identity.Duende.sourcelink.json

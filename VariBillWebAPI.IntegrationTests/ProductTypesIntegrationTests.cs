@@ -1,6 +1,7 @@
 using System.Net;
 using System.Net.Http.Json;
 using Microsoft.AspNetCore.Mvc.Testing;
+using VariBillWebAPI.IntegrationTests;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 using VariBillWebAPI;
@@ -26,6 +27,16 @@ public class ProductTypesIntegrationTests : IClassFixture<WebApplicationFactory<
                 {
                     options.UseInMemoryDatabase("TestDb");
                 });
+
+                // Replace authentication with a test authentication handler to avoid external IdentityServer calls
+                services.AddAuthentication(options =>
+                {
+                    options.DefaultAuthenticateScheme = "TestScheme";
+                    options.DefaultChallengeScheme = "TestScheme";
+                }).AddScheme<Microsoft.AspNetCore.Authentication.AuthenticationSchemeOptions, TestAuthHandler>(
+                    "TestScheme", _ => { });
+
+                services.AddAuthorization();
             });
         });
     }
