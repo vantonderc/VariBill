@@ -740,7 +740,6 @@ C:\WerkSoekAssessments\FinalAssessment\Bongoe2\Bongoe.Identity\obj\Debug\net9.0\
 C:\WerkSoekAssessments\FinalAssessment\Bongoe2\Bongoe.Identity\obj\Debug\net9.0\staticwebassets.build.json.cache
 C:\WerkSoekAssessments\FinalAssessment\Bongoe2\Bongoe.Identity\obj\Debug\net9.0\staticwebassets.development.json
 C:\WerkSoekAssessments\FinalAssessment\Bongoe2\Bongoe.Identity\obj\Debug\net9.0\staticwebassets.build.endpoints.json
-C:\WerkSoekAssessments\FinalAssessment\Bongoe2\Bongoe.Identity\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt
 C:\WerkSoekAssessments\FinalAssessment\Bongoe2\Bongoe.Identity\obj\Debug\net9.0\Bongoe.I.396F3AD0.Up2Date
 C:\WerkSoekAssessments\FinalAssessment\Bongoe2\Bongoe.Identity\obj\Debug\net9.0\Bongoe.Identity.dll
 C:\WerkSoekAssessments\FinalAssessment\Bongoe2\Bongoe.Identity\obj\Debug\net9.0\refint\Bongoe.Identity.dll
@@ -854,3 +853,4 @@ C:\WerkSoekAssessments\FinalAssessment\Bongoe2\Bongoe.Identity\obj\Debug\net9.0\
 C:\WerkSoekAssessments\FinalAssessment\Bongoe2\Bongoe.Identity\obj\Debug\net9.0\swae.build.ex.cache
 C:\WerkSoekAssessments\FinalAssessment\Bongoe2\Bongoe.Identity\bin\Debug\net9.0\Data\appsettings.json
 C:\WerkSoekAssessments\FinalAssessment\Bongoe2\Bongoe.Identity\bin\Debug\net9.0\ServiceStack.Text.dll
+C:\WerkSoekAssessments\FinalAssessment\Bongoe2\Bongoe.Identity\obj\Debug\net9.0\Bongoe.Identity.sourcelink.json

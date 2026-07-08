@@ -11,7 +11,7 @@ public static class TestDataSeeder
     public static void Seed(VeriBillTestDBContext context)
     {
         // ProductTypes
-        var electronics = new ProductType1
+        var electronics = new ProductType
         {
             Id = Guid.Parse("11111111-1111-1111-1111-111111111111"),
             Name = "Electronics",
@@ -20,7 +20,7 @@ public static class TestDataSeeder
             IsDeleted = false
         };
 
-        var books = new ProductType1
+        var books = new ProductType
         {
             Id = Guid.Parse("22222222-2222-2222-2222-222222222222"),
             Name = "Books",

@@ -263,10 +263,10 @@ C:\WerkSoekAssessments\FinalAssessment\Bongoe2\Bomgoe.Identity0\Bongoe.Identity\
 C:\WerkSoekAssessments\FinalAssessment\Bongoe2\Bomgoe.Identity0\Bongoe.Identity\obj\Debug\net9.0\staticwebassets.development.json
 C:\WerkSoekAssessments\FinalAssessment\Bongoe2\Bomgoe.Identity0\Bongoe.Identity\obj\Debug\net9.0\staticwebassets.build.endpoints.json
 C:\WerkSoekAssessments\FinalAssessment\Bongoe2\Bomgoe.Identity0\Bongoe.Identity\obj\Debug\net9.0\swae.build.ex.cache
-C:\WerkSoekAssessments\FinalAssessment\Bongoe2\Bomgoe.Identity0\Bongoe.Identity\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt
 C:\WerkSoekAssessments\FinalAssessment\Bongoe2\Bomgoe.Identity0\Bongoe.Identity\obj\Debug\net9.0\bxdf.csproj.Up2Date
 C:\WerkSoekAssessments\FinalAssessment\Bongoe2\Bomgoe.Identity0\Bongoe.Identity\obj\Debug\net9.0\bxdf.dll
 C:\WerkSoekAssessments\FinalAssessment\Bongoe2\Bomgoe.Identity0\Bongoe.Identity\obj\Debug\net9.0\refint\bxdf.dll
 C:\WerkSoekAssessments\FinalAssessment\Bongoe2\Bomgoe.Identity0\Bongoe.Identity\obj\Debug\net9.0\bxdf.pdb
 C:\WerkSoekAssessments\FinalAssessment\Bongoe2\Bomgoe.Identity0\Bongoe.Identity\obj\Debug\net9.0\bxdf.genruntimeconfig.cache
 C:\WerkSoekAssessments\FinalAssessment\Bongoe2\Bomgoe.Identity0\Bongoe.Identity\obj\Debug\net9.0\ref\bxdf.dll
+C:\WerkSoekAssessments\FinalAssessment\Bongoe2\Bomgoe.Identity0\Bongoe.Identity\obj\Debug\net9.0\bxdf.sourcelink.json

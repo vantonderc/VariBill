@@ -113,6 +113,8 @@ builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
     });
 
 builder.Services.AddAuthorization();
+
+builder.Services.AddCascadingAuthenticationState();
 builder.Services.AddMemoryCache();
 
 // Register Custom Health Checks
@@ -173,3 +175,9 @@ app.Run();
 
 // Dispose Serilog on exit
 Log.CloseAndFlush();
+
+namespace VariBillWebAPI
+{
+    // Expose Program as a public partial class so WebApplicationFactory<Program> in integration tests can access it
+    public partial class Program { }
+}
