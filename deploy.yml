@@ -18,6 +18,10 @@ env:
 jobs:
   build-and-test:
     runs-on: ubuntu-latest
+    
+    # This explicit permission allows the runner to fetch the code repository
+    permissions:
+      contents: read
 
     steps:
     - name: Checkout code
