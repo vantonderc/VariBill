@@ -249,3 +249,4 @@ C:\WerkSoekAssessments\FinalAssessment\Bongoe2\VariBillWebApp.Mvc\obj\Debug\net9
 C:\WerkSoekAssessments\FinalAssessment\Bongoe2\VariBillWebApp.Mvc\obj\Debug\net9.0\swae.build.ex.cache
 C:\WerkSoekAssessments\FinalAssessment\Bongoe2\VariBillWebApp.Mvc\obj\Debug\net9.0\compressed\ob80txboaf-{0}-zczf36mb3l-zczf36mb3l.gz
 C:\WerkSoekAssessments\FinalAssessment\Bongoe2\VariBillWebApp.Mvc\obj\Debug\net9.0\VariBillWebApp.Mvc.sourcelink.json
+C:\WerkSoekAssessments\FinalAssessment\Bongoe2\VariBillWebApp.Mvc\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt

@@ -1,0 +1,1372 @@
+2026-07-18 12:33:12.506 +02:00 [INF] APISettings:VariBillAPIAddress = http://localhost:5153
+2026-07-18 12:33:12.723 +02:00 [INF] User profile is available. Using 'C:\Users\charl\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-07-18 12:33:13.299 +02:00 [INF] Now listening on: https://localhost:7253
+2026-07-18 12:33:13.345 +02:00 [INF] Now listening on: http://localhost:5180
+2026-07-18 12:33:13.434 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-07-18 12:33:13.436 +02:00 [INF] Hosting environment: Development
+2026-07-18 12:33:13.646 +02:00 [INF] Content root path: C:\WerkSoekAssessments\FinalAssessment\Bongoe2\VariBillWebApp.Mvc
+2026-07-18 12:33:16.906 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7253/ - null null
+2026-07-18 12:33:17.725 +02:00 [INF] Executing endpoint 'VariBillWebApp.Mvc.Controllers.HomeController.Index (VariBillWebApp.Mvc)'
+2026-07-18 12:33:17.829 +02:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller VariBillWebApp.Mvc.Controllers.HomeController (VariBillWebApp.Mvc).
+2026-07-18 12:33:17.890 +02:00 [INF] Executing ViewResult, running view Index.
+2026-07-18 12:33:18.266 +02:00 [INF] Executed ViewResult - view Index executed in 388.2522ms.
+2026-07-18 12:33:18.475 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7253/lib/bootstrap/dist/css/bootstrap.min.css - null null
+2026-07-18 12:33:18.475 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7253/css/site.css?v=F7CzWWFwF6gRItTAn4wZ8wwb00iZjPZ0rySzW1U8qEI - null null
+2026-07-18 12:33:18.475 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7253/_framework/aspnetcore-browser-refresh.js - null null
+2026-07-18 12:33:18.499 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7253/VariBillWebApp.Mvc.styles.css?v=0obruf0JVtfblplH09Yw8bAFufgbtnbUkieTHa04dcU - null null
+2026-07-18 12:33:18.476 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7253/lib/bootstrap/dist/js/bootstrap.bundle.min.js - null null
+2026-07-18 12:33:18.508 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7253/lib/jquery/dist/jquery.min.js - null null
+2026-07-18 12:33:18.569 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7253/js/site.js?v=hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo - null null
+2026-07-18 12:33:18.605 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7253/_vs/browserLink - null null
+2026-07-18 12:33:18.720 +02:00 [INF] Executed action VariBillWebApp.Mvc.Controllers.HomeController.Index (VariBillWebApp.Mvc) in 877.4885ms
+2026-07-18 12:33:18.724 +02:00 [INF] The file /lib/bootstrap/dist/css/bootstrap.min.css was not modified
+2026-07-18 12:33:18.725 +02:00 [INF] The file /css/site.css was not modified
+2026-07-18 12:33:18.739 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7253/_framework/aspnetcore-browser-refresh.js - 200 14941 application/javascript; charset=utf-8 264.729ms
+2026-07-18 12:33:18.751 +02:00 [INF] The file /VariBillWebApp.Mvc.styles.css was not modified
+2026-07-18 12:33:18.754 +02:00 [INF] The file /lib/bootstrap/dist/js/bootstrap.bundle.min.js was not modified
+2026-07-18 12:33:18.758 +02:00 [INF] The file /lib/jquery/dist/jquery.min.js was not modified
+2026-07-18 12:33:18.766 +02:00 [INF] The file /js/site.js was not modified
+2026-07-18 12:33:18.782 +02:00 [INF] Executed endpoint 'VariBillWebApp.Mvc.Controllers.HomeController.Index (VariBillWebApp.Mvc)'
+2026-07-18 12:33:18.789 +02:00 [INF] HTTP GET /css/site.css responded 304 in 63.3747 ms
+2026-07-18 12:33:18.789 +02:00 [INF] HTTP GET /lib/bootstrap/dist/css/bootstrap.min.css responded 304 in 69.3665 ms
+2026-07-18 12:33:18.804 +02:00 [INF] HTTP GET /VariBillWebApp.Mvc.styles.css responded 304 in 53.6301 ms
+2026-07-18 12:33:18.806 +02:00 [INF] HTTP GET /lib/bootstrap/dist/js/bootstrap.bundle.min.js responded 304 in 51.7602 ms
+2026-07-18 12:33:18.808 +02:00 [INF] HTTP GET /lib/jquery/dist/jquery.min.js responded 304 in 50.0524 ms
+2026-07-18 12:33:18.810 +02:00 [INF] HTTP GET /js/site.js responded 304 in 44.1121 ms
+2026-07-18 12:33:18.814 +02:00 [INF] HTTP GET / responded 200 in 1405.3713 ms
+2026-07-18 12:33:18.817 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7253/css/site.css?v=F7CzWWFwF6gRItTAn4wZ8wwb00iZjPZ0rySzW1U8qEI - 304 null text/css 341.3317ms
+2026-07-18 12:33:18.820 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7253/lib/bootstrap/dist/css/bootstrap.min.css - 304 null text/css 344.6228ms
+2026-07-18 12:33:18.822 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7253/VariBillWebApp.Mvc.styles.css?v=0obruf0JVtfblplH09Yw8bAFufgbtnbUkieTHa04dcU - 304 null text/css 335.9896ms
+2026-07-18 12:33:18.826 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7253/lib/bootstrap/dist/js/bootstrap.bundle.min.js - 304 null text/javascript 350.5395ms
+2026-07-18 12:33:18.831 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7253/lib/jquery/dist/jquery.min.js - 304 null text/javascript 325.0964ms
+2026-07-18 12:33:18.835 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7253/js/site.js?v=hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo - 304 null text/javascript 267.7102ms
+2026-07-18 12:33:18.846 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7253/ - 200 null text/html; charset=utf-8 1944.1038ms
+2026-07-18 12:33:18.870 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7253/_vs/browserLink - 200 null text/javascript; charset=UTF-8 264.4051ms
+2026-07-18 12:33:19.272 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:7253/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map - null null
+2026-07-18 12:33:19.559 +02:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map'. Physical path: 'C:\WerkSoekAssessments\FinalAssessment\Bongoe2\VariBillWebApp.Mvc\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js.map'
+2026-07-18 12:33:19.673 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7253/catalog/products - null null
+2026-07-18 12:33:19.673 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7253/catalog/producttypes - null null
+2026-07-18 12:33:19.726 +02:00 [INF] HTTP GET /lib/bootstrap/dist/js/bootstrap.bundle.min.js.map responded 200 in 308.6617 ms
+2026-07-18 12:33:19.746 +02:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2026-07-18 12:33:19.755 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:7253/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map - 200 332090 text/plain 482.7479ms
+2026-07-18 12:33:19.770 +02:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2026-07-18 12:33:24.416 +02:00 [INF] AuthenticationScheme: OpenIdConnect was challenged.
+2026-07-18 12:33:24.416 +02:00 [INF] AuthenticationScheme: OpenIdConnect was challenged.
+2026-07-18 12:33:24.420 +02:00 [INF] HTTP GET /catalog/products responded 302 in 4687.9019 ms
+2026-07-18 12:33:24.420 +02:00 [INF] HTTP GET /catalog/producttypes responded 302 in 4668.5294 ms
+2026-07-18 12:33:24.423 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7253/catalog/products - 302 0 null 4750.2987ms
+2026-07-18 12:33:24.426 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7253/catalog/producttypes - 302 0 null 4752.198ms
+2026-07-18 12:33:32.994 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7253/product - null null
+2026-07-18 12:33:33.018 +02:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2026-07-18 12:33:33.099 +02:00 [INF] AuthenticationScheme: OpenIdConnect was challenged.
+2026-07-18 12:33:33.101 +02:00 [INF] HTTP GET /product responded 302 in 87.7793 ms
+2026-07-18 12:33:33.104 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7253/product - 302 null null 110.5116ms
+2026-07-18 12:33:36.694 +02:00 [INF] Request starting HTTP/2 POST https://localhost:7253/signin-oidc - application/x-www-form-urlencoded 593
+2026-07-18 12:33:37.527 +02:00 [INF] AuthenticationScheme: Cookies signed in.
+2026-07-18 12:33:37.529 +02:00 [INF] HTTP POST /signin-oidc responded 302 in 818.8142 ms
+2026-07-18 12:33:37.532 +02:00 [INF] Request finished HTTP/2 POST https://localhost:7253/signin-oidc - 302 null null 837.5283ms
+2026-07-18 12:33:37.537 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7253/product - null null
+2026-07-18 12:33:37.547 +02:00 [INF] Executing endpoint 'VariBillWebApp.Mvc.Controllers.ProductController.Index (VariBillWebApp.Mvc)'
+2026-07-18 12:33:37.562 +02:00 [INF] Route matched with {action = "Index", controller = "Product"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index() on controller VariBillWebApp.Mvc.Controllers.ProductController (VariBillWebApp.Mvc).
+2026-07-18 12:33:41.251 +02:00 [INF] Start processing HTTP request GET http://localhost:5153/api/products
+2026-07-18 12:33:41.272 +02:00 [INF] Sending HTTP request GET http://localhost:5153/api/products
+2026-07-18 12:33:49.656 +02:00 [INF] Received HTTP response headers after 8379.1494ms - 200
+2026-07-18 12:33:49.665 +02:00 [INF] End processing HTTP request after 8415.8267ms - 200
+2026-07-18 12:33:52.610 +02:00 [INF] Executing ViewResult, running view Index.
+2026-07-18 12:33:52.656 +02:00 [INF] Executed ViewResult - view Index executed in 47.5793ms.
+2026-07-18 12:33:52.659 +02:00 [INF] Executed action VariBillWebApp.Mvc.Controllers.ProductController.Index (VariBillWebApp.Mvc) in 15093.8411ms
+2026-07-18 12:33:52.719 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7253/_framework/aspnetcore-browser-refresh.js - null null
+2026-07-18 12:33:52.722 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7253/_vs/browserLink - null null
+2026-07-18 12:33:52.747 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7253/_framework/aspnetcore-browser-refresh.js - 200 14941 application/javascript; charset=utf-8 27.793ms
+2026-07-18 12:33:52.736 +02:00 [INF] Executed endpoint 'VariBillWebApp.Mvc.Controllers.ProductController.Index (VariBillWebApp.Mvc)'
+2026-07-18 12:33:52.768 +02:00 [INF] HTTP GET /product responded 200 in 15225.5120 ms
+2026-07-18 12:33:52.771 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7253/product - 200 null text/html; charset=utf-8 15234.5804ms
+2026-07-18 12:33:52.797 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7253/_vs/browserLink - 200 null text/javascript; charset=UTF-8 74.9238ms
+2026-07-18 12:38:11.823 +02:00 [INF] APISettings:VariBillAPIAddress = http://localhost:5153
+2026-07-18 12:38:11.985 +02:00 [INF] User profile is available. Using 'C:\Users\charl\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-07-18 12:38:12.312 +02:00 [INF] Now listening on: https://localhost:7253
+2026-07-18 12:38:12.315 +02:00 [INF] Now listening on: http://localhost:5180
+2026-07-18 12:38:12.385 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-07-18 12:38:12.387 +02:00 [INF] Hosting environment: Development
+2026-07-18 12:38:12.388 +02:00 [INF] Content root path: C:\WerkSoekAssessments\FinalAssessment\Bongoe2\VariBillWebApp.Mvc
+2026-07-18 12:38:15.925 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7253/ - null null
+2026-07-18 12:38:16.489 +02:00 [INF] Executing endpoint 'VariBillWebApp.Mvc.Controllers.HomeController.Index (VariBillWebApp.Mvc)'
+2026-07-18 12:38:16.567 +02:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller VariBillWebApp.Mvc.Controllers.HomeController (VariBillWebApp.Mvc).
+2026-07-18 12:38:16.605 +02:00 [INF] Executing ViewResult, running view Index.
+2026-07-18 12:38:16.910 +02:00 [INF] Executed ViewResult - view Index executed in 310.2059ms.
+2026-07-18 12:38:17.002 +02:00 [INF] Executed action VariBillWebApp.Mvc.Controllers.HomeController.Index (VariBillWebApp.Mvc) in 429.9327ms
+2026-07-18 12:38:17.023 +02:00 [INF] Executed endpoint 'VariBillWebApp.Mvc.Controllers.HomeController.Index (VariBillWebApp.Mvc)'
+2026-07-18 12:38:17.033 +02:00 [INF] HTTP GET / responded 200 in 819.9328 ms
+2026-07-18 12:38:17.052 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7253/ - 200 null text/html; charset=utf-8 1130.8919ms
+2026-07-18 12:38:17.483 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:7253/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map - null null
+2026-07-18 12:38:17.546 +02:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map'. Physical path: 'C:\WerkSoekAssessments\FinalAssessment\Bongoe2\VariBillWebApp.Mvc\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js.map'
+2026-07-18 12:38:17.551 +02:00 [INF] HTTP GET /lib/bootstrap/dist/js/bootstrap.bundle.min.js.map responded 200 in 61.5035 ms
+2026-07-18 12:38:17.555 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:7253/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map - 200 332090 text/plain 72.2506ms
+2026-07-18 12:38:17.611 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7253/_vs/browserLink - null null
+2026-07-18 12:38:17.613 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7253/_framework/aspnetcore-browser-refresh.js - null null
+2026-07-18 12:38:17.659 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7253/_framework/aspnetcore-browser-refresh.js - 200 14941 application/javascript; charset=utf-8 46.2644ms
+2026-07-18 12:38:17.668 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7253/catalog/products - null null
+2026-07-18 12:38:17.713 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7253/catalog/producttypes - null null
+2026-07-18 12:38:17.746 +02:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2026-07-18 12:38:17.744 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7253/_vs/browserLink - 200 null text/javascript; charset=UTF-8 133.0933ms
+2026-07-18 12:38:17.776 +02:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2026-07-18 12:38:18.878 +02:00 [INF] AuthenticationScheme: OpenIdConnect was challenged.
+2026-07-18 12:38:18.878 +02:00 [INF] AuthenticationScheme: OpenIdConnect was challenged.
+2026-07-18 12:38:18.881 +02:00 [INF] HTTP GET /catalog/products responded 302 in 1148.3022 ms
+2026-07-18 12:38:18.882 +02:00 [INF] HTTP GET /catalog/producttypes responded 302 in 1110.9988 ms
+2026-07-18 12:38:18.885 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7253/catalog/products - 302 0 null 1216.8742ms
+2026-07-18 12:38:18.888 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7253/catalog/producttypes - 302 0 null 1175.2151ms
+2026-07-18 12:38:36.607 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7253/producttype - null null
+2026-07-18 12:38:36.618 +02:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2026-07-18 12:38:36.673 +02:00 [INF] AuthenticationScheme: OpenIdConnect was challenged.
+2026-07-18 12:38:36.675 +02:00 [INF] HTTP GET /producttype responded 302 in 60.7349 ms
+2026-07-18 12:38:36.677 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7253/producttype - 302 null null 70.2491ms
+2026-07-18 12:38:39.211 +02:00 [INF] Request starting HTTP/2 POST https://localhost:7253/signin-oidc - application/x-www-form-urlencoded 593
+2026-07-18 12:38:39.868 +02:00 [INF] AuthenticationScheme: Cookies signed in.
+2026-07-18 12:38:39.870 +02:00 [INF] HTTP POST /signin-oidc responded 302 in 649.1509 ms
+2026-07-18 12:38:39.874 +02:00 [INF] Request finished HTTP/2 POST https://localhost:7253/signin-oidc - 302 null null 663.4976ms
+2026-07-18 12:38:39.881 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7253/producttype - null null
+2026-07-18 12:38:39.891 +02:00 [INF] Executing endpoint 'VariBillWebApp.Mvc.Controllers.ProductTypeController.Index (VariBillWebApp.Mvc)'
+2026-07-18 12:38:39.905 +02:00 [INF] Route matched with {action = "Index", controller = "ProductType"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index() on controller VariBillWebApp.Mvc.Controllers.ProductTypeController (VariBillWebApp.Mvc).
+2026-07-18 12:38:44.022 +02:00 [INF] Start processing HTTP request GET http://localhost:5153/api/producttypes
+2026-07-18 12:38:44.105 +02:00 [INF] Sending HTTP request GET http://localhost:5153/api/producttypes
+2026-07-18 12:38:44.977 +02:00 [INF] Received HTTP response headers after 662.4963ms - 401
+2026-07-18 12:38:45.288 +02:00 [INF] End processing HTTP request after 1267.2664ms - 401
+2026-07-18 12:38:45.299 +02:00 [WRN] API call failed. Status: "Unauthorized", Error: 
+2026-07-18 12:38:45.305 +02:00 [WRN] ProductTypeService.GetAllProductTypesAsync: API returned null
+2026-07-18 12:38:45.317 +02:00 [INF] Executing ViewResult, running view Index.
+2026-07-18 12:38:45.354 +02:00 [INF] Executed ViewResult - view Index executed in 39.1826ms.
+2026-07-18 12:38:45.392 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7253/_framework/aspnetcore-browser-refresh.js - null null
+2026-07-18 12:38:45.410 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7253/_framework/aspnetcore-browser-refresh.js - 200 14941 application/javascript; charset=utf-8 17.399ms
+2026-07-18 12:38:45.407 +02:00 [INF] Executed action VariBillWebApp.Mvc.Controllers.ProductTypeController.Index (VariBillWebApp.Mvc) in 5499.1878ms
+2026-07-18 12:38:45.403 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7253/_vs/browserLink - null null
+2026-07-18 12:38:45.419 +02:00 [INF] Executed endpoint 'VariBillWebApp.Mvc.Controllers.ProductTypeController.Index (VariBillWebApp.Mvc)'
+2026-07-18 12:38:45.425 +02:00 [INF] HTTP GET /producttype responded 200 in 5537.9387 ms
+2026-07-18 12:38:45.427 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7253/producttype - 200 null text/html; charset=utf-8 5546.1953ms
+2026-07-18 12:38:45.458 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7253/_vs/browserLink - 200 null text/javascript; charset=UTF-8 55.2201ms
+2026-07-18 12:38:48.727 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7253/producttype/create - null null
+2026-07-18 12:38:48.737 +02:00 [INF] Executing endpoint 'VariBillWebApp.Mvc.Controllers.ProductTypeController.Create (VariBillWebApp.Mvc)'
+2026-07-18 12:38:48.741 +02:00 [INF] Route matched with {action = "Create", controller = "ProductType"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Create() on controller VariBillWebApp.Mvc.Controllers.ProductTypeController (VariBillWebApp.Mvc).
+2026-07-18 12:38:48.748 +02:00 [INF] Executing ViewResult, running view Create.
+2026-07-18 12:38:48.829 +02:00 [INF] Executed ViewResult - view Create executed in 81.8328ms.
+2026-07-18 12:38:48.833 +02:00 [INF] Executed action VariBillWebApp.Mvc.Controllers.ProductTypeController.Create (VariBillWebApp.Mvc) in 87.85ms
+2026-07-18 12:38:48.837 +02:00 [INF] Executed endpoint 'VariBillWebApp.Mvc.Controllers.ProductTypeController.Create (VariBillWebApp.Mvc)'
+2026-07-18 12:38:48.847 +02:00 [INF] HTTP GET /producttype/create responded 200 in 110.9160 ms
+2026-07-18 12:38:48.850 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7253/_vs/browserLink - null null
+2026-07-18 12:38:48.850 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7253/_framework/aspnetcore-browser-refresh.js - null null
+2026-07-18 12:38:48.855 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7253/producttype/create - 200 null text/html; charset=utf-8 127.1119ms
+2026-07-18 12:38:48.862 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7253/_framework/aspnetcore-browser-refresh.js - 200 14941 application/javascript; charset=utf-8 11.7329ms
+2026-07-18 12:38:48.915 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7253/_vs/browserLink - 200 null text/javascript; charset=UTF-8 65.2938ms
+2026-07-18 12:38:53.285 +02:00 [INF] Request starting HTTP/2 POST https://localhost:7253/producttype/create - application/x-www-form-urlencoded 261
+2026-07-18 12:38:53.293 +02:00 [INF] Executing endpoint 'VariBillWebApp.Mvc.Controllers.ProductTypeController.Create (VariBillWebApp.Mvc)'
+2026-07-18 12:38:53.314 +02:00 [INF] Route matched with {action = "Create", controller = "ProductType"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Create(VariBillWebApp.Mvc.Models.ViewModels.CreateProductTypeModel) on controller VariBillWebApp.Mvc.Controllers.ProductTypeController (VariBillWebApp.Mvc).
+2026-07-18 12:38:59.099 +02:00 [INF] Start processing HTTP request POST http://localhost:5153/api/producttypes
+2026-07-18 12:38:59.102 +02:00 [INF] Sending HTTP request POST http://localhost:5153/api/producttypes
+2026-07-18 12:38:59.176 +02:00 [INF] Received HTTP response headers after 72.5885ms - 401
+2026-07-18 12:38:59.178 +02:00 [INF] End processing HTTP request after 78.707ms - 401
+2026-07-18 12:39:36.369 +02:00 [INF] APISettings:VariBillAPIAddress = http://localhost:5153
+2026-07-18 12:39:36.509 +02:00 [INF] User profile is available. Using 'C:\Users\charl\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-07-18 12:39:36.857 +02:00 [INF] Now listening on: https://localhost:7253
+2026-07-18 12:39:36.860 +02:00 [INF] Now listening on: http://localhost:5180
+2026-07-18 12:39:36.924 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-07-18 12:39:36.925 +02:00 [INF] Hosting environment: Development
+2026-07-18 12:39:36.926 +02:00 [INF] Content root path: C:\WerkSoekAssessments\FinalAssessment\Bongoe2\VariBillWebApp.Mvc
+2026-07-18 12:39:39.031 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7253/ - null null
+2026-07-18 12:39:39.412 +02:00 [INF] Executing endpoint 'VariBillWebApp.Mvc.Controllers.HomeController.Index (VariBillWebApp.Mvc)'
+2026-07-18 12:39:39.473 +02:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller VariBillWebApp.Mvc.Controllers.HomeController (VariBillWebApp.Mvc).
+2026-07-18 12:39:39.505 +02:00 [INF] Executing ViewResult, running view Index.
+2026-07-18 12:39:39.758 +02:00 [INF] Executed ViewResult - view Index executed in 250.1762ms.
+2026-07-18 12:39:39.811 +02:00 [INF] Executed action VariBillWebApp.Mvc.Controllers.HomeController.Index (VariBillWebApp.Mvc) in 334.2802ms
+2026-07-18 12:39:39.826 +02:00 [INF] Executed endpoint 'VariBillWebApp.Mvc.Controllers.HomeController.Index (VariBillWebApp.Mvc)'
+2026-07-18 12:39:39.835 +02:00 [INF] HTTP GET / responded 200 in 603.2079 ms
+2026-07-18 12:39:39.978 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7253/ - 200 null text/html; charset=utf-8 950.5773ms
+2026-07-18 12:39:40.176 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:7253/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map - null null
+2026-07-18 12:39:40.233 +02:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map'. Physical path: 'C:\WerkSoekAssessments\FinalAssessment\Bongoe2\VariBillWebApp.Mvc\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js.map'
+2026-07-18 12:39:40.236 +02:00 [INF] HTTP GET /lib/bootstrap/dist/js/bootstrap.bundle.min.js.map responded 200 in 45.5650 ms
+2026-07-18 12:39:40.261 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:7253/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map - 200 332090 text/plain 85.3951ms
+2026-07-18 12:39:40.310 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7253/_framework/aspnetcore-browser-refresh.js - null null
+2026-07-18 12:39:40.310 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7253/_vs/browserLink - null null
+2026-07-18 12:39:40.351 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7253/_framework/aspnetcore-browser-refresh.js - 200 14941 application/javascript; charset=utf-8 40.6927ms
+2026-07-18 12:39:40.362 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7253/catalog/products - null null
+2026-07-18 12:39:40.362 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7253/catalog/producttypes - null null
+2026-07-18 12:39:40.420 +02:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2026-07-18 12:39:40.478 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7253/_vs/browserLink - 200 null text/javascript; charset=UTF-8 167.516ms
+2026-07-18 12:39:40.494 +02:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2026-07-18 12:39:41.889 +02:00 [INF] AuthenticationScheme: OpenIdConnect was challenged.
+2026-07-18 12:39:41.889 +02:00 [INF] AuthenticationScheme: OpenIdConnect was challenged.
+2026-07-18 12:39:41.892 +02:00 [INF] HTTP GET /catalog/products responded 302 in 1485.2232 ms
+2026-07-18 12:39:41.892 +02:00 [INF] HTTP GET /catalog/producttypes responded 302 in 1407.3715 ms
+2026-07-18 12:39:41.895 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7253/catalog/products - 302 0 null 1533.2342ms
+2026-07-18 12:39:41.897 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7253/catalog/producttypes - 302 0 null 1534.917ms
+2026-07-18 12:39:43.705 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7253/.well-known/appspecific/com.chrome.devtools.json - null null
+2026-07-18 12:39:43.708 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7253/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map - null null
+2026-07-18 12:39:43.714 +02:00 [INF] HTTP GET /.well-known/appspecific/com.chrome.devtools.json responded 404 in 2.1644 ms
+2026-07-18 12:39:43.720 +02:00 [INF] The file /lib/bootstrap/dist/js/bootstrap.bundle.min.js.map was not modified
+2026-07-18 12:39:43.721 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7253/.well-known/appspecific/com.chrome.devtools.json - 404 0 null 15.1142ms
+2026-07-18 12:39:43.723 +02:00 [INF] HTTP GET /lib/bootstrap/dist/js/bootstrap.bundle.min.js.map responded 304 in 4.9334 ms
+2026-07-18 12:39:43.727 +02:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7253/.well-known/appspecific/com.chrome.devtools.json, Response status code: 404
+2026-07-18 12:39:43.729 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7253/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map - 304 null text/plain 21.3518ms
+2026-07-18 12:39:43.920 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7253/lib/bootstrap/dist/css/bootstrap.min.css.map - null null
+2026-07-18 12:39:43.939 +02:00 [INF] The file /lib/bootstrap/dist/css/bootstrap.min.css.map was not modified
+2026-07-18 12:39:43.946 +02:00 [INF] HTTP GET /lib/bootstrap/dist/css/bootstrap.min.css.map responded 304 in 7.9239 ms
+2026-07-18 12:39:43.953 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7253/lib/bootstrap/dist/css/bootstrap.min.css.map - 304 null text/plain 32.9297ms
+2026-07-18 12:42:46.284 +02:00 [INF] APISettings:VariBillAPIAddress = http://localhost:5153
+2026-07-18 12:42:46.403 +02:00 [INF] User profile is available. Using 'C:\Users\charl\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-07-18 12:42:46.713 +02:00 [INF] Now listening on: https://localhost:7253
+2026-07-18 12:42:46.715 +02:00 [INF] Now listening on: http://localhost:5180
+2026-07-18 12:42:46.782 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-07-18 12:42:46.783 +02:00 [INF] Hosting environment: Development
+2026-07-18 12:42:46.785 +02:00 [INF] Content root path: C:\WerkSoekAssessments\FinalAssessment\Bongoe2\VariBillWebApp.Mvc
+2026-07-18 12:42:49.624 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7253/ - null null
+2026-07-18 12:42:50.208 +02:00 [INF] Executing endpoint 'VariBillWebApp.Mvc.Controllers.HomeController.Index (VariBillWebApp.Mvc)'
+2026-07-18 12:42:50.303 +02:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller VariBillWebApp.Mvc.Controllers.HomeController (VariBillWebApp.Mvc).
+2026-07-18 12:42:50.338 +02:00 [INF] Executing ViewResult, running view Index.
+2026-07-18 12:42:50.566 +02:00 [INF] Executed ViewResult - view Index executed in 228.2383ms.
+2026-07-18 12:42:50.631 +02:00 [INF] Executed action VariBillWebApp.Mvc.Controllers.HomeController.Index (VariBillWebApp.Mvc) in 323.25ms
+2026-07-18 12:42:50.646 +02:00 [INF] Executed endpoint 'VariBillWebApp.Mvc.Controllers.HomeController.Index (VariBillWebApp.Mvc)'
+2026-07-18 12:42:50.655 +02:00 [INF] HTTP GET / responded 200 in 773.9405 ms
+2026-07-18 12:42:50.713 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7253/ - 200 null text/html; charset=utf-8 1091.8483ms
+2026-07-18 12:42:50.764 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7253/_framework/aspnetcore-browser-refresh.js - null null
+2026-07-18 12:42:50.765 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7253/_vs/browserLink - null null
+2026-07-18 12:42:50.781 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7253/_framework/aspnetcore-browser-refresh.js - 200 14941 application/javascript; charset=utf-8 16.5432ms
+2026-07-18 12:42:50.889 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7253/_vs/browserLink - 200 null text/javascript; charset=UTF-8 123.7374ms
+2026-07-18 12:42:51.054 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:7253/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map - null null
+2026-07-18 12:42:51.106 +02:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map'. Physical path: 'C:\WerkSoekAssessments\FinalAssessment\Bongoe2\VariBillWebApp.Mvc\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js.map'
+2026-07-18 12:42:51.111 +02:00 [INF] HTTP GET /lib/bootstrap/dist/js/bootstrap.bundle.min.js.map responded 200 in 49.7629 ms
+2026-07-18 12:42:51.119 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:7253/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map - 200 332090 text/plain 65.2988ms
+2026-07-18 12:42:51.198 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7253/catalog/products - null null
+2026-07-18 12:42:51.201 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7253/catalog/producttypes - null null
+2026-07-18 12:42:51.250 +02:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2026-07-18 12:42:51.250 +02:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2026-07-18 12:42:52.645 +02:00 [INF] AuthenticationScheme: OpenIdConnect was challenged.
+2026-07-18 12:42:52.645 +02:00 [INF] AuthenticationScheme: OpenIdConnect was challenged.
+2026-07-18 12:42:52.647 +02:00 [INF] HTTP GET /catalog/producttypes responded 302 in 1437.4378 ms
+2026-07-18 12:42:52.648 +02:00 [INF] HTTP GET /catalog/products responded 302 in 1441.0733 ms
+2026-07-18 12:42:52.650 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7253/catalog/producttypes - 302 0 null 1449.1066ms
+2026-07-18 12:42:52.652 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7253/catalog/products - 302 0 null 1453.8538ms
+2026-07-18 12:42:55.388 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7253/.well-known/appspecific/com.chrome.devtools.json - null null
+2026-07-18 12:42:55.396 +02:00 [INF] HTTP GET /.well-known/appspecific/com.chrome.devtools.json responded 404 in 4.2067 ms
+2026-07-18 12:42:55.401 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7253/.well-known/appspecific/com.chrome.devtools.json - 404 0 null 13.4037ms
+2026-07-18 12:42:55.409 +02:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7253/.well-known/appspecific/com.chrome.devtools.json, Response status code: 404
+2026-07-18 13:01:39.464 +02:00 [INF] APISettings:VariBillAPIAddress = https://localhost:7090
+2026-07-18 13:01:39.595 +02:00 [INF] User profile is available. Using 'C:\Users\charl\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-07-18 13:01:39.908 +02:00 [INF] Now listening on: https://localhost:7253
+2026-07-18 13:01:39.910 +02:00 [INF] Now listening on: http://localhost:5180
+2026-07-18 13:01:39.969 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-07-18 13:01:39.971 +02:00 [INF] Hosting environment: Development
+2026-07-18 13:01:39.972 +02:00 [INF] Content root path: C:\WerkSoekAssessments\FinalAssessment\Bongoe2\VariBillWebApp.Mvc
+2026-07-18 13:01:42.951 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7253/ - null null
+2026-07-18 13:01:43.950 +02:00 [INF] Executing endpoint 'VariBillWebApp.Mvc.Controllers.HomeController.Index (VariBillWebApp.Mvc)'
+2026-07-18 13:01:44.042 +02:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller VariBillWebApp.Mvc.Controllers.HomeController (VariBillWebApp.Mvc).
+2026-07-18 13:01:44.087 +02:00 [INF] Executing ViewResult, running view Index.
+2026-07-18 13:01:44.339 +02:00 [INF] Executed ViewResult - view Index executed in 256.813ms.
+2026-07-18 13:01:44.359 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7253/_framework/aspnetcore-browser-refresh.js - null null
+2026-07-18 13:01:44.382 +02:00 [INF] Executed action VariBillWebApp.Mvc.Controllers.HomeController.Index (VariBillWebApp.Mvc) in 324.2869ms
+2026-07-18 13:01:44.386 +02:00 [INF] Executed endpoint 'VariBillWebApp.Mvc.Controllers.HomeController.Index (VariBillWebApp.Mvc)'
+2026-07-18 13:01:44.390 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7253/_framework/aspnetcore-browser-refresh.js - 200 14941 application/javascript; charset=utf-8 31.0505ms
+2026-07-18 13:01:44.397 +02:00 [INF] HTTP GET / responded 200 in 880.7759 ms
+2026-07-18 13:01:44.411 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7253/ - 200 null text/html; charset=utf-8 1463.6759ms
+2026-07-18 13:01:44.555 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7253/_vs/browserLink - null null
+2026-07-18 13:01:44.659 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7253/_vs/browserLink - 200 null text/javascript; charset=UTF-8 103.6096ms
+2026-07-18 13:01:44.812 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:7253/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map - null null
+2026-07-18 13:01:44.854 +02:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map'. Physical path: 'C:\WerkSoekAssessments\FinalAssessment\Bongoe2\VariBillWebApp.Mvc\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js.map'
+2026-07-18 13:01:44.973 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7253/catalog/producttypes - null null
+2026-07-18 13:01:44.977 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7253/catalog/products - null null
+2026-07-18 13:01:44.986 +02:00 [INF] HTTP GET /lib/bootstrap/dist/js/bootstrap.bundle.min.js.map responded 200 in 167.0595 ms
+2026-07-18 13:01:45.009 +02:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2026-07-18 13:01:45.007 +02:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2026-07-18 13:01:45.028 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:7253/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map - 200 332090 text/plain 209.5715ms
+2026-07-18 13:01:46.528 +02:00 [INF] AuthenticationScheme: OpenIdConnect was challenged.
+2026-07-18 13:01:46.528 +02:00 [INF] AuthenticationScheme: OpenIdConnect was challenged.
+2026-07-18 13:01:46.532 +02:00 [INF] HTTP GET /catalog/producttypes responded 302 in 1537.3612 ms
+2026-07-18 13:01:46.532 +02:00 [INF] HTTP GET /catalog/products responded 302 in 1523.7332 ms
+2026-07-18 13:01:46.536 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7253/catalog/producttypes - 302 0 null 1562.8129ms
+2026-07-18 13:01:46.538 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7253/catalog/products - 302 0 null 1561.214ms
+2026-07-18 13:02:25.632 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7253/product - null null
+2026-07-18 13:02:25.676 +02:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2026-07-18 13:02:25.810 +02:00 [INF] AuthenticationScheme: OpenIdConnect was challenged.
+2026-07-18 13:02:25.812 +02:00 [INF] HTTP GET /product responded 302 in 140.1654 ms
+2026-07-18 13:02:25.815 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7253/product - 302 null null 183.5226ms
+2026-07-18 13:02:28.037 +02:00 [INF] Request starting HTTP/2 POST https://localhost:7253/signin-oidc - application/x-www-form-urlencoded 593
+2026-07-18 13:02:28.571 +02:00 [INF] AuthenticationScheme: Cookies signed in.
+2026-07-18 13:02:28.572 +02:00 [INF] HTTP POST /signin-oidc responded 302 in 520.6254 ms
+2026-07-18 13:02:28.574 +02:00 [INF] Request finished HTTP/2 POST https://localhost:7253/signin-oidc - 302 null null 537.4648ms
+2026-07-18 13:02:28.578 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7253/product - null null
+2026-07-18 13:02:28.585 +02:00 [INF] Executing endpoint 'VariBillWebApp.Mvc.Controllers.ProductController.Index (VariBillWebApp.Mvc)'
+2026-07-18 13:02:28.592 +02:00 [INF] Route matched with {action = "Index", controller = "Product"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index() on controller VariBillWebApp.Mvc.Controllers.ProductController (VariBillWebApp.Mvc).
+2026-07-18 13:02:30.399 +02:00 [INF] Start processing HTTP request GET https://localhost:7090/api/products
+2026-07-18 13:02:30.414 +02:00 [INF] Sending HTTP request GET https://localhost:7090/api/products
+2026-07-18 13:02:36.239 +02:00 [INF] Received HTTP response headers after 5819.1503ms - 200
+2026-07-18 13:02:36.245 +02:00 [INF] End processing HTTP request after 5846.8953ms - 200
+2026-07-18 13:02:37.789 +02:00 [INF] Executing ViewResult, running view Index.
+2026-07-18 13:02:37.858 +02:00 [INF] Executed ViewResult - view Index executed in 69.8568ms.
+2026-07-18 13:02:37.891 +02:00 [INF] Executed action VariBillWebApp.Mvc.Controllers.ProductController.Index (VariBillWebApp.Mvc) in 9294.1835ms
+2026-07-18 13:02:37.893 +02:00 [INF] Executed endpoint 'VariBillWebApp.Mvc.Controllers.ProductController.Index (VariBillWebApp.Mvc)'
+2026-07-18 13:02:37.894 +02:00 [INF] HTTP GET /product responded 200 in 9309.9160 ms
+2026-07-18 13:02:37.897 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7253/product - 200 null text/html; charset=utf-8 9317.0305ms
+2026-07-18 13:02:38.003 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7253/_framework/aspnetcore-browser-refresh.js - null null
+2026-07-18 13:02:38.003 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7253/_vs/browserLink - null null
+2026-07-18 13:02:38.006 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7253/_framework/aspnetcore-browser-refresh.js - 200 14941 application/javascript; charset=utf-8 3.4462ms
+2026-07-18 13:02:38.051 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7253/_vs/browserLink - 200 null text/javascript; charset=UTF-8 47.8591ms
+2026-07-18 13:02:41.166 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7253/ - null null
+2026-07-18 13:02:41.171 +02:00 [INF] Executing endpoint 'VariBillWebApp.Mvc.Controllers.HomeController.Index (VariBillWebApp.Mvc)'
+2026-07-18 13:02:41.173 +02:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller VariBillWebApp.Mvc.Controllers.HomeController (VariBillWebApp.Mvc).
+2026-07-18 13:02:41.180 +02:00 [INF] Executing ViewResult, running view Index.
+2026-07-18 13:02:41.183 +02:00 [INF] Executed ViewResult - view Index executed in 3.8163ms.
+2026-07-18 13:02:41.185 +02:00 [INF] Executed action VariBillWebApp.Mvc.Controllers.HomeController.Index (VariBillWebApp.Mvc) in 8.5841ms
+2026-07-18 13:02:41.188 +02:00 [INF] Executed endpoint 'VariBillWebApp.Mvc.Controllers.HomeController.Index (VariBillWebApp.Mvc)'
+2026-07-18 13:02:41.189 +02:00 [INF] HTTP GET / responded 200 in 18.5196 ms
+2026-07-18 13:02:41.192 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7253/ - 200 null text/html; charset=utf-8 25.8947ms
+2026-07-18 13:02:41.199 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7253/_framework/aspnetcore-browser-refresh.js - null null
+2026-07-18 13:02:41.199 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7253/_vs/browserLink - null null
+2026-07-18 13:02:41.203 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7253/_framework/aspnetcore-browser-refresh.js - 200 14941 application/javascript; charset=utf-8 4.7059ms
+2026-07-18 13:02:41.211 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7253/_vs/browserLink - 200 null text/javascript; charset=UTF-8 12.7507ms
+2026-07-18 13:02:41.292 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7253/catalog/producttypes - null null
+2026-07-18 13:02:41.292 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7253/catalog/products - null null
+2026-07-18 13:02:41.304 +02:00 [INF] Executing endpoint 'VariBillWebApp.Mvc.Controllers.CatalogController.GetProductTypes (VariBillWebApp.Mvc)'
+2026-07-18 13:02:41.305 +02:00 [INF] Executing endpoint 'VariBillWebApp.Mvc.Controllers.CatalogController.GetProducts (VariBillWebApp.Mvc)'
+2026-07-18 13:02:41.313 +02:00 [INF] Route matched with {action = "GetProductTypes", controller = "Catalog"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetProductTypes() on controller VariBillWebApp.Mvc.Controllers.CatalogController (VariBillWebApp.Mvc).
+2026-07-18 13:02:41.315 +02:00 [INF] Route matched with {action = "GetProducts", controller = "Catalog"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetProducts() on controller VariBillWebApp.Mvc.Controllers.CatalogController (VariBillWebApp.Mvc).
+2026-07-18 13:02:45.924 +02:00 [INF] Start processing HTTP request GET https://localhost:7090/api/producttypes
+2026-07-18 13:02:47.260 +02:00 [INF] Sending HTTP request GET https://localhost:7090/api/producttypes
+2026-07-18 13:02:47.261 +02:00 [INF] Start processing HTTP request GET https://localhost:7090/api/products
+2026-07-18 13:02:47.266 +02:00 [INF] Sending HTTP request GET https://localhost:7090/api/products
+2026-07-18 13:02:47.373 +02:00 [INF] Received HTTP response headers after 105.9329ms - 200
+2026-07-18 13:02:47.376 +02:00 [INF] End processing HTTP request after 115.2983ms - 200
+2026-07-18 13:02:48.561 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[VariBillWebApp.Mvc.Models.ViewModels.ProductViewModel, VariBillWebApp.Mvc, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-07-18 13:02:48.573 +02:00 [INF] Executed action VariBillWebApp.Mvc.Controllers.CatalogController.GetProducts (VariBillWebApp.Mvc) in 2648.2043ms
+2026-07-18 13:02:48.576 +02:00 [INF] Executed endpoint 'VariBillWebApp.Mvc.Controllers.CatalogController.GetProducts (VariBillWebApp.Mvc)'
+2026-07-18 13:02:48.577 +02:00 [INF] HTTP GET /catalog/products responded 200 in 7271.5221 ms
+2026-07-18 13:02:48.579 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7253/catalog/products - 200 null application/json; charset=utf-8 7285.8305ms
+2026-07-18 13:02:54.872 +02:00 [INF] Received HTTP response headers after 7608.4462ms - 200
+2026-07-18 13:02:54.877 +02:00 [INF] End processing HTTP request after 8951.7585ms - 200
+2026-07-18 13:02:54.882 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[VariBillWebApp.Mvc.Services.ProductTypeModel, VariBillWebApp.Mvc, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-07-18 13:02:54.886 +02:00 [INF] Executed action VariBillWebApp.Mvc.Controllers.CatalogController.GetProductTypes (VariBillWebApp.Mvc) in 13566.3313ms
+2026-07-18 13:02:54.888 +02:00 [INF] Executed endpoint 'VariBillWebApp.Mvc.Controllers.CatalogController.GetProductTypes (VariBillWebApp.Mvc)'
+2026-07-18 13:02:54.890 +02:00 [INF] HTTP GET /catalog/producttypes responded 200 in 13587.0755 ms
+2026-07-18 13:02:54.892 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7253/catalog/producttypes - 200 null application/json; charset=utf-8 13597.4829ms
+2026-07-18 13:03:00.448 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7253/producttype - null null
+2026-07-18 13:03:00.453 +02:00 [INF] Executing endpoint 'VariBillWebApp.Mvc.Controllers.ProductTypeController.Index (VariBillWebApp.Mvc)'
+2026-07-18 13:03:00.460 +02:00 [INF] Route matched with {action = "Index", controller = "ProductType"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index() on controller VariBillWebApp.Mvc.Controllers.ProductTypeController (VariBillWebApp.Mvc).
+2026-07-18 13:03:04.724 +02:00 [INF] Start processing HTTP request GET https://localhost:7090/api/producttypes
+2026-07-18 13:03:04.726 +02:00 [INF] Sending HTTP request GET https://localhost:7090/api/producttypes
+2026-07-18 13:03:05.519 +02:00 [INF] Received HTTP response headers after 791.45ms - 200
+2026-07-18 13:03:05.521 +02:00 [INF] End processing HTTP request after 796.6406ms - 200
+2026-07-18 13:03:05.526 +02:00 [INF] Executing ViewResult, running view Index.
+2026-07-18 13:03:05.538 +02:00 [INF] Executed ViewResult - view Index executed in 12.1609ms.
+2026-07-18 13:03:05.541 +02:00 [INF] Executed action VariBillWebApp.Mvc.Controllers.ProductTypeController.Index (VariBillWebApp.Mvc) in 5076.1786ms
+2026-07-18 13:03:05.543 +02:00 [INF] Executed endpoint 'VariBillWebApp.Mvc.Controllers.ProductTypeController.Index (VariBillWebApp.Mvc)'
+2026-07-18 13:03:05.545 +02:00 [INF] HTTP GET /producttype responded 200 in 5092.6611 ms
+2026-07-18 13:03:05.549 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7253/producttype - 200 null text/html; charset=utf-8 5099.6519ms
+2026-07-18 13:03:05.563 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7253/_framework/aspnetcore-browser-refresh.js - null null
+2026-07-18 13:03:05.563 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7253/_vs/browserLink - null null
+2026-07-18 13:03:05.567 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7253/_framework/aspnetcore-browser-refresh.js - 200 14941 application/javascript; charset=utf-8 4.185ms
+2026-07-18 13:03:05.582 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7253/_vs/browserLink - 200 null text/javascript; charset=UTF-8 19.7028ms
+2026-07-18 13:03:10.769 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7253/ - null null
+2026-07-18 13:03:10.774 +02:00 [INF] Executing endpoint 'VariBillWebApp.Mvc.Controllers.HomeController.Index (VariBillWebApp.Mvc)'
+2026-07-18 13:03:10.776 +02:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller VariBillWebApp.Mvc.Controllers.HomeController (VariBillWebApp.Mvc).
+2026-07-18 13:03:10.779 +02:00 [INF] Executing ViewResult, running view Index.
+2026-07-18 13:03:10.782 +02:00 [INF] Executed ViewResult - view Index executed in 3.2915ms.
+2026-07-18 13:03:10.785 +02:00 [INF] Executed action VariBillWebApp.Mvc.Controllers.HomeController.Index (VariBillWebApp.Mvc) in 5.5472ms
+2026-07-18 13:03:10.787 +02:00 [INF] Executed endpoint 'VariBillWebApp.Mvc.Controllers.HomeController.Index (VariBillWebApp.Mvc)'
+2026-07-18 13:03:10.788 +02:00 [INF] HTTP GET / responded 200 in 14.4921 ms
+2026-07-18 13:03:10.791 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7253/ - 200 null text/html; charset=utf-8 21.9535ms
+2026-07-18 13:03:10.800 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7253/_framework/aspnetcore-browser-refresh.js - null null
+2026-07-18 13:03:10.801 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7253/_vs/browserLink - null null
+2026-07-18 13:03:10.817 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7253/_framework/aspnetcore-browser-refresh.js - 200 14941 application/javascript; charset=utf-8 15.0213ms
+2026-07-18 13:03:10.841 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7253/_vs/browserLink - 200 null text/javascript; charset=UTF-8 40.671ms
+2026-07-18 13:03:10.901 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7253/catalog/products - null null
+2026-07-18 13:03:10.901 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7253/catalog/producttypes - null null
+2026-07-18 13:03:10.907 +02:00 [INF] Executing endpoint 'VariBillWebApp.Mvc.Controllers.CatalogController.GetProducts (VariBillWebApp.Mvc)'
+2026-07-18 13:03:10.910 +02:00 [INF] Executing endpoint 'VariBillWebApp.Mvc.Controllers.CatalogController.GetProductTypes (VariBillWebApp.Mvc)'
+2026-07-18 13:03:10.912 +02:00 [INF] Route matched with {action = "GetProducts", controller = "Catalog"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetProducts() on controller VariBillWebApp.Mvc.Controllers.CatalogController (VariBillWebApp.Mvc).
+2026-07-18 13:03:10.914 +02:00 [INF] Route matched with {action = "GetProductTypes", controller = "Catalog"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetProductTypes() on controller VariBillWebApp.Mvc.Controllers.CatalogController (VariBillWebApp.Mvc).
+2026-07-18 13:03:14.379 +02:00 [INF] Start processing HTTP request GET https://localhost:7090/api/products
+2026-07-18 13:03:14.382 +02:00 [INF] Start processing HTTP request GET https://localhost:7090/api/producttypes
+2026-07-18 13:03:14.384 +02:00 [INF] Sending HTTP request GET https://localhost:7090/api/products
+2026-07-18 13:03:14.385 +02:00 [INF] Sending HTTP request GET https://localhost:7090/api/producttypes
+2026-07-18 13:03:17.834 +02:00 [INF] Received HTTP response headers after 3446.933ms - 200
+2026-07-18 13:03:17.838 +02:00 [INF] End processing HTTP request after 3459.2698ms - 200
+2026-07-18 13:03:17.840 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[VariBillWebApp.Mvc.Models.ViewModels.ProductViewModel, VariBillWebApp.Mvc, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-07-18 13:03:17.843 +02:00 [INF] Executed action VariBillWebApp.Mvc.Controllers.CatalogController.GetProducts (VariBillWebApp.Mvc) in 6924.1576ms
+2026-07-18 13:03:17.846 +02:00 [INF] Executed endpoint 'VariBillWebApp.Mvc.Controllers.CatalogController.GetProducts (VariBillWebApp.Mvc)'
+2026-07-18 13:03:17.846 +02:00 [INF] Received HTTP response headers after 3458.1912ms - 200
+2026-07-18 13:03:17.847 +02:00 [INF] HTTP GET /catalog/products responded 200 in 6939.9353 ms
+2026-07-18 13:03:17.849 +02:00 [INF] End processing HTTP request after 3466.5609ms - 200
+2026-07-18 13:03:17.851 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7253/catalog/products - 200 null application/json; charset=utf-8 6948.9197ms
+2026-07-18 13:03:17.853 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[VariBillWebApp.Mvc.Services.ProductTypeModel, VariBillWebApp.Mvc, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-07-18 13:03:17.860 +02:00 [INF] Executed action VariBillWebApp.Mvc.Controllers.CatalogController.GetProductTypes (VariBillWebApp.Mvc) in 3477.7264ms
+2026-07-18 13:03:17.862 +02:00 [INF] Executed endpoint 'VariBillWebApp.Mvc.Controllers.CatalogController.GetProductTypes (VariBillWebApp.Mvc)'
+2026-07-18 13:03:17.864 +02:00 [INF] HTTP GET /catalog/producttypes responded 200 in 6952.7137 ms
+2026-07-18 13:03:17.866 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7253/catalog/producttypes - 200 null application/json; charset=utf-8 6963.7513ms
+2026-07-18 13:03:21.408 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7253/product - null null
+2026-07-18 13:03:21.413 +02:00 [INF] Executing endpoint 'VariBillWebApp.Mvc.Controllers.ProductController.Index (VariBillWebApp.Mvc)'
+2026-07-18 13:03:21.415 +02:00 [INF] Route matched with {action = "Index", controller = "Product"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index() on controller VariBillWebApp.Mvc.Controllers.ProductController (VariBillWebApp.Mvc).
+2026-07-18 13:03:21.418 +02:00 [INF] Start processing HTTP request GET https://localhost:7090/api/products
+2026-07-18 13:03:21.421 +02:00 [INF] Sending HTTP request GET https://localhost:7090/api/products
+2026-07-18 13:03:21.429 +02:00 [INF] Received HTTP response headers after 5.2499ms - 200
+2026-07-18 13:03:21.430 +02:00 [INF] End processing HTTP request after 11.7126ms - 200
+2026-07-18 13:03:21.432 +02:00 [INF] Executing ViewResult, running view Index.
+2026-07-18 13:03:21.434 +02:00 [INF] Executed ViewResult - view Index executed in 2.614ms.
+2026-07-18 13:03:21.437 +02:00 [INF] Executed action VariBillWebApp.Mvc.Controllers.ProductController.Index (VariBillWebApp.Mvc) in 18.7674ms
+2026-07-18 13:03:21.439 +02:00 [INF] Executed endpoint 'VariBillWebApp.Mvc.Controllers.ProductController.Index (VariBillWebApp.Mvc)'
+2026-07-18 13:03:21.441 +02:00 [INF] HTTP GET /product responded 200 in 28.5085 ms
+2026-07-18 13:03:21.447 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7253/product - 200 null text/html; charset=utf-8 39.0876ms
+2026-07-18 13:03:21.452 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7253/_vs/browserLink - null null
+2026-07-18 13:03:21.452 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7253/_framework/aspnetcore-browser-refresh.js - null null
+2026-07-18 13:03:21.472 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7253/_vs/browserLink - 200 null text/javascript; charset=UTF-8 19.5636ms
+2026-07-18 13:03:21.478 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7253/_framework/aspnetcore-browser-refresh.js - 200 14941 application/javascript; charset=utf-8 25.9501ms
+2026-07-18 13:03:24.555 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7253/legacyproducts - null null
+2026-07-18 13:03:24.560 +02:00 [INF] Executing endpoint 'VariBillWebApp.Mvc.Controllers.HomeController.LegacyProducts (VariBillWebApp.Mvc)'
+2026-07-18 13:03:24.565 +02:00 [INF] Route matched with {action = "LegacyProducts", controller = "Home"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] LegacyProducts() on controller VariBillWebApp.Mvc.Controllers.HomeController (VariBillWebApp.Mvc).
+2026-07-18 13:03:26.260 +02:00 [INF] Executing ViewResult, running view LegacyProducts.
+2026-07-18 13:03:26.285 +02:00 [INF] Executed ViewResult - view LegacyProducts executed in 26.2096ms.
+2026-07-18 13:03:26.288 +02:00 [INF] Executed action VariBillWebApp.Mvc.Controllers.HomeController.LegacyProducts (VariBillWebApp.Mvc) in 1716.9095ms
+2026-07-18 13:03:26.290 +02:00 [INF] Executed endpoint 'VariBillWebApp.Mvc.Controllers.HomeController.LegacyProducts (VariBillWebApp.Mvc)'
+2026-07-18 13:03:26.292 +02:00 [INF] HTTP GET /legacyproducts responded 200 in 1731.7679 ms
+2026-07-18 13:03:26.294 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7253/legacyproducts - 200 null text/html; charset=utf-8 1739.3045ms
+2026-07-18 13:03:26.310 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7253/js/product.js?v=PcRI2DgSnSvUdlkjXibmfRBYL6YFaLr38cBVM1ivZY4 - null null
+2026-07-18 13:03:26.310 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7253/lib/jquery-validation-unobtrusive/dist/jquery.validate.unobtrusive.min.js - null null
+2026-07-18 13:03:26.352 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7253/_framework/aspnetcore-browser-refresh.js - null null
+2026-07-18 13:03:26.389 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7253/_vs/browserLink - null null
+2026-07-18 13:03:26.308 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7253/css/product.css - null null
+2026-07-18 13:03:26.442 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7253/_framework/aspnetcore-browser-refresh.js - 200 14941 application/javascript; charset=utf-8 89.5057ms
+2026-07-18 13:03:26.440 +02:00 [INF] The file /lib/jquery-validation-unobtrusive/dist/jquery.validate.unobtrusive.min.js was not modified
+2026-07-18 13:03:26.310 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7253/lib/jquery-validation/dist/jquery.validate.min.js - null null
+2026-07-18 13:03:26.436 +02:00 [INF] Sending file. Request path: '/js/product.js'. Physical path: 'C:\WerkSoekAssessments\FinalAssessment\Bongoe2\VariBillWebApp.Mvc\wwwroot\js\product.js'
+2026-07-18 13:03:26.450 +02:00 [INF] The file /css/product.css was not modified
+2026-07-18 13:03:26.451 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7253/_vs/browserLink - 200 null text/javascript; charset=UTF-8 61.9135ms
+2026-07-18 13:03:26.457 +02:00 [INF] HTTP GET /lib/jquery-validation-unobtrusive/dist/jquery.validate.unobtrusive.min.js responded 304 in 18.8194 ms
+2026-07-18 13:03:26.461 +02:00 [INF] The file /lib/jquery-validation/dist/jquery.validate.min.js was not modified
+2026-07-18 13:03:26.462 +02:00 [INF] HTTP GET /js/product.js responded 200 in 65.8699 ms
+2026-07-18 13:03:26.463 +02:00 [INF] HTTP GET /css/product.css responded 304 in 13.1162 ms
+2026-07-18 13:03:26.469 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7253/lib/jquery-validation-unobtrusive/dist/jquery.validate.unobtrusive.min.js - 304 null text/javascript 158.9104ms
+2026-07-18 13:03:26.470 +02:00 [INF] HTTP GET /lib/jquery-validation/dist/jquery.validate.min.js responded 304 in 9.6961 ms
+2026-07-18 13:03:26.473 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7253/js/product.js?v=PcRI2DgSnSvUdlkjXibmfRBYL6YFaLr38cBVM1ivZY4 - 200 19682 text/javascript 162.8246ms
+2026-07-18 13:03:26.475 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7253/css/product.css - 304 null text/css 166.6296ms
+2026-07-18 13:03:26.482 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7253/lib/jquery-validation/dist/jquery.validate.min.js - 304 null text/javascript 172.8763ms
+2026-07-18 13:03:26.567 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7253/catalog/antiforgery/token - null null
+2026-07-18 13:03:26.573 +02:00 [INF] Executing endpoint 'VariBillWebApp.Mvc.Controllers.CatalogController.GetAntiforgeryToken (VariBillWebApp.Mvc)'
+2026-07-18 13:03:26.595 +02:00 [INF] Route matched with {action = "GetAntiforgeryToken", controller = "Catalog"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAntiforgeryToken(Microsoft.AspNetCore.Antiforgery.IAntiforgery) on controller VariBillWebApp.Mvc.Controllers.CatalogController (VariBillWebApp.Mvc).
+2026-07-18 13:03:26.607 +02:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`2[[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-07-18 13:03:26.611 +02:00 [INF] Executed action VariBillWebApp.Mvc.Controllers.CatalogController.GetAntiforgeryToken (VariBillWebApp.Mvc) in 14.39ms
+2026-07-18 13:03:26.614 +02:00 [INF] Executed endpoint 'VariBillWebApp.Mvc.Controllers.CatalogController.GetAntiforgeryToken (VariBillWebApp.Mvc)'
+2026-07-18 13:03:26.616 +02:00 [INF] HTTP GET /catalog/antiforgery/token responded 200 in 44.9585 ms
+2026-07-18 13:03:26.619 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7253/catalog/antiforgery/token - 200 null application/json; charset=utf-8 51.8524ms
+2026-07-18 13:03:38.399 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7253/.well-known/appspecific/com.chrome.devtools.json - null null
+2026-07-18 13:03:38.405 +02:00 [INF] HTTP GET /.well-known/appspecific/com.chrome.devtools.json responded 404 in 1.1195 ms
+2026-07-18 13:03:38.407 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7253/.well-known/appspecific/com.chrome.devtools.json - 404 0 null 7.4165ms
+2026-07-18 13:03:38.412 +02:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7253/.well-known/appspecific/com.chrome.devtools.json, Response status code: 404
+2026-07-18 13:14:15.780 +02:00 [INF] APISettings:VariBillAPIAddress = https://localhost:7090
+2026-07-18 13:14:15.904 +02:00 [INF] User profile is available. Using 'C:\Users\charl\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-07-18 13:14:16.208 +02:00 [INF] Now listening on: https://localhost:7253
+2026-07-18 13:14:16.211 +02:00 [INF] Now listening on: http://localhost:5180
+2026-07-18 13:14:16.265 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-07-18 13:14:16.266 +02:00 [INF] Hosting environment: Development
+2026-07-18 13:14:16.267 +02:00 [INF] Content root path: C:\WerkSoekAssessments\FinalAssessment\Bongoe2\VariBillWebApp.Mvc
+2026-07-18 13:14:18.756 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7253/ - null null
+2026-07-18 13:14:19.107 +02:00 [INF] Executing endpoint 'VariBillWebApp.Mvc.Controllers.HomeController.Index (VariBillWebApp.Mvc)'
+2026-07-18 13:14:19.163 +02:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller VariBillWebApp.Mvc.Controllers.HomeController (VariBillWebApp.Mvc).
+2026-07-18 13:14:19.191 +02:00 [INF] Executing ViewResult, running view Index.
+2026-07-18 13:14:19.436 +02:00 [INF] Executed ViewResult - view Index executed in 245.0293ms.
+2026-07-18 13:14:19.498 +02:00 [INF] Executed action VariBillWebApp.Mvc.Controllers.HomeController.Index (VariBillWebApp.Mvc) in 330.792ms
+2026-07-18 13:14:19.515 +02:00 [INF] Executed endpoint 'VariBillWebApp.Mvc.Controllers.HomeController.Index (VariBillWebApp.Mvc)'
+2026-07-18 13:14:19.532 +02:00 [INF] HTTP GET / responded 200 in 600.9235 ms
+2026-07-18 13:14:19.549 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7253/ - 200 null text/html; charset=utf-8 796.4493ms
+2026-07-18 13:14:19.690 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:7253/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map - null null
+2026-07-18 13:14:19.763 +02:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map'. Physical path: 'C:\WerkSoekAssessments\FinalAssessment\Bongoe2\VariBillWebApp.Mvc\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js.map'
+2026-07-18 13:14:19.766 +02:00 [INF] HTTP GET /lib/bootstrap/dist/js/bootstrap.bundle.min.js.map responded 200 in 71.5897 ms
+2026-07-18 13:14:19.769 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:7253/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map - 200 332090 text/plain 78.942ms
+2026-07-18 13:14:19.884 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7253/_framework/aspnetcore-browser-refresh.js - null null
+2026-07-18 13:14:19.885 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7253/_vs/browserLink - null null
+2026-07-18 13:14:19.897 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7253/_framework/aspnetcore-browser-refresh.js - 200 14941 application/javascript; charset=utf-8 12.9521ms
+2026-07-18 13:14:19.909 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7253/catalog/products - null null
+2026-07-18 13:14:19.909 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7253/catalog/producttypes - null null
+2026-07-18 13:14:19.931 +02:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2026-07-18 13:14:19.931 +02:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2026-07-18 13:14:19.970 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7253/_vs/browserLink - 200 null text/javascript; charset=UTF-8 85.2072ms
+2026-07-18 13:14:20.595 +02:00 [INF] AuthenticationScheme: OpenIdConnect was challenged.
+2026-07-18 13:14:20.595 +02:00 [INF] AuthenticationScheme: OpenIdConnect was challenged.
+2026-07-18 13:14:20.597 +02:00 [INF] HTTP GET /catalog/producttypes responded 302 in 675.9410 ms
+2026-07-18 13:14:20.598 +02:00 [INF] HTTP GET /catalog/products responded 302 in 679.5538 ms
+2026-07-18 13:14:20.600 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7253/catalog/producttypes - 302 0 null 690.7423ms
+2026-07-18 13:14:20.602 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7253/catalog/products - 302 0 null 693.0785ms
+2026-07-18 13:14:23.068 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7253/product - null null
+2026-07-18 13:14:23.079 +02:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2026-07-18 13:14:23.142 +02:00 [INF] AuthenticationScheme: OpenIdConnect was challenged.
+2026-07-18 13:14:23.144 +02:00 [INF] HTTP GET /product responded 302 in 71.0295 ms
+2026-07-18 13:14:23.147 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7253/product - 302 null null 79.1878ms
+2026-07-18 13:14:25.331 +02:00 [INF] Request starting HTTP/2 POST https://localhost:7253/signin-oidc - application/x-www-form-urlencoded 593
+2026-07-18 13:14:25.761 +02:00 [INF] AuthenticationScheme: Cookies signed in.
+2026-07-18 13:14:25.763 +02:00 [INF] HTTP POST /signin-oidc responded 302 in 424.8438 ms
+2026-07-18 13:14:25.766 +02:00 [INF] Request finished HTTP/2 POST https://localhost:7253/signin-oidc - 302 null null 435.1303ms
+2026-07-18 13:14:25.770 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7253/product - null null
+2026-07-18 13:14:25.779 +02:00 [INF] Executing endpoint 'VariBillWebApp.Mvc.Controllers.ProductController.Index (VariBillWebApp.Mvc)'
+2026-07-18 13:14:25.787 +02:00 [INF] Route matched with {action = "Index", controller = "Product"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index() on controller VariBillWebApp.Mvc.Controllers.ProductController (VariBillWebApp.Mvc).
+2026-07-18 13:14:25.803 +02:00 [INF] Start processing HTTP request GET https://localhost:7090/api/products
+2026-07-18 13:14:25.813 +02:00 [INF] Sending HTTP request GET https://localhost:7090/api/products
+2026-07-18 13:14:30.205 +02:00 [INF] Received HTTP response headers after 4387.3469ms - 200
+2026-07-18 13:14:30.211 +02:00 [INF] End processing HTTP request after 4408.0231ms - 200
+2026-07-18 13:14:32.370 +02:00 [INF] Executing ViewResult, running view Index.
+2026-07-18 13:14:32.391 +02:00 [INF] Executed ViewResult - view Index executed in 21.9455ms.
+2026-07-18 13:14:32.392 +02:00 [INF] Executed action VariBillWebApp.Mvc.Controllers.ProductController.Index (VariBillWebApp.Mvc) in 6601.2004ms
+2026-07-18 13:14:32.395 +02:00 [INF] Executed endpoint 'VariBillWebApp.Mvc.Controllers.ProductController.Index (VariBillWebApp.Mvc)'
+2026-07-18 13:14:32.397 +02:00 [INF] HTTP GET /product responded 200 in 6621.2168 ms
+2026-07-18 13:14:32.403 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7253/product - 200 null text/html; charset=utf-8 6631.4735ms
+2026-07-18 13:14:32.410 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7253/_framework/aspnetcore-browser-refresh.js - null null
+2026-07-18 13:14:32.416 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7253/_vs/browserLink - null null
+2026-07-18 13:14:32.420 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7253/_framework/aspnetcore-browser-refresh.js - 200 14941 application/javascript; charset=utf-8 9.6536ms
+2026-07-18 13:14:32.445 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7253/_vs/browserLink - 200 null text/javascript; charset=UTF-8 29.0879ms
+2026-07-18 13:14:48.917 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7253/legacyproducts - null null
+2026-07-18 13:14:48.923 +02:00 [INF] Executing endpoint 'VariBillWebApp.Mvc.Controllers.HomeController.LegacyProducts (VariBillWebApp.Mvc)'
+2026-07-18 13:14:48.927 +02:00 [INF] Route matched with {action = "LegacyProducts", controller = "Home"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] LegacyProducts() on controller VariBillWebApp.Mvc.Controllers.HomeController (VariBillWebApp.Mvc).
+2026-07-18 13:15:11.042 +02:00 [INF] APISettings:VariBillAPIAddress = https://localhost:7090
+2026-07-18 13:15:11.153 +02:00 [INF] User profile is available. Using 'C:\Users\charl\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-07-18 13:15:11.415 +02:00 [INF] Now listening on: https://localhost:7253
+2026-07-18 13:15:11.417 +02:00 [INF] Now listening on: http://localhost:5180
+2026-07-18 13:15:11.467 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-07-18 13:15:11.468 +02:00 [INF] Hosting environment: Development
+2026-07-18 13:15:11.469 +02:00 [INF] Content root path: C:\WerkSoekAssessments\FinalAssessment\Bongoe2\VariBillWebApp.Mvc
+2026-07-18 13:15:13.616 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7253/ - null null
+2026-07-18 13:15:14.018 +02:00 [INF] Executing endpoint 'VariBillWebApp.Mvc.Controllers.HomeController.Index (VariBillWebApp.Mvc)'
+2026-07-18 13:15:14.062 +02:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller VariBillWebApp.Mvc.Controllers.HomeController (VariBillWebApp.Mvc).
+2026-07-18 13:15:14.084 +02:00 [INF] Executing ViewResult, running view Index.
+2026-07-18 13:15:14.260 +02:00 [INF] Executed ViewResult - view Index executed in 177.6307ms.
+2026-07-18 13:15:14.280 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7253/_framework/aspnetcore-browser-refresh.js - null null
+2026-07-18 13:15:14.294 +02:00 [INF] Executed action VariBillWebApp.Mvc.Controllers.HomeController.Index (VariBillWebApp.Mvc) in 228.836ms
+2026-07-18 13:15:14.297 +02:00 [INF] Executed endpoint 'VariBillWebApp.Mvc.Controllers.HomeController.Index (VariBillWebApp.Mvc)'
+2026-07-18 13:15:14.299 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7253/_framework/aspnetcore-browser-refresh.js - 200 14941 application/javascript; charset=utf-8 17.6135ms
+2026-07-18 13:15:14.303 +02:00 [INF] HTTP GET / responded 200 in 471.9953 ms
+2026-07-18 13:15:14.313 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7253/ - 200 null text/html; charset=utf-8 701.4725ms
+2026-07-18 13:15:14.397 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7253/_vs/browserLink - null null
+2026-07-18 13:15:14.539 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7253/_vs/browserLink - 200 null text/javascript; charset=UTF-8 142.3628ms
+2026-07-18 13:15:14.579 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:7253/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map - null null
+2026-07-18 13:15:14.608 +02:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map'. Physical path: 'C:\WerkSoekAssessments\FinalAssessment\Bongoe2\VariBillWebApp.Mvc\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js.map'
+2026-07-18 13:15:14.610 +02:00 [INF] HTTP GET /lib/bootstrap/dist/js/bootstrap.bundle.min.js.map responded 200 in 27.2524 ms
+2026-07-18 13:15:14.613 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:7253/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map - 200 332090 text/plain 34.2757ms
+2026-07-18 13:15:14.677 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7253/catalog/products - null null
+2026-07-18 13:15:14.677 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7253/catalog/producttypes - null null
+2026-07-18 13:15:14.694 +02:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2026-07-18 13:15:14.694 +02:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2026-07-18 13:15:15.863 +02:00 [INF] AuthenticationScheme: OpenIdConnect was challenged.
+2026-07-18 13:15:15.863 +02:00 [INF] AuthenticationScheme: OpenIdConnect was challenged.
+2026-07-18 13:15:15.865 +02:00 [INF] HTTP GET /catalog/products responded 302 in 1183.7690 ms
+2026-07-18 13:15:15.865 +02:00 [INF] HTTP GET /catalog/producttypes responded 302 in 1176.6369 ms
+2026-07-18 13:15:15.868 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7253/catalog/products - 302 0 null 1190.4985ms
+2026-07-18 13:15:15.870 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7253/catalog/producttypes - 302 0 null 1192.5691ms
+2026-07-18 13:18:17.752 +02:00 [INF] APISettings:VariBillAPIAddress = https://localhost:7090
+2026-07-18 13:18:17.930 +02:00 [INF] User profile is available. Using 'C:\Users\charl\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-07-18 13:18:18.272 +02:00 [INF] Now listening on: https://localhost:7253
+2026-07-18 13:18:18.282 +02:00 [INF] Now listening on: http://localhost:5180
+2026-07-18 13:18:18.357 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-07-18 13:18:18.359 +02:00 [INF] Hosting environment: Development
+2026-07-18 13:18:18.361 +02:00 [INF] Content root path: C:\WerkSoekAssessments\FinalAssessment\Bongoe2\VariBillWebApp.Mvc
+2026-07-18 13:18:20.939 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7253/ - null null
+2026-07-18 13:18:21.356 +02:00 [INF] Executing endpoint 'VariBillWebApp.Mvc.Controllers.HomeController.Index (VariBillWebApp.Mvc)'
+2026-07-18 13:18:21.415 +02:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller VariBillWebApp.Mvc.Controllers.HomeController (VariBillWebApp.Mvc).
+2026-07-18 13:18:21.442 +02:00 [INF] Executing ViewResult, running view Index.
+2026-07-18 13:18:21.684 +02:00 [INF] Executed ViewResult - view Index executed in 242.9806ms.
+2026-07-18 13:18:21.698 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7253/_framework/aspnetcore-browser-refresh.js - null null
+2026-07-18 13:18:21.722 +02:00 [INF] Executed action VariBillWebApp.Mvc.Controllers.HomeController.Index (VariBillWebApp.Mvc) in 303.3268ms
+2026-07-18 13:18:21.742 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7253/_framework/aspnetcore-browser-refresh.js - 200 14941 application/javascript; charset=utf-8 43.739ms
+2026-07-18 13:18:21.754 +02:00 [INF] Executed endpoint 'VariBillWebApp.Mvc.Controllers.HomeController.Index (VariBillWebApp.Mvc)'
+2026-07-18 13:18:21.793 +02:00 [INF] HTTP GET / responded 200 in 657.1908 ms
+2026-07-18 13:18:21.807 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7253/ - 200 null text/html; charset=utf-8 871.474ms
+2026-07-18 13:18:21.843 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7253/_vs/browserLink - null null
+2026-07-18 13:18:21.961 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7253/_vs/browserLink - 200 null text/javascript; charset=UTF-8 117.5194ms
+2026-07-18 13:18:22.017 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:7253/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map - null null
+2026-07-18 13:18:22.057 +02:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map'. Physical path: 'C:\WerkSoekAssessments\FinalAssessment\Bongoe2\VariBillWebApp.Mvc\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js.map'
+2026-07-18 13:18:22.059 +02:00 [INF] HTTP GET /lib/bootstrap/dist/js/bootstrap.bundle.min.js.map responded 200 in 30.9606 ms
+2026-07-18 13:18:22.063 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:7253/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map - 200 332090 text/plain 46.1679ms
+2026-07-18 13:18:22.149 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7253/catalog/products - null null
+2026-07-18 13:18:22.149 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7253/catalog/producttypes - null null
+2026-07-18 13:18:22.198 +02:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2026-07-18 13:18:22.202 +02:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2026-07-18 13:18:23.050 +02:00 [INF] AuthenticationScheme: OpenIdConnect was challenged.
+2026-07-18 13:18:23.050 +02:00 [INF] AuthenticationScheme: OpenIdConnect was challenged.
+2026-07-18 13:18:23.053 +02:00 [INF] HTTP GET /catalog/products responded 302 in 869.9826 ms
+2026-07-18 13:18:23.054 +02:00 [INF] HTTP GET /catalog/producttypes responded 302 in 865.3482 ms
+2026-07-18 13:18:23.056 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7253/catalog/products - 302 0 null 907.5328ms
+2026-07-18 13:18:23.058 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7253/catalog/producttypes - 302 0 null 909.195ms
+2026-07-18 13:19:39.071 +02:00 [INF] APISettings:VariBillAPIAddress = https://localhost:7090
+2026-07-18 13:19:39.183 +02:00 [INF] User profile is available. Using 'C:\Users\charl\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-07-18 13:19:39.449 +02:00 [INF] Now listening on: https://localhost:7253
+2026-07-18 13:19:39.451 +02:00 [INF] Now listening on: http://localhost:5180
+2026-07-18 13:19:39.503 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-07-18 13:19:39.504 +02:00 [INF] Hosting environment: Development
+2026-07-18 13:19:39.505 +02:00 [INF] Content root path: C:\WerkSoekAssessments\FinalAssessment\Bongoe2\VariBillWebApp.Mvc
+2026-07-18 13:19:41.645 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7253/ - null null
+2026-07-18 13:19:42.040 +02:00 [INF] Executing endpoint 'VariBillWebApp.Mvc.Controllers.HomeController.Index (VariBillWebApp.Mvc)'
+2026-07-18 13:19:42.088 +02:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller VariBillWebApp.Mvc.Controllers.HomeController (VariBillWebApp.Mvc).
+2026-07-18 13:19:42.117 +02:00 [INF] Executing ViewResult, running view Index.
+2026-07-18 13:19:42.294 +02:00 [INF] Executed ViewResult - view Index executed in 180.8194ms.
+2026-07-18 13:19:42.314 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7253/_framework/aspnetcore-browser-refresh.js - null null
+2026-07-18 13:19:42.327 +02:00 [INF] Executed action VariBillWebApp.Mvc.Controllers.HomeController.Index (VariBillWebApp.Mvc) in 234.996ms
+2026-07-18 13:19:42.340 +02:00 [INF] Executed endpoint 'VariBillWebApp.Mvc.Controllers.HomeController.Index (VariBillWebApp.Mvc)'
+2026-07-18 13:19:42.343 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7253/_framework/aspnetcore-browser-refresh.js - 200 14941 application/javascript; charset=utf-8 28.5773ms
+2026-07-18 13:19:42.346 +02:00 [INF] HTTP GET / responded 200 in 497.9596 ms
+2026-07-18 13:19:42.357 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7253/ - 200 null text/html; charset=utf-8 715.2514ms
+2026-07-18 13:19:42.442 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7253/_vs/browserLink - null null
+2026-07-18 13:19:42.530 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7253/_vs/browserLink - 200 null text/javascript; charset=UTF-8 87.9007ms
+2026-07-18 13:19:42.630 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:7253/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map - null null
+2026-07-18 13:19:42.659 +02:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map'. Physical path: 'C:\WerkSoekAssessments\FinalAssessment\Bongoe2\VariBillWebApp.Mvc\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js.map'
+2026-07-18 13:19:42.680 +02:00 [INF] HTTP GET /lib/bootstrap/dist/js/bootstrap.bundle.min.js.map responded 200 in 45.4238 ms
+2026-07-18 13:19:42.686 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:7253/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map - 200 332090 text/plain 55.3107ms
+2026-07-18 13:19:42.754 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7253/catalog/products - null null
+2026-07-18 13:19:42.754 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7253/catalog/producttypes - null null
+2026-07-18 13:19:42.794 +02:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2026-07-18 13:19:42.794 +02:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2026-07-18 13:19:44.069 +02:00 [INF] AuthenticationScheme: OpenIdConnect was challenged.
+2026-07-18 13:19:44.069 +02:00 [INF] AuthenticationScheme: OpenIdConnect was challenged.
+2026-07-18 13:19:44.072 +02:00 [INF] HTTP GET /catalog/producttypes responded 302 in 1286.4818 ms
+2026-07-18 13:19:44.072 +02:00 [INF] HTTP GET /catalog/products responded 302 in 1291.2228 ms
+2026-07-18 13:19:44.075 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7253/catalog/producttypes - 302 0 null 1320.8881ms
+2026-07-18 13:19:44.078 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7253/catalog/products - 302 0 null 1323.9015ms
+2026-07-18 13:19:45.541 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7253/product - null null
+2026-07-18 13:19:45.553 +02:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2026-07-18 13:19:45.623 +02:00 [INF] AuthenticationScheme: OpenIdConnect was challenged.
+2026-07-18 13:19:45.625 +02:00 [INF] HTTP GET /product responded 302 in 77.4273 ms
+2026-07-18 13:19:45.627 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7253/product - 302 null null 85.5531ms
+2026-07-18 13:19:47.868 +02:00 [INF] Request starting HTTP/2 POST https://localhost:7253/signin-oidc - application/x-www-form-urlencoded 593
+2026-07-18 13:19:48.272 +02:00 [INF] AuthenticationScheme: Cookies signed in.
+2026-07-18 13:19:48.273 +02:00 [INF] HTTP POST /signin-oidc responded 302 in 399.5890 ms
+2026-07-18 13:19:48.275 +02:00 [INF] Request finished HTTP/2 POST https://localhost:7253/signin-oidc - 302 null null 406.7384ms
+2026-07-18 13:19:48.278 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7253/product - null null
+2026-07-18 13:19:48.300 +02:00 [INF] Executing endpoint 'VariBillWebApp.Mvc.Controllers.ProductController.Index (VariBillWebApp.Mvc)'
+2026-07-18 13:19:48.307 +02:00 [INF] Route matched with {action = "Index", controller = "Product"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index() on controller VariBillWebApp.Mvc.Controllers.ProductController (VariBillWebApp.Mvc).
+2026-07-18 13:19:48.322 +02:00 [INF] Start processing HTTP request GET https://localhost:7090/api/products
+2026-07-18 13:19:48.332 +02:00 [INF] Sending HTTP request GET https://localhost:7090/api/products
+2026-07-18 13:19:52.993 +02:00 [INF] Received HTTP response headers after 4655.6148ms - 200
+2026-07-18 13:19:52.998 +02:00 [INF] End processing HTTP request after 4676.3126ms - 200
+2026-07-18 13:19:56.587 +02:00 [INF] Executing ViewResult, running view Index.
+2026-07-18 13:19:56.608 +02:00 [INF] Executed ViewResult - view Index executed in 21.4768ms.
+2026-07-18 13:19:56.611 +02:00 [INF] Executed action VariBillWebApp.Mvc.Controllers.ProductController.Index (VariBillWebApp.Mvc) in 8300.4293ms
+2026-07-18 13:19:56.613 +02:00 [INF] Executed endpoint 'VariBillWebApp.Mvc.Controllers.ProductController.Index (VariBillWebApp.Mvc)'
+2026-07-18 13:19:56.615 +02:00 [INF] HTTP GET /product responded 200 in 8330.8300 ms
+2026-07-18 13:19:56.620 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7253/product - 200 null text/html; charset=utf-8 8341.0483ms
+2026-07-18 13:19:56.633 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7253/_framework/aspnetcore-browser-refresh.js - null null
+2026-07-18 13:19:56.634 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7253/_vs/browserLink - null null
+2026-07-18 13:19:56.641 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7253/_framework/aspnetcore-browser-refresh.js - 200 14941 application/javascript; charset=utf-8 7.9536ms
+2026-07-18 13:19:56.663 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7253/_vs/browserLink - 200 null text/javascript; charset=UTF-8 27.9863ms
+2026-07-18 13:20:01.223 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7253/legacyproducts - null null
+2026-07-18 13:20:01.230 +02:00 [INF] Executing endpoint 'VariBillWebApp.Mvc.Controllers.HomeController.LegacyProducts (VariBillWebApp.Mvc)'
+2026-07-18 13:20:01.236 +02:00 [INF] Route matched with {action = "LegacyProducts", controller = "Home"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] LegacyProducts() on controller VariBillWebApp.Mvc.Controllers.HomeController (VariBillWebApp.Mvc).
+2026-07-18 13:20:05.296 +02:00 [INF] Start processing HTTP request GET https://localhost:7090/api/products
+2026-07-18 13:20:05.298 +02:00 [INF] Sending HTTP request GET https://localhost:7090/api/products
+2026-07-18 13:20:05.379 +02:00 [INF] Received HTTP response headers after 79.5084ms - 200
+2026-07-18 13:20:05.381 +02:00 [INF] End processing HTTP request after 85.1344ms - 200
+2026-07-18 13:20:08.880 +02:00 [INF] Executing ViewResult, running view LegacyProducts.
+2026-07-18 13:20:08.901 +02:00 [INF] Executed ViewResult - view LegacyProducts executed in 21.8845ms.
+2026-07-18 13:20:08.904 +02:00 [INF] Executed action VariBillWebApp.Mvc.Controllers.HomeController.LegacyProducts (VariBillWebApp.Mvc) in 7664.1815ms
+2026-07-18 13:20:08.906 +02:00 [INF] Executed endpoint 'VariBillWebApp.Mvc.Controllers.HomeController.LegacyProducts (VariBillWebApp.Mvc)'
+2026-07-18 13:20:08.908 +02:00 [INF] HTTP GET /legacyproducts responded 200 in 7678.0922 ms
+2026-07-18 13:20:08.913 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7253/legacyproducts - 200 null text/html; charset=utf-8 7688.4528ms
+2026-07-18 13:20:08.921 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7253/_framework/aspnetcore-browser-refresh.js - null null
+2026-07-18 13:20:08.927 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7253/_vs/browserLink - null null
+2026-07-18 13:20:08.930 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7253/_framework/aspnetcore-browser-refresh.js - 200 14941 application/javascript; charset=utf-8 7.4678ms
+2026-07-18 13:20:08.937 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7253/_vs/browserLink - 200 null text/javascript; charset=UTF-8 10.0955ms
+2026-07-18 13:20:09.033 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7253/catalog/antiforgery/token - null null
+2026-07-18 13:20:09.042 +02:00 [INF] Executing endpoint 'VariBillWebApp.Mvc.Controllers.CatalogController.GetAntiforgeryToken (VariBillWebApp.Mvc)'
+2026-07-18 13:20:09.058 +02:00 [INF] Route matched with {action = "GetAntiforgeryToken", controller = "Catalog"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAntiforgeryToken(Microsoft.AspNetCore.Antiforgery.IAntiforgery) on controller VariBillWebApp.Mvc.Controllers.CatalogController (VariBillWebApp.Mvc).
+2026-07-18 13:20:09.078 +02:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`2[[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-07-18 13:20:09.087 +02:00 [INF] Executed action VariBillWebApp.Mvc.Controllers.CatalogController.GetAntiforgeryToken (VariBillWebApp.Mvc) in 26.4778ms
+2026-07-18 13:20:09.089 +02:00 [INF] Executed endpoint 'VariBillWebApp.Mvc.Controllers.CatalogController.GetAntiforgeryToken (VariBillWebApp.Mvc)'
+2026-07-18 13:20:09.090 +02:00 [INF] HTTP GET /catalog/antiforgery/token responded 200 in 54.1494 ms
+2026-07-18 13:20:09.092 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7253/catalog/antiforgery/token - 200 null application/json; charset=utf-8 59.4788ms
+2026-07-18 13:21:19.404 +02:00 [INF] APISettings:VariBillAPIAddress = https://localhost:7090
+2026-07-18 13:21:19.551 +02:00 [INF] User profile is available. Using 'C:\Users\charl\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-07-18 13:21:19.877 +02:00 [INF] Now listening on: https://localhost:7253
+2026-07-18 13:21:19.891 +02:00 [INF] Now listening on: http://localhost:5180
+2026-07-18 13:21:19.973 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-07-18 13:21:19.975 +02:00 [INF] Hosting environment: Development
+2026-07-18 13:21:19.976 +02:00 [INF] Content root path: C:\WerkSoekAssessments\FinalAssessment\Bongoe2\VariBillWebApp.Mvc
+2026-07-18 13:21:22.202 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7253/ - null null
+2026-07-18 13:21:22.564 +02:00 [INF] Executing endpoint 'VariBillWebApp.Mvc.Controllers.HomeController.Index (VariBillWebApp.Mvc)'
+2026-07-18 13:21:22.625 +02:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller VariBillWebApp.Mvc.Controllers.HomeController (VariBillWebApp.Mvc).
+2026-07-18 13:21:22.652 +02:00 [INF] Executing ViewResult, running view Index.
+2026-07-18 13:21:22.876 +02:00 [INF] Executed ViewResult - view Index executed in 227.658ms.
+2026-07-18 13:21:22.913 +02:00 [INF] Executed action VariBillWebApp.Mvc.Controllers.HomeController.Index (VariBillWebApp.Mvc) in 284.5513ms
+2026-07-18 13:21:22.917 +02:00 [INF] Executed endpoint 'VariBillWebApp.Mvc.Controllers.HomeController.Index (VariBillWebApp.Mvc)'
+2026-07-18 13:21:22.924 +02:00 [INF] HTTP GET / responded 200 in 547.3445 ms
+2026-07-18 13:21:22.942 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7253/ - 200 null text/html; charset=utf-8 742.9156ms
+2026-07-18 13:21:23.132 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:7253/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map - null null
+2026-07-18 13:21:23.164 +02:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map'. Physical path: 'C:\WerkSoekAssessments\FinalAssessment\Bongoe2\VariBillWebApp.Mvc\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js.map'
+2026-07-18 13:21:23.168 +02:00 [INF] HTTP GET /lib/bootstrap/dist/js/bootstrap.bundle.min.js.map responded 200 in 28.9142 ms
+2026-07-18 13:21:23.172 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:7253/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map - 200 332090 text/plain 39.9582ms
+2026-07-18 13:21:23.284 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7253/_framework/aspnetcore-browser-refresh.js - null null
+2026-07-18 13:21:23.284 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7253/_vs/browserLink - null null
+2026-07-18 13:21:23.295 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7253/_framework/aspnetcore-browser-refresh.js - 200 14941 application/javascript; charset=utf-8 10.912ms
+2026-07-18 13:21:23.305 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7253/catalog/products - null null
+2026-07-18 13:21:23.305 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7253/catalog/producttypes - null null
+2026-07-18 13:21:23.334 +02:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2026-07-18 13:21:23.334 +02:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2026-07-18 13:21:23.438 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7253/_vs/browserLink - 200 null text/javascript; charset=UTF-8 153.7117ms
+2026-07-18 13:21:24.520 +02:00 [INF] AuthenticationScheme: OpenIdConnect was challenged.
+2026-07-18 13:21:24.520 +02:00 [INF] AuthenticationScheme: OpenIdConnect was challenged.
+2026-07-18 13:21:24.523 +02:00 [INF] HTTP GET /catalog/producttypes responded 302 in 1203.6162 ms
+2026-07-18 13:21:24.524 +02:00 [INF] HTTP GET /catalog/products responded 302 in 1208.6311 ms
+2026-07-18 13:21:24.527 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7253/catalog/producttypes - 302 0 null 1221.9778ms
+2026-07-18 13:21:24.530 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7253/catalog/products - 302 0 null 1225.0475ms
+2026-07-18 13:21:25.105 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7253/producttype - null null
+2026-07-18 13:21:25.115 +02:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2026-07-18 13:21:25.170 +02:00 [INF] AuthenticationScheme: OpenIdConnect was challenged.
+2026-07-18 13:21:25.172 +02:00 [INF] HTTP GET /producttype responded 302 in 60.5753 ms
+2026-07-18 13:21:25.174 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7253/producttype - 302 null null 69.115ms
+2026-07-18 13:21:27.600 +02:00 [INF] Request starting HTTP/2 POST https://localhost:7253/signin-oidc - application/x-www-form-urlencoded 593
+2026-07-18 13:21:28.064 +02:00 [INF] AuthenticationScheme: Cookies signed in.
+2026-07-18 13:21:28.066 +02:00 [INF] HTTP POST /signin-oidc responded 302 in 459.9910 ms
+2026-07-18 13:21:28.068 +02:00 [INF] Request finished HTTP/2 POST https://localhost:7253/signin-oidc - 302 null null 467.6334ms
+2026-07-18 13:21:28.072 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7253/producttype - null null
+2026-07-18 13:21:28.078 +02:00 [INF] Executing endpoint 'VariBillWebApp.Mvc.Controllers.ProductTypeController.Index (VariBillWebApp.Mvc)'
+2026-07-18 13:21:28.094 +02:00 [INF] Route matched with {action = "Index", controller = "ProductType"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index() on controller VariBillWebApp.Mvc.Controllers.ProductTypeController (VariBillWebApp.Mvc).
+2026-07-18 13:21:28.109 +02:00 [INF] Start processing HTTP request GET https://localhost:7090/api/producttypes
+2026-07-18 13:21:28.120 +02:00 [INF] Sending HTTP request GET https://localhost:7090/api/producttypes
+2026-07-18 13:21:31.497 +02:00 [INF] Received HTTP response headers after 3372.9023ms - 200
+2026-07-18 13:21:31.503 +02:00 [INF] End processing HTTP request after 3393.9645ms - 200
+2026-07-18 13:21:31.525 +02:00 [INF] Executing ViewResult, running view Index.
+2026-07-18 13:21:31.545 +02:00 [INF] Executed ViewResult - view Index executed in 21.5348ms.
+2026-07-18 13:21:31.547 +02:00 [INF] Executed action VariBillWebApp.Mvc.Controllers.ProductTypeController.Index (VariBillWebApp.Mvc) in 3449.9595ms
+2026-07-18 13:21:31.549 +02:00 [INF] Executed endpoint 'VariBillWebApp.Mvc.Controllers.ProductTypeController.Index (VariBillWebApp.Mvc)'
+2026-07-18 13:21:31.551 +02:00 [INF] HTTP GET /producttype responded 200 in 3475.3188 ms
+2026-07-18 13:21:31.555 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7253/producttype - 200 null text/html; charset=utf-8 3482.5042ms
+2026-07-18 13:21:31.569 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7253/_framework/aspnetcore-browser-refresh.js - null null
+2026-07-18 13:21:31.572 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7253/_vs/browserLink - null null
+2026-07-18 13:21:31.575 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7253/_framework/aspnetcore-browser-refresh.js - 200 14941 application/javascript; charset=utf-8 6.1827ms
+2026-07-18 13:21:31.585 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7253/_vs/browserLink - 200 null text/javascript; charset=UTF-8 13.2321ms
+2026-07-18 13:21:38.345 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7253/producttype/create - null null
+2026-07-18 13:21:38.350 +02:00 [INF] Executing endpoint 'VariBillWebApp.Mvc.Controllers.ProductTypeController.Create (VariBillWebApp.Mvc)'
+2026-07-18 13:21:38.353 +02:00 [INF] Route matched with {action = "Create", controller = "ProductType"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Create() on controller VariBillWebApp.Mvc.Controllers.ProductTypeController (VariBillWebApp.Mvc).
+2026-07-18 13:21:38.357 +02:00 [INF] Executing ViewResult, running view Create.
+2026-07-18 13:21:38.392 +02:00 [INF] Executed ViewResult - view Create executed in 35.251ms.
+2026-07-18 13:21:38.395 +02:00 [INF] Executed action VariBillWebApp.Mvc.Controllers.ProductTypeController.Create (VariBillWebApp.Mvc) in 40.4513ms
+2026-07-18 13:21:38.398 +02:00 [INF] Executed endpoint 'VariBillWebApp.Mvc.Controllers.ProductTypeController.Create (VariBillWebApp.Mvc)'
+2026-07-18 13:21:38.400 +02:00 [INF] HTTP GET /producttype/create responded 200 in 49.9766 ms
+2026-07-18 13:21:38.403 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7253/producttype/create - 200 null text/html; charset=utf-8 58.5901ms
+2026-07-18 13:21:38.407 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7253/_framework/aspnetcore-browser-refresh.js - null null
+2026-07-18 13:21:38.408 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7253/_vs/browserLink - null null
+2026-07-18 13:21:38.414 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7253/_framework/aspnetcore-browser-refresh.js - 200 14941 application/javascript; charset=utf-8 6.3568ms
+2026-07-18 13:21:38.433 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7253/_vs/browserLink - 200 null text/javascript; charset=UTF-8 25.0972ms
+2026-07-18 13:21:42.667 +02:00 [INF] Request starting HTTP/2 POST https://localhost:7253/producttype/create - application/x-www-form-urlencoded 255
+2026-07-18 13:21:42.673 +02:00 [INF] Executing endpoint 'VariBillWebApp.Mvc.Controllers.ProductTypeController.Create (VariBillWebApp.Mvc)'
+2026-07-18 13:21:42.685 +02:00 [INF] Route matched with {action = "Create", controller = "ProductType"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Create(VariBillWebApp.Mvc.Models.ViewModels.CreateProductTypeModel) on controller VariBillWebApp.Mvc.Controllers.ProductTypeController (VariBillWebApp.Mvc).
+2026-07-18 13:21:44.494 +02:00 [INF] Start processing HTTP request POST https://localhost:7090/api/producttypes
+2026-07-18 13:21:44.497 +02:00 [INF] Sending HTTP request POST https://localhost:7090/api/producttypes
+2026-07-18 13:21:44.675 +02:00 [INF] Received HTTP response headers after 176.6013ms - 500
+2026-07-18 13:21:46.687 +02:00 [INF] Sending HTTP request POST https://localhost:7090/api/producttypes
+2026-07-18 13:21:46.744 +02:00 [INF] Received HTTP response headers after 54.2187ms - 500
+2026-07-18 13:21:50.752 +02:00 [INF] Sending HTTP request POST https://localhost:7090/api/producttypes
+2026-07-18 13:21:50.791 +02:00 [INF] Received HTTP response headers after 36.7376ms - 500
+2026-07-18 13:21:58.799 +02:00 [INF] Sending HTTP request POST https://localhost:7090/api/producttypes
+2026-07-18 13:21:58.837 +02:00 [INF] Received HTTP response headers after 35.5133ms - 500
+2026-07-18 13:21:58.838 +02:00 [INF] End processing HTTP request after 14342.4981ms - 500
+2026-07-18 13:21:58.840 +02:00 [WRN] API call failed. Status: "InternalServerError", Error: {"type":"https://tools.ietf.org/html/rfc9110#section-15.6.1","title":"System.InvalidOperationException","status":500,"detail":"Record type 'VariBillWebAPI.Models.DTO.CreateProductTypeDto' has validation metadata defined on property 'Name' that will be ignored. 'Name' is a parameter in the record primary constructor and validation metadata must be associated with the constructor parameter.","traceId":"00-e6340072fabd5415c369abcf05223a82-a646496ad0536228-00","exception":{"details":"System.InvalidOperationException: Record type 'VariBillWebAPI.Models.DTO.CreateProductTypeDto' has validation metadata defined on property 'Name' that will be ignored. 'Name' is a parameter in the record primary constructor and validation metadata must be associated with the constructor parameter.\r\n   at Microsoft.AspNetCore.Mvc.ModelBinding.ModelMetadata.ThrowIfRecordTypeHasValidationOnProperties()\r\n   at Microsoft.AspNetCore.Mvc.ModelBinding.Validation.DefaultComplexObjectValidationStrategy.Enumerator..ctor(ModelMetadata modelMetadata, String key, Object model)\r\n   at Microsoft.AspNetCore.Mvc.ModelBinding.Validation.DefaultComplexObjectValidationStrategy.GetChildren(ModelMetadata metadata, String key, Object model)\r\n   at Microsoft.AspNetCore.Mvc.ModelBinding.Validation.ValidationVisitor.VisitChildren(IValidationStrategy strategy)\r\n   at Microsoft.AspNetCore.Mvc.ModelBinding.Validation.ValidationVisitor.VisitComplexType(IValidationStrategy defaultStrategy)\r\n   at Microsoft.AspNetCore.Mvc.ModelBinding.Validation.ValidationVisitor.VisitImplementation(ModelMetadata& metadata, String& key, Object model)\r\n   at Microsoft.AspNetCore.Mvc.ModelBinding.Validation.ValidationVisitor.Visit(ModelMetadata metadata, String key, Object model)\r\n   at Microsoft.AspNetCore.Mvc.ModelBinding.ObjectModelValidator.Validate(ActionContext actionContext, ValidationStateDictionary validationState, String prefix, Object model, ModelMetadata metadata, Object container)\r\n   at Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder.EnforceBindRequiredAndValidate(ObjectModelValidator baseObjectValidator, ActionContext actionContext, ParameterDescriptor parameter, ModelMetadata metadata, ModelBindingContext modelBindingContext, ModelBindingResult modelBindingResult, Object container)\r\n   at Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder.BindModelAsync(ActionContext actionContext, IModelBinder modelBinder, IValueProvider valueProvider, ParameterDescriptor parameter, ModelMetadata metadata, Object value, Object container)\r\n   at Microsoft.AspNetCore.Mvc.Controllers.ControllerBinderDelegateProvider.<>c__DisplayClass0_0.<<CreateBinderDelegate>g__Bind|0>d.MoveNext()\r\n--- End of stack trace from previous location ---\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)\r\n   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)\r\n   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)\r\n   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)\r\n   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)\r\n   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)\r\n   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)","headers":{"Accept":["application/json"],"Host":["localhost:7090"],"Authorization":["Bearer eyJhbGciOiJSUzI1NiIsImtpZCI6IjIyQzI3RTE0QUVGQkVBMDMxMTc5MTVGOEZGMURGMkEzIiwidHlwIjoiYXQrand0In0.eyJpc3MiOiJodHRwOi8vbG9jYWxob3N0OjUwMDAiLCJuYmYiOjE3ODQzNzM2ODcsImlhdCI6MTc4NDM3MzY4NywiZXhwIjoxNzg0Mzc3Mjg3LCJhdWQiOlsiVmFyaUJpbGxXZWJBUEkiLCJodHRwOi8vbG9jYWxob3N0OjUwMDAvcmVzb3VyY2VzIl0sInNjb3BlIjpbIm9wZW5pZCIsInByb2ZpbGUiLCJlbWFpbCIsInJvbGVzIiwiVmFyaUJpbGxXZWJBUEkiXSwiYW1yIjpbInB3ZCJdLCJjbGllbnRfaWQiOiJWYXJpQmlsbFdlYkFwcC5JbnRlcmFjdGl2ZSIsInN1YiI6IjEzZGJlMTc1LTFkZmUtNDljOS1iZWQ5LThkYzIwNWVkODIzNCIsImF1dGhfdGltZSI6MTc4NDM3MzY4NywiaWRwIjoibG9jYWwiLCJyb2xlIjoiQWRtaW4iLCJzaWQiOiJCNjE5QTQ0NTQzN0IyNDgxNUU4RTA5NDA1NTEwNkMxRiIsImp0aSI6IjYwMTcwNTUxRDFDREYyQUVEQkY4Q0QzRUQyQkU3NUQ3In0.VpSz8aSfmW2nVYUdrNY_XC-JhfKkSwwsWGIUgJlF15dm0E0EC3rGPk_mj6JhfM_zHy9Tcdu_dVBgYikR4vbEi9sefksIDqME8kaJf-5Wq4DIknxHIKcmwD3xIh-6I9caL49GN3EDB0rddI1NXGuXM6VNXh7g9Z4GjnBKDhN9k5drJblvvW_B5mwrkym8CqdZKAY4baorFFRPo9v1a8GFsK8PA4WVRXaNKEpcJ8EtXBzvum7VJ49Bvb6TjQMiD61esqbhvkzx0gzCXpIQbC-jKKZ0KSJGdfXuQ_k7RuNkUydsqEGkG4Ju_AS-5W_IeTzyeGrRTRqN3yymW0w0p1PASg"],"Content-Type":["application/json; charset=utf-8"],"traceparent":["00-e6340072fabd5415c369abcf05223a82-e139571dc5287fe6-00"],"Content-Length":["39"]},"path":"/api/producttypes","endpoint":"VariBillWebAPI.Controllers.ProductTypesController.Create (VariBillWebAPI)","routeValues":{"action":"Create","controller":"ProductTypes"}}}
+2026-07-18 13:21:58.848 +02:00 [WRN] ProductTypeService.CreateProductTypeAsync: API returned null for create
+2026-07-18 13:21:58.850 +02:00 [INF] Executing ViewResult, running view Create.
+2026-07-18 13:21:58.854 +02:00 [INF] Executed ViewResult - view Create executed in 4.2395ms.
+2026-07-18 13:21:58.856 +02:00 [INF] Executed action VariBillWebApp.Mvc.Controllers.ProductTypeController.Create (VariBillWebApp.Mvc) in 16166.3275ms
+2026-07-18 13:21:58.859 +02:00 [INF] Executed endpoint 'VariBillWebApp.Mvc.Controllers.ProductTypeController.Create (VariBillWebApp.Mvc)'
+2026-07-18 13:21:58.860 +02:00 [INF] HTTP POST /producttype/create responded 200 in 16186.5194 ms
+2026-07-18 13:21:58.869 +02:00 [INF] Request finished HTTP/2 POST https://localhost:7253/producttype/create - 200 null text/html; charset=utf-8 16200.0834ms
+2026-07-18 13:21:58.869 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7253/_framework/aspnetcore-browser-refresh.js - null null
+2026-07-18 13:21:58.869 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7253/_vs/browserLink - null null
+2026-07-18 13:21:58.883 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7253/_framework/aspnetcore-browser-refresh.js - 200 14941 application/javascript; charset=utf-8 13.3469ms
+2026-07-18 13:21:58.898 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7253/_vs/browserLink - 200 null text/javascript; charset=UTF-8 28.962ms
+2026-07-18 13:21:58.918 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7253/.well-known/appspecific/com.chrome.devtools.json - null null
+2026-07-18 13:21:58.925 +02:00 [INF] HTTP GET /.well-known/appspecific/com.chrome.devtools.json responded 404 in 1.5693 ms
+2026-07-18 13:21:58.931 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7253/.well-known/appspecific/com.chrome.devtools.json - 404 0 null 12.3928ms
+2026-07-18 13:21:58.938 +02:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7253/.well-known/appspecific/com.chrome.devtools.json, Response status code: 404
+2026-07-18 13:23:46.166 +02:00 [INF] APISettings:VariBillAPIAddress = https://localhost:7090
+2026-07-18 13:23:46.316 +02:00 [INF] User profile is available. Using 'C:\Users\charl\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-07-18 13:23:46.634 +02:00 [INF] Now listening on: https://localhost:7253
+2026-07-18 13:23:46.648 +02:00 [INF] Now listening on: http://localhost:5180
+2026-07-18 13:23:46.718 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-07-18 13:23:46.719 +02:00 [INF] Hosting environment: Development
+2026-07-18 13:23:46.720 +02:00 [INF] Content root path: C:\WerkSoekAssessments\FinalAssessment\Bongoe2\VariBillWebApp.Mvc
+2026-07-18 13:23:49.135 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7253/ - null null
+2026-07-18 13:23:49.585 +02:00 [INF] Executing endpoint 'VariBillWebApp.Mvc.Controllers.HomeController.Index (VariBillWebApp.Mvc)'
+2026-07-18 13:23:49.652 +02:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller VariBillWebApp.Mvc.Controllers.HomeController (VariBillWebApp.Mvc).
+2026-07-18 13:23:49.689 +02:00 [INF] Executing ViewResult, running view Index.
+2026-07-18 13:23:49.946 +02:00 [INF] Executed ViewResult - view Index executed in 262.9755ms.
+2026-07-18 13:23:50.040 +02:00 [INF] Executed action VariBillWebApp.Mvc.Controllers.HomeController.Index (VariBillWebApp.Mvc) in 379.471ms
+2026-07-18 13:23:50.048 +02:00 [INF] Executed endpoint 'VariBillWebApp.Mvc.Controllers.HomeController.Index (VariBillWebApp.Mvc)'
+2026-07-18 13:23:50.056 +02:00 [INF] HTTP GET / responded 200 in 693.3518 ms
+2026-07-18 13:23:50.071 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7253/ - 200 null text/html; charset=utf-8 938.8583ms
+2026-07-18 13:23:50.296 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:7253/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map - null null
+2026-07-18 13:23:50.400 +02:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map'. Physical path: 'C:\WerkSoekAssessments\FinalAssessment\Bongoe2\VariBillWebApp.Mvc\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js.map'
+2026-07-18 13:23:50.411 +02:00 [INF] HTTP GET /lib/bootstrap/dist/js/bootstrap.bundle.min.js.map responded 200 in 103.4372 ms
+2026-07-18 13:23:50.431 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:7253/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map - 200 332090 text/plain 135.6088ms
+2026-07-18 13:23:50.460 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7253/_framework/aspnetcore-browser-refresh.js - null null
+2026-07-18 13:23:50.461 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7253/_vs/browserLink - null null
+2026-07-18 13:23:50.485 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7253/_framework/aspnetcore-browser-refresh.js - 200 14941 application/javascript; charset=utf-8 24.4583ms
+2026-07-18 13:23:50.499 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7253/catalog/products - null null
+2026-07-18 13:23:50.506 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7253/catalog/producttypes - null null
+2026-07-18 13:23:50.538 +02:00 [INF] Executing endpoint 'VariBillWebApp.Mvc.Controllers.CatalogController.GetProducts (VariBillWebApp.Mvc)'
+2026-07-18 13:23:50.540 +02:00 [INF] Executing endpoint 'VariBillWebApp.Mvc.Controllers.CatalogController.GetProductTypes (VariBillWebApp.Mvc)'
+2026-07-18 13:23:50.552 +02:00 [INF] Route matched with {action = "GetProductTypes", controller = "Catalog"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetProductTypes() on controller VariBillWebApp.Mvc.Controllers.CatalogController (VariBillWebApp.Mvc).
+2026-07-18 13:23:50.557 +02:00 [INF] Route matched with {action = "GetProducts", controller = "Catalog"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetProducts() on controller VariBillWebApp.Mvc.Controllers.CatalogController (VariBillWebApp.Mvc).
+2026-07-18 13:23:50.569 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7253/_vs/browserLink - 200 null text/javascript; charset=UTF-8 108.4537ms
+2026-07-18 13:23:50.578 +02:00 [INF] Start processing HTTP request GET https://localhost:7090/api/producttypes
+2026-07-18 13:23:50.584 +02:00 [INF] Start processing HTTP request GET https://localhost:7090/api/products
+2026-07-18 13:23:50.598 +02:00 [INF] Sending HTTP request GET https://localhost:7090/api/products
+2026-07-18 13:23:50.598 +02:00 [INF] Sending HTTP request GET https://localhost:7090/api/producttypes
+2026-07-18 13:23:53.293 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7253/product - null null
+2026-07-18 13:23:53.303 +02:00 [INF] Executing endpoint 'VariBillWebApp.Mvc.Controllers.ProductController.Index (VariBillWebApp.Mvc)'
+2026-07-18 13:23:53.310 +02:00 [INF] Route matched with {action = "Index", controller = "Product"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index() on controller VariBillWebApp.Mvc.Controllers.ProductController (VariBillWebApp.Mvc).
+2026-07-18 13:23:53.315 +02:00 [INF] Start processing HTTP request GET https://localhost:7090/api/products
+2026-07-18 13:23:53.317 +02:00 [INF] Sending HTTP request GET https://localhost:7090/api/products
+2026-07-18 13:23:55.199 +02:00 [INF] Received HTTP response headers after 4574.6543ms - 200
+2026-07-18 13:23:55.205 +02:00 [INF] End processing HTTP request after 4628.0428ms - 200
+2026-07-18 13:23:55.230 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[VariBillWebApp.Mvc.Services.ProductTypeModel, VariBillWebApp.Mvc, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-07-18 13:23:55.237 +02:00 [INF] Executed action VariBillWebApp.Mvc.Controllers.CatalogController.GetProductTypes (VariBillWebApp.Mvc) in 4681.3069ms
+2026-07-18 13:23:55.240 +02:00 [INF] Executed endpoint 'VariBillWebApp.Mvc.Controllers.CatalogController.GetProductTypes (VariBillWebApp.Mvc)'
+2026-07-18 13:23:55.241 +02:00 [INF] HTTP GET /catalog/producttypes responded 200 in 4706.2776 ms
+2026-07-18 13:23:55.243 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7253/catalog/producttypes - 200 null application/json; charset=utf-8 4736.79ms
+2026-07-18 13:23:56.128 +02:00 [INF] Received HTTP response headers after 2808.5874ms - 200
+2026-07-18 13:23:56.128 +02:00 [INF] Received HTTP response headers after 5525.8101ms - 200
+2026-07-18 13:23:56.130 +02:00 [INF] End processing HTTP request after 2814.1828ms - 200
+2026-07-18 13:23:56.131 +02:00 [INF] End processing HTTP request after 5546.3652ms - 200
+2026-07-18 13:23:56.149 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[VariBillWebApp.Mvc.Models.ViewModels.ProductViewModel, VariBillWebApp.Mvc, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-07-18 13:23:56.151 +02:00 [INF] Executing ViewResult, running view Index.
+2026-07-18 13:23:56.158 +02:00 [INF] Executed action VariBillWebApp.Mvc.Controllers.CatalogController.GetProducts (VariBillWebApp.Mvc) in 5580.5367ms
+2026-07-18 13:23:56.160 +02:00 [INF] Executed endpoint 'VariBillWebApp.Mvc.Controllers.CatalogController.GetProducts (VariBillWebApp.Mvc)'
+2026-07-18 13:23:56.161 +02:00 [INF] HTTP GET /catalog/products responded 200 in 5643.3433 ms
+2026-07-18 13:23:56.163 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7253/catalog/products - 200 null application/json; charset=utf-8 5663.6149ms
+2026-07-18 13:23:56.171 +02:00 [INF] Executed ViewResult - view Index executed in 21.4848ms.
+2026-07-18 13:23:56.174 +02:00 [INF] Executed action VariBillWebApp.Mvc.Controllers.ProductController.Index (VariBillWebApp.Mvc) in 2860.3098ms
+2026-07-18 13:23:56.177 +02:00 [INF] Executed endpoint 'VariBillWebApp.Mvc.Controllers.ProductController.Index (VariBillWebApp.Mvc)'
+2026-07-18 13:23:56.180 +02:00 [INF] HTTP GET /product responded 200 in 2878.4895 ms
+2026-07-18 13:23:56.191 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7253/_framework/aspnetcore-browser-refresh.js - null null
+2026-07-18 13:23:56.196 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7253/product - 200 null text/html; charset=utf-8 2902.8909ms
+2026-07-18 13:23:56.198 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7253/_vs/browserLink - null null
+2026-07-18 13:23:56.201 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7253/_framework/aspnetcore-browser-refresh.js - 200 14941 application/javascript; charset=utf-8 10.0572ms
+2026-07-18 13:23:56.233 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7253/_vs/browserLink - 200 null text/javascript; charset=UTF-8 34.9632ms
+2026-07-18 13:23:58.790 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7253/product/create - null null
+2026-07-18 13:23:58.796 +02:00 [INF] Executing endpoint 'VariBillWebApp.Mvc.Controllers.ProductController.Create (VariBillWebApp.Mvc)'
+2026-07-18 13:23:58.803 +02:00 [INF] Route matched with {action = "Create", controller = "Product"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Create() on controller VariBillWebApp.Mvc.Controllers.ProductController (VariBillWebApp.Mvc).
+2026-07-18 13:23:58.824 +02:00 [INF] Start processing HTTP request GET https://localhost:7090/api/producttypes
+2026-07-18 13:23:58.826 +02:00 [INF] Sending HTTP request GET https://localhost:7090/api/producttypes
+2026-07-18 13:23:58.836 +02:00 [INF] Received HTTP response headers after 8.4696ms - 200
+2026-07-18 13:23:58.838 +02:00 [INF] End processing HTTP request after 13.4818ms - 200
+2026-07-18 13:23:58.885 +02:00 [INF] Executing ViewResult, running view Create.
+2026-07-18 13:23:58.973 +02:00 [INF] Executed ViewResult - view Create executed in 88.501ms.
+2026-07-18 13:23:58.976 +02:00 [INF] Executed action VariBillWebApp.Mvc.Controllers.ProductController.Create (VariBillWebApp.Mvc) in 165.8892ms
+2026-07-18 13:23:58.980 +02:00 [INF] Executed endpoint 'VariBillWebApp.Mvc.Controllers.ProductController.Create (VariBillWebApp.Mvc)'
+2026-07-18 13:23:58.983 +02:00 [INF] HTTP GET /product/create responded 200 in 187.6457 ms
+2026-07-18 13:23:58.991 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7253/_framework/aspnetcore-browser-refresh.js - null null
+2026-07-18 13:23:58.992 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7253/_vs/browserLink - null null
+2026-07-18 13:23:58.994 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7253/product/create - 200 null text/html; charset=utf-8 203.5614ms
+2026-07-18 13:23:58.999 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7253/_framework/aspnetcore-browser-refresh.js - 200 14941 application/javascript; charset=utf-8 7.7623ms
+2026-07-18 13:23:59.014 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7253/_vs/browserLink - 200 null text/javascript; charset=UTF-8 21.9163ms
+2026-07-18 13:24:09.835 +02:00 [INF] Request starting HTTP/2 POST https://localhost:7253/product/create - application/x-www-form-urlencoded 369
+2026-07-18 13:24:09.843 +02:00 [INF] Executing endpoint 'VariBillWebApp.Mvc.Controllers.ProductController.Create (VariBillWebApp.Mvc)'
+2026-07-18 13:24:09.856 +02:00 [INF] Route matched with {action = "Create", controller = "Product"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Create(VariBillWebApp.Mvc.Models.ViewModels.ProductFormViewModel) on controller VariBillWebApp.Mvc.Controllers.ProductController (VariBillWebApp.Mvc).
+2026-07-18 13:24:09.886 +02:00 [INF] Start processing HTTP request GET https://localhost:7090/api/producttypes
+2026-07-18 13:24:09.888 +02:00 [INF] Sending HTTP request GET https://localhost:7090/api/producttypes
+2026-07-18 13:24:09.899 +02:00 [INF] Received HTTP response headers after 9.7306ms - 200
+2026-07-18 13:24:09.901 +02:00 [INF] End processing HTTP request after 14.3135ms - 200
+2026-07-18 13:24:09.903 +02:00 [INF] Executing ViewResult, running view Create.
+2026-07-18 13:24:09.908 +02:00 [INF] Executed ViewResult - view Create executed in 5.4139ms.
+2026-07-18 13:24:09.910 +02:00 [INF] Executed action VariBillWebApp.Mvc.Controllers.ProductController.Create (VariBillWebApp.Mvc) in 51.8736ms
+2026-07-18 13:24:09.913 +02:00 [INF] Executed endpoint 'VariBillWebApp.Mvc.Controllers.ProductController.Create (VariBillWebApp.Mvc)'
+2026-07-18 13:24:09.915 +02:00 [INF] HTTP POST /product/create responded 200 in 72.7672 ms
+2026-07-18 13:24:09.918 +02:00 [INF] Request finished HTTP/2 POST https://localhost:7253/product/create - 200 null text/html; charset=utf-8 83.4101ms
+2026-07-18 13:24:09.925 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7253/_framework/aspnetcore-browser-refresh.js - null null
+2026-07-18 13:24:09.925 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7253/_vs/browserLink - null null
+2026-07-18 13:24:09.935 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7253/_framework/aspnetcore-browser-refresh.js - 200 14941 application/javascript; charset=utf-8 10.3426ms
+2026-07-18 13:24:09.951 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7253/_vs/browserLink - 200 null text/javascript; charset=UTF-8 25.7628ms
+2026-07-18 13:24:20.552 +02:00 [INF] Request starting HTTP/2 POST https://localhost:7253/product/create - application/x-www-form-urlencoded 361
+2026-07-18 13:24:20.557 +02:00 [INF] Executing endpoint 'VariBillWebApp.Mvc.Controllers.ProductController.Create (VariBillWebApp.Mvc)'
+2026-07-18 13:24:20.559 +02:00 [INF] Route matched with {action = "Create", controller = "Product"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Create(VariBillWebApp.Mvc.Models.ViewModels.ProductFormViewModel) on controller VariBillWebApp.Mvc.Controllers.ProductController (VariBillWebApp.Mvc).
+2026-07-18 13:24:23.210 +02:00 [INF] Start processing HTTP request POST https://localhost:7090/api/products
+2026-07-18 13:24:23.212 +02:00 [INF] Sending HTTP request POST https://localhost:7090/api/products
+2026-07-18 13:24:23.390 +02:00 [INF] Received HTTP response headers after 175.2945ms - 500
+2026-07-18 13:24:24.241 +02:00 [INF] Request starting HTTP/2 POST https://localhost:7253/product/create - application/x-www-form-urlencoded 369
+2026-07-18 13:24:24.252 +02:00 [INF] Executing endpoint 'VariBillWebApp.Mvc.Controllers.ProductController.Create (VariBillWebApp.Mvc)'
+2026-07-18 13:24:24.263 +02:00 [INF] Route matched with {action = "Create", controller = "Product"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Create(VariBillWebApp.Mvc.Models.ViewModels.ProductFormViewModel) on controller VariBillWebApp.Mvc.Controllers.ProductController (VariBillWebApp.Mvc).
+2026-07-18 13:24:24.270 +02:00 [INF] Start processing HTTP request GET https://localhost:7090/api/producttypes
+2026-07-18 13:24:24.272 +02:00 [INF] Sending HTTP request GET https://localhost:7090/api/producttypes
+2026-07-18 13:24:24.280 +02:00 [INF] Received HTTP response headers after 6.5576ms - 200
+2026-07-18 13:24:24.281 +02:00 [INF] End processing HTTP request after 10.9836ms - 200
+2026-07-18 13:24:24.288 +02:00 [INF] Executing ViewResult, running view Create.
+2026-07-18 13:24:24.294 +02:00 [INF] Executed ViewResult - view Create executed in 7.721ms.
+2026-07-18 13:24:24.296 +02:00 [INF] Executed action VariBillWebApp.Mvc.Controllers.ProductController.Create (VariBillWebApp.Mvc) in 28.6824ms
+2026-07-18 13:24:24.298 +02:00 [INF] Executed endpoint 'VariBillWebApp.Mvc.Controllers.ProductController.Create (VariBillWebApp.Mvc)'
+2026-07-18 13:24:24.299 +02:00 [INF] HTTP POST /product/create responded 200 in 47.2083 ms
+2026-07-18 13:24:24.311 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7253/_framework/aspnetcore-browser-refresh.js - null null
+2026-07-18 13:24:24.311 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7253/_vs/browserLink - null null
+2026-07-18 13:24:24.313 +02:00 [INF] Request finished HTTP/2 POST https://localhost:7253/product/create - 200 null text/html; charset=utf-8 71.9688ms
+2026-07-18 13:24:24.323 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7253/_framework/aspnetcore-browser-refresh.js - 200 14941 application/javascript; charset=utf-8 12.0926ms
+2026-07-18 13:24:24.357 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7253/_vs/browserLink - 200 null text/javascript; charset=UTF-8 46.2542ms
+2026-07-18 13:24:24.455 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7253/favicon.ico - null null
+2026-07-18 13:24:24.476 +02:00 [INF] The file /favicon.ico was not modified
+2026-07-18 13:24:24.497 +02:00 [INF] HTTP GET /favicon.ico responded 304 in 23.0762 ms
+2026-07-18 13:24:24.506 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7253/favicon.ico - 304 null image/x-icon 51.4223ms
+2026-07-18 13:24:25.400 +02:00 [INF] Sending HTTP request POST https://localhost:7090/api/products
+2026-07-18 13:24:25.444 +02:00 [INF] Received HTTP response headers after 42.1689ms - 500
+2026-07-18 13:24:29.448 +02:00 [INF] Sending HTTP request POST https://localhost:7090/api/products
+2026-07-18 13:24:29.482 +02:00 [INF] Received HTTP response headers after 32.0103ms - 500
+2026-07-18 13:24:37.495 +02:00 [INF] Sending HTTP request POST https://localhost:7090/api/products
+2026-07-18 13:24:37.529 +02:00 [INF] Received HTTP response headers after 32.2126ms - 500
+2026-07-18 13:24:37.531 +02:00 [INF] End processing HTTP request after 14319.5839ms - 500
+2026-07-18 13:24:37.533 +02:00 [WRN] API call failed. Status: "InternalServerError", Error: {"type":"https://tools.ietf.org/html/rfc9110#section-15.6.1","title":"System.InvalidOperationException","status":500,"detail":"Record type 'VariBillWebAPI.Models.DTO.CreateProductDto' has validation metadata defined on property 'ProductTypeId' that will be ignored. 'ProductTypeId' is a parameter in the record primary constructor and validation metadata must be associated with the constructor parameter.","traceId":"00-b31ecf62b9f9b07be5da37bd0c6ad516-03759d82236cb2a7-00","exception":{"details":"System.InvalidOperationException: Record type 'VariBillWebAPI.Models.DTO.CreateProductDto' has validation metadata defined on property 'ProductTypeId' that will be ignored. 'ProductTypeId' is a parameter in the record primary constructor and validation metadata must be associated with the constructor parameter.\r\n   at Microsoft.AspNetCore.Mvc.ModelBinding.ModelMetadata.ThrowIfRecordTypeHasValidationOnProperties()\r\n   at Microsoft.AspNetCore.Mvc.ModelBinding.Validation.DefaultComplexObjectValidationStrategy.Enumerator..ctor(ModelMetadata modelMetadata, String key, Object model)\r\n   at Microsoft.AspNetCore.Mvc.ModelBinding.Validation.DefaultComplexObjectValidationStrategy.GetChildren(ModelMetadata metadata, String key, Object model)\r\n   at Microsoft.AspNetCore.Mvc.ModelBinding.Validation.ValidationVisitor.VisitChildren(IValidationStrategy strategy)\r\n   at Microsoft.AspNetCore.Mvc.ModelBinding.Validation.ValidationVisitor.VisitComplexType(IValidationStrategy defaultStrategy)\r\n   at Microsoft.AspNetCore.Mvc.ModelBinding.Validation.ValidationVisitor.VisitImplementation(ModelMetadata& metadata, String& key, Object model)\r\n   at Microsoft.AspNetCore.Mvc.ModelBinding.Validation.ValidationVisitor.Visit(ModelMetadata metadata, String key, Object model)\r\n   at Microsoft.AspNetCore.Mvc.ModelBinding.ObjectModelValidator.Validate(ActionContext actionContext, ValidationStateDictionary validationState, String prefix, Object model, ModelMetadata metadata, Object container)\r\n   at Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder.EnforceBindRequiredAndValidate(ObjectModelValidator baseObjectValidator, ActionContext actionContext, ParameterDescriptor parameter, ModelMetadata metadata, ModelBindingContext modelBindingContext, ModelBindingResult modelBindingResult, Object container)\r\n   at Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder.BindModelAsync(ActionContext actionContext, IModelBinder modelBinder, IValueProvider valueProvider, ParameterDescriptor parameter, ModelMetadata metadata, Object value, Object container)\r\n   at Microsoft.AspNetCore.Mvc.Controllers.ControllerBinderDelegateProvider.<>c__DisplayClass0_0.<<CreateBinderDelegate>g__Bind|0>d.MoveNext()\r\n--- End of stack trace from previous location ---\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)\r\n   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)\r\n   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)\r\n   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)\r\n   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)\r\n   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)\r\n   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)","headers":{"Accept":["application/json"],"Host":["localhost:7090"],"Authorization":["Bearer eyJhbGciOiJSUzI1NiIsImtpZCI6IjIyQzI3RTE0QUVGQkVBMDMxMTc5MTVGOEZGMURGMkEzIiwidHlwIjoiYXQrand0In0.eyJpc3MiOiJodHRwOi8vbG9jYWxob3N0OjUwMDAiLCJuYmYiOjE3ODQzNzM2ODcsImlhdCI6MTc4NDM3MzY4NywiZXhwIjoxNzg0Mzc3Mjg3LCJhdWQiOlsiVmFyaUJpbGxXZWJBUEkiLCJodHRwOi8vbG9jYWxob3N0OjUwMDAvcmVzb3VyY2VzIl0sInNjb3BlIjpbIm9wZW5pZCIsInByb2ZpbGUiLCJlbWFpbCIsInJvbGVzIiwiVmFyaUJpbGxXZWJBUEkiXSwiYW1yIjpbInB3ZCJdLCJjbGllbnRfaWQiOiJWYXJpQmlsbFdlYkFwcC5JbnRlcmFjdGl2ZSIsInN1YiI6IjEzZGJlMTc1LTFkZmUtNDljOS1iZWQ5LThkYzIwNWVkODIzNCIsImF1dGhfdGltZSI6MTc4NDM3MzY4NywiaWRwIjoibG9jYWwiLCJyb2xlIjoiQWRtaW4iLCJzaWQiOiJCNjE5QTQ0NTQzN0IyNDgxNUU4RTA5NDA1NTEwNkMxRiIsImp0aSI6IjYwMTcwNTUxRDFDREYyQUVEQkY4Q0QzRUQyQkU3NUQ3In0.VpSz8aSfmW2nVYUdrNY_XC-JhfKkSwwsWGIUgJlF15dm0E0EC3rGPk_mj6JhfM_zHy9Tcdu_dVBgYikR4vbEi9sefksIDqME8kaJf-5Wq4DIknxHIKcmwD3xIh-6I9caL49GN3EDB0rddI1NXGuXM6VNXh7g9Z4GjnBKDhN9k5drJblvvW_B5mwrkym8CqdZKAY4baorFFRPo9v1a8GFsK8PA4WVRXaNKEpcJ8EtXBzvum7VJ49Bvb6TjQMiD61esqbhvkzx0gzCXpIQbC-jKKZ0KSJGdfXuQ_k7RuNkUydsqEGkG4Ju_AS-5W_IeTzyeGrRTRqN3yymW0w0p1PASg"],"Content-Type":["application/json; charset=utf-8"],"traceparent":["00-b31ecf62b9f9b07be5da37bd0c6ad516-d80edcb737cd8cb8-00"],"Content-Length":["110"]},"path":"/api/products","endpoint":"VariBillWebAPI.Controllers.ProductsController.Create (VariBillWebAPI)","routeValues":{"action":"Create","controller":"Products"}}}
+2026-07-18 13:24:37.541 +02:00 [INF] Start processing HTTP request GET https://localhost:7090/api/producttypes
+2026-07-18 13:24:37.542 +02:00 [INF] Sending HTTP request GET https://localhost:7090/api/producttypes
+2026-07-18 13:24:37.553 +02:00 [INF] Received HTTP response headers after 10.0004ms - 200
+2026-07-18 13:24:37.556 +02:00 [INF] End processing HTTP request after 14.9881ms - 200
+2026-07-18 13:24:37.560 +02:00 [INF] Executing ViewResult, running view Create.
+2026-07-18 13:25:00.050 +02:00 [INF] APISettings:VariBillAPIAddress = https://localhost:7090
+2026-07-18 13:25:00.166 +02:00 [INF] User profile is available. Using 'C:\Users\charl\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-07-18 13:25:00.452 +02:00 [INF] Now listening on: https://localhost:7253
+2026-07-18 13:25:00.454 +02:00 [INF] Now listening on: http://localhost:5180
+2026-07-18 13:25:00.510 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-07-18 13:25:00.512 +02:00 [INF] Hosting environment: Development
+2026-07-18 13:25:00.513 +02:00 [INF] Content root path: C:\WerkSoekAssessments\FinalAssessment\Bongoe2\VariBillWebApp.Mvc
+2026-07-18 13:25:02.499 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7253/ - null null
+2026-07-18 13:25:03.020 +02:00 [INF] Executing endpoint 'VariBillWebApp.Mvc.Controllers.HomeController.Index (VariBillWebApp.Mvc)'
+2026-07-18 13:25:03.074 +02:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller VariBillWebApp.Mvc.Controllers.HomeController (VariBillWebApp.Mvc).
+2026-07-18 13:25:03.099 +02:00 [INF] Executing ViewResult, running view Index.
+2026-07-18 13:25:03.272 +02:00 [INF] Executed ViewResult - view Index executed in 174.6015ms.
+2026-07-18 13:25:03.284 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7253/_framework/aspnetcore-browser-refresh.js - null null
+2026-07-18 13:25:03.307 +02:00 [INF] Executed action VariBillWebApp.Mvc.Controllers.HomeController.Index (VariBillWebApp.Mvc) in 229.1181ms
+2026-07-18 13:25:03.312 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7253/_framework/aspnetcore-browser-refresh.js - 200 14941 application/javascript; charset=utf-8 26.7542ms
+2026-07-18 13:25:03.312 +02:00 [INF] Executed endpoint 'VariBillWebApp.Mvc.Controllers.HomeController.Index (VariBillWebApp.Mvc)'
+2026-07-18 13:25:03.322 +02:00 [INF] HTTP GET / responded 200 in 502.0774 ms
+2026-07-18 13:25:03.332 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7253/ - 200 null text/html; charset=utf-8 836.6884ms
+2026-07-18 13:25:03.417 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7253/_vs/browserLink - null null
+2026-07-18 13:25:03.501 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7253/_vs/browserLink - 200 null text/javascript; charset=UTF-8 83.9328ms
+2026-07-18 13:25:03.627 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:7253/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map - null null
+2026-07-18 13:25:03.677 +02:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map'. Physical path: 'C:\WerkSoekAssessments\FinalAssessment\Bongoe2\VariBillWebApp.Mvc\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js.map'
+2026-07-18 13:25:03.680 +02:00 [INF] HTTP GET /lib/bootstrap/dist/js/bootstrap.bundle.min.js.map responded 200 in 44.3294 ms
+2026-07-18 13:25:03.682 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:7253/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map - 200 332090 text/plain 55.5646ms
+2026-07-18 13:25:03.762 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7253/catalog/products - null null
+2026-07-18 13:25:03.763 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7253/catalog/producttypes - null null
+2026-07-18 13:25:03.838 +02:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2026-07-18 13:25:03.838 +02:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2026-07-18 13:25:04.482 +02:00 [INF] AuthenticationScheme: OpenIdConnect was challenged.
+2026-07-18 13:25:04.482 +02:00 [INF] AuthenticationScheme: OpenIdConnect was challenged.
+2026-07-18 13:25:04.484 +02:00 [INF] HTTP GET /catalog/products responded 302 in 696.4765 ms
+2026-07-18 13:25:04.485 +02:00 [INF] HTTP GET /catalog/producttypes responded 302 in 651.7259 ms
+2026-07-18 13:25:04.487 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7253/catalog/products - 302 0 null 725.1231ms
+2026-07-18 13:25:04.489 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7253/catalog/producttypes - 302 0 null 726.5274ms
+2026-07-18 13:25:08.941 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7253/product - null null
+2026-07-18 13:25:08.949 +02:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2026-07-18 13:25:09.006 +02:00 [INF] AuthenticationScheme: OpenIdConnect was challenged.
+2026-07-18 13:25:09.008 +02:00 [INF] HTTP GET /product responded 302 in 61.2657 ms
+2026-07-18 13:25:09.011 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7253/product - 302 null null 70.1696ms
+2026-07-18 13:25:11.627 +02:00 [INF] Request starting HTTP/2 POST https://localhost:7253/signin-oidc - application/x-www-form-urlencoded 593
+2026-07-18 13:25:12.087 +02:00 [INF] AuthenticationScheme: Cookies signed in.
+2026-07-18 13:25:12.089 +02:00 [INF] HTTP POST /signin-oidc responded 302 in 456.4311 ms
+2026-07-18 13:25:12.094 +02:00 [INF] Request finished HTTP/2 POST https://localhost:7253/signin-oidc - 302 null null 466.3609ms
+2026-07-18 13:25:12.097 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7253/product - null null
+2026-07-18 13:25:12.106 +02:00 [INF] Executing endpoint 'VariBillWebApp.Mvc.Controllers.ProductController.Index (VariBillWebApp.Mvc)'
+2026-07-18 13:25:12.113 +02:00 [INF] Route matched with {action = "Index", controller = "Product"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index() on controller VariBillWebApp.Mvc.Controllers.ProductController (VariBillWebApp.Mvc).
+2026-07-18 13:25:12.129 +02:00 [INF] Start processing HTTP request GET https://localhost:7090/api/products
+2026-07-18 13:25:12.136 +02:00 [INF] Sending HTTP request GET https://localhost:7090/api/products
+2026-07-18 13:25:15.453 +02:00 [INF] Received HTTP response headers after 3310.7686ms - 200
+2026-07-18 13:25:15.461 +02:00 [INF] End processing HTTP request after 3331.8748ms - 200
+2026-07-18 13:25:15.524 +02:00 [INF] Executing ViewResult, running view Index.
+2026-07-18 13:25:15.562 +02:00 [INF] Executed ViewResult - view Index executed in 39.6705ms.
+2026-07-18 13:25:15.565 +02:00 [INF] Executed action VariBillWebApp.Mvc.Controllers.ProductController.Index (VariBillWebApp.Mvc) in 3447.6113ms
+2026-07-18 13:25:15.567 +02:00 [INF] Executed endpoint 'VariBillWebApp.Mvc.Controllers.ProductController.Index (VariBillWebApp.Mvc)'
+2026-07-18 13:25:15.570 +02:00 [INF] HTTP GET /product responded 200 in 3466.7288 ms
+2026-07-18 13:25:15.579 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7253/product - 200 null text/html; charset=utf-8 3480.8612ms
+2026-07-18 13:25:15.586 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7253/_framework/aspnetcore-browser-refresh.js - null null
+2026-07-18 13:25:15.589 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7253/_vs/browserLink - null null
+2026-07-18 13:25:15.595 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7253/_framework/aspnetcore-browser-refresh.js - 200 14941 application/javascript; charset=utf-8 8.9501ms
+2026-07-18 13:25:15.619 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7253/_vs/browserLink - 200 null text/javascript; charset=UTF-8 30.7474ms
+2026-07-18 13:25:17.223 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7253/product/create - null null
+2026-07-18 13:25:17.228 +02:00 [INF] Executing endpoint 'VariBillWebApp.Mvc.Controllers.ProductController.Create (VariBillWebApp.Mvc)'
+2026-07-18 13:25:17.234 +02:00 [INF] Route matched with {action = "Create", controller = "Product"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Create() on controller VariBillWebApp.Mvc.Controllers.ProductController (VariBillWebApp.Mvc).
+2026-07-18 13:25:17.251 +02:00 [INF] Start processing HTTP request GET https://localhost:7090/api/producttypes
+2026-07-18 13:25:17.254 +02:00 [INF] Sending HTTP request GET https://localhost:7090/api/producttypes
+2026-07-18 13:25:17.395 +02:00 [INF] Received HTTP response headers after 139.4914ms - 200
+2026-07-18 13:25:17.397 +02:00 [INF] End processing HTTP request after 145.4315ms - 200
+2026-07-18 13:25:17.437 +02:00 [INF] Executing ViewResult, running view Create.
+2026-07-18 13:25:17.523 +02:00 [INF] Executed ViewResult - view Create executed in 86.6127ms.
+2026-07-18 13:25:17.526 +02:00 [INF] Executed action VariBillWebApp.Mvc.Controllers.ProductController.Create (VariBillWebApp.Mvc) in 287.066ms
+2026-07-18 13:25:17.527 +02:00 [INF] Executed endpoint 'VariBillWebApp.Mvc.Controllers.ProductController.Create (VariBillWebApp.Mvc)'
+2026-07-18 13:25:17.528 +02:00 [INF] HTTP GET /product/create responded 200 in 300.8050 ms
+2026-07-18 13:25:17.531 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7253/product/create - 200 null text/html; charset=utf-8 308.2157ms
+2026-07-18 13:25:17.538 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7253/_framework/aspnetcore-browser-refresh.js - null null
+2026-07-18 13:25:17.538 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7253/_vs/browserLink - null null
+2026-07-18 13:25:17.543 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7253/_framework/aspnetcore-browser-refresh.js - 200 14941 application/javascript; charset=utf-8 4.5032ms
+2026-07-18 13:25:17.553 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7253/_vs/browserLink - 200 null text/javascript; charset=UTF-8 14.183ms
+2026-07-18 13:25:34.102 +02:00 [INF] Request starting HTTP/2 POST https://localhost:7253/product/create - application/x-www-form-urlencoded 367
+2026-07-18 13:25:34.108 +02:00 [INF] Executing endpoint 'VariBillWebApp.Mvc.Controllers.ProductController.Create (VariBillWebApp.Mvc)'
+2026-07-18 13:25:34.122 +02:00 [INF] Route matched with {action = "Create", controller = "Product"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Create(VariBillWebApp.Mvc.Models.ViewModels.ProductFormViewModel) on controller VariBillWebApp.Mvc.Controllers.ProductController (VariBillWebApp.Mvc).
+2026-07-18 13:25:41.423 +02:00 [INF] Start processing HTTP request POST https://localhost:7090/api/products
+2026-07-18 13:25:41.424 +02:00 [INF] Sending HTTP request POST https://localhost:7090/api/products
+2026-07-18 13:25:41.542 +02:00 [INF] Received HTTP response headers after 116.6409ms - 500
+2026-07-18 13:25:43.548 +02:00 [INF] Sending HTTP request POST https://localhost:7090/api/products
+2026-07-18 13:25:43.598 +02:00 [INF] Received HTTP response headers after 47.8583ms - 500
+2026-07-18 13:25:47.612 +02:00 [INF] Sending HTTP request POST https://localhost:7090/api/products
+2026-07-18 13:25:47.651 +02:00 [INF] Received HTTP response headers after 36.5516ms - 500
+2026-07-18 13:25:55.660 +02:00 [INF] Sending HTTP request POST https://localhost:7090/api/products
+2026-07-18 13:25:55.696 +02:00 [INF] Received HTTP response headers after 34.4088ms - 500
+2026-07-18 13:25:55.697 +02:00 [INF] End processing HTTP request after 14272.8553ms - 500
+2026-07-18 13:26:01.465 +02:00 [WRN] API call failed. Status: "InternalServerError", Error: {"type":"https://tools.ietf.org/html/rfc9110#section-15.6.1","title":"System.InvalidOperationException","status":500,"detail":"Record type 'VariBillWebAPI.Models.DTO.CreateProductDto' has validation metadata defined on property 'ProductTypeId' that will be ignored. 'ProductTypeId' is a parameter in the record primary constructor and validation metadata must be associated with the constructor parameter.","traceId":"00-f3562ec374e4c5811710244e001840ed-3efaaf8802d29fc9-00","exception":{"details":"System.InvalidOperationException: Record type 'VariBillWebAPI.Models.DTO.CreateProductDto' has validation metadata defined on property 'ProductTypeId' that will be ignored. 'ProductTypeId' is a parameter in the record primary constructor and validation metadata must be associated with the constructor parameter.\r\n   at Microsoft.AspNetCore.Mvc.ModelBinding.ModelMetadata.ThrowIfRecordTypeHasValidationOnProperties()\r\n   at Microsoft.AspNetCore.Mvc.ModelBinding.Validation.DefaultComplexObjectValidationStrategy.Enumerator..ctor(ModelMetadata modelMetadata, String key, Object model)\r\n   at Microsoft.AspNetCore.Mvc.ModelBinding.Validation.DefaultComplexObjectValidationStrategy.GetChildren(ModelMetadata metadata, String key, Object model)\r\n   at Microsoft.AspNetCore.Mvc.ModelBinding.Validation.ValidationVisitor.VisitChildren(IValidationStrategy strategy)\r\n   at Microsoft.AspNetCore.Mvc.ModelBinding.Validation.ValidationVisitor.VisitComplexType(IValidationStrategy defaultStrategy)\r\n   at Microsoft.AspNetCore.Mvc.ModelBinding.Validation.ValidationVisitor.VisitImplementation(ModelMetadata& metadata, String& key, Object model)\r\n   at Microsoft.AspNetCore.Mvc.ModelBinding.Validation.ValidationVisitor.Visit(ModelMetadata metadata, String key, Object model)\r\n   at Microsoft.AspNetCore.Mvc.ModelBinding.ObjectModelValidator.Validate(ActionContext actionContext, ValidationStateDictionary validationState, String prefix, Object model, ModelMetadata metadata, Object container)\r\n   at Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder.EnforceBindRequiredAndValidate(ObjectModelValidator baseObjectValidator, ActionContext actionContext, ParameterDescriptor parameter, ModelMetadata metadata, ModelBindingContext modelBindingContext, ModelBindingResult modelBindingResult, Object container)\r\n   at Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder.BindModelAsync(ActionContext actionContext, IModelBinder modelBinder, IValueProvider valueProvider, ParameterDescriptor parameter, ModelMetadata metadata, Object value, Object container)\r\n   at Microsoft.AspNetCore.Mvc.Controllers.ControllerBinderDelegateProvider.<>c__DisplayClass0_0.<<CreateBinderDelegate>g__Bind|0>d.MoveNext()\r\n--- End of stack trace from previous location ---\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)\r\n   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)\r\n   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)\r\n   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)\r\n   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)\r\n   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)\r\n   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)","headers":{"Accept":["application/json"],"Host":["localhost:7090"],"Authorization":["Bearer eyJhbGciOiJSUzI1NiIsImtpZCI6IjIyQzI3RTE0QUVGQkVBMDMxMTc5MTVGOEZGMURGMkEzIiwidHlwIjoiYXQrand0In0.eyJpc3MiOiJodHRwOi8vbG9jYWxob3N0OjUwMDAiLCJuYmYiOjE3ODQzNzM5MTEsImlhdCI6MTc4NDM3MzkxMSwiZXhwIjoxNzg0Mzc3NTExLCJhdWQiOlsiVmFyaUJpbGxXZWJBUEkiLCJodHRwOi8vbG9jYWxob3N0OjUwMDAvcmVzb3VyY2VzIl0sInNjb3BlIjpbIm9wZW5pZCIsInByb2ZpbGUiLCJlbWFpbCIsInJvbGVzIiwiVmFyaUJpbGxXZWJBUEkiXSwiYW1yIjpbInB3ZCJdLCJjbGllbnRfaWQiOiJWYXJpQmlsbFdlYkFwcC5JbnRlcmFjdGl2ZSIsInN1YiI6IjEzZGJlMTc1LTFkZmUtNDljOS1iZWQ5LThkYzIwNWVkODIzNCIsImF1dGhfdGltZSI6MTc4NDM3MzkxMSwiaWRwIjoibG9jYWwiLCJyb2xlIjoiQWRtaW4iLCJzaWQiOiJGMzkwN0UzNzJBRDYwMkY4MzI5MEE2NjY5REZDRDA5QSIsImp0aSI6IkZBNzdBOTE3RTQ2QTNBQ0M3QTEzNTg1Mjk0REM0REQ0In0.ZkHdPkd7j10xo30AzYelEJhw7Vu4kepmRD-grnav4xiJ5OAaKFwa5oS_a0T0qudQH3cNEYSd56A8GzEEW39X6SwYwUlUt0xym2QoyK1n2Z4CXlI5WvicNnt_mYZvB0GlDJmtQlYlsVUGdXsMz6PACkK2CHkJdcjsNjq_K-a4AyiCUW68daiGrlWeFFvMJlBIpb5teXE1ROvnKrVybIb81X1LkUYYxDb91ds7VZOuRGoORUk8YeVXQwA9YcpqBHunanZIli6raYnX16ApAq1S0Mh7S55D3a60I0Bc5_kz7BPEwXNj2j8Bn9Xzps-CnReJz8Mh9CkK_qHpnq3jB1FqQA"],"Content-Type":["application/json; charset=utf-8"],"traceparent":["00-f3562ec374e4c5811710244e001840ed-19baaaa14d9abfd0-00"],"Content-Length":["110"]},"path":"/api/products","endpoint":"VariBillWebAPI.Controllers.ProductsController.Create (VariBillWebAPI)","routeValues":{"action":"Create","controller":"Products"}}}
+2026-07-18 13:26:03.845 +02:00 [INF] Start processing HTTP request GET https://localhost:7090/api/producttypes
+2026-07-18 13:26:03.847 +02:00 [INF] Sending HTTP request GET https://localhost:7090/api/producttypes
+2026-07-18 13:26:03.858 +02:00 [INF] Received HTTP response headers after 9.7521ms - 200
+2026-07-18 13:26:03.861 +02:00 [INF] End processing HTTP request after 15.6238ms - 200
+2026-07-18 13:26:03.867 +02:00 [INF] Executing ViewResult, running view Create.
+2026-07-18 13:29:15.408 +02:00 [INF] APISettings:VariBillAPIAddress = https://localhost:7090
+2026-07-18 13:29:15.534 +02:00 [INF] User profile is available. Using 'C:\Users\charl\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-07-18 13:29:15.787 +02:00 [INF] Now listening on: https://localhost:7253
+2026-07-18 13:29:15.801 +02:00 [INF] Now listening on: http://localhost:5180
+2026-07-18 13:29:15.877 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-07-18 13:29:15.910 +02:00 [INF] Hosting environment: Development
+2026-07-18 13:29:15.911 +02:00 [INF] Content root path: C:\WerkSoekAssessments\FinalAssessment\Bongoe2\VariBillWebApp.Mvc
+2026-07-18 13:29:17.813 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7253/ - null null
+2026-07-18 13:29:18.707 +02:00 [INF] Executing endpoint 'VariBillWebApp.Mvc.Controllers.HomeController.Index (VariBillWebApp.Mvc)'
+2026-07-18 13:29:18.765 +02:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller VariBillWebApp.Mvc.Controllers.HomeController (VariBillWebApp.Mvc).
+2026-07-18 13:29:18.793 +02:00 [INF] Executing ViewResult, running view Index.
+2026-07-18 13:29:18.987 +02:00 [INF] Executed ViewResult - view Index executed in 197.6655ms.
+2026-07-18 13:29:19.005 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7253/_framework/aspnetcore-browser-refresh.js - null null
+2026-07-18 13:29:19.032 +02:00 [INF] Executed action VariBillWebApp.Mvc.Controllers.HomeController.Index (VariBillWebApp.Mvc) in 263.1824ms
+2026-07-18 13:29:19.040 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7253/_framework/aspnetcore-browser-refresh.js - 200 14941 application/javascript; charset=utf-8 33.8755ms
+2026-07-18 13:29:19.050 +02:00 [INF] Executed endpoint 'VariBillWebApp.Mvc.Controllers.HomeController.Index (VariBillWebApp.Mvc)'
+2026-07-18 13:29:19.062 +02:00 [INF] HTTP GET / responded 200 in 782.1064 ms
+2026-07-18 13:29:19.076 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7253/ - 200 null text/html; charset=utf-8 1266.9396ms
+2026-07-18 13:29:19.127 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7253/_vs/browserLink - null null
+2026-07-18 13:29:19.209 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7253/_vs/browserLink - 200 null text/javascript; charset=UTF-8 82.1566ms
+2026-07-18 13:29:19.251 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:7253/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map - null null
+2026-07-18 13:29:19.290 +02:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map'. Physical path: 'C:\WerkSoekAssessments\FinalAssessment\Bongoe2\VariBillWebApp.Mvc\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js.map'
+2026-07-18 13:29:19.297 +02:00 [INF] HTTP GET /lib/bootstrap/dist/js/bootstrap.bundle.min.js.map responded 200 in 43.4271 ms
+2026-07-18 13:29:19.302 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:7253/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map - 200 332090 text/plain 49.9924ms
+2026-07-18 13:29:19.440 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7253/catalog/products - null null
+2026-07-18 13:29:19.444 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7253/catalog/producttypes - null null
+2026-07-18 13:29:19.470 +02:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2026-07-18 13:29:19.470 +02:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2026-07-18 13:29:20.098 +02:00 [INF] AuthenticationScheme: OpenIdConnect was challenged.
+2026-07-18 13:29:20.098 +02:00 [INF] AuthenticationScheme: OpenIdConnect was challenged.
+2026-07-18 13:29:20.100 +02:00 [INF] HTTP GET /catalog/products responded 302 in 642.5449 ms
+2026-07-18 13:29:20.101 +02:00 [INF] HTTP GET /catalog/producttypes responded 302 in 640.0788 ms
+2026-07-18 13:29:20.103 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7253/catalog/products - 302 0 null 663.2142ms
+2026-07-18 13:29:20.106 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7253/catalog/producttypes - 302 0 null 661.7281ms
+2026-07-18 13:29:20.920 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7253/product - null null
+2026-07-18 13:29:20.932 +02:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2026-07-18 13:29:20.983 +02:00 [INF] AuthenticationScheme: OpenIdConnect was challenged.
+2026-07-18 13:29:20.984 +02:00 [INF] HTTP GET /product responded 302 in 58.7589 ms
+2026-07-18 13:29:20.986 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7253/product - 302 null null 66.236ms
+2026-07-18 13:29:23.165 +02:00 [INF] Request starting HTTP/2 POST https://localhost:7253/signin-oidc - application/x-www-form-urlencoded 593
+2026-07-18 13:29:23.629 +02:00 [INF] AuthenticationScheme: Cookies signed in.
+2026-07-18 13:29:23.631 +02:00 [INF] HTTP POST /signin-oidc responded 302 in 459.6542 ms
+2026-07-18 13:29:23.635 +02:00 [INF] Request finished HTTP/2 POST https://localhost:7253/signin-oidc - 302 null null 469.0592ms
+2026-07-18 13:29:23.638 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7253/product - null null
+2026-07-18 13:29:23.645 +02:00 [INF] Executing endpoint 'VariBillWebApp.Mvc.Controllers.ProductController.Index (VariBillWebApp.Mvc)'
+2026-07-18 13:29:23.664 +02:00 [INF] Route matched with {action = "Index", controller = "Product"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index() on controller VariBillWebApp.Mvc.Controllers.ProductController (VariBillWebApp.Mvc).
+2026-07-18 13:29:23.680 +02:00 [INF] Start processing HTTP request GET https://localhost:7090/api/products
+2026-07-18 13:29:23.690 +02:00 [INF] Sending HTTP request GET https://localhost:7090/api/products
+2026-07-18 13:29:26.984 +02:00 [INF] Received HTTP response headers after 3289.9259ms - 200
+2026-07-18 13:29:26.989 +02:00 [INF] End processing HTTP request after 3309.6748ms - 200
+2026-07-18 13:29:27.027 +02:00 [INF] Executing ViewResult, running view Index.
+2026-07-18 13:29:27.048 +02:00 [INF] Executed ViewResult - view Index executed in 21.9238ms.
+2026-07-18 13:29:27.050 +02:00 [INF] Executed action VariBillWebApp.Mvc.Controllers.ProductController.Index (VariBillWebApp.Mvc) in 3381.679ms
+2026-07-18 13:29:27.052 +02:00 [INF] Executed endpoint 'VariBillWebApp.Mvc.Controllers.ProductController.Index (VariBillWebApp.Mvc)'
+2026-07-18 13:29:27.055 +02:00 [INF] HTTP GET /product responded 200 in 3410.9886 ms
+2026-07-18 13:29:27.059 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7253/product - 200 null text/html; charset=utf-8 3420.1477ms
+2026-07-18 13:29:27.070 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7253/_framework/aspnetcore-browser-refresh.js - null null
+2026-07-18 13:29:27.071 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7253/_vs/browserLink - null null
+2026-07-18 13:29:27.077 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7253/_framework/aspnetcore-browser-refresh.js - 200 14941 application/javascript; charset=utf-8 6.8051ms
+2026-07-18 13:29:27.102 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7253/_vs/browserLink - 200 null text/javascript; charset=UTF-8 30.3491ms
+2026-07-18 13:29:30.811 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7253/product/create - null null
+2026-07-18 13:29:30.816 +02:00 [INF] Executing endpoint 'VariBillWebApp.Mvc.Controllers.ProductController.Create (VariBillWebApp.Mvc)'
+2026-07-18 13:29:30.821 +02:00 [INF] Route matched with {action = "Create", controller = "Product"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Create() on controller VariBillWebApp.Mvc.Controllers.ProductController (VariBillWebApp.Mvc).
+2026-07-18 13:29:30.834 +02:00 [INF] Start processing HTTP request GET https://localhost:7090/api/producttypes
+2026-07-18 13:29:30.836 +02:00 [INF] Sending HTTP request GET https://localhost:7090/api/producttypes
+2026-07-18 13:29:30.962 +02:00 [INF] Received HTTP response headers after 124.076ms - 200
+2026-07-18 13:29:30.964 +02:00 [INF] End processing HTTP request after 130.2217ms - 200
+2026-07-18 13:29:31.000 +02:00 [INF] Executing ViewResult, running view Create.
+2026-07-18 13:29:31.071 +02:00 [INF] Executed ViewResult - view Create executed in 71.7465ms.
+2026-07-18 13:29:31.074 +02:00 [INF] Executed action VariBillWebApp.Mvc.Controllers.ProductController.Create (VariBillWebApp.Mvc) in 250.3464ms
+2026-07-18 13:29:31.075 +02:00 [INF] Executed endpoint 'VariBillWebApp.Mvc.Controllers.ProductController.Create (VariBillWebApp.Mvc)'
+2026-07-18 13:29:31.077 +02:00 [INF] HTTP GET /product/create responded 200 in 261.3656 ms
+2026-07-18 13:29:31.080 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7253/product/create - 200 null text/html; charset=utf-8 269.4806ms
+2026-07-18 13:29:31.087 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7253/_framework/aspnetcore-browser-refresh.js - null null
+2026-07-18 13:29:31.087 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7253/_vs/browserLink - null null
+2026-07-18 13:29:31.092 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7253/_framework/aspnetcore-browser-refresh.js - 200 14941 application/javascript; charset=utf-8 4.3338ms
+2026-07-18 13:29:31.140 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7253/_vs/browserLink - 200 null text/javascript; charset=UTF-8 52.3887ms
+2026-07-18 13:29:47.792 +02:00 [INF] Request starting HTTP/2 POST https://localhost:7253/product/create - application/x-www-form-urlencoded 377
+2026-07-18 13:29:47.800 +02:00 [INF] Executing endpoint 'VariBillWebApp.Mvc.Controllers.ProductController.Create (VariBillWebApp.Mvc)'
+2026-07-18 13:29:47.814 +02:00 [INF] Route matched with {action = "Create", controller = "Product"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Create(VariBillWebApp.Mvc.Models.ViewModels.ProductFormViewModel) on controller VariBillWebApp.Mvc.Controllers.ProductController (VariBillWebApp.Mvc).
+2026-07-18 13:29:54.513 +02:00 [INF] Start processing HTTP request POST https://localhost:7090/api/products
+2026-07-18 13:29:54.515 +02:00 [INF] Sending HTTP request POST https://localhost:7090/api/products
+2026-07-18 13:29:54.642 +02:00 [INF] Received HTTP response headers after 126.272ms - 500
+2026-07-18 13:29:56.649 +02:00 [INF] Sending HTTP request POST https://localhost:7090/api/products
+2026-07-18 13:29:56.688 +02:00 [INF] Received HTTP response headers after 38.0218ms - 500
+2026-07-18 13:30:00.699 +02:00 [INF] Sending HTTP request POST https://localhost:7090/api/products
+2026-07-18 13:30:00.733 +02:00 [INF] Received HTTP response headers after 33.1935ms - 500
+2026-07-18 13:30:08.742 +02:00 [INF] Sending HTTP request POST https://localhost:7090/api/products
+2026-07-18 13:30:08.804 +02:00 [INF] Received HTTP response headers after 59.5631ms - 500
+2026-07-18 13:30:08.806 +02:00 [INF] End processing HTTP request after 14292.1783ms - 500
+2026-07-18 13:30:08.809 +02:00 [WRN] API call failed. Status: "InternalServerError", Error: {"type":"https://tools.ietf.org/html/rfc9110#section-15.6.1","title":"System.InvalidOperationException","status":500,"detail":"Record type 'VariBillWebAPI.Models.DTO.CreateProductDto' has validation metadata defined on property 'ProductTypeId' that will be ignored. 'ProductTypeId' is a parameter in the record primary constructor and validation metadata must be associated with the constructor parameter.","traceId":"00-e1184df8cd23e8a7f4c255a4e21cc432-01f5f5d9f719fc58-00","exception":{"details":"System.InvalidOperationException: Record type 'VariBillWebAPI.Models.DTO.CreateProductDto' has validation metadata defined on property 'ProductTypeId' that will be ignored. 'ProductTypeId' is a parameter in the record primary constructor and validation metadata must be associated with the constructor parameter.\r\n   at Microsoft.AspNetCore.Mvc.ModelBinding.ModelMetadata.ThrowIfRecordTypeHasValidationOnProperties()\r\n   at Microsoft.AspNetCore.Mvc.ModelBinding.Validation.DefaultComplexObjectValidationStrategy.Enumerator..ctor(ModelMetadata modelMetadata, String key, Object model)\r\n   at Microsoft.AspNetCore.Mvc.ModelBinding.Validation.DefaultComplexObjectValidationStrategy.GetChildren(ModelMetadata metadata, String key, Object model)\r\n   at Microsoft.AspNetCore.Mvc.ModelBinding.Validation.ValidationVisitor.VisitChildren(IValidationStrategy strategy)\r\n   at Microsoft.AspNetCore.Mvc.ModelBinding.Validation.ValidationVisitor.VisitComplexType(IValidationStrategy defaultStrategy)\r\n   at Microsoft.AspNetCore.Mvc.ModelBinding.Validation.ValidationVisitor.VisitImplementation(ModelMetadata& metadata, String& key, Object model)\r\n   at Microsoft.AspNetCore.Mvc.ModelBinding.Validation.ValidationVisitor.Visit(ModelMetadata metadata, String key, Object model)\r\n   at Microsoft.AspNetCore.Mvc.ModelBinding.ObjectModelValidator.Validate(ActionContext actionContext, ValidationStateDictionary validationState, String prefix, Object model, ModelMetadata metadata, Object container)\r\n   at Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder.EnforceBindRequiredAndValidate(ObjectModelValidator baseObjectValidator, ActionContext actionContext, ParameterDescriptor parameter, ModelMetadata metadata, ModelBindingContext modelBindingContext, ModelBindingResult modelBindingResult, Object container)\r\n   at Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder.BindModelAsync(ActionContext actionContext, IModelBinder modelBinder, IValueProvider valueProvider, ParameterDescriptor parameter, ModelMetadata metadata, Object value, Object container)\r\n   at Microsoft.AspNetCore.Mvc.Controllers.ControllerBinderDelegateProvider.<>c__DisplayClass0_0.<<CreateBinderDelegate>g__Bind|0>d.MoveNext()\r\n--- End of stack trace from previous location ---\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)\r\n   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)\r\n   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)\r\n   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)\r\n   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)\r\n   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)\r\n   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)","headers":{"Accept":["application/json"],"Host":["localhost:7090"],"Authorization":["Bearer eyJhbGciOiJSUzI1NiIsImtpZCI6IjIyQzI3RTE0QUVGQkVBMDMxMTc5MTVGOEZGMURGMkEzIiwidHlwIjoiYXQrand0In0.eyJpc3MiOiJodHRwOi8vbG9jYWxob3N0OjUwMDAiLCJuYmYiOjE3ODQzNzQxNjMsImlhdCI6MTc4NDM3NDE2MywiZXhwIjoxNzg0Mzc3NzYzLCJhdWQiOlsiVmFyaUJpbGxXZWJBUEkiLCJodHRwOi8vbG9jYWxob3N0OjUwMDAvcmVzb3VyY2VzIl0sInNjb3BlIjpbIm9wZW5pZCIsInByb2ZpbGUiLCJlbWFpbCIsInJvbGVzIiwiVmFyaUJpbGxXZWJBUEkiXSwiYW1yIjpbInB3ZCJdLCJjbGllbnRfaWQiOiJWYXJpQmlsbFdlYkFwcC5JbnRlcmFjdGl2ZSIsInN1YiI6IjEzZGJlMTc1LTFkZmUtNDljOS1iZWQ5LThkYzIwNWVkODIzNCIsImF1dGhfdGltZSI6MTc4NDM3NDE2MiwiaWRwIjoibG9jYWwiLCJyb2xlIjoiQWRtaW4iLCJzaWQiOiI3NDk2MEE2QUVFQTEzM0UxRUQ3ODA3MTgyQ0I1NDE3OCIsImp0aSI6IjYxQTUyM0VCOTgwNkJDRjRDMTJFMjFDQjQ4MTk4Q0VCIn0.k1bBRH9ZD4z1T0HTmCgsmtq5emwm1Y3xWAKOr_2vFooXSpUWDf72dW22GvvOF1qeozK5qo1PwxN4lTQyU4F7QmNYs2DDy28N6GmOGfyrJMPGfmFlvKTRb1U_ZinjT976WF72ts13hz59usHbtkpVU-ADNDhiKNEMqWaSyGCcFMqxcCV6w3aDbQ77yvHelKsOR8Pz7sNOkdD7FMOQT3R1rVg_XHklPXcSZuJ2uo32bT1-exoz8hX0nvD04dMfi-YsiTu2ysiK7krZzaDGfx24iZ4kwYgE3Ug0Gey_h7aA3PuuX4UGlYePZFnoXb6noy40lQ14z7yMq4qZB7OyPbcBPw"],"Content-Type":["application/json; charset=utf-8"],"traceparent":["00-e1184df8cd23e8a7f4c255a4e21cc432-c2ba8f7bf72ca0d6-00"],"Content-Length":["120"]},"path":"/api/products","endpoint":"VariBillWebAPI.Controllers.ProductsController.Create (VariBillWebAPI)","routeValues":{"action":"Create","controller":"Products"}}}
+2026-07-18 13:30:08.820 +02:00 [INF] Start processing HTTP request GET https://localhost:7090/api/producttypes
+2026-07-18 13:30:08.821 +02:00 [INF] Sending HTTP request GET https://localhost:7090/api/producttypes
+2026-07-18 13:30:08.833 +02:00 [INF] Received HTTP response headers after 10.8892ms - 200
+2026-07-18 13:30:08.835 +02:00 [INF] End processing HTTP request after 15.5248ms - 200
+2026-07-18 13:30:08.838 +02:00 [INF] Executing ViewResult, running view Create.
+2026-07-18 13:30:08.844 +02:00 [INF] Executed ViewResult - view Create executed in 5.5648ms.
+2026-07-18 13:30:08.873 +02:00 [INF] Executed action VariBillWebApp.Mvc.Controllers.ProductController.Create (VariBillWebApp.Mvc) in 21053.4488ms
+2026-07-18 13:30:08.872 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7253/_framework/aspnetcore-browser-refresh.js - null null
+2026-07-18 13:30:08.872 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7253/_vs/browserLink - null null
+2026-07-18 13:30:08.877 +02:00 [INF] Executed endpoint 'VariBillWebApp.Mvc.Controllers.ProductController.Create (VariBillWebApp.Mvc)'
+2026-07-18 13:30:08.892 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7253/_framework/aspnetcore-browser-refresh.js - 200 14941 application/javascript; charset=utf-8 15.4763ms
+2026-07-18 13:30:08.914 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7253/_vs/browserLink - 200 null text/javascript; charset=UTF-8 41.9535ms
+2026-07-18 13:30:08.898 +02:00 [INF] HTTP POST /product/create responded 200 in 21097.5722 ms
+2026-07-18 13:30:08.931 +02:00 [INF] Request finished HTTP/2 POST https://localhost:7253/product/create - 200 null text/html; charset=utf-8 21136.4601ms
+2026-07-18 13:30:13.350 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7253/.well-known/appspecific/com.chrome.devtools.json - null null
+2026-07-18 13:30:13.355 +02:00 [INF] HTTP GET /.well-known/appspecific/com.chrome.devtools.json responded 404 in 1.3355 ms
+2026-07-18 13:30:13.357 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7253/.well-known/appspecific/com.chrome.devtools.json - 404 0 null 7.4601ms
+2026-07-18 13:30:13.363 +02:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7253/.well-known/appspecific/com.chrome.devtools.json, Response status code: 404
+2026-07-18 13:38:53.574 +02:00 [INF] APISettings:VariBillAPIAddress = https://localhost:7090
+2026-07-18 13:38:53.720 +02:00 [INF] User profile is available. Using 'C:\Users\charl\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-07-18 13:38:54.012 +02:00 [INF] Now listening on: https://localhost:7253
+2026-07-18 13:38:54.014 +02:00 [INF] Now listening on: http://localhost:5180
+2026-07-18 13:38:54.067 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-07-18 13:38:54.068 +02:00 [INF] Hosting environment: Development
+2026-07-18 13:38:54.069 +02:00 [INF] Content root path: C:\WerkSoekAssessments\FinalAssessment\Bongoe2\VariBillWebApp.Mvc
+2026-07-18 13:38:56.537 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7253/ - null null
+2026-07-18 13:38:57.028 +02:00 [INF] Executing endpoint 'VariBillWebApp.Mvc.Controllers.HomeController.Index (VariBillWebApp.Mvc)'
+2026-07-18 13:38:57.088 +02:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller VariBillWebApp.Mvc.Controllers.HomeController (VariBillWebApp.Mvc).
+2026-07-18 13:38:57.112 +02:00 [INF] Executing ViewResult, running view Index.
+2026-07-18 13:38:57.323 +02:00 [INF] Executed ViewResult - view Index executed in 212.3644ms.
+2026-07-18 13:38:57.338 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7253/_framework/aspnetcore-browser-refresh.js - null null
+2026-07-18 13:38:57.360 +02:00 [INF] Executed action VariBillWebApp.Mvc.Controllers.HomeController.Index (VariBillWebApp.Mvc) in 268.4974ms
+2026-07-18 13:38:57.372 +02:00 [INF] Executed endpoint 'VariBillWebApp.Mvc.Controllers.HomeController.Index (VariBillWebApp.Mvc)'
+2026-07-18 13:38:57.374 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7253/_framework/aspnetcore-browser-refresh.js - 200 14941 application/javascript; charset=utf-8 34.6508ms
+2026-07-18 13:38:57.379 +02:00 [INF] HTTP GET / responded 200 in 552.8597 ms
+2026-07-18 13:38:57.389 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7253/ - 200 null text/html; charset=utf-8 857.9664ms
+2026-07-18 13:38:57.453 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7253/_vs/browserLink - null null
+2026-07-18 13:38:57.600 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7253/_vs/browserLink - 200 null text/javascript; charset=UTF-8 146.8428ms
+2026-07-18 13:38:57.661 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:7253/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map - null null
+2026-07-18 13:38:57.716 +02:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map'. Physical path: 'C:\WerkSoekAssessments\FinalAssessment\Bongoe2\VariBillWebApp.Mvc\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js.map'
+2026-07-18 13:38:57.718 +02:00 [INF] HTTP GET /lib/bootstrap/dist/js/bootstrap.bundle.min.js.map responded 200 in 52.7529 ms
+2026-07-18 13:38:57.723 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:7253/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map - 200 332090 text/plain 61.6431ms
+2026-07-18 13:38:57.840 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7253/catalog/products - null null
+2026-07-18 13:38:57.840 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7253/catalog/producttypes - null null
+2026-07-18 13:38:57.906 +02:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2026-07-18 13:38:57.906 +02:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2026-07-18 13:38:58.484 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7253/product - null null
+2026-07-18 13:38:58.495 +02:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2026-07-18 13:38:58.737 +02:00 [INF] AuthenticationScheme: OpenIdConnect was challenged.
+2026-07-18 13:38:58.737 +02:00 [INF] AuthenticationScheme: OpenIdConnect was challenged.
+2026-07-18 13:38:58.737 +02:00 [INF] AuthenticationScheme: OpenIdConnect was challenged.
+2026-07-18 13:38:58.740 +02:00 [INF] HTTP GET /product responded 302 in 250.2239 ms
+2026-07-18 13:38:58.740 +02:00 [INF] HTTP GET /catalog/producttypes responded 302 in 841.4055 ms
+2026-07-18 13:38:58.743 +02:00 [INF] HTTP GET /catalog/products responded 302 in 890.6062 ms
+2026-07-18 13:38:58.746 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7253/product - 302 null null 262.1825ms
+2026-07-18 13:38:58.748 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7253/catalog/producttypes - 302 0 null 907.4027ms
+2026-07-18 13:38:58.751 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7253/catalog/products - 302 0 null 909.9693ms
+2026-07-18 13:39:00.891 +02:00 [INF] Request starting HTTP/2 POST https://localhost:7253/signin-oidc - application/x-www-form-urlencoded 593
+2026-07-18 13:39:01.329 +02:00 [INF] AuthenticationScheme: Cookies signed in.
+2026-07-18 13:39:01.332 +02:00 [INF] HTTP POST /signin-oidc responded 302 in 432.4100 ms
+2026-07-18 13:39:01.334 +02:00 [INF] Request finished HTTP/2 POST https://localhost:7253/signin-oidc - 302 null null 443.2525ms
+2026-07-18 13:39:01.338 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7253/product - null null
+2026-07-18 13:39:01.345 +02:00 [INF] Executing endpoint 'VariBillWebApp.Mvc.Controllers.ProductController.Index (VariBillWebApp.Mvc)'
+2026-07-18 13:39:01.360 +02:00 [INF] Route matched with {action = "Index", controller = "Product"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index() on controller VariBillWebApp.Mvc.Controllers.ProductController (VariBillWebApp.Mvc).
+2026-07-18 13:39:01.376 +02:00 [INF] Start processing HTTP request GET https://localhost:7090/api/products
+2026-07-18 13:39:01.385 +02:00 [INF] Sending HTTP request GET https://localhost:7090/api/products
+2026-07-18 13:39:04.749 +02:00 [INF] Received HTTP response headers after 3358.9806ms - 200
+2026-07-18 13:39:04.754 +02:00 [INF] End processing HTTP request after 3379.1935ms - 200
+2026-07-18 13:39:04.786 +02:00 [INF] Executing ViewResult, running view Index.
+2026-07-18 13:39:04.807 +02:00 [INF] Executed ViewResult - view Index executed in 21.152ms.
+2026-07-18 13:39:04.810 +02:00 [INF] Executed action VariBillWebApp.Mvc.Controllers.ProductController.Index (VariBillWebApp.Mvc) in 3445.4682ms
+2026-07-18 13:39:04.811 +02:00 [INF] Executed endpoint 'VariBillWebApp.Mvc.Controllers.ProductController.Index (VariBillWebApp.Mvc)'
+2026-07-18 13:39:04.813 +02:00 [INF] HTTP GET /product responded 200 in 3470.0843 ms
+2026-07-18 13:39:04.817 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7253/product - 200 null text/html; charset=utf-8 3478.3094ms
+2026-07-18 13:39:04.825 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7253/_framework/aspnetcore-browser-refresh.js - null null
+2026-07-18 13:39:04.828 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7253/_vs/browserLink - null null
+2026-07-18 13:39:04.831 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7253/_framework/aspnetcore-browser-refresh.js - 200 14941 application/javascript; charset=utf-8 5.7629ms
+2026-07-18 13:39:04.854 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7253/_vs/browserLink - 200 null text/javascript; charset=UTF-8 25.8587ms
+2026-07-18 13:39:06.879 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7253/product/create - null null
+2026-07-18 13:39:06.886 +02:00 [INF] Executing endpoint 'VariBillWebApp.Mvc.Controllers.ProductController.Create (VariBillWebApp.Mvc)'
+2026-07-18 13:39:06.892 +02:00 [INF] Route matched with {action = "Create", controller = "Product"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Create() on controller VariBillWebApp.Mvc.Controllers.ProductController (VariBillWebApp.Mvc).
+2026-07-18 13:39:06.911 +02:00 [INF] Start processing HTTP request GET https://localhost:7090/api/producttypes
+2026-07-18 13:39:06.914 +02:00 [INF] Sending HTTP request GET https://localhost:7090/api/producttypes
+2026-07-18 13:39:07.064 +02:00 [INF] Received HTTP response headers after 148.6181ms - 200
+2026-07-18 13:39:07.066 +02:00 [INF] End processing HTTP request after 154.9935ms - 200
+2026-07-18 13:39:07.107 +02:00 [INF] Executing ViewResult, running view Create.
+2026-07-18 13:39:07.191 +02:00 [INF] Executed ViewResult - view Create executed in 84.2533ms.
+2026-07-18 13:39:07.193 +02:00 [INF] Executed action VariBillWebApp.Mvc.Controllers.ProductController.Create (VariBillWebApp.Mvc) in 296.5231ms
+2026-07-18 13:39:07.196 +02:00 [INF] Executed endpoint 'VariBillWebApp.Mvc.Controllers.ProductController.Create (VariBillWebApp.Mvc)'
+2026-07-18 13:39:07.198 +02:00 [INF] HTTP GET /product/create responded 200 in 313.2087 ms
+2026-07-18 13:39:07.201 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7253/product/create - 200 null text/html; charset=utf-8 322.0886ms
+2026-07-18 13:39:07.205 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7253/_framework/aspnetcore-browser-refresh.js - null null
+2026-07-18 13:39:07.205 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7253/_vs/browserLink - null null
+2026-07-18 13:39:07.212 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7253/_framework/aspnetcore-browser-refresh.js - 200 14941 application/javascript; charset=utf-8 7.5626ms
+2026-07-18 13:39:07.221 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7253/_vs/browserLink - 200 null text/javascript; charset=UTF-8 16.0406ms
+2026-07-18 13:39:22.009 +02:00 [INF] Request starting HTTP/2 POST https://localhost:7253/product/create - application/x-www-form-urlencoded 379
+2026-07-18 13:39:22.018 +02:00 [INF] Executing endpoint 'VariBillWebApp.Mvc.Controllers.ProductController.Create (VariBillWebApp.Mvc)'
+2026-07-18 13:39:22.029 +02:00 [INF] Route matched with {action = "Create", controller = "Product"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Create(VariBillWebApp.Mvc.Models.ViewModels.ProductFormViewModel) on controller VariBillWebApp.Mvc.Controllers.ProductController (VariBillWebApp.Mvc).
+2026-07-18 13:39:24.244 +02:00 [INF] Start processing HTTP request POST https://localhost:7090/api/products
+2026-07-18 13:39:24.246 +02:00 [INF] Sending HTTP request POST https://localhost:7090/api/products
+2026-07-18 13:39:24.368 +02:00 [INF] Received HTTP response headers after 120.1141ms - 400
+2026-07-18 13:39:24.370 +02:00 [INF] End processing HTTP request after 126.5075ms - 400
+2026-07-18 13:39:24.372 +02:00 [WRN] API call failed. Status: "BadRequest", Error: {"type":"https://tools.ietf.org/html/rfc9110#section-15.5.1","title":"One or more validation errors occurred.","status":400,"errors":{"SKU":["The SKU field is required."]},"traceId":"00-00ab22967d33fb214e6bceeef06f99ce-732fa98ff9e09658-00"}
+2026-07-18 13:39:24.376 +02:00 [INF] Start processing HTTP request GET https://localhost:7090/api/producttypes
+2026-07-18 13:39:24.377 +02:00 [INF] Sending HTTP request GET https://localhost:7090/api/producttypes
+2026-07-18 13:39:24.389 +02:00 [INF] Received HTTP response headers after 11.2351ms - 200
+2026-07-18 13:39:24.391 +02:00 [INF] End processing HTTP request after 14.967ms - 200
+2026-07-18 13:39:24.393 +02:00 [INF] Executing ViewResult, running view Create.
+2026-07-18 13:39:24.397 +02:00 [INF] Executed ViewResult - view Create executed in 4.6528ms.
+2026-07-18 13:39:24.399 +02:00 [INF] Executed action VariBillWebApp.Mvc.Controllers.ProductController.Create (VariBillWebApp.Mvc) in 2365.1198ms
+2026-07-18 13:39:24.402 +02:00 [INF] Executed endpoint 'VariBillWebApp.Mvc.Controllers.ProductController.Create (VariBillWebApp.Mvc)'
+2026-07-18 13:39:24.403 +02:00 [INF] HTTP POST /product/create responded 200 in 2387.4501 ms
+2026-07-18 13:39:24.406 +02:00 [INF] Request finished HTTP/2 POST https://localhost:7253/product/create - 200 null text/html; charset=utf-8 2395.9185ms
+2026-07-18 13:39:24.417 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7253/_vs/browserLink - null null
+2026-07-18 13:39:24.417 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7253/_framework/aspnetcore-browser-refresh.js - null null
+2026-07-18 13:39:24.439 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7253/_framework/aspnetcore-browser-refresh.js - 200 14941 application/javascript; charset=utf-8 21.5121ms
+2026-07-18 13:39:24.451 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7253/_vs/browserLink - 200 null text/javascript; charset=UTF-8 33.509ms
+2026-07-18 13:39:28.542 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7253/.well-known/appspecific/com.chrome.devtools.json - null null
+2026-07-18 13:39:28.562 +02:00 [INF] HTTP GET /.well-known/appspecific/com.chrome.devtools.json responded 404 in 1.1874 ms
+2026-07-18 13:39:28.564 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7253/.well-known/appspecific/com.chrome.devtools.json - 404 0 null 22.3758ms
+2026-07-18 13:39:28.569 +02:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7253/.well-known/appspecific/com.chrome.devtools.json, Response status code: 404
+2026-07-18 13:39:32.875 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7253/.well-known/appspecific/com.chrome.devtools.json - null null
+2026-07-18 13:39:32.880 +02:00 [INF] HTTP GET /.well-known/appspecific/com.chrome.devtools.json responded 404 in 0.6249 ms
+2026-07-18 13:39:32.883 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7253/.well-known/appspecific/com.chrome.devtools.json - 404 0 null 8.2328ms
+2026-07-18 13:39:32.890 +02:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7253/.well-known/appspecific/com.chrome.devtools.json, Response status code: 404
+2026-07-18 13:40:26.499 +02:00 [INF] APISettings:VariBillAPIAddress = https://localhost:7090
+2026-07-18 13:40:26.628 +02:00 [INF] User profile is available. Using 'C:\Users\charl\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-07-18 13:40:26.895 +02:00 [INF] Now listening on: https://localhost:7253
+2026-07-18 13:40:26.932 +02:00 [INF] Now listening on: http://localhost:5180
+2026-07-18 13:40:26.992 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-07-18 13:40:27.037 +02:00 [INF] Hosting environment: Development
+2026-07-18 13:40:27.047 +02:00 [INF] Content root path: C:\WerkSoekAssessments\FinalAssessment\Bongoe2\VariBillWebApp.Mvc
+2026-07-18 13:40:30.190 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7253/ - null null
+2026-07-18 13:40:30.620 +02:00 [INF] Executing endpoint 'VariBillWebApp.Mvc.Controllers.HomeController.Index (VariBillWebApp.Mvc)'
+2026-07-18 13:40:30.678 +02:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller VariBillWebApp.Mvc.Controllers.HomeController (VariBillWebApp.Mvc).
+2026-07-18 13:40:30.701 +02:00 [INF] Executing ViewResult, running view Index.
+2026-07-18 13:40:30.951 +02:00 [INF] Executed ViewResult - view Index executed in 246.9926ms.
+2026-07-18 13:40:30.995 +02:00 [INF] Executed action VariBillWebApp.Mvc.Controllers.HomeController.Index (VariBillWebApp.Mvc) in 313.4814ms
+2026-07-18 13:40:30.998 +02:00 [INF] Executed endpoint 'VariBillWebApp.Mvc.Controllers.HomeController.Index (VariBillWebApp.Mvc)'
+2026-07-18 13:40:31.010 +02:00 [INF] HTTP GET / responded 200 in 587.6633 ms
+2026-07-18 13:40:31.028 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7253/ - 200 null text/html; charset=utf-8 840.6348ms
+2026-07-18 13:40:31.296 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:7253/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map - null null
+2026-07-18 13:40:31.342 +02:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map'. Physical path: 'C:\WerkSoekAssessments\FinalAssessment\Bongoe2\VariBillWebApp.Mvc\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js.map'
+2026-07-18 13:40:31.347 +02:00 [INF] HTTP GET /lib/bootstrap/dist/js/bootstrap.bundle.min.js.map responded 200 in 39.2842 ms
+2026-07-18 13:40:31.353 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:7253/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map - 200 332090 text/plain 56.5677ms
+2026-07-18 13:40:31.420 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7253/_vs/browserLink - null null
+2026-07-18 13:40:31.420 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7253/_framework/aspnetcore-browser-refresh.js - null null
+2026-07-18 13:40:31.526 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7253/_framework/aspnetcore-browser-refresh.js - 200 14941 application/javascript; charset=utf-8 106.9477ms
+2026-07-18 13:40:31.538 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7253/catalog/products - null null
+2026-07-18 13:40:31.538 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7253/catalog/producttypes - null null
+2026-07-18 13:40:31.640 +02:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2026-07-18 13:40:31.642 +02:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2026-07-18 13:40:31.695 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7253/_vs/browserLink - 200 null text/javascript; charset=UTF-8 274.7239ms
+2026-07-18 13:40:32.381 +02:00 [INF] AuthenticationScheme: OpenIdConnect was challenged.
+2026-07-18 13:40:32.381 +02:00 [INF] AuthenticationScheme: OpenIdConnect was challenged.
+2026-07-18 13:40:32.384 +02:00 [INF] HTTP GET /catalog/products responded 302 in 830.7387 ms
+2026-07-18 13:40:32.385 +02:00 [INF] HTTP GET /catalog/producttypes responded 302 in 746.5205 ms
+2026-07-18 13:40:32.387 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7253/catalog/products - 302 0 null 849.5779ms
+2026-07-18 13:40:32.389 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7253/catalog/producttypes - 302 0 null 851.3645ms
+2026-07-18 13:40:35.812 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7253/product - null null
+2026-07-18 13:40:35.820 +02:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2026-07-18 13:40:35.873 +02:00 [INF] AuthenticationScheme: OpenIdConnect was challenged.
+2026-07-18 13:40:35.874 +02:00 [INF] HTTP GET /product responded 302 in 56.0538 ms
+2026-07-18 13:40:35.876 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7253/product - 302 null null 64.1913ms
+2026-07-18 13:40:37.955 +02:00 [INF] Request starting HTTP/2 POST https://localhost:7253/signin-oidc - application/x-www-form-urlencoded 593
+2026-07-18 13:40:38.385 +02:00 [INF] AuthenticationScheme: Cookies signed in.
+2026-07-18 13:40:38.387 +02:00 [INF] HTTP POST /signin-oidc responded 302 in 420.9639 ms
+2026-07-18 13:40:38.389 +02:00 [INF] Request finished HTTP/2 POST https://localhost:7253/signin-oidc - 302 null null 434.5459ms
+2026-07-18 13:40:38.393 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7253/product - null null
+2026-07-18 13:40:38.399 +02:00 [INF] Executing endpoint 'VariBillWebApp.Mvc.Controllers.ProductController.Index (VariBillWebApp.Mvc)'
+2026-07-18 13:40:38.407 +02:00 [INF] Route matched with {action = "Index", controller = "Product"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index() on controller VariBillWebApp.Mvc.Controllers.ProductController (VariBillWebApp.Mvc).
+2026-07-18 13:40:38.423 +02:00 [INF] Start processing HTTP request GET https://localhost:7090/api/products
+2026-07-18 13:40:38.432 +02:00 [INF] Sending HTTP request GET https://localhost:7090/api/products
+2026-07-18 13:40:41.791 +02:00 [INF] Received HTTP response headers after 3353.0387ms - 200
+2026-07-18 13:40:41.796 +02:00 [INF] End processing HTTP request after 3373.9134ms - 200
+2026-07-18 13:40:41.836 +02:00 [INF] Executing ViewResult, running view Index.
+2026-07-18 13:40:41.859 +02:00 [INF] Executed ViewResult - view Index executed in 24.4068ms.
+2026-07-18 13:40:41.862 +02:00 [INF] Executed action VariBillWebApp.Mvc.Controllers.ProductController.Index (VariBillWebApp.Mvc) in 3450.9169ms
+2026-07-18 13:40:41.864 +02:00 [INF] Executed endpoint 'VariBillWebApp.Mvc.Controllers.ProductController.Index (VariBillWebApp.Mvc)'
+2026-07-18 13:40:41.868 +02:00 [INF] HTTP GET /product responded 200 in 3470.6101 ms
+2026-07-18 13:40:41.873 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7253/product - 200 null text/html; charset=utf-8 3479.7401ms
+2026-07-18 13:40:41.884 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7253/_framework/aspnetcore-browser-refresh.js - null null
+2026-07-18 13:40:41.890 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7253/_vs/browserLink - null null
+2026-07-18 13:40:41.893 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7253/_framework/aspnetcore-browser-refresh.js - 200 14941 application/javascript; charset=utf-8 8.8379ms
+2026-07-18 13:40:41.904 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7253/_vs/browserLink - 200 null text/javascript; charset=UTF-8 14.0417ms
+2026-07-18 13:40:43.892 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7253/product/create - null null
+2026-07-18 13:40:43.902 +02:00 [INF] Executing endpoint 'VariBillWebApp.Mvc.Controllers.ProductController.Create (VariBillWebApp.Mvc)'
+2026-07-18 13:40:43.907 +02:00 [INF] Route matched with {action = "Create", controller = "Product"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Create() on controller VariBillWebApp.Mvc.Controllers.ProductController (VariBillWebApp.Mvc).
+2026-07-18 13:40:43.925 +02:00 [INF] Start processing HTTP request GET https://localhost:7090/api/producttypes
+2026-07-18 13:40:43.927 +02:00 [INF] Sending HTTP request GET https://localhost:7090/api/producttypes
+2026-07-18 13:40:44.150 +02:00 [INF] Received HTTP response headers after 221.2171ms - 200
+2026-07-18 13:40:44.153 +02:00 [INF] End processing HTTP request after 228.1089ms - 200
+2026-07-18 13:40:44.211 +02:00 [INF] Executing ViewResult, running view Create.
+2026-07-18 13:40:44.319 +02:00 [INF] Executed ViewResult - view Create executed in 108.5688ms.
+2026-07-18 13:40:44.320 +02:00 [INF] Executed action VariBillWebApp.Mvc.Controllers.ProductController.Create (VariBillWebApp.Mvc) in 410.1761ms
+2026-07-18 13:40:44.322 +02:00 [INF] Executed endpoint 'VariBillWebApp.Mvc.Controllers.ProductController.Create (VariBillWebApp.Mvc)'
+2026-07-18 13:40:44.323 +02:00 [INF] HTTP GET /product/create responded 200 in 422.6040 ms
+2026-07-18 13:40:44.326 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7253/product/create - 200 null text/html; charset=utf-8 433.7176ms
+2026-07-18 13:40:44.333 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7253/_framework/aspnetcore-browser-refresh.js - null null
+2026-07-18 13:40:44.333 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7253/_vs/browserLink - null null
+2026-07-18 13:40:44.336 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7253/_framework/aspnetcore-browser-refresh.js - 200 14941 application/javascript; charset=utf-8 3.3487ms
+2026-07-18 13:40:44.355 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7253/_vs/browserLink - 200 null text/javascript; charset=UTF-8 22.1114ms
+2026-07-18 13:40:54.740 +02:00 [INF] Request starting HTTP/2 POST https://localhost:7253/product/create - application/x-www-form-urlencoded 373
+2026-07-18 13:40:54.747 +02:00 [INF] Executing endpoint 'VariBillWebApp.Mvc.Controllers.ProductController.Create (VariBillWebApp.Mvc)'
+2026-07-18 13:40:54.759 +02:00 [INF] Route matched with {action = "Create", controller = "Product"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Create(VariBillWebApp.Mvc.Models.ViewModels.ProductFormViewModel) on controller VariBillWebApp.Mvc.Controllers.ProductController (VariBillWebApp.Mvc).
+2026-07-18 13:40:56.673 +02:00 [INF] Start processing HTTP request POST https://localhost:7090/api/products
+2026-07-18 13:40:56.675 +02:00 [INF] Sending HTTP request POST https://localhost:7090/api/products
+2026-07-18 13:40:56.752 +02:00 [INF] Received HTTP response headers after 75.7114ms - 400
+2026-07-18 13:40:56.754 +02:00 [INF] End processing HTTP request after 81.2238ms - 400
+2026-07-18 13:40:56.756 +02:00 [WRN] API call failed. Status: "BadRequest", Error: {"type":"https://tools.ietf.org/html/rfc9110#section-15.5.1","title":"One or more validation errors occurred.","status":400,"errors":{"SKU":["The SKU field is required."]},"traceId":"00-46d4325e2d204f3d538df512e74d8674-5d866540591e5db8-00"}
+2026-07-18 13:40:56.759 +02:00 [INF] Start processing HTTP request GET https://localhost:7090/api/producttypes
+2026-07-18 13:40:56.761 +02:00 [INF] Sending HTTP request GET https://localhost:7090/api/producttypes
+2026-07-18 13:40:56.775 +02:00 [INF] Received HTTP response headers after 12.5002ms - 200
+2026-07-18 13:40:56.777 +02:00 [INF] End processing HTTP request after 17.7259ms - 200
+2026-07-18 13:40:56.779 +02:00 [INF] Executing ViewResult, running view Create.
+2026-07-18 13:40:56.784 +02:00 [INF] Executed ViewResult - view Create executed in 5.0071ms.
+2026-07-18 13:40:56.786 +02:00 [INF] Executed action VariBillWebApp.Mvc.Controllers.ProductController.Create (VariBillWebApp.Mvc) in 2021.5195ms
+2026-07-18 13:40:56.788 +02:00 [INF] Executed endpoint 'VariBillWebApp.Mvc.Controllers.ProductController.Create (VariBillWebApp.Mvc)'
+2026-07-18 13:40:56.790 +02:00 [INF] HTTP POST /product/create responded 200 in 2043.9958 ms
+2026-07-18 13:40:56.792 +02:00 [INF] Request finished HTTP/2 POST https://localhost:7253/product/create - 200 null text/html; charset=utf-8 2052.099ms
+2026-07-18 13:40:56.802 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7253/_framework/aspnetcore-browser-refresh.js - null null
+2026-07-18 13:40:56.802 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7253/_vs/browserLink - null null
+2026-07-18 13:40:56.813 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7253/_framework/aspnetcore-browser-refresh.js - 200 14941 application/javascript; charset=utf-8 7.6415ms
+2026-07-18 13:40:56.831 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7253/_vs/browserLink - 200 null text/javascript; charset=UTF-8 28.7623ms
+2026-07-18 13:41:00.429 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7253/.well-known/appspecific/com.chrome.devtools.json - null null
+2026-07-18 13:41:00.435 +02:00 [INF] HTTP GET /.well-known/appspecific/com.chrome.devtools.json responded 404 in 1.4359 ms
+2026-07-18 13:41:00.438 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7253/.well-known/appspecific/com.chrome.devtools.json - 404 0 null 9.2672ms
+2026-07-18 13:41:00.445 +02:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7253/.well-known/appspecific/com.chrome.devtools.json, Response status code: 404
+2026-07-18 13:41:04.455 +02:00 [INF] Request starting HTTP/2 POST https://localhost:7253/product/create - application/x-www-form-urlencoded 373
+2026-07-18 13:41:04.461 +02:00 [INF] Executing endpoint 'VariBillWebApp.Mvc.Controllers.ProductController.Create (VariBillWebApp.Mvc)'
+2026-07-18 13:41:04.464 +02:00 [INF] Route matched with {action = "Create", controller = "Product"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Create(VariBillWebApp.Mvc.Models.ViewModels.ProductFormViewModel) on controller VariBillWebApp.Mvc.Controllers.ProductController (VariBillWebApp.Mvc).

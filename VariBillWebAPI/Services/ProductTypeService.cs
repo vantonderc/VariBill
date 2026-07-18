@@ -1,3 +1,4 @@
+using Microsoft.AspNetCore.Authorization;
 using VariBillWebAPI.Data.Entities;
 using VariBillWebAPI.Data.UnitOfWork.Interfaces;
 using VariBillWebAPI.Models.DTO;
@@ -9,6 +10,8 @@ namespace VariBillWebAPI.Services;
 /// <summary>
 /// Service providing operations for product types.
 /// </summary>
+
+[Authorize]
 public class ProductTypeService : IProductTypeService
 {
     private readonly IUnitOfWork _unitOfWork;
@@ -20,6 +23,7 @@ public class ProductTypeService : IProductTypeService
         _logger = logger;
     }
 
+    
     public async Task<IReadOnlyList<ProductTypeResponseDto>> GetAllAsync()
     {
         var typesWithCounts = await _unitOfWork.ProductTypes.GetAllWithProductCountsAsync();

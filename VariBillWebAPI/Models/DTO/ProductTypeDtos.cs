@@ -9,12 +9,14 @@ public record ProductTypeResponseDto(
     int ProductCount);
 
 public record CreateProductTypeDto(
-    [property: Required, MaxLength(100)] string Name,
+    [param: Required]
+    [param: MaxLength(100)] string Name,
     string? Description);
 
 public record UpdateProductTypeDto(
     Guid Id,
-    [property: Required, MaxLength(100)] string Name,
+    [param: Required]
+    [param: MaxLength(100)] string Name,
     string? Description,
     bool IsActive);
 

@@ -1,31 +1,25 @@
-﻿<div class="top-row ps-3 navbar navbar-dark">
-    <div class="container-fluid">
+﻿<nav class="navbar top-row navbar-expand-lg">
+    <div class="container-fluid px-3">
         <a class="navbar-brand" href="/">VariBill</a>
-        <button class="navbar-toggler" @onclick="ToggleNavMenu">
+        <button class="navbar-toggler" type="button" @onclick="ToggleNavMenu" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
-    </div>
-</div>
 
-<div class="@(collapseNavMenu ? "collapse" : null)" onclick="ToggleNavMenu">
-    <ul class="nav flex-column">
-        <li class="nav-item px-3">
-            <NavLink class="nav-link" href="/" Match="NavLinkMatch.All">
-                <span class="oi oi-home" aria-hidden="true"></span> Home
-            </NavLink>
-        </li>
-        <li class="nav-item px-3">
-            <NavLink class="nav-link" href="/products">
-                <span class="oi oi-list" aria-hidden="true"></span> Products
-            </NavLink>
-        </li>
-        <li class="nav-item px-3">
-            <NavLink class="nav-link" href="/producttypes">
-                <span class="oi oi-tags" aria-hidden="true"></span> Product Types
-            </NavLink>
-        </li>
-    </ul>
-</div>
+        <div class="collapse navbar-collapse @(collapseNavMenu ? "" : "show")">
+            <ul class="navbar-nav flex-column flex-lg-row ms-auto">
+                <li class="nav-item px-2">
+                    <NavLink class="nav-link" href="/" Match="NavLinkMatch.All">Home</NavLink>
+                </li>
+                <li class="nav-item px-2">
+                    <NavLink class="nav-link" href="/products">Products</NavLink>
+                </li>
+                <li class="nav-item px-2">
+                    <NavLink class="nav-link" href="/producttypes">Product Types</NavLink>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
 
 @code {
     private bool collapseNavMenu = true;

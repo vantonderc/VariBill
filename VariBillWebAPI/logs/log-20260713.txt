@@ -1,0 +1,56 @@
+2026-07-13 03:45:03.434 +02:00 [INF] Now listening on: https://localhost:7090
+2026-07-13 03:45:03.480 +02:00 [INF] Now listening on: http://localhost:5153
+2026-07-13 03:45:03.621 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-07-13 03:45:03.623 +02:00 [INF] Hosting environment: Development
+2026-07-13 03:45:03.624 +02:00 [INF] Content root path: C:\WerkSoekAssessments\FinalAssessment\Bongoe2\VariBillWebAPI
+2026-07-13 03:46:23.430 +02:00 [INF] HTTP GET /api/products responded 307 in 1.8541 ms
+2026-07-13 03:46:23.586 +02:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2026-07-13 03:46:27.024 +02:00 [INF] HTTP GET /api/products responded 200 in 3528.3610 ms
+2026-07-13 03:48:28.537 +02:00 [INF] HTTP GET /api/products/1f9055c0-035d-418f-96ef-c6da54bd12a7 responded 307 in 0.1284 ms
+2026-07-13 03:48:28.550 +02:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2026-07-13 03:48:28.790 +02:00 [INF] HTTP GET /api/products/1f9055c0-035d-418f-96ef-c6da54bd12a7 responded 200 in 240.3064 ms
+2026-07-13 03:58:46.168 +02:00 [INF] Now listening on: https://localhost:7090
+2026-07-13 03:58:46.230 +02:00 [INF] Now listening on: http://localhost:5153
+2026-07-13 03:58:46.380 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-07-13 03:58:46.381 +02:00 [INF] Hosting environment: Development
+2026-07-13 03:58:46.382 +02:00 [INF] Content root path: C:\WerkSoekAssessments\FinalAssessment\Bongoe2\VariBillWebAPI
+2026-07-13 03:59:03.498 +02:00 [INF] HTTP GET /api/producttypes responded 307 in 2.2378 ms
+2026-07-13 03:59:03.636 +02:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2026-07-13 03:59:03.647 +02:00 [INF] AuthenticationScheme: Bearer was challenged.
+2026-07-13 03:59:03.649 +02:00 [INF] HTTP GET /api/producttypes responded 401 in 81.9884 ms
+2026-07-13 03:59:17.023 +02:00 [INF] HTTP GET /api/products responded 307 in 0.2140 ms
+2026-07-13 03:59:17.025 +02:00 [INF] HTTP GET /api/producttypes responded 307 in 0.0452 ms
+2026-07-13 03:59:17.031 +02:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2026-07-13 03:59:17.034 +02:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2026-07-13 03:59:17.036 +02:00 [INF] AuthenticationScheme: Bearer was challenged.
+2026-07-13 03:59:17.038 +02:00 [INF] HTTP GET /api/producttypes responded 401 in 4.6445 ms
+2026-07-13 03:59:21.351 +02:00 [INF] HTTP GET /api/products responded 307 in 0.0315 ms
+2026-07-13 03:59:21.376 +02:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2026-07-13 03:59:23.134 +02:00 [INF] HTTP GET /api/products responded 200 in 6106.1033 ms
+2026-07-13 03:59:23.134 +02:00 [INF] HTTP GET /api/products responded 200 in 1758.3289 ms
+2026-07-13 04:00:17.140 +02:00 [INF] HTTP GET /api/producttypes responded 307 in 0.0256 ms
+2026-07-13 04:00:17.171 +02:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2026-07-13 04:00:17.175 +02:00 [INF] AuthenticationScheme: Bearer was challenged.
+2026-07-13 04:00:17.176 +02:00 [INF] HTTP GET /api/producttypes responded 401 in 5.4305 ms
+2026-07-13 04:03:03.429 +02:00 [INF] Now listening on: https://localhost:7090
+2026-07-13 04:03:03.492 +02:00 [INF] Now listening on: http://localhost:5153
+2026-07-13 04:03:03.597 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-07-13 04:03:03.608 +02:00 [INF] Hosting environment: Development
+2026-07-13 04:03:03.613 +02:00 [INF] Content root path: C:\WerkSoekAssessments\FinalAssessment\Bongoe2\VariBillWebAPI
+2026-07-13 04:03:16.291 +02:00 [INF] HTTP GET /api/producttypes responded 307 in 1.8418 ms
+2026-07-13 04:03:16.431 +02:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2026-07-13 04:03:16.446 +02:00 [INF] AuthenticationScheme: Bearer was challenged.
+2026-07-13 04:03:16.448 +02:00 [INF] HTTP GET /api/producttypes responded 401 in 85.7919 ms
+2026-07-13 04:04:14.452 +02:00 [INF] HTTP GET /api/producttypes responded 307 in 0.1818 ms
+2026-07-13 04:04:14.525 +02:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2026-07-13 04:04:14.529 +02:00 [INF] AuthenticationScheme: Bearer was challenged.
+2026-07-13 04:04:14.530 +02:00 [INF] HTTP GET /api/producttypes responded 401 in 8.7492 ms
+2026-07-13 04:04:27.372 +02:00 [INF] HTTP GET /api/producttypes responded 307 in 0.0236 ms
+2026-07-13 04:04:27.376 +02:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2026-07-13 04:04:27.378 +02:00 [INF] AuthenticationScheme: Bearer was challenged.
+2026-07-13 04:04:27.380 +02:00 [INF] HTTP GET /api/producttypes responded 401 in 5.1872 ms
+2026-07-13 04:22:12.027 +02:00 [INF] Now listening on: https://localhost:7090
+2026-07-13 04:22:12.092 +02:00 [INF] Now listening on: http://localhost:5153
+2026-07-13 04:22:12.201 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-07-13 04:22:12.204 +02:00 [INF] Hosting environment: Development
+2026-07-13 04:22:12.205 +02:00 [INF] Content root path: C:\WerkSoekAssessments\FinalAssessment\Bongoe2\VariBillWebAPI

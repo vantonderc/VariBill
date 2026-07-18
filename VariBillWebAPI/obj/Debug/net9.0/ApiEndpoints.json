@@ -3,7 +3,7 @@
     "ContainingType": "VariBillWebAPI.Controllers.ProductsController",
     "Method": "GetAll",
     "RelativePath": "api/products",
-    "HttpMethod": "GET",
+    "HttpMethod": "",
     "IsController": true,
     "Order": 0,
     "Parameters": [],

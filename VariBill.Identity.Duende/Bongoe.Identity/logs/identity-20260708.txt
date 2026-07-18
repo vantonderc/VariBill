@@ -321,3 +321,1363 @@
 2026-07-08 16:14:01.151 +02:00 [INF] {"ClientId":"VariBillWebAPI.ClientCredentials","ClientName":"VariBill Web API (Machine-to-Machine)","RedirectUri":null,"Endpoint":"Token","SubjectId":null,"Scopes":"VariBillWebAPI","GrantType":"client_credentials","Tokens":[{"TokenType":"access_token","TokenValue":"****up5w","$type":"Token"}],"Category":"Token","Name":"Token Issued Success","EventType":"Success","Id":2000,"Message":null,"ActivityId":"0HNMSVCK30C3A:00000003","TimeStamp":"2026-07-08T14:14:01.1493444","ProcessId":15448,"LocalIpAddress":"::1:5000","RemoteIpAddress":"::1","$type":"TokenIssuedSuccessEvent"}
 2026-07-08 16:14:01.173 +02:00 [DBG] Token request success.
 2026-07-08 16:14:01.179 +02:00 [INF] HTTP POST /connect/token responded 200 in 290.9267 ms
+2026-07-08 18:15:07.297 +02:00 [INF] Starting Duende IdentityServer version 7.4.3+build.0.5aa266c91aede84c98903a06c5fe91e5f983eabc (.NET 9.0.16)
+2026-07-08 18:15:07.394 +02:00 [WRN] You do not have a valid license key for the Duende software. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please start a conversation with us: https://duende.link/l/contact
+2026-07-08 18:15:07.406 +02:00 [INF] You are using the in-memory version of the persisted grant store. This will store consent decisions, authorization codes, refresh and reference tokens in memory only. If you are using any of those features in production, you want to switch to a different store implementation.
+2026-07-08 18:15:07.418 +02:00 [INF] Using the default authentication scheme Identity.Application for IdentityServer
+2026-07-08 18:15:07.420 +02:00 [DBG] Using Identity.Application as default ASP.NET Core scheme for authentication
+2026-07-08 18:15:07.422 +02:00 [DBG] Using Identity.External as default ASP.NET Core scheme for sign-in
+2026-07-08 18:15:07.423 +02:00 [DBG] Using Identity.External as default ASP.NET Core scheme for sign-out
+2026-07-08 18:15:07.425 +02:00 [DBG] Using Identity.Application as default ASP.NET Core scheme for challenge
+2026-07-08 18:15:07.428 +02:00 [DBG] Using Identity.Application as default ASP.NET Core scheme for forbid
+2026-07-08 18:15:11.127 +02:00 [INF] Now listening on: http://localhost:5000
+2026-07-08 18:15:11.188 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-07-08 18:15:11.195 +02:00 [INF] Hosting environment: Development
+2026-07-08 18:15:11.207 +02:00 [INF] Content root path: C:\WerkSoekAssessments\FinalAssessment\Bongoe2\VariBill.Identity.Duende\Bongoe.Identity
+2026-07-08 18:15:11.477 +02:00 [DBG] Login Url: /Identity/Account/Login
+2026-07-08 18:15:11.482 +02:00 [DBG] Login Return Url Parameter: ReturnUrl
+2026-07-08 18:15:11.484 +02:00 [DBG] Logout Url: /Identity/Account/Logout
+2026-07-08 18:15:11.485 +02:00 [DBG] ConsentUrl Url: /consent
+2026-07-08 18:15:11.487 +02:00 [DBG] Consent Return Url Parameter: returnUrl
+2026-07-08 18:15:11.488 +02:00 [DBG] Error Url: /home/error
+2026-07-08 18:15:11.489 +02:00 [DBG] Error Id Parameter: errorId
+2026-07-08 18:15:11.500 +02:00 [DBG] AuthenticationScheme: Identity.Application was not authenticated.
+2026-07-08 18:15:11.521 +02:00 [DBG] AuthenticationScheme: Identity.Application was not authenticated.
+2026-07-08 18:15:11.540 +02:00 [DBG] AuthenticationScheme: Identity.Application was not authenticated.
+2026-07-08 18:15:11.559 +02:00 [DBG] Request path /.well-known/openid-configuration matched to endpoint type Discovery
+2026-07-08 18:15:11.604 +02:00 [DBG] Endpoint enabled: Discovery, successfully created handler: Duende.IdentityServer.Endpoints.DiscoveryEndpoint
+2026-07-08 18:15:11.623 +02:00 [INF] Invoking IdentityServer endpoint: Duende.IdentityServer.Endpoints.DiscoveryEndpoint for /.well-known/openid-configuration
+2026-07-08 18:15:11.630 +02:00 [DBG] Start discovery request
+2026-07-08 18:15:11.725 +02:00 [INF] HTTP GET /.well-known/openid-configuration responded 200 in 340.5939 ms
+2026-07-08 18:15:11.795 +02:00 [DBG] AuthenticationScheme: Identity.Application was not authenticated.
+2026-07-08 18:15:11.796 +02:00 [DBG] AuthenticationScheme: Identity.Application was not authenticated.
+2026-07-08 18:15:11.798 +02:00 [DBG] AuthenticationScheme: Identity.Application was not authenticated.
+2026-07-08 18:15:11.801 +02:00 [DBG] Request path /.well-known/openid-configuration/jwks matched to endpoint type Jwks
+2026-07-08 18:15:11.804 +02:00 [DBG] Endpoint enabled: Jwks, successfully created handler: Duende.IdentityServer.Endpoints.DiscoveryKeyEndpoint
+2026-07-08 18:15:11.807 +02:00 [INF] Invoking IdentityServer endpoint: Duende.IdentityServer.Endpoints.DiscoveryKeyEndpoint for /.well-known/openid-configuration/jwks
+2026-07-08 18:15:11.811 +02:00 [DBG] Start key discovery request
+2026-07-08 18:15:11.827 +02:00 [INF] HTTP GET /.well-known/openid-configuration/jwks responded 200 in 40.6952 ms
+2026-07-08 18:15:11.878 +02:00 [DBG] AuthenticationScheme: Identity.Application was not authenticated.
+2026-07-08 18:15:11.878 +02:00 [DBG] AuthenticationScheme: Identity.Application was not authenticated.
+2026-07-08 18:15:11.881 +02:00 [DBG] AuthenticationScheme: Identity.Application was not authenticated.
+2026-07-08 18:15:11.882 +02:00 [DBG] AuthenticationScheme: Identity.Application was not authenticated.
+2026-07-08 18:15:11.890 +02:00 [DBG] AuthenticationScheme: Identity.Application was not authenticated.
+2026-07-08 18:15:11.890 +02:00 [DBG] AuthenticationScheme: Identity.Application was not authenticated.
+2026-07-08 18:15:11.893 +02:00 [DBG] Request path /connect/par matched to endpoint type PushedAuthorization
+2026-07-08 18:15:11.895 +02:00 [DBG] Request path /connect/par matched to endpoint type PushedAuthorization
+2026-07-08 18:15:11.915 +02:00 [DBG] Endpoint enabled: PushedAuthorization, successfully created handler: Duende.IdentityServer.Endpoints.PushedAuthorizationEndpoint
+2026-07-08 18:15:11.915 +02:00 [DBG] Endpoint enabled: PushedAuthorization, successfully created handler: Duende.IdentityServer.Endpoints.PushedAuthorizationEndpoint
+2026-07-08 18:15:11.919 +02:00 [INF] Invoking IdentityServer endpoint: Duende.IdentityServer.Endpoints.PushedAuthorizationEndpoint for /connect/par
+2026-07-08 18:15:11.924 +02:00 [INF] Invoking IdentityServer endpoint: Duende.IdentityServer.Endpoints.PushedAuthorizationEndpoint for /connect/par
+2026-07-08 18:15:11.972 +02:00 [DBG] Start pushed authorization request
+2026-07-08 18:15:11.972 +02:00 [DBG] Start pushed authorization request
+2026-07-08 18:15:11.993 +02:00 [DBG] Start client validation
+2026-07-08 18:15:11.993 +02:00 [DBG] Start client validation
+2026-07-08 18:15:11.998 +02:00 [DBG] Start parsing Basic Authentication secret
+2026-07-08 18:15:11.998 +02:00 [DBG] Start parsing Basic Authentication secret
+2026-07-08 18:15:12.002 +02:00 [DBG] Start parsing for secret in post body
+2026-07-08 18:15:12.002 +02:00 [DBG] Start parsing for secret in post body
+2026-07-08 18:15:12.004 +02:00 [DBG] Parser found secret: PostBodySecretParser
+2026-07-08 18:15:12.004 +02:00 [DBG] Parser found secret: PostBodySecretParser
+2026-07-08 18:15:12.006 +02:00 [DBG] Secret id found: VariBillWebApp.Interactive
+2026-07-08 18:15:12.007 +02:00 [DBG] Secret id found: VariBillWebApp.Interactive
+2026-07-08 18:15:12.019 +02:00 [DBG] client configuration validation for client VariBillWebApp.Interactive succeeded.
+2026-07-08 18:15:12.019 +02:00 [DBG] client configuration validation for client VariBillWebApp.Interactive succeeded.
+2026-07-08 18:15:12.373 +02:00 [DBG] Secret validator success: HashedSharedSecretValidator
+2026-07-08 18:15:12.373 +02:00 [DBG] Secret validator success: HashedSharedSecretValidator
+2026-07-08 18:15:12.375 +02:00 [DBG] Client validation success
+2026-07-08 18:15:12.377 +02:00 [DBG] Client validation success
+2026-07-08 18:15:12.420 +02:00 [INF] {"ClientId":"VariBillWebApp.Interactive","AuthenticationMethod":"SharedSecret","Category":"Authentication","Name":"Client Authentication Success","EventType":"Success","Id":1010,"Message":null,"ActivityId":"0HNMT1GB19UNN:00000001","TimeStamp":"2026-07-08T16:15:12.3944611","ProcessId":22188,"LocalIpAddress":"::1:5000","RemoteIpAddress":"::1","$type":"ClientAuthenticationSuccessEvent"}
+2026-07-08 18:15:12.428 +02:00 [INF] {"ClientId":"VariBillWebApp.Interactive","AuthenticationMethod":"SharedSecret","Category":"Authentication","Name":"Client Authentication Success","EventType":"Success","Id":1010,"Message":null,"ActivityId":"0HNMT1GB19UNM:00000003","TimeStamp":"2026-07-08T16:15:12.3944611","ProcessId":22188,"LocalIpAddress":"::1:5000","RemoteIpAddress":"::1","$type":"ClientAuthenticationSuccessEvent"}
+2026-07-08 18:15:12.462 +02:00 [WRN] A request was made to the pushed authorization endpoint, but you do not have a license. This feature requires the Business Edition or higher tier of license.
+2026-07-08 18:15:12.480 +02:00 [DBG] Start authorize request protocol validation
+2026-07-08 18:15:12.480 +02:00 [DBG] Start authorize request protocol validation
+2026-07-08 18:15:12.488 +02:00 [DBG] client configuration validation for client VariBillWebApp.Interactive succeeded.
+2026-07-08 18:15:12.488 +02:00 [DBG] client configuration validation for client VariBillWebApp.Interactive succeeded.
+2026-07-08 18:15:12.510 +02:00 [DBG] Checking for PKCE parameters
+2026-07-08 18:15:12.510 +02:00 [DBG] Checking for PKCE parameters
+2026-07-08 18:15:12.567 +02:00 [DBG] Calling into custom validator: Duende.IdentityServer.Validation.DefaultCustomAuthorizeRequestValidator
+2026-07-08 18:15:12.567 +02:00 [DBG] Calling into custom validator: Duende.IdentityServer.Validation.DefaultCustomAuthorizeRequestValidator
+2026-07-08 18:15:12.653 +02:00 [INF] HTTP POST /connect/par responded 201 in 776.7304 ms
+2026-07-08 18:15:12.653 +02:00 [INF] HTTP POST /connect/par responded 201 in 776.7303 ms
+2026-07-08 18:15:12.746 +02:00 [DBG] AuthenticationScheme: Identity.Application was not authenticated.
+2026-07-08 18:15:12.752 +02:00 [DBG] AuthenticationScheme: Identity.Application was not authenticated.
+2026-07-08 18:15:12.754 +02:00 [DBG] IdentityServer CorsPolicyService didn't handle CORS request made for path: /connect/authorize from origin: https://localhost:7253 because it is not for an IdentityServer CORS endpoint. To allow CORS requests to non IdentityServer endpoints, please set up your own Cors policy for your application by calling app.UseCors("MyPolicy") in the pipeline setup.
+2026-07-08 18:15:12.755 +02:00 [DBG] IdentityServer CorsPolicyService didn't handle CORS request made for path: /connect/authorize from origin: https://localhost:7253 because it is not for an IdentityServer CORS endpoint. To allow CORS requests to non IdentityServer endpoints, please set up your own Cors policy for your application by calling app.UseCors("MyPolicy") in the pipeline setup.
+2026-07-08 18:15:12.759 +02:00 [DBG] AuthenticationScheme: Identity.Application was not authenticated.
+2026-07-08 18:15:12.763 +02:00 [DBG] AuthenticationScheme: Identity.Application was not authenticated.
+2026-07-08 18:15:12.766 +02:00 [DBG] AuthenticationScheme: Identity.Application was not authenticated.
+2026-07-08 18:15:12.768 +02:00 [DBG] AuthenticationScheme: Identity.Application was not authenticated.
+2026-07-08 18:15:12.770 +02:00 [DBG] Request path /connect/authorize matched to endpoint type Authorize
+2026-07-08 18:15:12.772 +02:00 [DBG] Request path /connect/authorize matched to endpoint type Authorize
+2026-07-08 18:15:12.790 +02:00 [DBG] Endpoint enabled: Authorize, successfully created handler: Duende.IdentityServer.Endpoints.AuthorizeEndpoint
+2026-07-08 18:15:12.790 +02:00 [DBG] Endpoint enabled: Authorize, successfully created handler: Duende.IdentityServer.Endpoints.AuthorizeEndpoint
+2026-07-08 18:15:12.797 +02:00 [INF] Invoking IdentityServer endpoint: Duende.IdentityServer.Endpoints.AuthorizeEndpoint for /connect/authorize
+2026-07-08 18:15:12.801 +02:00 [INF] Invoking IdentityServer endpoint: Duende.IdentityServer.Endpoints.AuthorizeEndpoint for /connect/authorize
+2026-07-08 18:15:12.806 +02:00 [DBG] Start authorize request
+2026-07-08 18:15:12.806 +02:00 [DBG] Start authorize request
+2026-07-08 18:15:12.809 +02:00 [INF] HTTP OPTIONS /connect/authorize responded 405 in 57.8299 ms
+2026-07-08 18:15:12.810 +02:00 [INF] HTTP OPTIONS /connect/authorize responded 405 in 63.9188 ms
+2026-07-08 18:15:14.963 +02:00 [DBG] AuthenticationScheme: Identity.Application was not authenticated.
+2026-07-08 18:15:14.965 +02:00 [DBG] AuthenticationScheme: Identity.Application was not authenticated.
+2026-07-08 18:15:14.966 +02:00 [DBG] AuthenticationScheme: Identity.Application was not authenticated.
+2026-07-08 18:15:14.968 +02:00 [DBG] Request path /connect/par matched to endpoint type PushedAuthorization
+2026-07-08 18:15:14.973 +02:00 [DBG] Endpoint enabled: PushedAuthorization, successfully created handler: Duende.IdentityServer.Endpoints.PushedAuthorizationEndpoint
+2026-07-08 18:15:14.976 +02:00 [INF] Invoking IdentityServer endpoint: Duende.IdentityServer.Endpoints.PushedAuthorizationEndpoint for /connect/par
+2026-07-08 18:15:14.978 +02:00 [DBG] Start pushed authorization request
+2026-07-08 18:15:14.980 +02:00 [DBG] Start client validation
+2026-07-08 18:15:14.982 +02:00 [DBG] Start parsing Basic Authentication secret
+2026-07-08 18:15:14.983 +02:00 [DBG] Start parsing for secret in post body
+2026-07-08 18:15:14.984 +02:00 [DBG] Parser found secret: PostBodySecretParser
+2026-07-08 18:15:14.985 +02:00 [DBG] Secret id found: VariBillWebApp.Interactive
+2026-07-08 18:15:14.986 +02:00 [DBG] client configuration validation for client VariBillWebApp.Interactive succeeded.
+2026-07-08 18:15:14.988 +02:00 [DBG] Secret validator success: HashedSharedSecretValidator
+2026-07-08 18:15:14.989 +02:00 [DBG] Client validation success
+2026-07-08 18:15:14.991 +02:00 [INF] {"ClientId":"VariBillWebApp.Interactive","AuthenticationMethod":"SharedSecret","Category":"Authentication","Name":"Client Authentication Success","EventType":"Success","Id":1010,"Message":null,"ActivityId":"0HNMT1GB19UNM:00000004","TimeStamp":"2026-07-08T16:15:14.9912526","ProcessId":22188,"LocalIpAddress":"::1:5000","RemoteIpAddress":"::1","$type":"ClientAuthenticationSuccessEvent"}
+2026-07-08 18:15:15.004 +02:00 [DBG] Start authorize request protocol validation
+2026-07-08 18:15:15.005 +02:00 [DBG] client configuration validation for client VariBillWebApp.Interactive succeeded.
+2026-07-08 18:15:15.006 +02:00 [DBG] Checking for PKCE parameters
+2026-07-08 18:15:15.008 +02:00 [DBG] Calling into custom validator: Duende.IdentityServer.Validation.DefaultCustomAuthorizeRequestValidator
+2026-07-08 18:15:15.010 +02:00 [INF] HTTP POST /connect/par responded 201 in 47.7006 ms
+2026-07-08 18:15:15.114 +02:00 [DBG] AuthenticationScheme: Identity.Application was not authenticated.
+2026-07-08 18:15:15.115 +02:00 [DBG] AuthenticationScheme: Identity.Application was not authenticated.
+2026-07-08 18:15:15.116 +02:00 [DBG] AuthenticationScheme: Identity.Application was not authenticated.
+2026-07-08 18:15:15.117 +02:00 [DBG] Request path /connect/authorize matched to endpoint type Authorize
+2026-07-08 18:15:15.138 +02:00 [DBG] Endpoint enabled: Authorize, successfully created handler: Duende.IdentityServer.Endpoints.AuthorizeEndpoint
+2026-07-08 18:15:15.140 +02:00 [INF] Invoking IdentityServer endpoint: Duende.IdentityServer.Endpoints.AuthorizeEndpoint for /connect/authorize
+2026-07-08 18:15:15.141 +02:00 [DBG] Start authorize request
+2026-07-08 18:15:15.150 +02:00 [DBG] AuthenticationScheme: Identity.Application was not authenticated.
+2026-07-08 18:15:15.154 +02:00 [DBG] No user present in authorize request
+2026-07-08 18:15:15.155 +02:00 [DBG] Start authorize request protocol validation
+2026-07-08 18:15:15.156 +02:00 [DBG] client configuration validation for client VariBillWebApp.Interactive succeeded.
+2026-07-08 18:15:15.164 +02:00 [DBG] Checking for PKCE parameters
+2026-07-08 18:15:15.165 +02:00 [DBG] Calling into custom validator: Duende.IdentityServer.Validation.DefaultCustomAuthorizeRequestValidator
+2026-07-08 18:15:15.174 +02:00 [DBG] ValidatedAuthorizeRequest
+{"ClientId":"VariBillWebApp.Interactive","ClientName":"VariBill Web App (Interactive)","RedirectUri":"https://localhost:7253/signin-oidc","AllowedRedirectUris":["https://localhost:5005/signin-oidc","https://localhost:5006/signin-oidc","https://localhost:7253/signin-oidc","https://localhost:7055/signin-oidc"],"SubjectId":"anonymous","ResponseType":"code","ResponseMode":"form_post","GrantType":"authorization_code","RequestedScopes":"openid profile email roles VariBillWebAPI","State":"CfDJ8AHyfddumpBOr0p0cPlbk0x1EXbq2-jGho5iuzKRSsmCgufgUdh1ajOxiLFSZ6Q-tyZBckPqtqaw-vd41OqBez-FACDuvirnSfjMOP2j_R4cLsF5XRLkCAZFatcD1-DnkhINTo6fNl1jFCg-TmtbsA2IpE3gkzbc2S-IHvV0txWLnSscSp-Nyv3FLQuSdIWA2nc8q-Qz5pZdOI_EUxpstjOTthfEHBGXXYzA8bjkgscxqsfb1piVU9o0l03_YES6MAS9vX2XS-CRDT-kVWN1fC_1n_G0Zzqmg3hSWMKRk-XN2adlbNnpLHthAqIRRb4UgWM_FF3S05gN_NSPcO1k9Mfjs1lqsvDiomkck7vJZJqe-z_IpebNhVS98WBxM171Pw","UiLocales":null,"Nonce":"639191241149621379.MDA4YjZjNTAtMjRmNC00MDZhLWFhODYtMjQ1OWUwOWQxZjU3ZjdiOTQ3ZGYtM2U4ZC00NTVkLTgyZGYtZjkzZjczZWM3YmM3","AuthenticationContextReferenceClasses":null,"DisplayMode":null,"PromptMode":"","MaxAge":null,"LoginHint":null,"SessionId":"","Raw":{"client_id":"VariBillWebApp.Interactive","redirect_uri":"https://localhost:7253/signin-oidc","response_type":"code","scope":"openid profile email roles VariBillWebAPI","code_challenge":"EryWVdZQqyv-pamzKaKVjs1hANwNrwXm_1FnLzEgzTk","code_challenge_method":"S256","response_mode":"form_post","nonce":"639191241149621379.MDA4YjZjNTAtMjRmNC00MDZhLWFhODYtMjQ1OWUwOWQxZjU3ZjdiOTQ3ZGYtM2U4ZC00NTVkLTgyZGYtZjkzZjczZWM3YmM3","state":"CfDJ8AHyfddumpBOr0p0cPlbk0x1EXbq2-jGho5iuzKRSsmCgufgUdh1ajOxiLFSZ6Q-tyZBckPqtqaw-vd41OqBez-FACDuvirnSfjMOP2j_R4cLsF5XRLkCAZFatcD1-DnkhINTo6fNl1jFCg-TmtbsA2IpE3gkzbc2S-IHvV0txWLnSscSp-Nyv3FLQuSdIWA2nc8q-Qz5pZdOI_EUxpstjOTthfEHBGXXYzA8bjkgscxqsfb1piVU9o0l03_YES6MAS9vX2XS-CRDT-kVWN1fC_1n_G0Zzqmg3hSWMKRk-XN2adlbNnpLHthAqIRRb4UgWM_FF3S05gN_NSPcO1k9Mfjs1lqsvDiomkck7vJZJqe-z_IpebNhVS98WBxM171Pw","client_secret":"***REDACTED***"},"$type":"AuthorizeRequestValidationLog"}
+2026-07-08 18:15:15.209 +02:00 [INF] Showing login: User is not authenticated
+2026-07-08 18:15:15.216 +02:00 [DBG] No supported culture found based on values in ui_locales of null, not storing cookie.
+2026-07-08 18:15:15.218 +02:00 [INF] HTTP GET /connect/authorize responded 302 in 104.5363 ms
+2026-07-08 18:15:15.231 +02:00 [DBG] AuthenticationScheme: Identity.Application was not authenticated.
+2026-07-08 18:15:15.233 +02:00 [DBG] AuthenticationScheme: Identity.Application was not authenticated.
+2026-07-08 18:15:15.235 +02:00 [DBG] AuthenticationScheme: Identity.Application was not authenticated.
+2026-07-08 18:15:15.286 +02:00 [WRN] The cookie 'Identity.External' has set 'SameSite=None' and must also set 'Secure'.
+2026-07-08 18:15:15.290 +02:00 [INF] AuthenticationScheme: Identity.External signed out.
+2026-07-08 18:15:15.455 +02:00 [INF] HTTP GET /Identity/Account/Login responded 200 in 227.4184 ms
+2026-07-08 18:15:15.647 +02:00 [INF] HTTP GET /Identity/lib/bootstrap/dist/js/bootstrap.bundle.js.map responded 200 in 45.5289 ms
+2026-07-08 18:15:16.965 +02:00 [DBG] AuthenticationScheme: Identity.Application was not authenticated.
+2026-07-08 18:15:16.967 +02:00 [DBG] AuthenticationScheme: Identity.Application was not authenticated.
+2026-07-08 18:15:16.968 +02:00 [DBG] AuthenticationScheme: Identity.Application was not authenticated.
+2026-07-08 18:15:17.287 +02:00 [DBG] Augmenting SignInContext
+2026-07-08 18:15:17.288 +02:00 [DBG] Adding idp claim with value: local
+2026-07-08 18:15:17.289 +02:00 [DBG] Adding auth_time claim with value: 1783527317
+2026-07-08 18:15:17.291 +02:00 [DBG] AuthenticationScheme: Identity.Application was not authenticated.
+2026-07-08 18:15:17.293 +02:00 [DBG] AuthenticationScheme: Identity.Application was not authenticated.
+2026-07-08 18:15:17.295 +02:00 [WRN] The cookie 'idsrv.session' has set 'SameSite=None' and must also set 'Secure'.
+2026-07-08 18:15:17.300 +02:00 [INF] AuthenticationScheme: Identity.Application signed in.
+2026-07-08 18:15:17.303 +02:00 [INF] HTTP POST /Identity/Account/Login responded 302 in 345.5075 ms
+2026-07-08 18:15:17.316 +02:00 [DBG] AuthenticationScheme: Identity.Application was successfully authenticated.
+2026-07-08 18:15:17.317 +02:00 [DBG] AuthenticationScheme: Identity.Application was successfully authenticated.
+2026-07-08 18:15:17.319 +02:00 [DBG] AuthenticationScheme: Identity.Application was successfully authenticated.
+2026-07-08 18:15:17.320 +02:00 [WRN] The cookie 'idsrv.session' has set 'SameSite=None' and must also set 'Secure'.
+2026-07-08 18:15:17.321 +02:00 [DBG] Request path /connect/authorize/callback matched to endpoint type Authorize
+2026-07-08 18:15:17.323 +02:00 [DBG] Endpoint enabled: Authorize, successfully created handler: Duende.IdentityServer.Endpoints.AuthorizeCallbackEndpoint
+2026-07-08 18:15:17.324 +02:00 [INF] Invoking IdentityServer endpoint: Duende.IdentityServer.Endpoints.AuthorizeCallbackEndpoint for /connect/authorize/callback
+2026-07-08 18:15:17.327 +02:00 [DBG] Start authorize callback request
+2026-07-08 18:15:17.328 +02:00 [DBG] User in authorize request: 13dbe175-1dfe-49c9-bed9-8dc205ed8234
+2026-07-08 18:15:17.330 +02:00 [DBG] Start authorize request protocol validation
+2026-07-08 18:15:17.331 +02:00 [DBG] client configuration validation for client VariBillWebApp.Interactive succeeded.
+2026-07-08 18:15:17.333 +02:00 [DBG] Checking for PKCE parameters
+2026-07-08 18:15:17.334 +02:00 [DBG] Calling into custom validator: Duende.IdentityServer.Validation.DefaultCustomAuthorizeRequestValidator
+2026-07-08 18:15:17.339 +02:00 [DBG] ValidatedAuthorizeRequest
+{"ClientId":"VariBillWebApp.Interactive","ClientName":"VariBill Web App (Interactive)","RedirectUri":"https://localhost:7253/signin-oidc","AllowedRedirectUris":["https://localhost:5005/signin-oidc","https://localhost:5006/signin-oidc","https://localhost:7253/signin-oidc","https://localhost:7055/signin-oidc"],"SubjectId":"13dbe175-1dfe-49c9-bed9-8dc205ed8234","ResponseType":"code","ResponseMode":"form_post","GrantType":"authorization_code","RequestedScopes":"openid profile email roles VariBillWebAPI","State":"CfDJ8AHyfddumpBOr0p0cPlbk0x1EXbq2-jGho5iuzKRSsmCgufgUdh1ajOxiLFSZ6Q-tyZBckPqtqaw-vd41OqBez-FACDuvirnSfjMOP2j_R4cLsF5XRLkCAZFatcD1-DnkhINTo6fNl1jFCg-TmtbsA2IpE3gkzbc2S-IHvV0txWLnSscSp-Nyv3FLQuSdIWA2nc8q-Qz5pZdOI_EUxpstjOTthfEHBGXXYzA8bjkgscxqsfb1piVU9o0l03_YES6MAS9vX2XS-CRDT-kVWN1fC_1n_G0Zzqmg3hSWMKRk-XN2adlbNnpLHthAqIRRb4UgWM_FF3S05gN_NSPcO1k9Mfjs1lqsvDiomkck7vJZJqe-z_IpebNhVS98WBxM171Pw","UiLocales":null,"Nonce":"639191241149621379.MDA4YjZjNTAtMjRmNC00MDZhLWFhODYtMjQ1OWUwOWQxZjU3ZjdiOTQ3ZGYtM2U4ZC00NTVkLTgyZGYtZjkzZjczZWM3YmM3","AuthenticationContextReferenceClasses":null,"DisplayMode":null,"PromptMode":"","MaxAge":null,"LoginHint":null,"SessionId":"C4E88E0D7045CF0B869644ED09DDABD3","Raw":{"client_id":"VariBillWebApp.Interactive","redirect_uri":"https://localhost:7253/signin-oidc","response_type":"code","scope":"openid profile email roles VariBillWebAPI","code_challenge":"EryWVdZQqyv-pamzKaKVjs1hANwNrwXm_1FnLzEgzTk","code_challenge_method":"S256","response_mode":"form_post","nonce":"639191241149621379.MDA4YjZjNTAtMjRmNC00MDZhLWFhODYtMjQ1OWUwOWQxZjU3ZjdiOTQ3ZGYtM2U4ZC00NTVkLTgyZGYtZjkzZjczZWM3YmM3","state":"CfDJ8AHyfddumpBOr0p0cPlbk0x1EXbq2-jGho5iuzKRSsmCgufgUdh1ajOxiLFSZ6Q-tyZBckPqtqaw-vd41OqBez-FACDuvirnSfjMOP2j_R4cLsF5XRLkCAZFatcD1-DnkhINTo6fNl1jFCg-TmtbsA2IpE3gkzbc2S-IHvV0txWLnSscSp-Nyv3FLQuSdIWA2nc8q-Qz5pZdOI_EUxpstjOTthfEHBGXXYzA8bjkgscxqsfb1piVU9o0l03_YES6MAS9vX2XS-CRDT-kVWN1fC_1n_G0Zzqmg3hSWMKRk-XN2adlbNnpLHthAqIRRb4UgWM_FF3S05gN_NSPcO1k9Mfjs1lqsvDiomkck7vJZJqe-z_IpebNhVS98WBxM171Pw","client_secret":"***REDACTED***"},"$type":"AuthorizeRequestValidationLog"}
+2026-07-08 18:15:17.386 +02:00 [DBG] Client is configured to not require consent, no consent is required
+2026-07-08 18:15:17.389 +02:00 [DBG] Creating Authorization Code Flow response.
+2026-07-08 18:15:17.432 +02:00 [INF] {"ClientId":"VariBillWebApp.Interactive","ClientName":"VariBill Web App (Interactive)","RedirectUri":"https://localhost:7253/signin-oidc","Endpoint":"Authorize","SubjectId":"13dbe175-1dfe-49c9-bed9-8dc205ed8234","Scopes":"openid profile email roles VariBillWebAPI","GrantType":"authorization_code","Tokens":[{"TokenType":"code","TokenValue":"****D0-1","$type":"Token"}],"Category":"Token","Name":"Token Issued Success","EventType":"Success","Id":2000,"Message":null,"ActivityId":"0HNMT1GB19UNQ:00000006","TimeStamp":"2026-07-08T16:15:17.4297244","ProcessId":22188,"LocalIpAddress":"::1:5000","RemoteIpAddress":"::1","$type":"TokenIssuedSuccessEvent"}
+2026-07-08 18:15:17.451 +02:00 [DBG] Authorize endpoint response
+{"SubjectId":"13dbe175-1dfe-49c9-bed9-8dc205ed8234","ClientId":"VariBillWebApp.Interactive","RedirectUri":"https://localhost:7253/signin-oidc","State":"CfDJ8AHyfddumpBOr0p0cPlbk0x1EXbq2-jGho5iuzKRSsmCgufgUdh1ajOxiLFSZ6Q-tyZBckPqtqaw-vd41OqBez-FACDuvirnSfjMOP2j_R4cLsF5XRLkCAZFatcD1-DnkhINTo6fNl1jFCg-TmtbsA2IpE3gkzbc2S-IHvV0txWLnSscSp-Nyv3FLQuSdIWA2nc8q-Qz5pZdOI_EUxpstjOTthfEHBGXXYzA8bjkgscxqsfb1piVU9o0l03_YES6MAS9vX2XS-CRDT-kVWN1fC_1n_G0Zzqmg3hSWMKRk-XN2adlbNnpLHthAqIRRb4UgWM_FF3S05gN_NSPcO1k9Mfjs1lqsvDiomkck7vJZJqe-z_IpebNhVS98WBxM171Pw","Scope":"openid profile email roles VariBillWebAPI","Error":null,"ErrorDescription":null,"$type":"AuthorizeResponseLog"}
+2026-07-08 18:15:17.467 +02:00 [DBG] Augmenting SignInContext
+2026-07-08 18:15:17.468 +02:00 [WRN] The cookie 'idsrv.session' has set 'SameSite=None' and must also set 'Secure'.
+2026-07-08 18:15:17.469 +02:00 [INF] AuthenticationScheme: Identity.Application signed in.
+2026-07-08 18:15:17.476 +02:00 [INF] HTTP GET /connect/authorize/callback responded 200 in 166.3054 ms
+2026-07-08 18:15:17.565 +02:00 [DBG] AuthenticationScheme: Identity.Application was not authenticated.
+2026-07-08 18:15:17.567 +02:00 [DBG] AuthenticationScheme: Identity.Application was not authenticated.
+2026-07-08 18:15:17.568 +02:00 [DBG] AuthenticationScheme: Identity.Application was not authenticated.
+2026-07-08 18:15:17.569 +02:00 [DBG] Request path /connect/token matched to endpoint type Token
+2026-07-08 18:15:17.576 +02:00 [DBG] Endpoint enabled: Token, successfully created handler: Duende.IdentityServer.Endpoints.TokenEndpoint
+2026-07-08 18:15:17.578 +02:00 [INF] Invoking IdentityServer endpoint: Duende.IdentityServer.Endpoints.TokenEndpoint for /connect/token
+2026-07-08 18:15:17.586 +02:00 [DBG] Start token request.
+2026-07-08 18:15:17.587 +02:00 [DBG] Start client validation
+2026-07-08 18:15:17.588 +02:00 [DBG] Start parsing Basic Authentication secret
+2026-07-08 18:15:17.588 +02:00 [DBG] Start parsing for secret in post body
+2026-07-08 18:15:17.589 +02:00 [DBG] Parser found secret: PostBodySecretParser
+2026-07-08 18:15:17.590 +02:00 [DBG] Secret id found: VariBillWebApp.Interactive
+2026-07-08 18:15:17.592 +02:00 [DBG] client configuration validation for client VariBillWebApp.Interactive succeeded.
+2026-07-08 18:15:17.595 +02:00 [DBG] Secret validator success: HashedSharedSecretValidator
+2026-07-08 18:15:17.596 +02:00 [DBG] Client validation success
+2026-07-08 18:15:17.597 +02:00 [INF] {"ClientId":"VariBillWebApp.Interactive","AuthenticationMethod":"SharedSecret","Category":"Authentication","Name":"Client Authentication Success","EventType":"Success","Id":1010,"Message":null,"ActivityId":"0HNMT1GB19UNM:00000005","TimeStamp":"2026-07-08T16:15:17.5976312","ProcessId":22188,"LocalIpAddress":"::1:5000","RemoteIpAddress":"::1","$type":"ClientAuthenticationSuccessEvent"}
+2026-07-08 18:15:17.614 +02:00 [DBG] Start token request validation
+2026-07-08 18:15:17.624 +02:00 [DBG] Start validation of authorization code token request
+2026-07-08 18:15:17.639 +02:00 [DBG] Client required a proof key for code exchange. Starting PKCE validation
+2026-07-08 18:15:17.643 +02:00 [DBG] Validation of authorization code token request success
+2026-07-08 18:15:17.648 +02:00 [INF] Token request validation success: {"ClientId":"VariBillWebApp.Interactive","ClientName":"VariBill Web App (Interactive)","GrantType":"authorization_code","Scopes":null,"AuthorizationCode":"****D0-1","RefreshToken":"********","UserName":null,"AuthenticationContextReferenceClasses":null,"Tenant":null,"IdP":null,"Raw":{"client_id":"VariBillWebApp.Interactive","client_secret":"***REDACTED***","code":"***REDACTED***","grant_type":"authorization_code","redirect_uri":"https://localhost:7253/signin-oidc","code_verifier":"F_B8s7q3mzyf7ONGhEkDOWw3NZOcPq3N5skaEkDl_JM"},"$type":"TokenRequestValidationLog"}
+2026-07-08 18:15:17.669 +02:00 [DBG] client configuration validation for client VariBillWebApp.Interactive succeeded.
+2026-07-08 18:15:17.674 +02:00 [DBG] Getting claims for access token for client: VariBillWebApp.Interactive
+2026-07-08 18:15:17.676 +02:00 [DBG] Getting claims for access token for subject: 13dbe175-1dfe-49c9-bed9-8dc205ed8234
+2026-07-08 18:15:17.742 +02:00 [DBG] client configuration validation for client VariBillWebApp.Interactive succeeded.
+2026-07-08 18:15:17.748 +02:00 [DBG] Getting claims for identity token for subject: 13dbe175-1dfe-49c9-bed9-8dc205ed8234 and client: VariBillWebApp.Interactive
+2026-07-08 18:15:17.751 +02:00 [DBG] In addition to an id_token, an access_token was requested. No claims other than sub are included in the id_token. To obtain more user claims, either use the user info endpoint or set AlwaysIncludeUserClaimsInIdToken on the client configuration.
+2026-07-08 18:15:17.754 +02:00 [INF] {"ClientId":"VariBillWebApp.Interactive","ClientName":"VariBill Web App (Interactive)","RedirectUri":null,"Endpoint":"Token","SubjectId":"13dbe175-1dfe-49c9-bed9-8dc205ed8234","Scopes":"openid profile email roles VariBillWebAPI","GrantType":"authorization_code","Tokens":[{"TokenType":"id_token","TokenValue":"****7GaA","$type":"Token"},{"TokenType":"access_token","TokenValue":"****8UkA","$type":"Token"}],"Category":"Token","Name":"Token Issued Success","EventType":"Success","Id":2000,"Message":null,"ActivityId":"0HNMT1GB19UNM:00000005","TimeStamp":"2026-07-08T16:15:17.7548169","ProcessId":22188,"LocalIpAddress":"::1:5000","RemoteIpAddress":"::1","$type":"TokenIssuedSuccessEvent"}
+2026-07-08 18:15:17.773 +02:00 [DBG] Token request success.
+2026-07-08 18:15:17.778 +02:00 [INF] HTTP POST /connect/token responded 200 in 212.7445 ms
+2026-07-08 18:15:17.852 +02:00 [DBG] AuthenticationScheme: Identity.Application was not authenticated.
+2026-07-08 18:15:17.853 +02:00 [DBG] AuthenticationScheme: Identity.Application was not authenticated.
+2026-07-08 18:15:17.854 +02:00 [DBG] AuthenticationScheme: Identity.Application was not authenticated.
+2026-07-08 18:15:17.855 +02:00 [DBG] Request path /connect/userinfo matched to endpoint type Userinfo
+2026-07-08 18:15:17.859 +02:00 [DBG] Endpoint enabled: Userinfo, successfully created handler: Duende.IdentityServer.Endpoints.UserInfoEndpoint
+2026-07-08 18:15:17.861 +02:00 [INF] Invoking IdentityServer endpoint: Duende.IdentityServer.Endpoints.UserInfoEndpoint for /connect/userinfo
+2026-07-08 18:15:17.865 +02:00 [DBG] Start userinfo request
+2026-07-08 18:15:17.868 +02:00 [DBG] Bearer token found in header
+2026-07-08 18:15:17.918 +02:00 [DBG] client configuration validation for client VariBillWebApp.Interactive succeeded.
+2026-07-08 18:15:17.921 +02:00 [DBG] client configuration validation for client VariBillWebApp.Interactive succeeded.
+2026-07-08 18:15:17.926 +02:00 [DBG] Calling into custom token validator: Duende.IdentityServer.Validation.DefaultCustomTokenValidator
+2026-07-08 18:15:17.929 +02:00 [DBG] Token validation success:{"ClientId":null,"ClientName":null,"ValidateLifetime":true,"AccessTokenType":"Jwt","ExpectedScope":"openid","TokenHandle":null,"JwtId":"03DD418DC67D7EFAB0BCD65372823E35","Claims":{"iss":"http://localhost:5000","nbf":1783527317,"iat":1783527317,"exp":1783530917,"aud":["VariBillWebAPI","http://localhost:5000/resources"],"scope":["openid","profile","email","roles","VariBillWebAPI"],"amr":"pwd","client_id":"VariBillWebApp.Interactive","sub":"13dbe175-1dfe-49c9-bed9-8dc205ed8234","auth_time":1783527317,"idp":"local","role":"Admin","sid":"C4E88E0D7045CF0B869644ED09DDABD3","jti":"03DD418DC67D7EFAB0BCD65372823E35"},"$type":"TokenValidationLog"}
+2026-07-08 18:15:17.951 +02:00 [DBG] Loading subject claims from access token
+2026-07-08 18:15:17.954 +02:00 [DBG] Creating userinfo response
+2026-07-08 18:15:17.956 +02:00 [DBG] Scopes in access token: openid profile email roles VariBillWebAPI
+2026-07-08 18:15:17.960 +02:00 [DBG] Requested claim types: sub name family_name given_name middle_name nickname preferred_username profile picture website gender birthdate zoneinfo locale updated_at email email_verified role
+2026-07-08 18:15:17.964 +02:00 [INF] Profile service returned the following claim types: sub email role preferred_username name email_verified
+2026-07-08 18:15:17.965 +02:00 [DBG] End userinfo request
+2026-07-08 18:15:17.967 +02:00 [INF] HTTP GET /connect/userinfo responded 200 in 115.6949 ms
+2026-07-08 18:15:32.909 +02:00 [DBG] AuthenticationScheme: Identity.Application was successfully authenticated.
+2026-07-08 18:15:32.912 +02:00 [DBG] AuthenticationScheme: Identity.Application was successfully authenticated.
+2026-07-08 18:15:32.915 +02:00 [DBG] AuthenticationScheme: Identity.Application was successfully authenticated.
+2026-07-08 18:15:32.918 +02:00 [WRN] The cookie 'idsrv.session' has set 'SameSite=None' and must also set 'Secure'.
+2026-07-08 18:15:32.919 +02:00 [DBG] Request path /connect/authorize matched to endpoint type Authorize
+2026-07-08 18:15:32.921 +02:00 [DBG] Endpoint enabled: Authorize, successfully created handler: Duende.IdentityServer.Endpoints.AuthorizeEndpoint
+2026-07-08 18:15:32.922 +02:00 [INF] Invoking IdentityServer endpoint: Duende.IdentityServer.Endpoints.AuthorizeEndpoint for /connect/authorize
+2026-07-08 18:15:32.925 +02:00 [DBG] Start authorize request
+2026-07-08 18:15:32.927 +02:00 [DBG] User in authorize request: 13dbe175-1dfe-49c9-bed9-8dc205ed8234
+2026-07-08 18:15:32.929 +02:00 [DBG] Start authorize request protocol validation
+2026-07-08 18:15:32.930 +02:00 [DBG] client configuration validation for client VariBillWebApp.Interactive succeeded.
+2026-07-08 18:15:32.933 +02:00 [ERR] Request validation failed
+2026-07-08 18:15:32.936 +02:00 [INF] {"ClientId":"VariBillWebApp.Interactive","ClientName":"VariBill Web App (Interactive)","RedirectUri":null,"AllowedRedirectUris":["https://localhost:5005/signin-oidc","https://localhost:5006/signin-oidc","https://localhost:7253/signin-oidc","https://localhost:7055/signin-oidc"],"SubjectId":"13dbe175-1dfe-49c9-bed9-8dc205ed8234","ResponseType":null,"ResponseMode":null,"GrantType":null,"RequestedScopes":"","State":null,"UiLocales":null,"Nonce":null,"AuthenticationContextReferenceClasses":null,"DisplayMode":null,"PromptMode":"","MaxAge":null,"LoginHint":null,"SessionId":null,"Raw":{"client_id":"VariBillWebApp.Interactive","request_uri":"urn:ietf:params:oauth:request_uri:3BFD49589888EF6B2BF7F347C594184D6471042F05BA48D93C160E555E1F3977","x-client-SKU":"ID_NET9_0","x-client-ver":"8.0.1.0"},"$type":"AuthorizeRequestValidationLog"}
+2026-07-08 18:15:32.965 +02:00 [INF] {"ClientId":"VariBillWebApp.Interactive","ClientName":"VariBill Web App (Interactive)","RedirectUri":null,"Endpoint":"Authorize","SubjectId":"13dbe175-1dfe-49c9-bed9-8dc205ed8234","Scopes":"","GrantType":null,"Error":"invalid_request_uri","ErrorDescription":"invalid or reused PAR request uri","Category":"Token","Name":"Token Issued Failure","EventType":"Failure","Id":2001,"Message":null,"ActivityId":"0HNMT1GB19UNQ:00000007","TimeStamp":"2026-07-08T16:15:32.9632939","ProcessId":22188,"LocalIpAddress":"::1:5000","RemoteIpAddress":"::1","$type":"TokenIssuedFailureEvent"}
+2026-07-08 18:15:32.982 +02:00 [DBG] No supported culture found based on values in ui_locales of null, not storing cookie.
+2026-07-08 18:15:32.988 +02:00 [INF] HTTP GET /connect/authorize responded 302 in 80.6219 ms
+2026-07-08 18:15:32.996 +02:00 [DBG] AuthenticationScheme: Identity.Application was successfully authenticated.
+2026-07-08 18:15:32.998 +02:00 [DBG] AuthenticationScheme: Identity.Application was successfully authenticated.
+2026-07-08 18:15:32.999 +02:00 [DBG] AuthenticationScheme: Identity.Application was successfully authenticated.
+2026-07-08 18:15:33.000 +02:00 [WRN] The cookie 'idsrv.session' has set 'SameSite=None' and must also set 'Secure'.
+2026-07-08 18:15:33.002 +02:00 [INF] HTTP GET /home/error responded 404 in 7.6646 ms
+2026-07-08 18:16:39.539 +02:00 [INF] Starting Duende IdentityServer version 7.4.3+build.0.5aa266c91aede84c98903a06c5fe91e5f983eabc (.NET 9.0.16)
+2026-07-08 18:16:39.633 +02:00 [WRN] You do not have a valid license key for the Duende software. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please start a conversation with us: https://duende.link/l/contact
+2026-07-08 18:16:39.644 +02:00 [INF] You are using the in-memory version of the persisted grant store. This will store consent decisions, authorization codes, refresh and reference tokens in memory only. If you are using any of those features in production, you want to switch to a different store implementation.
+2026-07-08 18:16:39.654 +02:00 [INF] Using the default authentication scheme Identity.Application for IdentityServer
+2026-07-08 18:16:39.656 +02:00 [DBG] Using Identity.Application as default ASP.NET Core scheme for authentication
+2026-07-08 18:16:39.657 +02:00 [DBG] Using Identity.External as default ASP.NET Core scheme for sign-in
+2026-07-08 18:16:39.658 +02:00 [DBG] Using Identity.External as default ASP.NET Core scheme for sign-out
+2026-07-08 18:16:39.660 +02:00 [DBG] Using Identity.Application as default ASP.NET Core scheme for challenge
+2026-07-08 18:16:39.661 +02:00 [DBG] Using Identity.Application as default ASP.NET Core scheme for forbid
+2026-07-08 18:16:47.692 +02:00 [INF] Now listening on: http://localhost:5000
+2026-07-08 18:16:47.720 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-07-08 18:16:47.721 +02:00 [INF] Hosting environment: Development
+2026-07-08 18:16:47.723 +02:00 [INF] Content root path: C:\WerkSoekAssessments\FinalAssessment\Bongoe2\VariBill.Identity.Duende\Bongoe.Identity
+2026-07-08 18:16:48.512 +02:00 [DBG] Login Url: /Identity/Account/Login
+2026-07-08 18:16:48.517 +02:00 [DBG] Login Return Url Parameter: ReturnUrl
+2026-07-08 18:16:48.518 +02:00 [DBG] Logout Url: /Identity/Account/Logout
+2026-07-08 18:16:48.520 +02:00 [DBG] ConsentUrl Url: /consent
+2026-07-08 18:16:48.522 +02:00 [DBG] Consent Return Url Parameter: returnUrl
+2026-07-08 18:16:48.523 +02:00 [DBG] Error Url: /home/error
+2026-07-08 18:16:48.524 +02:00 [DBG] Error Id Parameter: errorId
+2026-07-08 18:16:48.529 +02:00 [DBG] AuthenticationScheme: Identity.Application was not authenticated.
+2026-07-08 18:16:48.535 +02:00 [DBG] AuthenticationScheme: Identity.Application was not authenticated.
+2026-07-08 18:16:48.544 +02:00 [DBG] AuthenticationScheme: Identity.Application was not authenticated.
+2026-07-08 18:16:48.552 +02:00 [DBG] Request path /.well-known/openid-configuration matched to endpoint type Discovery
+2026-07-08 18:16:48.563 +02:00 [DBG] Endpoint enabled: Discovery, successfully created handler: Duende.IdentityServer.Endpoints.DiscoveryEndpoint
+2026-07-08 18:16:48.573 +02:00 [INF] Invoking IdentityServer endpoint: Duende.IdentityServer.Endpoints.DiscoveryEndpoint for /.well-known/openid-configuration
+2026-07-08 18:16:48.577 +02:00 [DBG] Start discovery request
+2026-07-08 18:16:48.641 +02:00 [INF] HTTP GET /.well-known/openid-configuration responded 200 in 201.0090 ms
+2026-07-08 18:16:48.690 +02:00 [DBG] AuthenticationScheme: Identity.Application was not authenticated.
+2026-07-08 18:16:48.691 +02:00 [DBG] AuthenticationScheme: Identity.Application was not authenticated.
+2026-07-08 18:16:48.693 +02:00 [DBG] AuthenticationScheme: Identity.Application was not authenticated.
+2026-07-08 18:16:48.700 +02:00 [DBG] Request path /.well-known/openid-configuration/jwks matched to endpoint type Jwks
+2026-07-08 18:16:48.703 +02:00 [DBG] Endpoint enabled: Jwks, successfully created handler: Duende.IdentityServer.Endpoints.DiscoveryKeyEndpoint
+2026-07-08 18:16:48.704 +02:00 [INF] Invoking IdentityServer endpoint: Duende.IdentityServer.Endpoints.DiscoveryKeyEndpoint for /.well-known/openid-configuration/jwks
+2026-07-08 18:16:48.707 +02:00 [DBG] Start key discovery request
+2026-07-08 18:16:48.717 +02:00 [INF] HTTP GET /.well-known/openid-configuration/jwks responded 200 in 33.8077 ms
+2026-07-08 18:16:48.747 +02:00 [DBG] AuthenticationScheme: Identity.Application was not authenticated.
+2026-07-08 18:16:48.747 +02:00 [DBG] AuthenticationScheme: Identity.Application was not authenticated.
+2026-07-08 18:16:48.749 +02:00 [DBG] AuthenticationScheme: Identity.Application was not authenticated.
+2026-07-08 18:16:48.750 +02:00 [DBG] AuthenticationScheme: Identity.Application was not authenticated.
+2026-07-08 18:16:48.755 +02:00 [DBG] AuthenticationScheme: Identity.Application was not authenticated.
+2026-07-08 18:16:48.755 +02:00 [DBG] AuthenticationScheme: Identity.Application was not authenticated.
+2026-07-08 18:16:48.757 +02:00 [DBG] Request path /connect/par matched to endpoint type PushedAuthorization
+2026-07-08 18:16:48.759 +02:00 [DBG] Request path /connect/par matched to endpoint type PushedAuthorization
+2026-07-08 18:16:48.771 +02:00 [DBG] Endpoint enabled: PushedAuthorization, successfully created handler: Duende.IdentityServer.Endpoints.PushedAuthorizationEndpoint
+2026-07-08 18:16:48.771 +02:00 [DBG] Endpoint enabled: PushedAuthorization, successfully created handler: Duende.IdentityServer.Endpoints.PushedAuthorizationEndpoint
+2026-07-08 18:16:48.773 +02:00 [INF] Invoking IdentityServer endpoint: Duende.IdentityServer.Endpoints.PushedAuthorizationEndpoint for /connect/par
+2026-07-08 18:16:48.775 +02:00 [INF] Invoking IdentityServer endpoint: Duende.IdentityServer.Endpoints.PushedAuthorizationEndpoint for /connect/par
+2026-07-08 18:16:48.785 +02:00 [DBG] Start pushed authorization request
+2026-07-08 18:16:48.785 +02:00 [DBG] Start pushed authorization request
+2026-07-08 18:16:48.797 +02:00 [DBG] Start client validation
+2026-07-08 18:16:48.797 +02:00 [DBG] Start client validation
+2026-07-08 18:16:48.802 +02:00 [DBG] Start parsing Basic Authentication secret
+2026-07-08 18:16:48.802 +02:00 [DBG] Start parsing Basic Authentication secret
+2026-07-08 18:16:48.804 +02:00 [DBG] Start parsing for secret in post body
+2026-07-08 18:16:48.804 +02:00 [DBG] Start parsing for secret in post body
+2026-07-08 18:16:48.806 +02:00 [DBG] Parser found secret: PostBodySecretParser
+2026-07-08 18:16:48.806 +02:00 [DBG] Parser found secret: PostBodySecretParser
+2026-07-08 18:16:48.807 +02:00 [DBG] Secret id found: VariBillWebApp.Interactive
+2026-07-08 18:16:48.808 +02:00 [DBG] Secret id found: VariBillWebApp.Interactive
+2026-07-08 18:16:48.815 +02:00 [DBG] client configuration validation for client VariBillWebApp.Interactive succeeded.
+2026-07-08 18:16:48.815 +02:00 [DBG] client configuration validation for client VariBillWebApp.Interactive succeeded.
+2026-07-08 18:16:48.827 +02:00 [DBG] Secret validator success: HashedSharedSecretValidator
+2026-07-08 18:16:48.827 +02:00 [DBG] Secret validator success: HashedSharedSecretValidator
+2026-07-08 18:16:48.829 +02:00 [DBG] Client validation success
+2026-07-08 18:16:48.830 +02:00 [DBG] Client validation success
+2026-07-08 18:16:48.853 +02:00 [INF] {"ClientId":"VariBillWebApp.Interactive","AuthenticationMethod":"SharedSecret","Category":"Authentication","Name":"Client Authentication Success","EventType":"Success","Id":1010,"Message":null,"ActivityId":"0HNMT1H7UVL6J:00000003","TimeStamp":"2026-07-08T16:16:48.8404180","ProcessId":8460,"LocalIpAddress":"::1:5000","RemoteIpAddress":"::1","$type":"ClientAuthenticationSuccessEvent"}
+2026-07-08 18:16:48.853 +02:00 [INF] {"ClientId":"VariBillWebApp.Interactive","AuthenticationMethod":"SharedSecret","Category":"Authentication","Name":"Client Authentication Success","EventType":"Success","Id":1010,"Message":null,"ActivityId":"0HNMT1H7UVL6K:00000001","TimeStamp":"2026-07-08T16:16:48.8404298","ProcessId":8460,"LocalIpAddress":"::1:5000","RemoteIpAddress":"::1","$type":"ClientAuthenticationSuccessEvent"}
+2026-07-08 18:16:48.870 +02:00 [WRN] A request was made to the pushed authorization endpoint, but you do not have a license. This feature requires the Business Edition or higher tier of license.
+2026-07-08 18:16:48.881 +02:00 [DBG] Start authorize request protocol validation
+2026-07-08 18:16:48.881 +02:00 [DBG] Start authorize request protocol validation
+2026-07-08 18:16:48.885 +02:00 [DBG] client configuration validation for client VariBillWebApp.Interactive succeeded.
+2026-07-08 18:16:48.885 +02:00 [DBG] client configuration validation for client VariBillWebApp.Interactive succeeded.
+2026-07-08 18:16:48.893 +02:00 [DBG] Checking for PKCE parameters
+2026-07-08 18:16:48.893 +02:00 [DBG] Checking for PKCE parameters
+2026-07-08 18:16:48.910 +02:00 [DBG] Calling into custom validator: Duende.IdentityServer.Validation.DefaultCustomAuthorizeRequestValidator
+2026-07-08 18:16:48.910 +02:00 [DBG] Calling into custom validator: Duende.IdentityServer.Validation.DefaultCustomAuthorizeRequestValidator
+2026-07-08 18:16:48.956 +02:00 [INF] HTTP POST /connect/par responded 201 in 210.3168 ms
+2026-07-08 18:16:48.956 +02:00 [INF] HTTP POST /connect/par responded 201 in 210.3169 ms
+2026-07-08 18:16:48.974 +02:00 [DBG] AuthenticationScheme: Identity.Application was not authenticated.
+2026-07-08 18:16:48.975 +02:00 [DBG] AuthenticationScheme: Identity.Application was not authenticated.
+2026-07-08 18:16:48.979 +02:00 [DBG] IdentityServer CorsPolicyService didn't handle CORS request made for path: /connect/authorize from origin: https://localhost:7253 because it is not for an IdentityServer CORS endpoint. To allow CORS requests to non IdentityServer endpoints, please set up your own Cors policy for your application by calling app.UseCors("MyPolicy") in the pipeline setup.
+2026-07-08 18:16:48.979 +02:00 [DBG] IdentityServer CorsPolicyService didn't handle CORS request made for path: /connect/authorize from origin: https://localhost:7253 because it is not for an IdentityServer CORS endpoint. To allow CORS requests to non IdentityServer endpoints, please set up your own Cors policy for your application by calling app.UseCors("MyPolicy") in the pipeline setup.
+2026-07-08 18:16:48.981 +02:00 [DBG] AuthenticationScheme: Identity.Application was not authenticated.
+2026-07-08 18:16:48.983 +02:00 [DBG] AuthenticationScheme: Identity.Application was not authenticated.
+2026-07-08 18:16:48.984 +02:00 [DBG] AuthenticationScheme: Identity.Application was not authenticated.
+2026-07-08 18:16:48.986 +02:00 [DBG] AuthenticationScheme: Identity.Application was not authenticated.
+2026-07-08 18:16:48.987 +02:00 [DBG] Request path /connect/authorize matched to endpoint type Authorize
+2026-07-08 18:16:48.988 +02:00 [DBG] Request path /connect/authorize matched to endpoint type Authorize
+2026-07-08 18:16:48.996 +02:00 [DBG] Endpoint enabled: Authorize, successfully created handler: Duende.IdentityServer.Endpoints.AuthorizeEndpoint
+2026-07-08 18:16:48.996 +02:00 [DBG] Endpoint enabled: Authorize, successfully created handler: Duende.IdentityServer.Endpoints.AuthorizeEndpoint
+2026-07-08 18:16:48.999 +02:00 [INF] Invoking IdentityServer endpoint: Duende.IdentityServer.Endpoints.AuthorizeEndpoint for /connect/authorize
+2026-07-08 18:16:49.001 +02:00 [INF] Invoking IdentityServer endpoint: Duende.IdentityServer.Endpoints.AuthorizeEndpoint for /connect/authorize
+2026-07-08 18:16:49.004 +02:00 [DBG] Start authorize request
+2026-07-08 18:16:49.004 +02:00 [DBG] Start authorize request
+2026-07-08 18:16:49.006 +02:00 [INF] HTTP OPTIONS /connect/authorize responded 405 in 32.0879 ms
+2026-07-08 18:16:49.007 +02:00 [INF] HTTP OPTIONS /connect/authorize responded 405 in 31.7968 ms
+2026-07-08 18:16:53.180 +02:00 [DBG] AuthenticationScheme: Identity.Application was not authenticated.
+2026-07-08 18:16:53.182 +02:00 [DBG] AuthenticationScheme: Identity.Application was not authenticated.
+2026-07-08 18:16:53.184 +02:00 [DBG] AuthenticationScheme: Identity.Application was not authenticated.
+2026-07-08 18:16:53.186 +02:00 [DBG] Request path /connect/par matched to endpoint type PushedAuthorization
+2026-07-08 18:16:53.192 +02:00 [DBG] Endpoint enabled: PushedAuthorization, successfully created handler: Duende.IdentityServer.Endpoints.PushedAuthorizationEndpoint
+2026-07-08 18:16:53.195 +02:00 [INF] Invoking IdentityServer endpoint: Duende.IdentityServer.Endpoints.PushedAuthorizationEndpoint for /connect/par
+2026-07-08 18:16:53.197 +02:00 [DBG] Start pushed authorization request
+2026-07-08 18:16:53.199 +02:00 [DBG] Start client validation
+2026-07-08 18:16:53.201 +02:00 [DBG] Start parsing Basic Authentication secret
+2026-07-08 18:16:53.202 +02:00 [DBG] Start parsing for secret in post body
+2026-07-08 18:16:53.203 +02:00 [DBG] Parser found secret: PostBodySecretParser
+2026-07-08 18:16:53.204 +02:00 [DBG] Secret id found: VariBillWebApp.Interactive
+2026-07-08 18:16:53.205 +02:00 [DBG] client configuration validation for client VariBillWebApp.Interactive succeeded.
+2026-07-08 18:16:53.207 +02:00 [DBG] Secret validator success: HashedSharedSecretValidator
+2026-07-08 18:16:53.208 +02:00 [DBG] Client validation success
+2026-07-08 18:16:53.209 +02:00 [INF] {"ClientId":"VariBillWebApp.Interactive","AuthenticationMethod":"SharedSecret","Category":"Authentication","Name":"Client Authentication Success","EventType":"Success","Id":1010,"Message":null,"ActivityId":"0HNMT1H7UVL6J:00000004","TimeStamp":"2026-07-08T16:16:53.2095795","ProcessId":8460,"LocalIpAddress":"::1:5000","RemoteIpAddress":"::1","$type":"ClientAuthenticationSuccessEvent"}
+2026-07-08 18:16:53.220 +02:00 [DBG] Start authorize request protocol validation
+2026-07-08 18:16:53.222 +02:00 [DBG] client configuration validation for client VariBillWebApp.Interactive succeeded.
+2026-07-08 18:16:53.223 +02:00 [DBG] Checking for PKCE parameters
+2026-07-08 18:16:53.225 +02:00 [DBG] Calling into custom validator: Duende.IdentityServer.Validation.DefaultCustomAuthorizeRequestValidator
+2026-07-08 18:16:53.227 +02:00 [INF] HTTP POST /connect/par responded 201 in 48.8890 ms
+2026-07-08 18:16:53.319 +02:00 [DBG] AuthenticationScheme: Identity.Application was not authenticated.
+2026-07-08 18:16:53.321 +02:00 [DBG] AuthenticationScheme: Identity.Application was not authenticated.
+2026-07-08 18:16:53.322 +02:00 [DBG] AuthenticationScheme: Identity.Application was not authenticated.
+2026-07-08 18:16:53.323 +02:00 [DBG] Request path /connect/authorize matched to endpoint type Authorize
+2026-07-08 18:16:53.342 +02:00 [DBG] Endpoint enabled: Authorize, successfully created handler: Duende.IdentityServer.Endpoints.AuthorizeEndpoint
+2026-07-08 18:16:53.344 +02:00 [INF] Invoking IdentityServer endpoint: Duende.IdentityServer.Endpoints.AuthorizeEndpoint for /connect/authorize
+2026-07-08 18:16:53.345 +02:00 [DBG] Start authorize request
+2026-07-08 18:16:53.354 +02:00 [DBG] AuthenticationScheme: Identity.Application was not authenticated.
+2026-07-08 18:16:53.358 +02:00 [DBG] No user present in authorize request
+2026-07-08 18:16:53.359 +02:00 [DBG] Start authorize request protocol validation
+2026-07-08 18:16:53.360 +02:00 [DBG] client configuration validation for client VariBillWebApp.Interactive succeeded.
+2026-07-08 18:16:53.367 +02:00 [DBG] Checking for PKCE parameters
+2026-07-08 18:16:53.368 +02:00 [DBG] Calling into custom validator: Duende.IdentityServer.Validation.DefaultCustomAuthorizeRequestValidator
+2026-07-08 18:16:53.377 +02:00 [DBG] ValidatedAuthorizeRequest
+{"ClientId":"VariBillWebApp.Interactive","ClientName":"VariBill Web App (Interactive)","RedirectUri":"https://localhost:7253/signin-oidc","AllowedRedirectUris":["https://localhost:5005/signin-oidc","https://localhost:5006/signin-oidc","https://localhost:7253/signin-oidc","https://localhost:7055/signin-oidc"],"SubjectId":"anonymous","ResponseType":"code","ResponseMode":"form_post","GrantType":"authorization_code","RequestedScopes":"openid profile email roles VariBillWebAPI","State":"CfDJ8AHyfddumpBOr0p0cPlbk0xewX9FEyNa8PBX8ki5AEPgiMmWbZmFi0z6GLWILydyiaB4V0hFOsGI3JY766F15ceUiTIkj1A5MgAPEhLSqijC4EtyG29F_G-tMlOgwlgg2XH5KlcsIEgtq-UqvInJg7ii-0IDfOSIgSIEmF34uYOohjixTA6g_xX06FR4ddMpPO-j4fhSy6oTu6maGomkBYrkbyL3Nhvh8tvDjh6LOe-SHOmZ1KV2IN78sJuHwIPPqlYYaBsAP7hyO23sTaQtOev11WM3Cx4IPOmZ2JyTmb6gp8boRtvA2zui2GjTtvuSSLi7q9i-1LB414AhdUOA6YO1saoFTNs31_rbcq1qTUP5T53tz89Q2VDLVfazmNgx9A","UiLocales":null,"Nonce":"639191242131776635.MjA3N2JkYzEtMTkzOS00YjRlLTgyZTItMmZhOWVlYzM4MWJjMGM4YjJlYzEtZWMzYS00ODM0LTg1ZDYtNGQ4ZmU0YjFlNDhm","AuthenticationContextReferenceClasses":null,"DisplayMode":null,"PromptMode":"","MaxAge":null,"LoginHint":null,"SessionId":"","Raw":{"client_id":"VariBillWebApp.Interactive","redirect_uri":"https://localhost:7253/signin-oidc","response_type":"code","scope":"openid profile email roles VariBillWebAPI","code_challenge":"Eq3Owna_qQZEWYQdBvsJOJWhuIO6iFpASD8dRFrL5yA","code_challenge_method":"S256","response_mode":"form_post","nonce":"639191242131776635.MjA3N2JkYzEtMTkzOS00YjRlLTgyZTItMmZhOWVlYzM4MWJjMGM4YjJlYzEtZWMzYS00ODM0LTg1ZDYtNGQ4ZmU0YjFlNDhm","state":"CfDJ8AHyfddumpBOr0p0cPlbk0xewX9FEyNa8PBX8ki5AEPgiMmWbZmFi0z6GLWILydyiaB4V0hFOsGI3JY766F15ceUiTIkj1A5MgAPEhLSqijC4EtyG29F_G-tMlOgwlgg2XH5KlcsIEgtq-UqvInJg7ii-0IDfOSIgSIEmF34uYOohjixTA6g_xX06FR4ddMpPO-j4fhSy6oTu6maGomkBYrkbyL3Nhvh8tvDjh6LOe-SHOmZ1KV2IN78sJuHwIPPqlYYaBsAP7hyO23sTaQtOev11WM3Cx4IPOmZ2JyTmb6gp8boRtvA2zui2GjTtvuSSLi7q9i-1LB414AhdUOA6YO1saoFTNs31_rbcq1qTUP5T53tz89Q2VDLVfazmNgx9A","client_secret":"***REDACTED***"},"$type":"AuthorizeRequestValidationLog"}
+2026-07-08 18:16:53.408 +02:00 [INF] Showing login: User is not authenticated
+2026-07-08 18:16:53.415 +02:00 [DBG] No supported culture found based on values in ui_locales of null, not storing cookie.
+2026-07-08 18:16:53.417 +02:00 [INF] HTTP GET /connect/authorize responded 302 in 98.8299 ms
+2026-07-08 18:16:53.429 +02:00 [DBG] AuthenticationScheme: Identity.Application was not authenticated.
+2026-07-08 18:16:53.431 +02:00 [DBG] AuthenticationScheme: Identity.Application was not authenticated.
+2026-07-08 18:16:53.432 +02:00 [DBG] AuthenticationScheme: Identity.Application was not authenticated.
+2026-07-08 18:16:53.484 +02:00 [WRN] The cookie 'Identity.External' has set 'SameSite=None' and must also set 'Secure'.
+2026-07-08 18:16:53.488 +02:00 [INF] AuthenticationScheme: Identity.External signed out.
+2026-07-08 18:16:53.635 +02:00 [INF] HTTP GET /Identity/Account/Login responded 200 in 209.1173 ms
+2026-07-08 18:16:53.789 +02:00 [INF] HTTP GET /Identity/lib/bootstrap/dist/js/bootstrap.bundle.js.map responded 200 in 24.1160 ms
+2026-07-08 18:16:56.197 +02:00 [DBG] AuthenticationScheme: Identity.Application was not authenticated.
+2026-07-08 18:16:56.200 +02:00 [DBG] AuthenticationScheme: Identity.Application was not authenticated.
+2026-07-08 18:16:56.201 +02:00 [DBG] AuthenticationScheme: Identity.Application was not authenticated.
+2026-07-08 18:16:56.409 +02:00 [DBG] Augmenting SignInContext
+2026-07-08 18:16:56.411 +02:00 [DBG] Adding idp claim with value: local
+2026-07-08 18:16:56.412 +02:00 [DBG] Adding auth_time claim with value: 1783527416
+2026-07-08 18:16:56.414 +02:00 [DBG] AuthenticationScheme: Identity.Application was not authenticated.
+2026-07-08 18:16:56.415 +02:00 [DBG] AuthenticationScheme: Identity.Application was not authenticated.
+2026-07-08 18:16:56.417 +02:00 [WRN] The cookie 'idsrv.session' has set 'SameSite=None' and must also set 'Secure'.
+2026-07-08 18:16:56.421 +02:00 [INF] AuthenticationScheme: Identity.Application signed in.
+2026-07-08 18:16:56.424 +02:00 [INF] HTTP POST /Identity/Account/Login responded 302 in 232.3849 ms
+2026-07-08 18:16:56.435 +02:00 [DBG] AuthenticationScheme: Identity.Application was successfully authenticated.
+2026-07-08 18:16:56.437 +02:00 [DBG] AuthenticationScheme: Identity.Application was successfully authenticated.
+2026-07-08 18:16:56.438 +02:00 [DBG] AuthenticationScheme: Identity.Application was successfully authenticated.
+2026-07-08 18:16:56.439 +02:00 [WRN] The cookie 'idsrv.session' has set 'SameSite=None' and must also set 'Secure'.
+2026-07-08 18:16:56.440 +02:00 [DBG] Request path /connect/authorize/callback matched to endpoint type Authorize
+2026-07-08 18:16:56.442 +02:00 [DBG] Endpoint enabled: Authorize, successfully created handler: Duende.IdentityServer.Endpoints.AuthorizeCallbackEndpoint
+2026-07-08 18:16:56.444 +02:00 [INF] Invoking IdentityServer endpoint: Duende.IdentityServer.Endpoints.AuthorizeCallbackEndpoint for /connect/authorize/callback
+2026-07-08 18:16:56.447 +02:00 [DBG] Start authorize callback request
+2026-07-08 18:16:56.448 +02:00 [DBG] User in authorize request: 13dbe175-1dfe-49c9-bed9-8dc205ed8234
+2026-07-08 18:16:56.449 +02:00 [DBG] Start authorize request protocol validation
+2026-07-08 18:16:56.449 +02:00 [DBG] client configuration validation for client VariBillWebApp.Interactive succeeded.
+2026-07-08 18:16:56.451 +02:00 [DBG] Checking for PKCE parameters
+2026-07-08 18:16:56.452 +02:00 [DBG] Calling into custom validator: Duende.IdentityServer.Validation.DefaultCustomAuthorizeRequestValidator
+2026-07-08 18:16:56.456 +02:00 [DBG] ValidatedAuthorizeRequest
+{"ClientId":"VariBillWebApp.Interactive","ClientName":"VariBill Web App (Interactive)","RedirectUri":"https://localhost:7253/signin-oidc","AllowedRedirectUris":["https://localhost:5005/signin-oidc","https://localhost:5006/signin-oidc","https://localhost:7253/signin-oidc","https://localhost:7055/signin-oidc"],"SubjectId":"13dbe175-1dfe-49c9-bed9-8dc205ed8234","ResponseType":"code","ResponseMode":"form_post","GrantType":"authorization_code","RequestedScopes":"openid profile email roles VariBillWebAPI","State":"CfDJ8AHyfddumpBOr0p0cPlbk0xewX9FEyNa8PBX8ki5AEPgiMmWbZmFi0z6GLWILydyiaB4V0hFOsGI3JY766F15ceUiTIkj1A5MgAPEhLSqijC4EtyG29F_G-tMlOgwlgg2XH5KlcsIEgtq-UqvInJg7ii-0IDfOSIgSIEmF34uYOohjixTA6g_xX06FR4ddMpPO-j4fhSy6oTu6maGomkBYrkbyL3Nhvh8tvDjh6LOe-SHOmZ1KV2IN78sJuHwIPPqlYYaBsAP7hyO23sTaQtOev11WM3Cx4IPOmZ2JyTmb6gp8boRtvA2zui2GjTtvuSSLi7q9i-1LB414AhdUOA6YO1saoFTNs31_rbcq1qTUP5T53tz89Q2VDLVfazmNgx9A","UiLocales":null,"Nonce":"639191242131776635.MjA3N2JkYzEtMTkzOS00YjRlLTgyZTItMmZhOWVlYzM4MWJjMGM4YjJlYzEtZWMzYS00ODM0LTg1ZDYtNGQ4ZmU0YjFlNDhm","AuthenticationContextReferenceClasses":null,"DisplayMode":null,"PromptMode":"","MaxAge":null,"LoginHint":null,"SessionId":"CD869E50AD5B65E566C14520158ED8FF","Raw":{"client_id":"VariBillWebApp.Interactive","redirect_uri":"https://localhost:7253/signin-oidc","response_type":"code","scope":"openid profile email roles VariBillWebAPI","code_challenge":"Eq3Owna_qQZEWYQdBvsJOJWhuIO6iFpASD8dRFrL5yA","code_challenge_method":"S256","response_mode":"form_post","nonce":"639191242131776635.MjA3N2JkYzEtMTkzOS00YjRlLTgyZTItMmZhOWVlYzM4MWJjMGM4YjJlYzEtZWMzYS00ODM0LTg1ZDYtNGQ4ZmU0YjFlNDhm","state":"CfDJ8AHyfddumpBOr0p0cPlbk0xewX9FEyNa8PBX8ki5AEPgiMmWbZmFi0z6GLWILydyiaB4V0hFOsGI3JY766F15ceUiTIkj1A5MgAPEhLSqijC4EtyG29F_G-tMlOgwlgg2XH5KlcsIEgtq-UqvInJg7ii-0IDfOSIgSIEmF34uYOohjixTA6g_xX06FR4ddMpPO-j4fhSy6oTu6maGomkBYrkbyL3Nhvh8tvDjh6LOe-SHOmZ1KV2IN78sJuHwIPPqlYYaBsAP7hyO23sTaQtOev11WM3Cx4IPOmZ2JyTmb6gp8boRtvA2zui2GjTtvuSSLi7q9i-1LB414AhdUOA6YO1saoFTNs31_rbcq1qTUP5T53tz89Q2VDLVfazmNgx9A","client_secret":"***REDACTED***"},"$type":"AuthorizeRequestValidationLog"}
+2026-07-08 18:16:56.498 +02:00 [DBG] Client is configured to not require consent, no consent is required
+2026-07-08 18:16:56.502 +02:00 [DBG] Creating Authorization Code Flow response.
+2026-07-08 18:16:56.526 +02:00 [INF] {"ClientId":"VariBillWebApp.Interactive","ClientName":"VariBill Web App (Interactive)","RedirectUri":"https://localhost:7253/signin-oidc","Endpoint":"Authorize","SubjectId":"13dbe175-1dfe-49c9-bed9-8dc205ed8234","Scopes":"openid profile email roles VariBillWebAPI","GrantType":"authorization_code","Tokens":[{"TokenType":"code","TokenValue":"****F5-1","$type":"Token"}],"Category":"Token","Name":"Token Issued Success","EventType":"Success","Id":2000,"Message":null,"ActivityId":"0HNMT1H7UVL6N:00000006","TimeStamp":"2026-07-08T16:16:56.5238630","ProcessId":8460,"LocalIpAddress":"::1:5000","RemoteIpAddress":"::1","$type":"TokenIssuedSuccessEvent"}
+2026-07-08 18:16:56.542 +02:00 [DBG] Authorize endpoint response
+{"SubjectId":"13dbe175-1dfe-49c9-bed9-8dc205ed8234","ClientId":"VariBillWebApp.Interactive","RedirectUri":"https://localhost:7253/signin-oidc","State":"CfDJ8AHyfddumpBOr0p0cPlbk0xewX9FEyNa8PBX8ki5AEPgiMmWbZmFi0z6GLWILydyiaB4V0hFOsGI3JY766F15ceUiTIkj1A5MgAPEhLSqijC4EtyG29F_G-tMlOgwlgg2XH5KlcsIEgtq-UqvInJg7ii-0IDfOSIgSIEmF34uYOohjixTA6g_xX06FR4ddMpPO-j4fhSy6oTu6maGomkBYrkbyL3Nhvh8tvDjh6LOe-SHOmZ1KV2IN78sJuHwIPPqlYYaBsAP7hyO23sTaQtOev11WM3Cx4IPOmZ2JyTmb6gp8boRtvA2zui2GjTtvuSSLi7q9i-1LB414AhdUOA6YO1saoFTNs31_rbcq1qTUP5T53tz89Q2VDLVfazmNgx9A","Scope":"openid profile email roles VariBillWebAPI","Error":null,"ErrorDescription":null,"$type":"AuthorizeResponseLog"}
+2026-07-08 18:16:56.556 +02:00 [DBG] Augmenting SignInContext
+2026-07-08 18:16:56.558 +02:00 [WRN] The cookie 'idsrv.session' has set 'SameSite=None' and must also set 'Secure'.
+2026-07-08 18:16:56.559 +02:00 [INF] AuthenticationScheme: Identity.Application signed in.
+2026-07-08 18:16:56.568 +02:00 [INF] HTTP GET /connect/authorize/callback responded 200 in 137.0265 ms
+2026-07-08 18:16:56.654 +02:00 [DBG] AuthenticationScheme: Identity.Application was not authenticated.
+2026-07-08 18:16:56.656 +02:00 [DBG] AuthenticationScheme: Identity.Application was not authenticated.
+2026-07-08 18:16:56.657 +02:00 [DBG] AuthenticationScheme: Identity.Application was not authenticated.
+2026-07-08 18:16:56.658 +02:00 [DBG] Request path /connect/token matched to endpoint type Token
+2026-07-08 18:16:56.664 +02:00 [DBG] Endpoint enabled: Token, successfully created handler: Duende.IdentityServer.Endpoints.TokenEndpoint
+2026-07-08 18:16:56.665 +02:00 [INF] Invoking IdentityServer endpoint: Duende.IdentityServer.Endpoints.TokenEndpoint for /connect/token
+2026-07-08 18:16:56.669 +02:00 [DBG] Start token request.
+2026-07-08 18:16:56.670 +02:00 [DBG] Start client validation
+2026-07-08 18:16:56.671 +02:00 [DBG] Start parsing Basic Authentication secret
+2026-07-08 18:16:56.672 +02:00 [DBG] Start parsing for secret in post body
+2026-07-08 18:16:56.673 +02:00 [DBG] Parser found secret: PostBodySecretParser
+2026-07-08 18:16:56.674 +02:00 [DBG] Secret id found: VariBillWebApp.Interactive
+2026-07-08 18:16:56.675 +02:00 [DBG] client configuration validation for client VariBillWebApp.Interactive succeeded.
+2026-07-08 18:16:56.676 +02:00 [DBG] Secret validator success: HashedSharedSecretValidator
+2026-07-08 18:16:56.677 +02:00 [DBG] Client validation success
+2026-07-08 18:16:56.678 +02:00 [INF] {"ClientId":"VariBillWebApp.Interactive","AuthenticationMethod":"SharedSecret","Category":"Authentication","Name":"Client Authentication Success","EventType":"Success","Id":1010,"Message":null,"ActivityId":"0HNMT1H7UVL6J:00000005","TimeStamp":"2026-07-08T16:16:56.6783756","ProcessId":8460,"LocalIpAddress":"::1:5000","RemoteIpAddress":"::1","$type":"ClientAuthenticationSuccessEvent"}
+2026-07-08 18:16:56.690 +02:00 [DBG] Start token request validation
+2026-07-08 18:16:56.696 +02:00 [DBG] Start validation of authorization code token request
+2026-07-08 18:16:56.709 +02:00 [DBG] Client required a proof key for code exchange. Starting PKCE validation
+2026-07-08 18:16:56.713 +02:00 [DBG] Validation of authorization code token request success
+2026-07-08 18:16:56.717 +02:00 [INF] Token request validation success: {"ClientId":"VariBillWebApp.Interactive","ClientName":"VariBill Web App (Interactive)","GrantType":"authorization_code","Scopes":null,"AuthorizationCode":"****F5-1","RefreshToken":"********","UserName":null,"AuthenticationContextReferenceClasses":null,"Tenant":null,"IdP":null,"Raw":{"client_id":"VariBillWebApp.Interactive","client_secret":"***REDACTED***","code":"***REDACTED***","grant_type":"authorization_code","redirect_uri":"https://localhost:7253/signin-oidc","code_verifier":"veF7s41D5nXe1NpgwzOS1bGytjrcRL19cSVrZV_VyIM"},"$type":"TokenRequestValidationLog"}
+2026-07-08 18:16:56.736 +02:00 [DBG] client configuration validation for client VariBillWebApp.Interactive succeeded.
+2026-07-08 18:16:56.742 +02:00 [DBG] Getting claims for access token for client: VariBillWebApp.Interactive
+2026-07-08 18:16:56.744 +02:00 [DBG] Getting claims for access token for subject: 13dbe175-1dfe-49c9-bed9-8dc205ed8234
+2026-07-08 18:16:56.801 +02:00 [DBG] client configuration validation for client VariBillWebApp.Interactive succeeded.
+2026-07-08 18:16:56.806 +02:00 [DBG] Getting claims for identity token for subject: 13dbe175-1dfe-49c9-bed9-8dc205ed8234 and client: VariBillWebApp.Interactive
+2026-07-08 18:16:56.808 +02:00 [DBG] In addition to an id_token, an access_token was requested. No claims other than sub are included in the id_token. To obtain more user claims, either use the user info endpoint or set AlwaysIncludeUserClaimsInIdToken on the client configuration.
+2026-07-08 18:16:56.814 +02:00 [INF] {"ClientId":"VariBillWebApp.Interactive","ClientName":"VariBill Web App (Interactive)","RedirectUri":null,"Endpoint":"Token","SubjectId":"13dbe175-1dfe-49c9-bed9-8dc205ed8234","Scopes":"openid profile email roles VariBillWebAPI","GrantType":"authorization_code","Tokens":[{"TokenType":"id_token","TokenValue":"****7EYQ","$type":"Token"},{"TokenType":"access_token","TokenValue":"****TTTg","$type":"Token"}],"Category":"Token","Name":"Token Issued Success","EventType":"Success","Id":2000,"Message":null,"ActivityId":"0HNMT1H7UVL6J:00000005","TimeStamp":"2026-07-08T16:16:56.8138458","ProcessId":8460,"LocalIpAddress":"::1:5000","RemoteIpAddress":"::1","$type":"TokenIssuedSuccessEvent"}
+2026-07-08 18:16:56.834 +02:00 [DBG] Token request success.
+2026-07-08 18:16:56.839 +02:00 [INF] HTTP POST /connect/token responded 200 in 184.6001 ms
+2026-07-08 18:16:56.906 +02:00 [DBG] AuthenticationScheme: Identity.Application was not authenticated.
+2026-07-08 18:16:56.908 +02:00 [DBG] AuthenticationScheme: Identity.Application was not authenticated.
+2026-07-08 18:16:56.909 +02:00 [DBG] AuthenticationScheme: Identity.Application was not authenticated.
+2026-07-08 18:16:56.910 +02:00 [DBG] Request path /connect/userinfo matched to endpoint type Userinfo
+2026-07-08 18:16:56.915 +02:00 [DBG] Endpoint enabled: Userinfo, successfully created handler: Duende.IdentityServer.Endpoints.UserInfoEndpoint
+2026-07-08 18:16:56.916 +02:00 [INF] Invoking IdentityServer endpoint: Duende.IdentityServer.Endpoints.UserInfoEndpoint for /connect/userinfo
+2026-07-08 18:16:56.921 +02:00 [DBG] Start userinfo request
+2026-07-08 18:16:56.923 +02:00 [DBG] Bearer token found in header
+2026-07-08 18:16:56.972 +02:00 [DBG] client configuration validation for client VariBillWebApp.Interactive succeeded.
+2026-07-08 18:16:56.976 +02:00 [DBG] client configuration validation for client VariBillWebApp.Interactive succeeded.
+2026-07-08 18:16:56.981 +02:00 [DBG] Calling into custom token validator: Duende.IdentityServer.Validation.DefaultCustomTokenValidator
+2026-07-08 18:16:56.984 +02:00 [DBG] Token validation success:{"ClientId":null,"ClientName":null,"ValidateLifetime":true,"AccessTokenType":"Jwt","ExpectedScope":"openid","TokenHandle":null,"JwtId":"E984A276C4AC3CECE9533F05AB4FCDD2","Claims":{"iss":"http://localhost:5000","nbf":1783527416,"iat":1783527416,"exp":1783531016,"aud":["VariBillWebAPI","http://localhost:5000/resources"],"scope":["openid","profile","email","roles","VariBillWebAPI"],"amr":"pwd","client_id":"VariBillWebApp.Interactive","sub":"13dbe175-1dfe-49c9-bed9-8dc205ed8234","auth_time":1783527416,"idp":"local","role":"Admin","sid":"CD869E50AD5B65E566C14520158ED8FF","jti":"E984A276C4AC3CECE9533F05AB4FCDD2"},"$type":"TokenValidationLog"}
+2026-07-08 18:16:57.006 +02:00 [DBG] Loading subject claims from access token
+2026-07-08 18:16:57.009 +02:00 [DBG] Creating userinfo response
+2026-07-08 18:16:57.012 +02:00 [DBG] Scopes in access token: openid profile email roles VariBillWebAPI
+2026-07-08 18:16:57.016 +02:00 [DBG] Requested claim types: sub name family_name given_name middle_name nickname preferred_username profile picture website gender birthdate zoneinfo locale updated_at email email_verified role
+2026-07-08 18:16:57.020 +02:00 [INF] Profile service returned the following claim types: sub email role preferred_username name email_verified
+2026-07-08 18:16:57.021 +02:00 [DBG] End userinfo request
+2026-07-08 18:16:57.024 +02:00 [INF] HTTP GET /connect/userinfo responded 200 in 118.0019 ms
+2026-07-08 18:22:00.184 +02:00 [INF] Starting Duende IdentityServer version 7.4.3+build.0.5aa266c91aede84c98903a06c5fe91e5f983eabc (.NET 9.0.16)
+2026-07-08 18:22:00.269 +02:00 [WRN] You do not have a valid license key for the Duende software. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please start a conversation with us: https://duende.link/l/contact
+2026-07-08 18:22:00.280 +02:00 [INF] You are using the in-memory version of the persisted grant store. This will store consent decisions, authorization codes, refresh and reference tokens in memory only. If you are using any of those features in production, you want to switch to a different store implementation.
+2026-07-08 18:22:00.288 +02:00 [INF] Using the default authentication scheme Identity.Application for IdentityServer
+2026-07-08 18:22:00.290 +02:00 [DBG] Using Identity.Application as default ASP.NET Core scheme for authentication
+2026-07-08 18:22:00.291 +02:00 [DBG] Using Identity.External as default ASP.NET Core scheme for sign-in
+2026-07-08 18:22:00.292 +02:00 [DBG] Using Identity.External as default ASP.NET Core scheme for sign-out
+2026-07-08 18:22:00.295 +02:00 [DBG] Using Identity.Application as default ASP.NET Core scheme for challenge
+2026-07-08 18:22:00.299 +02:00 [DBG] Using Identity.Application as default ASP.NET Core scheme for forbid
+2026-07-08 18:22:16.346 +02:00 [INF] Now listening on: http://localhost:5000
+2026-07-08 18:22:16.377 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-07-08 18:22:16.378 +02:00 [INF] Hosting environment: Development
+2026-07-08 18:22:16.379 +02:00 [INF] Content root path: C:\WerkSoekAssessments\FinalAssessment\Bongoe2\VariBill.Identity.Duende\Bongoe.Identity
+2026-07-08 18:22:17.011 +02:00 [DBG] Login Url: /Identity/Account/Login
+2026-07-08 18:22:17.014 +02:00 [DBG] Login Return Url Parameter: ReturnUrl
+2026-07-08 18:22:17.015 +02:00 [DBG] Logout Url: /Identity/Account/Logout
+2026-07-08 18:22:17.016 +02:00 [DBG] ConsentUrl Url: /consent
+2026-07-08 18:22:17.017 +02:00 [DBG] Consent Return Url Parameter: returnUrl
+2026-07-08 18:22:17.018 +02:00 [DBG] Error Url: /home/error
+2026-07-08 18:22:17.018 +02:00 [DBG] Error Id Parameter: errorId
+2026-07-08 18:22:17.025 +02:00 [DBG] AuthenticationScheme: Identity.Application was not authenticated.
+2026-07-08 18:22:17.031 +02:00 [DBG] AuthenticationScheme: Identity.Application was not authenticated.
+2026-07-08 18:22:17.040 +02:00 [DBG] AuthenticationScheme: Identity.Application was not authenticated.
+2026-07-08 18:22:17.046 +02:00 [DBG] Request path /.well-known/openid-configuration matched to endpoint type Discovery
+2026-07-08 18:22:17.095 +02:00 [DBG] Endpoint enabled: Discovery, successfully created handler: Duende.IdentityServer.Endpoints.DiscoveryEndpoint
+2026-07-08 18:22:17.104 +02:00 [INF] Invoking IdentityServer endpoint: Duende.IdentityServer.Endpoints.DiscoveryEndpoint for /.well-known/openid-configuration
+2026-07-08 18:22:17.108 +02:00 [DBG] Start discovery request
+2026-07-08 18:22:17.155 +02:00 [INF] HTTP GET /.well-known/openid-configuration responded 200 in 207.6774 ms
+2026-07-08 18:22:17.212 +02:00 [DBG] AuthenticationScheme: Identity.Application was not authenticated.
+2026-07-08 18:22:17.222 +02:00 [DBG] AuthenticationScheme: Identity.Application was not authenticated.
+2026-07-08 18:22:17.223 +02:00 [DBG] AuthenticationScheme: Identity.Application was not authenticated.
+2026-07-08 18:22:17.225 +02:00 [DBG] Request path /.well-known/openid-configuration/jwks matched to endpoint type Jwks
+2026-07-08 18:22:17.228 +02:00 [DBG] Endpoint enabled: Jwks, successfully created handler: Duende.IdentityServer.Endpoints.DiscoveryKeyEndpoint
+2026-07-08 18:22:17.229 +02:00 [INF] Invoking IdentityServer endpoint: Duende.IdentityServer.Endpoints.DiscoveryKeyEndpoint for /.well-known/openid-configuration/jwks
+2026-07-08 18:22:17.232 +02:00 [DBG] Start key discovery request
+2026-07-08 18:22:17.244 +02:00 [INF] HTTP GET /.well-known/openid-configuration/jwks responded 200 in 44.0625 ms
+2026-07-08 18:22:17.280 +02:00 [DBG] AuthenticationScheme: Identity.Application was not authenticated.
+2026-07-08 18:22:17.280 +02:00 [DBG] AuthenticationScheme: Identity.Application was not authenticated.
+2026-07-08 18:22:17.281 +02:00 [DBG] AuthenticationScheme: Identity.Application was not authenticated.
+2026-07-08 18:22:17.282 +02:00 [DBG] AuthenticationScheme: Identity.Application was not authenticated.
+2026-07-08 18:22:17.288 +02:00 [DBG] AuthenticationScheme: Identity.Application was not authenticated.
+2026-07-08 18:22:17.288 +02:00 [DBG] AuthenticationScheme: Identity.Application was not authenticated.
+2026-07-08 18:22:17.290 +02:00 [DBG] Request path /connect/par matched to endpoint type PushedAuthorization
+2026-07-08 18:22:17.291 +02:00 [DBG] Request path /connect/par matched to endpoint type PushedAuthorization
+2026-07-08 18:22:17.302 +02:00 [DBG] Endpoint enabled: PushedAuthorization, successfully created handler: Duende.IdentityServer.Endpoints.PushedAuthorizationEndpoint
+2026-07-08 18:22:17.302 +02:00 [DBG] Endpoint enabled: PushedAuthorization, successfully created handler: Duende.IdentityServer.Endpoints.PushedAuthorizationEndpoint
+2026-07-08 18:22:17.304 +02:00 [INF] Invoking IdentityServer endpoint: Duende.IdentityServer.Endpoints.PushedAuthorizationEndpoint for /connect/par
+2026-07-08 18:22:17.306 +02:00 [INF] Invoking IdentityServer endpoint: Duende.IdentityServer.Endpoints.PushedAuthorizationEndpoint for /connect/par
+2026-07-08 18:22:17.314 +02:00 [DBG] Start pushed authorization request
+2026-07-08 18:22:17.314 +02:00 [DBG] Start pushed authorization request
+2026-07-08 18:22:17.325 +02:00 [DBG] Start client validation
+2026-07-08 18:22:17.325 +02:00 [DBG] Start client validation
+2026-07-08 18:22:17.328 +02:00 [DBG] Start parsing Basic Authentication secret
+2026-07-08 18:22:17.328 +02:00 [DBG] Start parsing Basic Authentication secret
+2026-07-08 18:22:17.330 +02:00 [DBG] Start parsing for secret in post body
+2026-07-08 18:22:17.330 +02:00 [DBG] Start parsing for secret in post body
+2026-07-08 18:22:17.332 +02:00 [DBG] Parser found secret: PostBodySecretParser
+2026-07-08 18:22:17.332 +02:00 [DBG] Parser found secret: PostBodySecretParser
+2026-07-08 18:22:17.334 +02:00 [DBG] Secret id found: VariBillWebApp.Interactive
+2026-07-08 18:22:17.335 +02:00 [DBG] Secret id found: VariBillWebApp.Interactive
+2026-07-08 18:22:17.342 +02:00 [DBG] client configuration validation for client VariBillWebApp.Interactive succeeded.
+2026-07-08 18:22:17.342 +02:00 [DBG] client configuration validation for client VariBillWebApp.Interactive succeeded.
+2026-07-08 18:22:17.354 +02:00 [DBG] Secret validator success: HashedSharedSecretValidator
+2026-07-08 18:22:17.354 +02:00 [DBG] Secret validator success: HashedSharedSecretValidator
+2026-07-08 18:22:17.356 +02:00 [DBG] Client validation success
+2026-07-08 18:22:17.357 +02:00 [DBG] Client validation success
+2026-07-08 18:22:17.382 +02:00 [INF] {"ClientId":"VariBillWebApp.Interactive","AuthenticationMethod":"SharedSecret","Category":"Authentication","Name":"Client Authentication Success","EventType":"Success","Id":1010,"Message":null,"ActivityId":"0HNMT1K9RUMVG:00000003","TimeStamp":"2026-07-08T16:22:17.3675725","ProcessId":32,"LocalIpAddress":"::1:5000","RemoteIpAddress":"::1","$type":"ClientAuthenticationSuccessEvent"}
+2026-07-08 18:22:17.382 +02:00 [INF] {"ClientId":"VariBillWebApp.Interactive","AuthenticationMethod":"SharedSecret","Category":"Authentication","Name":"Client Authentication Success","EventType":"Success","Id":1010,"Message":null,"ActivityId":"0HNMT1K9RUMVH:00000001","TimeStamp":"2026-07-08T16:22:17.3675696","ProcessId":32,"LocalIpAddress":"::1:5000","RemoteIpAddress":"::1","$type":"ClientAuthenticationSuccessEvent"}
+2026-07-08 18:22:17.399 +02:00 [WRN] A request was made to the pushed authorization endpoint, but you do not have a license. This feature requires the Business Edition or higher tier of license.
+2026-07-08 18:22:17.409 +02:00 [DBG] Start authorize request protocol validation
+2026-07-08 18:22:17.409 +02:00 [DBG] Start authorize request protocol validation
+2026-07-08 18:22:17.413 +02:00 [DBG] client configuration validation for client VariBillWebApp.Interactive succeeded.
+2026-07-08 18:22:17.413 +02:00 [DBG] client configuration validation for client VariBillWebApp.Interactive succeeded.
+2026-07-08 18:22:17.422 +02:00 [DBG] Checking for PKCE parameters
+2026-07-08 18:22:17.422 +02:00 [DBG] Checking for PKCE parameters
+2026-07-08 18:22:17.445 +02:00 [DBG] Calling into custom validator: Duende.IdentityServer.Validation.DefaultCustomAuthorizeRequestValidator
+2026-07-08 18:22:17.445 +02:00 [DBG] Calling into custom validator: Duende.IdentityServer.Validation.DefaultCustomAuthorizeRequestValidator
+2026-07-08 18:22:17.488 +02:00 [INF] HTTP POST /connect/par responded 201 in 208.7223 ms
+2026-07-08 18:22:17.488 +02:00 [INF] HTTP POST /connect/par responded 201 in 208.7222 ms
+2026-07-08 18:22:17.502 +02:00 [DBG] AuthenticationScheme: Identity.Application was not authenticated.
+2026-07-08 18:22:17.504 +02:00 [DBG] AuthenticationScheme: Identity.Application was not authenticated.
+2026-07-08 18:22:17.507 +02:00 [DBG] IdentityServer CorsPolicyService didn't handle CORS request made for path: /connect/authorize from origin: https://localhost:7253 because it is not for an IdentityServer CORS endpoint. To allow CORS requests to non IdentityServer endpoints, please set up your own Cors policy for your application by calling app.UseCors("MyPolicy") in the pipeline setup.
+2026-07-08 18:22:17.507 +02:00 [DBG] IdentityServer CorsPolicyService didn't handle CORS request made for path: /connect/authorize from origin: https://localhost:7253 because it is not for an IdentityServer CORS endpoint. To allow CORS requests to non IdentityServer endpoints, please set up your own Cors policy for your application by calling app.UseCors("MyPolicy") in the pipeline setup.
+2026-07-08 18:22:17.510 +02:00 [DBG] AuthenticationScheme: Identity.Application was not authenticated.
+2026-07-08 18:22:17.512 +02:00 [DBG] AuthenticationScheme: Identity.Application was not authenticated.
+2026-07-08 18:22:17.513 +02:00 [DBG] AuthenticationScheme: Identity.Application was not authenticated.
+2026-07-08 18:22:17.514 +02:00 [DBG] AuthenticationScheme: Identity.Application was not authenticated.
+2026-07-08 18:22:17.515 +02:00 [DBG] Request path /connect/authorize matched to endpoint type Authorize
+2026-07-08 18:22:17.516 +02:00 [DBG] Request path /connect/authorize matched to endpoint type Authorize
+2026-07-08 18:22:17.525 +02:00 [DBG] Endpoint enabled: Authorize, successfully created handler: Duende.IdentityServer.Endpoints.AuthorizeEndpoint
+2026-07-08 18:22:17.525 +02:00 [DBG] Endpoint enabled: Authorize, successfully created handler: Duende.IdentityServer.Endpoints.AuthorizeEndpoint
+2026-07-08 18:22:17.527 +02:00 [INF] Invoking IdentityServer endpoint: Duende.IdentityServer.Endpoints.AuthorizeEndpoint for /connect/authorize
+2026-07-08 18:22:17.528 +02:00 [INF] Invoking IdentityServer endpoint: Duende.IdentityServer.Endpoints.AuthorizeEndpoint for /connect/authorize
+2026-07-08 18:22:17.531 +02:00 [DBG] Start authorize request
+2026-07-08 18:22:17.531 +02:00 [DBG] Start authorize request
+2026-07-08 18:22:17.533 +02:00 [INF] HTTP OPTIONS /connect/authorize responded 405 in 30.8432 ms
+2026-07-08 18:22:17.533 +02:00 [INF] HTTP OPTIONS /connect/authorize responded 405 in 29.7095 ms
+2026-07-08 18:22:25.533 +02:00 [DBG] AuthenticationScheme: Identity.Application was not authenticated.
+2026-07-08 18:22:25.536 +02:00 [DBG] AuthenticationScheme: Identity.Application was not authenticated.
+2026-07-08 18:22:25.537 +02:00 [DBG] AuthenticationScheme: Identity.Application was not authenticated.
+2026-07-08 18:22:25.539 +02:00 [DBG] Request path /connect/par matched to endpoint type PushedAuthorization
+2026-07-08 18:22:25.543 +02:00 [DBG] Endpoint enabled: PushedAuthorization, successfully created handler: Duende.IdentityServer.Endpoints.PushedAuthorizationEndpoint
+2026-07-08 18:22:25.545 +02:00 [INF] Invoking IdentityServer endpoint: Duende.IdentityServer.Endpoints.PushedAuthorizationEndpoint for /connect/par
+2026-07-08 18:22:25.547 +02:00 [DBG] Start pushed authorization request
+2026-07-08 18:22:25.548 +02:00 [DBG] Start client validation
+2026-07-08 18:22:25.550 +02:00 [DBG] Start parsing Basic Authentication secret
+2026-07-08 18:22:25.551 +02:00 [DBG] Start parsing for secret in post body
+2026-07-08 18:22:25.552 +02:00 [DBG] Parser found secret: PostBodySecretParser
+2026-07-08 18:22:25.554 +02:00 [DBG] Secret id found: VariBillWebApp.Interactive
+2026-07-08 18:22:25.555 +02:00 [DBG] client configuration validation for client VariBillWebApp.Interactive succeeded.
+2026-07-08 18:22:25.556 +02:00 [DBG] Secret validator success: HashedSharedSecretValidator
+2026-07-08 18:22:25.557 +02:00 [DBG] Client validation success
+2026-07-08 18:22:25.558 +02:00 [INF] {"ClientId":"VariBillWebApp.Interactive","AuthenticationMethod":"SharedSecret","Category":"Authentication","Name":"Client Authentication Success","EventType":"Success","Id":1010,"Message":null,"ActivityId":"0HNMT1K9RUMVH:00000002","TimeStamp":"2026-07-08T16:22:25.5584384","ProcessId":32,"LocalIpAddress":"::1:5000","RemoteIpAddress":"::1","$type":"ClientAuthenticationSuccessEvent"}
+2026-07-08 18:22:25.570 +02:00 [DBG] Start authorize request protocol validation
+2026-07-08 18:22:25.571 +02:00 [DBG] client configuration validation for client VariBillWebApp.Interactive succeeded.
+2026-07-08 18:22:25.573 +02:00 [DBG] Checking for PKCE parameters
+2026-07-08 18:22:25.574 +02:00 [DBG] Calling into custom validator: Duende.IdentityServer.Validation.DefaultCustomAuthorizeRequestValidator
+2026-07-08 18:22:25.577 +02:00 [INF] HTTP POST /connect/par responded 201 in 44.8901 ms
+2026-07-08 18:22:25.681 +02:00 [DBG] AuthenticationScheme: Identity.Application was not authenticated.
+2026-07-08 18:22:25.683 +02:00 [DBG] AuthenticationScheme: Identity.Application was not authenticated.
+2026-07-08 18:22:25.684 +02:00 [DBG] AuthenticationScheme: Identity.Application was not authenticated.
+2026-07-08 18:22:25.685 +02:00 [DBG] Request path /connect/authorize matched to endpoint type Authorize
+2026-07-08 18:22:25.707 +02:00 [DBG] Endpoint enabled: Authorize, successfully created handler: Duende.IdentityServer.Endpoints.AuthorizeEndpoint
+2026-07-08 18:22:25.709 +02:00 [INF] Invoking IdentityServer endpoint: Duende.IdentityServer.Endpoints.AuthorizeEndpoint for /connect/authorize
+2026-07-08 18:22:25.711 +02:00 [DBG] Start authorize request
+2026-07-08 18:22:25.719 +02:00 [DBG] AuthenticationScheme: Identity.Application was not authenticated.
+2026-07-08 18:22:25.723 +02:00 [DBG] No user present in authorize request
+2026-07-08 18:22:25.724 +02:00 [DBG] Start authorize request protocol validation
+2026-07-08 18:22:25.725 +02:00 [DBG] client configuration validation for client VariBillWebApp.Interactive succeeded.
+2026-07-08 18:22:25.732 +02:00 [DBG] Checking for PKCE parameters
+2026-07-08 18:22:25.734 +02:00 [DBG] Calling into custom validator: Duende.IdentityServer.Validation.DefaultCustomAuthorizeRequestValidator
+2026-07-08 18:22:25.744 +02:00 [DBG] ValidatedAuthorizeRequest
+{"ClientId":"VariBillWebApp.Interactive","ClientName":"VariBill Web App (Interactive)","RedirectUri":"https://localhost:7253/signin-oidc","AllowedRedirectUris":["https://localhost:5005/signin-oidc","https://localhost:5006/signin-oidc","https://localhost:7253/signin-oidc","https://localhost:7055/signin-oidc"],"SubjectId":"anonymous","ResponseType":"code","ResponseMode":"form_post","GrantType":"authorization_code","RequestedScopes":"openid profile email roles VariBillWebAPI","State":"CfDJ8AHyfddumpBOr0p0cPlbk0xd_6CTwyWtA9l59cbNbkh5PrueqddM2g-078Ghu9f0fnYzIfASj3ZGaIc5NnWz5T3AqH0ZTf8pIMtiFwp2lo9B69TFzLlZnzX-lBBWuAF3WjsTL-Cd2a32hqCG8a1dj9lwEx9XsMGb29qJM3uPj2NSURlXi7PpPFWbmIUaUUuyOMSZnvkfL4FTgNTm7EpzQMIESTbHh-QU1_op-9Z7Eh2bEct5eoXfYSp7zzZwYFpxfSiMOzkKV553gFn69lNHswFyBv1AAgQIS-_3xPHO-do7hgv48uIZbs6G2SAn9dD0hvlkDmnMfyUaJCaIIHPtldPZk2LVJOVoxqH1pXbY3hO50Za4WDOKKrWj9H16ARuaYg","UiLocales":null,"Nonce":"639191245455314315.MGQyMjJhZDQtODBiOS00ODBiLWE1NjEtZWQ5MjhiMWI4NDk4MzIwZTAzM2UtZjMwMS00NzkyLTgwZmMtNTcxZDFiNmE5NzZh","AuthenticationContextReferenceClasses":null,"DisplayMode":null,"PromptMode":"","MaxAge":null,"LoginHint":null,"SessionId":"","Raw":{"client_id":"VariBillWebApp.Interactive","redirect_uri":"https://localhost:7253/signin-oidc","response_type":"code","scope":"openid profile email roles VariBillWebAPI","code_challenge":"LreP2RFiIUsgiMNZieugV8HjM5_yul9OvsRrGPR_Pgw","code_challenge_method":"S256","response_mode":"form_post","nonce":"639191245455314315.MGQyMjJhZDQtODBiOS00ODBiLWE1NjEtZWQ5MjhiMWI4NDk4MzIwZTAzM2UtZjMwMS00NzkyLTgwZmMtNTcxZDFiNmE5NzZh","state":"CfDJ8AHyfddumpBOr0p0cPlbk0xd_6CTwyWtA9l59cbNbkh5PrueqddM2g-078Ghu9f0fnYzIfASj3ZGaIc5NnWz5T3AqH0ZTf8pIMtiFwp2lo9B69TFzLlZnzX-lBBWuAF3WjsTL-Cd2a32hqCG8a1dj9lwEx9XsMGb29qJM3uPj2NSURlXi7PpPFWbmIUaUUuyOMSZnvkfL4FTgNTm7EpzQMIESTbHh-QU1_op-9Z7Eh2bEct5eoXfYSp7zzZwYFpxfSiMOzkKV553gFn69lNHswFyBv1AAgQIS-_3xPHO-do7hgv48uIZbs6G2SAn9dD0hvlkDmnMfyUaJCaIIHPtldPZk2LVJOVoxqH1pXbY3hO50Za4WDOKKrWj9H16ARuaYg","client_secret":"***REDACTED***"},"$type":"AuthorizeRequestValidationLog"}
+2026-07-08 18:22:25.779 +02:00 [INF] Showing login: User is not authenticated
+2026-07-08 18:22:25.787 +02:00 [DBG] No supported culture found based on values in ui_locales of null, not storing cookie.
+2026-07-08 18:22:25.789 +02:00 [INF] HTTP GET /connect/authorize responded 302 in 108.4032 ms
+2026-07-08 18:22:25.803 +02:00 [DBG] AuthenticationScheme: Identity.Application was not authenticated.
+2026-07-08 18:22:25.805 +02:00 [DBG] AuthenticationScheme: Identity.Application was not authenticated.
+2026-07-08 18:22:25.806 +02:00 [DBG] AuthenticationScheme: Identity.Application was not authenticated.
+2026-07-08 18:22:25.865 +02:00 [WRN] The cookie 'Identity.External' has set 'SameSite=None' and must also set 'Secure'.
+2026-07-08 18:22:25.871 +02:00 [INF] AuthenticationScheme: Identity.External signed out.
+2026-07-08 18:22:26.050 +02:00 [INF] HTTP GET /Identity/Account/Login responded 200 in 250.4661 ms
+2026-07-08 18:22:26.212 +02:00 [INF] HTTP GET /Identity/lib/bootstrap/dist/js/bootstrap.bundle.js.map responded 200 in 17.1876 ms
+2026-07-08 18:22:28.421 +02:00 [DBG] AuthenticationScheme: Identity.Application was not authenticated.
+2026-07-08 18:22:28.423 +02:00 [DBG] AuthenticationScheme: Identity.Application was not authenticated.
+2026-07-08 18:22:28.424 +02:00 [DBG] AuthenticationScheme: Identity.Application was not authenticated.
+2026-07-08 18:22:28.672 +02:00 [DBG] Augmenting SignInContext
+2026-07-08 18:22:28.674 +02:00 [DBG] Adding idp claim with value: local
+2026-07-08 18:22:28.675 +02:00 [DBG] Adding auth_time claim with value: 1783527748
+2026-07-08 18:22:28.677 +02:00 [DBG] AuthenticationScheme: Identity.Application was not authenticated.
+2026-07-08 18:22:28.678 +02:00 [DBG] AuthenticationScheme: Identity.Application was not authenticated.
+2026-07-08 18:22:28.680 +02:00 [WRN] The cookie 'idsrv.session' has set 'SameSite=None' and must also set 'Secure'.
+2026-07-08 18:22:28.685 +02:00 [INF] AuthenticationScheme: Identity.Application signed in.
+2026-07-08 18:22:28.689 +02:00 [INF] HTTP POST /Identity/Account/Login responded 302 in 274.2769 ms
+2026-07-08 18:22:28.700 +02:00 [DBG] AuthenticationScheme: Identity.Application was successfully authenticated.
+2026-07-08 18:22:28.702 +02:00 [DBG] AuthenticationScheme: Identity.Application was successfully authenticated.
+2026-07-08 18:22:28.704 +02:00 [DBG] AuthenticationScheme: Identity.Application was successfully authenticated.
+2026-07-08 18:22:28.705 +02:00 [WRN] The cookie 'idsrv.session' has set 'SameSite=None' and must also set 'Secure'.
+2026-07-08 18:22:28.706 +02:00 [DBG] Request path /connect/authorize/callback matched to endpoint type Authorize
+2026-07-08 18:22:28.708 +02:00 [DBG] Endpoint enabled: Authorize, successfully created handler: Duende.IdentityServer.Endpoints.AuthorizeCallbackEndpoint
+2026-07-08 18:22:28.709 +02:00 [INF] Invoking IdentityServer endpoint: Duende.IdentityServer.Endpoints.AuthorizeCallbackEndpoint for /connect/authorize/callback
+2026-07-08 18:22:28.712 +02:00 [DBG] Start authorize callback request
+2026-07-08 18:22:28.713 +02:00 [DBG] User in authorize request: 13dbe175-1dfe-49c9-bed9-8dc205ed8234
+2026-07-08 18:22:28.714 +02:00 [DBG] Start authorize request protocol validation
+2026-07-08 18:22:28.715 +02:00 [DBG] client configuration validation for client VariBillWebApp.Interactive succeeded.
+2026-07-08 18:22:28.716 +02:00 [DBG] Checking for PKCE parameters
+2026-07-08 18:22:28.717 +02:00 [DBG] Calling into custom validator: Duende.IdentityServer.Validation.DefaultCustomAuthorizeRequestValidator
+2026-07-08 18:22:28.721 +02:00 [DBG] ValidatedAuthorizeRequest
+{"ClientId":"VariBillWebApp.Interactive","ClientName":"VariBill Web App (Interactive)","RedirectUri":"https://localhost:7253/signin-oidc","AllowedRedirectUris":["https://localhost:5005/signin-oidc","https://localhost:5006/signin-oidc","https://localhost:7253/signin-oidc","https://localhost:7055/signin-oidc"],"SubjectId":"13dbe175-1dfe-49c9-bed9-8dc205ed8234","ResponseType":"code","ResponseMode":"form_post","GrantType":"authorization_code","RequestedScopes":"openid profile email roles VariBillWebAPI","State":"CfDJ8AHyfddumpBOr0p0cPlbk0xd_6CTwyWtA9l59cbNbkh5PrueqddM2g-078Ghu9f0fnYzIfASj3ZGaIc5NnWz5T3AqH0ZTf8pIMtiFwp2lo9B69TFzLlZnzX-lBBWuAF3WjsTL-Cd2a32hqCG8a1dj9lwEx9XsMGb29qJM3uPj2NSURlXi7PpPFWbmIUaUUuyOMSZnvkfL4FTgNTm7EpzQMIESTbHh-QU1_op-9Z7Eh2bEct5eoXfYSp7zzZwYFpxfSiMOzkKV553gFn69lNHswFyBv1AAgQIS-_3xPHO-do7hgv48uIZbs6G2SAn9dD0hvlkDmnMfyUaJCaIIHPtldPZk2LVJOVoxqH1pXbY3hO50Za4WDOKKrWj9H16ARuaYg","UiLocales":null,"Nonce":"639191245455314315.MGQyMjJhZDQtODBiOS00ODBiLWE1NjEtZWQ5MjhiMWI4NDk4MzIwZTAzM2UtZjMwMS00NzkyLTgwZmMtNTcxZDFiNmE5NzZh","AuthenticationContextReferenceClasses":null,"DisplayMode":null,"PromptMode":"","MaxAge":null,"LoginHint":null,"SessionId":"63E5B6D6BCC98187AAF9C119DCEF2DA0","Raw":{"client_id":"VariBillWebApp.Interactive","redirect_uri":"https://localhost:7253/signin-oidc","response_type":"code","scope":"openid profile email roles VariBillWebAPI","code_challenge":"LreP2RFiIUsgiMNZieugV8HjM5_yul9OvsRrGPR_Pgw","code_challenge_method":"S256","response_mode":"form_post","nonce":"639191245455314315.MGQyMjJhZDQtODBiOS00ODBiLWE1NjEtZWQ5MjhiMWI4NDk4MzIwZTAzM2UtZjMwMS00NzkyLTgwZmMtNTcxZDFiNmE5NzZh","state":"CfDJ8AHyfddumpBOr0p0cPlbk0xd_6CTwyWtA9l59cbNbkh5PrueqddM2g-078Ghu9f0fnYzIfASj3ZGaIc5NnWz5T3AqH0ZTf8pIMtiFwp2lo9B69TFzLlZnzX-lBBWuAF3WjsTL-Cd2a32hqCG8a1dj9lwEx9XsMGb29qJM3uPj2NSURlXi7PpPFWbmIUaUUuyOMSZnvkfL4FTgNTm7EpzQMIESTbHh-QU1_op-9Z7Eh2bEct5eoXfYSp7zzZwYFpxfSiMOzkKV553gFn69lNHswFyBv1AAgQIS-_3xPHO-do7hgv48uIZbs6G2SAn9dD0hvlkDmnMfyUaJCaIIHPtldPZk2LVJOVoxqH1pXbY3hO50Za4WDOKKrWj9H16ARuaYg","client_secret":"***REDACTED***"},"$type":"AuthorizeRequestValidationLog"}
+2026-07-08 18:22:28.764 +02:00 [DBG] Client is configured to not require consent, no consent is required
+2026-07-08 18:22:28.768 +02:00 [DBG] Creating Authorization Code Flow response.
+2026-07-08 18:22:28.793 +02:00 [INF] {"ClientId":"VariBillWebApp.Interactive","ClientName":"VariBill Web App (Interactive)","RedirectUri":"https://localhost:7253/signin-oidc","Endpoint":"Authorize","SubjectId":"13dbe175-1dfe-49c9-bed9-8dc205ed8234","Scopes":"openid profile email roles VariBillWebAPI","GrantType":"authorization_code","Tokens":[{"TokenType":"code","TokenValue":"****B2-1","$type":"Token"}],"Category":"Token","Name":"Token Issued Success","EventType":"Success","Id":2000,"Message":null,"ActivityId":"0HNMT1K9RUMVK:00000006","TimeStamp":"2026-07-08T16:22:28.7911336","ProcessId":32,"LocalIpAddress":"::1:5000","RemoteIpAddress":"::1","$type":"TokenIssuedSuccessEvent"}
+2026-07-08 18:22:28.811 +02:00 [DBG] Authorize endpoint response
+{"SubjectId":"13dbe175-1dfe-49c9-bed9-8dc205ed8234","ClientId":"VariBillWebApp.Interactive","RedirectUri":"https://localhost:7253/signin-oidc","State":"CfDJ8AHyfddumpBOr0p0cPlbk0xd_6CTwyWtA9l59cbNbkh5PrueqddM2g-078Ghu9f0fnYzIfASj3ZGaIc5NnWz5T3AqH0ZTf8pIMtiFwp2lo9B69TFzLlZnzX-lBBWuAF3WjsTL-Cd2a32hqCG8a1dj9lwEx9XsMGb29qJM3uPj2NSURlXi7PpPFWbmIUaUUuyOMSZnvkfL4FTgNTm7EpzQMIESTbHh-QU1_op-9Z7Eh2bEct5eoXfYSp7zzZwYFpxfSiMOzkKV553gFn69lNHswFyBv1AAgQIS-_3xPHO-do7hgv48uIZbs6G2SAn9dD0hvlkDmnMfyUaJCaIIHPtldPZk2LVJOVoxqH1pXbY3hO50Za4WDOKKrWj9H16ARuaYg","Scope":"openid profile email roles VariBillWebAPI","Error":null,"ErrorDescription":null,"$type":"AuthorizeResponseLog"}
+2026-07-08 18:22:28.824 +02:00 [DBG] Augmenting SignInContext
+2026-07-08 18:22:28.826 +02:00 [WRN] The cookie 'idsrv.session' has set 'SameSite=None' and must also set 'Secure'.
+2026-07-08 18:22:28.828 +02:00 [INF] AuthenticationScheme: Identity.Application signed in.
+2026-07-08 18:22:28.835 +02:00 [INF] HTTP GET /connect/authorize/callback responded 200 in 140.1964 ms
+2026-07-08 18:22:28.923 +02:00 [DBG] AuthenticationScheme: Identity.Application was not authenticated.
+2026-07-08 18:22:28.925 +02:00 [DBG] AuthenticationScheme: Identity.Application was not authenticated.
+2026-07-08 18:22:28.926 +02:00 [DBG] AuthenticationScheme: Identity.Application was not authenticated.
+2026-07-08 18:22:28.927 +02:00 [DBG] Request path /connect/token matched to endpoint type Token
+2026-07-08 18:22:28.933 +02:00 [DBG] Endpoint enabled: Token, successfully created handler: Duende.IdentityServer.Endpoints.TokenEndpoint
+2026-07-08 18:22:28.935 +02:00 [INF] Invoking IdentityServer endpoint: Duende.IdentityServer.Endpoints.TokenEndpoint for /connect/token
+2026-07-08 18:22:28.938 +02:00 [DBG] Start token request.
+2026-07-08 18:22:28.939 +02:00 [DBG] Start client validation
+2026-07-08 18:22:28.940 +02:00 [DBG] Start parsing Basic Authentication secret
+2026-07-08 18:22:28.940 +02:00 [DBG] Start parsing for secret in post body
+2026-07-08 18:22:28.941 +02:00 [DBG] Parser found secret: PostBodySecretParser
+2026-07-08 18:22:28.942 +02:00 [DBG] Secret id found: VariBillWebApp.Interactive
+2026-07-08 18:22:28.943 +02:00 [DBG] client configuration validation for client VariBillWebApp.Interactive succeeded.
+2026-07-08 18:22:28.944 +02:00 [DBG] Secret validator success: HashedSharedSecretValidator
+2026-07-08 18:22:28.945 +02:00 [DBG] Client validation success
+2026-07-08 18:22:28.946 +02:00 [INF] {"ClientId":"VariBillWebApp.Interactive","AuthenticationMethod":"SharedSecret","Category":"Authentication","Name":"Client Authentication Success","EventType":"Success","Id":1010,"Message":null,"ActivityId":"0HNMT1K9RUMVH:00000003","TimeStamp":"2026-07-08T16:22:28.9459443","ProcessId":32,"LocalIpAddress":"::1:5000","RemoteIpAddress":"::1","$type":"ClientAuthenticationSuccessEvent"}
+2026-07-08 18:22:28.959 +02:00 [DBG] Start token request validation
+2026-07-08 18:22:28.965 +02:00 [DBG] Start validation of authorization code token request
+2026-07-08 18:22:28.979 +02:00 [DBG] Client required a proof key for code exchange. Starting PKCE validation
+2026-07-08 18:22:28.983 +02:00 [DBG] Validation of authorization code token request success
+2026-07-08 18:22:28.987 +02:00 [INF] Token request validation success: {"ClientId":"VariBillWebApp.Interactive","ClientName":"VariBill Web App (Interactive)","GrantType":"authorization_code","Scopes":null,"AuthorizationCode":"****B2-1","RefreshToken":"********","UserName":null,"AuthenticationContextReferenceClasses":null,"Tenant":null,"IdP":null,"Raw":{"client_id":"VariBillWebApp.Interactive","client_secret":"***REDACTED***","code":"***REDACTED***","grant_type":"authorization_code","redirect_uri":"https://localhost:7253/signin-oidc","code_verifier":"bE0YmYwyACaxGORShWATo886kKR5e8rkhfYIfklyTWs"},"$type":"TokenRequestValidationLog"}
+2026-07-08 18:22:29.005 +02:00 [DBG] client configuration validation for client VariBillWebApp.Interactive succeeded.
+2026-07-08 18:22:29.010 +02:00 [DBG] Getting claims for access token for client: VariBillWebApp.Interactive
+2026-07-08 18:22:29.011 +02:00 [DBG] Getting claims for access token for subject: 13dbe175-1dfe-49c9-bed9-8dc205ed8234
+2026-07-08 18:22:29.079 +02:00 [DBG] client configuration validation for client VariBillWebApp.Interactive succeeded.
+2026-07-08 18:22:29.090 +02:00 [DBG] Getting claims for identity token for subject: 13dbe175-1dfe-49c9-bed9-8dc205ed8234 and client: VariBillWebApp.Interactive
+2026-07-08 18:22:29.092 +02:00 [DBG] In addition to an id_token, an access_token was requested. No claims other than sub are included in the id_token. To obtain more user claims, either use the user info endpoint or set AlwaysIncludeUserClaimsInIdToken on the client configuration.
+2026-07-08 18:22:29.096 +02:00 [INF] {"ClientId":"VariBillWebApp.Interactive","ClientName":"VariBill Web App (Interactive)","RedirectUri":null,"Endpoint":"Token","SubjectId":"13dbe175-1dfe-49c9-bed9-8dc205ed8234","Scopes":"openid profile email roles VariBillWebAPI","GrantType":"authorization_code","Tokens":[{"TokenType":"id_token","TokenValue":"****8P5w","$type":"Token"},{"TokenType":"access_token","TokenValue":"****Negg","$type":"Token"}],"Category":"Token","Name":"Token Issued Success","EventType":"Success","Id":2000,"Message":null,"ActivityId":"0HNMT1K9RUMVH:00000003","TimeStamp":"2026-07-08T16:22:29.0964877","ProcessId":32,"LocalIpAddress":"::1:5000","RemoteIpAddress":"::1","$type":"TokenIssuedSuccessEvent"}
+2026-07-08 18:22:29.119 +02:00 [DBG] Token request success.
+2026-07-08 18:22:29.125 +02:00 [INF] HTTP POST /connect/token responded 200 in 202.1530 ms
+2026-07-08 18:22:29.195 +02:00 [DBG] AuthenticationScheme: Identity.Application was not authenticated.
+2026-07-08 18:22:29.196 +02:00 [DBG] AuthenticationScheme: Identity.Application was not authenticated.
+2026-07-08 18:22:29.197 +02:00 [DBG] AuthenticationScheme: Identity.Application was not authenticated.
+2026-07-08 18:22:29.199 +02:00 [DBG] Request path /connect/userinfo matched to endpoint type Userinfo
+2026-07-08 18:22:29.203 +02:00 [DBG] Endpoint enabled: Userinfo, successfully created handler: Duende.IdentityServer.Endpoints.UserInfoEndpoint
+2026-07-08 18:22:29.204 +02:00 [INF] Invoking IdentityServer endpoint: Duende.IdentityServer.Endpoints.UserInfoEndpoint for /connect/userinfo
+2026-07-08 18:22:29.208 +02:00 [DBG] Start userinfo request
+2026-07-08 18:22:29.210 +02:00 [DBG] Bearer token found in header
+2026-07-08 18:22:29.258 +02:00 [DBG] client configuration validation for client VariBillWebApp.Interactive succeeded.
+2026-07-08 18:22:29.262 +02:00 [DBG] client configuration validation for client VariBillWebApp.Interactive succeeded.
+2026-07-08 18:22:29.267 +02:00 [DBG] Calling into custom token validator: Duende.IdentityServer.Validation.DefaultCustomTokenValidator
+2026-07-08 18:22:29.269 +02:00 [DBG] Token validation success:{"ClientId":null,"ClientName":null,"ValidateLifetime":true,"AccessTokenType":"Jwt","ExpectedScope":"openid","TokenHandle":null,"JwtId":"DB7CF892820201D083CCD1A641179E44","Claims":{"iss":"http://localhost:5000","nbf":1783527749,"iat":1783527749,"exp":1783531349,"aud":["VariBillWebAPI","http://localhost:5000/resources"],"scope":["openid","profile","email","roles","VariBillWebAPI"],"amr":"pwd","client_id":"VariBillWebApp.Interactive","sub":"13dbe175-1dfe-49c9-bed9-8dc205ed8234","auth_time":1783527748,"idp":"local","role":"Admin","sid":"63E5B6D6BCC98187AAF9C119DCEF2DA0","jti":"DB7CF892820201D083CCD1A641179E44"},"$type":"TokenValidationLog"}
+2026-07-08 18:22:29.289 +02:00 [DBG] Loading subject claims from access token
+2026-07-08 18:22:29.291 +02:00 [DBG] Creating userinfo response
+2026-07-08 18:22:29.294 +02:00 [DBG] Scopes in access token: openid profile email roles VariBillWebAPI
+2026-07-08 18:22:29.297 +02:00 [DBG] Requested claim types: sub name family_name given_name middle_name nickname preferred_username profile picture website gender birthdate zoneinfo locale updated_at email email_verified role
+2026-07-08 18:22:29.300 +02:00 [INF] Profile service returned the following claim types: sub email role preferred_username name email_verified
+2026-07-08 18:22:29.301 +02:00 [DBG] End userinfo request
+2026-07-08 18:22:29.304 +02:00 [INF] HTTP GET /connect/userinfo responded 200 in 109.6194 ms
+2026-07-08 18:24:33.291 +02:00 [DBG] AuthenticationScheme: Identity.Application was successfully authenticated.
+2026-07-08 18:24:33.294 +02:00 [DBG] AuthenticationScheme: Identity.Application was successfully authenticated.
+2026-07-08 18:24:33.295 +02:00 [DBG] AuthenticationScheme: Identity.Application was successfully authenticated.
+2026-07-08 18:24:33.297 +02:00 [WRN] The cookie 'idsrv.session' has set 'SameSite=None' and must also set 'Secure'.
+2026-07-08 18:24:33.299 +02:00 [DBG] Request path /connect/authorize matched to endpoint type Authorize
+2026-07-08 18:24:33.302 +02:00 [DBG] Endpoint enabled: Authorize, successfully created handler: Duende.IdentityServer.Endpoints.AuthorizeEndpoint
+2026-07-08 18:24:33.314 +02:00 [INF] Invoking IdentityServer endpoint: Duende.IdentityServer.Endpoints.AuthorizeEndpoint for /connect/authorize
+2026-07-08 18:24:33.316 +02:00 [DBG] Start authorize request
+2026-07-08 18:24:33.317 +02:00 [DBG] User in authorize request: 13dbe175-1dfe-49c9-bed9-8dc205ed8234
+2026-07-08 18:24:33.319 +02:00 [DBG] Start authorize request protocol validation
+2026-07-08 18:24:33.320 +02:00 [DBG] client configuration validation for client VariBillWebApp.Interactive succeeded.
+2026-07-08 18:24:33.324 +02:00 [ERR] Request validation failed
+2026-07-08 18:24:33.325 +02:00 [INF] {"ClientId":"VariBillWebApp.Interactive","ClientName":"VariBill Web App (Interactive)","RedirectUri":null,"AllowedRedirectUris":["https://localhost:5005/signin-oidc","https://localhost:5006/signin-oidc","https://localhost:7253/signin-oidc","https://localhost:7055/signin-oidc"],"SubjectId":"13dbe175-1dfe-49c9-bed9-8dc205ed8234","ResponseType":null,"ResponseMode":null,"GrantType":null,"RequestedScopes":"","State":null,"UiLocales":null,"Nonce":null,"AuthenticationContextReferenceClasses":null,"DisplayMode":null,"PromptMode":"","MaxAge":null,"LoginHint":null,"SessionId":null,"Raw":{"client_id":"VariBillWebApp.Interactive","request_uri":"urn:ietf:params:oauth:request_uri:4181993B72D6F5AE691E5718D9226702413CC356571CBE4E83DCE9C7A56CDD23","x-client-SKU":"ID_NET9_0","x-client-ver":"8.0.1.0"},"$type":"AuthorizeRequestValidationLog"}
+2026-07-08 18:24:33.354 +02:00 [INF] {"ClientId":"VariBillWebApp.Interactive","ClientName":"VariBill Web App (Interactive)","RedirectUri":null,"Endpoint":"Authorize","SubjectId":"13dbe175-1dfe-49c9-bed9-8dc205ed8234","Scopes":"","GrantType":null,"Error":"invalid_request_uri","ErrorDescription":"invalid or reused PAR request uri","Category":"Token","Name":"Token Issued Failure","EventType":"Failure","Id":2001,"Message":null,"ActivityId":"0HNMT1K9RUMVK:00000007","TimeStamp":"2026-07-08T16:24:33.3520825","ProcessId":32,"LocalIpAddress":"::1:5000","RemoteIpAddress":"::1","$type":"TokenIssuedFailureEvent"}
+2026-07-08 18:24:33.378 +02:00 [DBG] No supported culture found based on values in ui_locales of null, not storing cookie.
+2026-07-08 18:24:33.386 +02:00 [INF] HTTP GET /connect/authorize responded 302 in 96.9863 ms
+2026-07-08 18:24:33.395 +02:00 [DBG] AuthenticationScheme: Identity.Application was successfully authenticated.
+2026-07-08 18:24:33.396 +02:00 [DBG] AuthenticationScheme: Identity.Application was successfully authenticated.
+2026-07-08 18:24:33.397 +02:00 [DBG] AuthenticationScheme: Identity.Application was successfully authenticated.
+2026-07-08 18:24:33.398 +02:00 [WRN] The cookie 'idsrv.session' has set 'SameSite=None' and must also set 'Secure'.
+2026-07-08 18:24:33.399 +02:00 [INF] HTTP GET /home/error responded 404 in 6.6573 ms
+2026-07-08 18:29:43.091 +02:00 [INF] Starting Duende IdentityServer version 7.4.3+build.0.5aa266c91aede84c98903a06c5fe91e5f983eabc (.NET 9.0.16)
+2026-07-08 18:29:43.267 +02:00 [WRN] You do not have a valid license key for the Duende software. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please start a conversation with us: https://duende.link/l/contact
+2026-07-08 18:29:43.281 +02:00 [INF] You are using the in-memory version of the persisted grant store. This will store consent decisions, authorization codes, refresh and reference tokens in memory only. If you are using any of those features in production, you want to switch to a different store implementation.
+2026-07-08 18:29:43.294 +02:00 [INF] Using the default authentication scheme Identity.Application for IdentityServer
+2026-07-08 18:29:43.297 +02:00 [DBG] Using Identity.Application as default ASP.NET Core scheme for authentication
+2026-07-08 18:29:43.299 +02:00 [DBG] Using Identity.External as default ASP.NET Core scheme for sign-in
+2026-07-08 18:29:43.302 +02:00 [DBG] Using Identity.External as default ASP.NET Core scheme for sign-out
+2026-07-08 18:29:43.304 +02:00 [DBG] Using Identity.Application as default ASP.NET Core scheme for challenge
+2026-07-08 18:29:43.306 +02:00 [DBG] Using Identity.Application as default ASP.NET Core scheme for forbid
+2026-07-08 18:29:54.136 +02:00 [INF] Now listening on: http://localhost:5000
+2026-07-08 18:29:54.164 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-07-08 18:29:54.165 +02:00 [INF] Hosting environment: Development
+2026-07-08 18:29:54.166 +02:00 [INF] Content root path: C:\WerkSoekAssessments\FinalAssessment\Bongoe2\VariBill.Identity.Duende\Bongoe.Identity
+2026-07-08 18:29:54.581 +02:00 [DBG] Login Url: /Identity/Account/Login
+2026-07-08 18:29:54.585 +02:00 [DBG] Login Return Url Parameter: ReturnUrl
+2026-07-08 18:29:54.586 +02:00 [DBG] Logout Url: /Identity/Account/Logout
+2026-07-08 18:29:54.587 +02:00 [DBG] ConsentUrl Url: /consent
+2026-07-08 18:29:54.588 +02:00 [DBG] Consent Return Url Parameter: returnUrl
+2026-07-08 18:29:54.589 +02:00 [DBG] Error Url: /home/error
+2026-07-08 18:29:54.590 +02:00 [DBG] Error Id Parameter: errorId
+2026-07-08 18:29:54.595 +02:00 [DBG] AuthenticationScheme: Identity.Application was not authenticated.
+2026-07-08 18:29:54.600 +02:00 [DBG] AuthenticationScheme: Identity.Application was not authenticated.
+2026-07-08 18:29:54.610 +02:00 [DBG] AuthenticationScheme: Identity.Application was not authenticated.
+2026-07-08 18:29:54.620 +02:00 [DBG] Request path /.well-known/openid-configuration matched to endpoint type Discovery
+2026-07-08 18:29:54.637 +02:00 [DBG] Endpoint enabled: Discovery, successfully created handler: Duende.IdentityServer.Endpoints.DiscoveryEndpoint
+2026-07-08 18:29:54.647 +02:00 [INF] Invoking IdentityServer endpoint: Duende.IdentityServer.Endpoints.DiscoveryEndpoint for /.well-known/openid-configuration
+2026-07-08 18:29:54.651 +02:00 [DBG] Start discovery request
+2026-07-08 18:29:54.721 +02:00 [INF] HTTP GET /.well-known/openid-configuration responded 200 in 191.8401 ms
+2026-07-08 18:29:54.773 +02:00 [DBG] AuthenticationScheme: Identity.Application was not authenticated.
+2026-07-08 18:29:54.775 +02:00 [DBG] AuthenticationScheme: Identity.Application was not authenticated.
+2026-07-08 18:29:54.776 +02:00 [DBG] AuthenticationScheme: Identity.Application was not authenticated.
+2026-07-08 18:29:54.778 +02:00 [DBG] Request path /.well-known/openid-configuration/jwks matched to endpoint type Jwks
+2026-07-08 18:29:54.781 +02:00 [DBG] Endpoint enabled: Jwks, successfully created handler: Duende.IdentityServer.Endpoints.DiscoveryKeyEndpoint
+2026-07-08 18:29:54.783 +02:00 [INF] Invoking IdentityServer endpoint: Duende.IdentityServer.Endpoints.DiscoveryKeyEndpoint for /.well-known/openid-configuration/jwks
+2026-07-08 18:29:54.786 +02:00 [DBG] Start key discovery request
+2026-07-08 18:29:54.797 +02:00 [INF] HTTP GET /.well-known/openid-configuration/jwks responded 200 in 31.4884 ms
+2026-07-08 18:29:54.832 +02:00 [DBG] AuthenticationScheme: Identity.Application was not authenticated.
+2026-07-08 18:29:54.832 +02:00 [DBG] AuthenticationScheme: Identity.Application was not authenticated.
+2026-07-08 18:29:54.836 +02:00 [DBG] AuthenticationScheme: Identity.Application was not authenticated.
+2026-07-08 18:29:54.837 +02:00 [DBG] AuthenticationScheme: Identity.Application was not authenticated.
+2026-07-08 18:29:54.842 +02:00 [DBG] AuthenticationScheme: Identity.Application was not authenticated.
+2026-07-08 18:29:54.842 +02:00 [DBG] AuthenticationScheme: Identity.Application was not authenticated.
+2026-07-08 18:29:54.843 +02:00 [DBG] Request path /connect/par matched to endpoint type PushedAuthorization
+2026-07-08 18:29:54.844 +02:00 [DBG] Request path /connect/par matched to endpoint type PushedAuthorization
+2026-07-08 18:29:54.858 +02:00 [DBG] Endpoint enabled: PushedAuthorization, successfully created handler: Duende.IdentityServer.Endpoints.PushedAuthorizationEndpoint
+2026-07-08 18:29:54.858 +02:00 [DBG] Endpoint enabled: PushedAuthorization, successfully created handler: Duende.IdentityServer.Endpoints.PushedAuthorizationEndpoint
+2026-07-08 18:29:54.859 +02:00 [INF] Invoking IdentityServer endpoint: Duende.IdentityServer.Endpoints.PushedAuthorizationEndpoint for /connect/par
+2026-07-08 18:29:54.861 +02:00 [INF] Invoking IdentityServer endpoint: Duende.IdentityServer.Endpoints.PushedAuthorizationEndpoint for /connect/par
+2026-07-08 18:29:54.904 +02:00 [DBG] Start pushed authorization request
+2026-07-08 18:29:54.904 +02:00 [DBG] Start pushed authorization request
+2026-07-08 18:29:54.921 +02:00 [DBG] Start client validation
+2026-07-08 18:29:54.921 +02:00 [DBG] Start client validation
+2026-07-08 18:29:54.925 +02:00 [DBG] Start parsing Basic Authentication secret
+2026-07-08 18:29:54.925 +02:00 [DBG] Start parsing Basic Authentication secret
+2026-07-08 18:29:54.928 +02:00 [DBG] Start parsing for secret in post body
+2026-07-08 18:29:54.928 +02:00 [DBG] Start parsing for secret in post body
+2026-07-08 18:29:54.931 +02:00 [DBG] Parser found secret: PostBodySecretParser
+2026-07-08 18:29:54.931 +02:00 [DBG] Parser found secret: PostBodySecretParser
+2026-07-08 18:29:54.933 +02:00 [DBG] Secret id found: VariBillWebApp.Interactive
+2026-07-08 18:29:54.934 +02:00 [DBG] Secret id found: VariBillWebApp.Interactive
+2026-07-08 18:29:54.944 +02:00 [DBG] client configuration validation for client VariBillWebApp.Interactive succeeded.
+2026-07-08 18:29:54.944 +02:00 [DBG] client configuration validation for client VariBillWebApp.Interactive succeeded.
+2026-07-08 18:29:54.961 +02:00 [DBG] Secret validator success: HashedSharedSecretValidator
+2026-07-08 18:29:54.963 +02:00 [DBG] Client validation success
+2026-07-08 18:29:54.964 +02:00 [DBG] Secret validator success: HashedSharedSecretValidator
+2026-07-08 18:29:54.966 +02:00 [DBG] Client validation success
+2026-07-08 18:29:55.001 +02:00 [INF] {"ClientId":"VariBillWebApp.Interactive","AuthenticationMethod":"SharedSecret","Category":"Authentication","Name":"Client Authentication Success","EventType":"Success","Id":1010,"Message":null,"ActivityId":"0HNMT1OI7S7GG:00000003","TimeStamp":"2026-07-08T16:29:54.9790034","ProcessId":24856,"LocalIpAddress":"::1:5000","RemoteIpAddress":"::1","$type":"ClientAuthenticationSuccessEvent"}
+2026-07-08 18:29:55.001 +02:00 [INF] {"ClientId":"VariBillWebApp.Interactive","AuthenticationMethod":"SharedSecret","Category":"Authentication","Name":"Client Authentication Success","EventType":"Success","Id":1010,"Message":null,"ActivityId":"0HNMT1OI7S7GH:00000001","TimeStamp":"2026-07-08T16:29:54.9790057","ProcessId":24856,"LocalIpAddress":"::1:5000","RemoteIpAddress":"::1","$type":"ClientAuthenticationSuccessEvent"}
+2026-07-08 18:29:55.025 +02:00 [WRN] A request was made to the pushed authorization endpoint, but you do not have a license. This feature requires the Business Edition or higher tier of license.
+2026-07-08 18:29:55.042 +02:00 [DBG] Start authorize request protocol validation
+2026-07-08 18:29:55.042 +02:00 [DBG] Start authorize request protocol validation
+2026-07-08 18:29:55.048 +02:00 [DBG] client configuration validation for client VariBillWebApp.Interactive succeeded.
+2026-07-08 18:29:55.048 +02:00 [DBG] client configuration validation for client VariBillWebApp.Interactive succeeded.
+2026-07-08 18:29:55.061 +02:00 [DBG] Checking for PKCE parameters
+2026-07-08 18:29:55.061 +02:00 [DBG] Checking for PKCE parameters
+2026-07-08 18:29:55.087 +02:00 [DBG] Calling into custom validator: Duende.IdentityServer.Validation.DefaultCustomAuthorizeRequestValidator
+2026-07-08 18:29:55.087 +02:00 [DBG] Calling into custom validator: Duende.IdentityServer.Validation.DefaultCustomAuthorizeRequestValidator
+2026-07-08 18:29:55.147 +02:00 [INF] HTTP POST /connect/par responded 201 in 315.4705 ms
+2026-07-08 18:29:55.147 +02:00 [INF] HTTP POST /connect/par responded 201 in 315.4706 ms
+2026-07-08 18:29:55.165 +02:00 [DBG] AuthenticationScheme: Identity.Application was not authenticated.
+2026-07-08 18:29:55.166 +02:00 [DBG] AuthenticationScheme: Identity.Application was not authenticated.
+2026-07-08 18:29:55.170 +02:00 [DBG] IdentityServer CorsPolicyService didn't handle CORS request made for path: /connect/authorize from origin: https://localhost:7253 because it is not for an IdentityServer CORS endpoint. To allow CORS requests to non IdentityServer endpoints, please set up your own Cors policy for your application by calling app.UseCors("MyPolicy") in the pipeline setup.
+2026-07-08 18:29:55.170 +02:00 [DBG] IdentityServer CorsPolicyService didn't handle CORS request made for path: /connect/authorize from origin: https://localhost:7253 because it is not for an IdentityServer CORS endpoint. To allow CORS requests to non IdentityServer endpoints, please set up your own Cors policy for your application by calling app.UseCors("MyPolicy") in the pipeline setup.
+2026-07-08 18:29:55.172 +02:00 [DBG] AuthenticationScheme: Identity.Application was not authenticated.
+2026-07-08 18:29:55.174 +02:00 [DBG] AuthenticationScheme: Identity.Application was not authenticated.
+2026-07-08 18:29:55.175 +02:00 [DBG] AuthenticationScheme: Identity.Application was not authenticated.
+2026-07-08 18:29:55.176 +02:00 [DBG] AuthenticationScheme: Identity.Application was not authenticated.
+2026-07-08 18:29:55.177 +02:00 [DBG] Request path /connect/authorize matched to endpoint type Authorize
+2026-07-08 18:29:55.178 +02:00 [DBG] Request path /connect/authorize matched to endpoint type Authorize
+2026-07-08 18:29:55.186 +02:00 [DBG] Endpoint enabled: Authorize, successfully created handler: Duende.IdentityServer.Endpoints.AuthorizeEndpoint
+2026-07-08 18:29:55.186 +02:00 [DBG] Endpoint enabled: Authorize, successfully created handler: Duende.IdentityServer.Endpoints.AuthorizeEndpoint
+2026-07-08 18:29:55.188 +02:00 [INF] Invoking IdentityServer endpoint: Duende.IdentityServer.Endpoints.AuthorizeEndpoint for /connect/authorize
+2026-07-08 18:29:55.189 +02:00 [INF] Invoking IdentityServer endpoint: Duende.IdentityServer.Endpoints.AuthorizeEndpoint for /connect/authorize
+2026-07-08 18:29:55.192 +02:00 [DBG] Start authorize request
+2026-07-08 18:29:55.192 +02:00 [DBG] Start authorize request
+2026-07-08 18:29:55.193 +02:00 [INF] HTTP OPTIONS /connect/authorize responded 405 in 27.0854 ms
+2026-07-08 18:29:55.193 +02:00 [INF] HTTP OPTIONS /connect/authorize responded 405 in 28.7553 ms
+2026-07-08 18:30:00.193 +02:00 [DBG] AuthenticationScheme: Identity.Application was not authenticated.
+2026-07-08 18:30:00.195 +02:00 [DBG] AuthenticationScheme: Identity.Application was not authenticated.
+2026-07-08 18:30:00.196 +02:00 [DBG] AuthenticationScheme: Identity.Application was not authenticated.
+2026-07-08 18:30:00.198 +02:00 [DBG] Request path /connect/par matched to endpoint type PushedAuthorization
+2026-07-08 18:30:00.204 +02:00 [DBG] Endpoint enabled: PushedAuthorization, successfully created handler: Duende.IdentityServer.Endpoints.PushedAuthorizationEndpoint
+2026-07-08 18:30:00.206 +02:00 [INF] Invoking IdentityServer endpoint: Duende.IdentityServer.Endpoints.PushedAuthorizationEndpoint for /connect/par
+2026-07-08 18:30:00.208 +02:00 [DBG] Start pushed authorization request
+2026-07-08 18:30:00.209 +02:00 [DBG] Start client validation
+2026-07-08 18:30:00.211 +02:00 [DBG] Start parsing Basic Authentication secret
+2026-07-08 18:30:00.213 +02:00 [DBG] Start parsing for secret in post body
+2026-07-08 18:30:00.214 +02:00 [DBG] Parser found secret: PostBodySecretParser
+2026-07-08 18:30:00.215 +02:00 [DBG] Secret id found: VariBillWebApp.Interactive
+2026-07-08 18:30:00.216 +02:00 [DBG] client configuration validation for client VariBillWebApp.Interactive succeeded.
+2026-07-08 18:30:00.217 +02:00 [DBG] Secret validator success: HashedSharedSecretValidator
+2026-07-08 18:30:00.219 +02:00 [DBG] Client validation success
+2026-07-08 18:30:00.220 +02:00 [INF] {"ClientId":"VariBillWebApp.Interactive","AuthenticationMethod":"SharedSecret","Category":"Authentication","Name":"Client Authentication Success","EventType":"Success","Id":1010,"Message":null,"ActivityId":"0HNMT1OI7S7GH:00000002","TimeStamp":"2026-07-08T16:30:00.2199841","ProcessId":24856,"LocalIpAddress":"::1:5000","RemoteIpAddress":"::1","$type":"ClientAuthenticationSuccessEvent"}
+2026-07-08 18:30:00.228 +02:00 [DBG] Start authorize request protocol validation
+2026-07-08 18:30:00.229 +02:00 [DBG] client configuration validation for client VariBillWebApp.Interactive succeeded.
+2026-07-08 18:30:00.231 +02:00 [DBG] Checking for PKCE parameters
+2026-07-08 18:30:00.233 +02:00 [DBG] Calling into custom validator: Duende.IdentityServer.Validation.DefaultCustomAuthorizeRequestValidator
+2026-07-08 18:30:00.237 +02:00 [INF] HTTP POST /connect/par responded 201 in 43.9744 ms
+2026-07-08 18:30:00.343 +02:00 [DBG] AuthenticationScheme: Identity.Application was not authenticated.
+2026-07-08 18:30:00.345 +02:00 [DBG] AuthenticationScheme: Identity.Application was not authenticated.
+2026-07-08 18:30:00.347 +02:00 [DBG] AuthenticationScheme: Identity.Application was not authenticated.
+2026-07-08 18:30:00.348 +02:00 [DBG] Request path /connect/authorize matched to endpoint type Authorize
+2026-07-08 18:30:00.370 +02:00 [DBG] Endpoint enabled: Authorize, successfully created handler: Duende.IdentityServer.Endpoints.AuthorizeEndpoint
+2026-07-08 18:30:00.372 +02:00 [INF] Invoking IdentityServer endpoint: Duende.IdentityServer.Endpoints.AuthorizeEndpoint for /connect/authorize
+2026-07-08 18:30:00.374 +02:00 [DBG] Start authorize request
+2026-07-08 18:30:00.384 +02:00 [DBG] AuthenticationScheme: Identity.Application was not authenticated.
+2026-07-08 18:30:00.389 +02:00 [DBG] No user present in authorize request
+2026-07-08 18:30:00.391 +02:00 [DBG] Start authorize request protocol validation
+2026-07-08 18:30:00.392 +02:00 [DBG] client configuration validation for client VariBillWebApp.Interactive succeeded.
+2026-07-08 18:30:00.403 +02:00 [DBG] Checking for PKCE parameters
+2026-07-08 18:30:00.405 +02:00 [DBG] Calling into custom validator: Duende.IdentityServer.Validation.DefaultCustomAuthorizeRequestValidator
+2026-07-08 18:30:00.419 +02:00 [DBG] ValidatedAuthorizeRequest
+{"ClientId":"VariBillWebApp.Interactive","ClientName":"VariBill Web App (Interactive)","RedirectUri":"https://localhost:7253/signin-oidc","AllowedRedirectUris":["https://localhost:5005/signin-oidc","https://localhost:5006/signin-oidc","https://localhost:7253/signin-oidc","https://localhost:7055/signin-oidc"],"SubjectId":"anonymous","ResponseType":"code","ResponseMode":"form_post","GrantType":"authorization_code","RequestedScopes":"openid profile email roles VariBillWebAPI","State":"CfDJ8AHyfddumpBOr0p0cPlbk0zKpuqYUjapVMaK3KUsKmIJ0bpLwgvPvvNKfPQ-rw6HGLpsLPztc1jMs7r4f6jbcskB9vt-bfh819U6AQyLbgZd6I5NGShRkAZHiRaeBHwWec175LUge2bRksB3b6Dl8X1kOhAJcs0iZDHXHihSSCnLK5-VOK7BIG1bR9TPIjPDZtH74-8XZ6yFe3YZ6txg2wn27RZ1bRtBH1rtGg4XIvL46uvfXizOW6Aq3D49ngEsWGKvaLScQWK9asxnmqQo04lNZHZHJc9TQz3WMb4i73Q3DklBEyUPsKInOtNuaDqi87ZkKaiVw1j9FMW34Rt43cFIGJ7uUPenacDnsH0ensQc2OYUBxUnlDVbqh01bh8Vsg","UiLocales":null,"Nonce":"639191250001920748.OTNkMTgyODgtODgwOS00ZDc2LWJjZDAtNzMyZDc0ZWVjNjE4NjA1NjhkOGMtMTU2MS00ZGIzLTg0OTktZThhZTBiMzI3Yzkx","AuthenticationContextReferenceClasses":null,"DisplayMode":null,"PromptMode":"","MaxAge":null,"LoginHint":null,"SessionId":"","Raw":{"client_id":"VariBillWebApp.Interactive","redirect_uri":"https://localhost:7253/signin-oidc","response_type":"code","scope":"openid profile email roles VariBillWebAPI","code_challenge":"VHw57Dbzs_Dg4u_88x8XOSXU1I9TS_GhM3YD_yoZM7Y","code_challenge_method":"S256","response_mode":"form_post","nonce":"639191250001920748.OTNkMTgyODgtODgwOS00ZDc2LWJjZDAtNzMyZDc0ZWVjNjE4NjA1NjhkOGMtMTU2MS00ZGIzLTg0OTktZThhZTBiMzI3Yzkx","state":"CfDJ8AHyfddumpBOr0p0cPlbk0zKpuqYUjapVMaK3KUsKmIJ0bpLwgvPvvNKfPQ-rw6HGLpsLPztc1jMs7r4f6jbcskB9vt-bfh819U6AQyLbgZd6I5NGShRkAZHiRaeBHwWec175LUge2bRksB3b6Dl8X1kOhAJcs0iZDHXHihSSCnLK5-VOK7BIG1bR9TPIjPDZtH74-8XZ6yFe3YZ6txg2wn27RZ1bRtBH1rtGg4XIvL46uvfXizOW6Aq3D49ngEsWGKvaLScQWK9asxnmqQo04lNZHZHJc9TQz3WMb4i73Q3DklBEyUPsKInOtNuaDqi87ZkKaiVw1j9FMW34Rt43cFIGJ7uUPenacDnsH0ensQc2OYUBxUnlDVbqh01bh8Vsg","client_secret":"***REDACTED***"},"$type":"AuthorizeRequestValidationLog"}
+2026-07-08 18:30:00.458 +02:00 [INF] Showing login: User is not authenticated
+2026-07-08 18:30:00.465 +02:00 [DBG] No supported culture found based on values in ui_locales of null, not storing cookie.
+2026-07-08 18:30:00.466 +02:00 [INF] HTTP GET /connect/authorize responded 302 in 123.1571 ms
+2026-07-08 18:30:00.482 +02:00 [DBG] AuthenticationScheme: Identity.Application was not authenticated.
+2026-07-08 18:30:00.484 +02:00 [DBG] AuthenticationScheme: Identity.Application was not authenticated.
+2026-07-08 18:30:00.485 +02:00 [DBG] AuthenticationScheme: Identity.Application was not authenticated.
+2026-07-08 18:30:00.552 +02:00 [WRN] The cookie 'Identity.External' has set 'SameSite=None' and must also set 'Secure'.
+2026-07-08 18:30:00.556 +02:00 [INF] AuthenticationScheme: Identity.External signed out.
+2026-07-08 18:30:00.725 +02:00 [INF] HTTP GET /Identity/Account/Login responded 200 in 247.6945 ms
+2026-07-08 18:30:00.921 +02:00 [INF] HTTP GET /Identity/lib/bootstrap/dist/js/bootstrap.bundle.js.map responded 200 in 17.9010 ms
+2026-07-08 18:30:01.963 +02:00 [DBG] AuthenticationScheme: Identity.Application was not authenticated.
+2026-07-08 18:30:01.966 +02:00 [DBG] AuthenticationScheme: Identity.Application was not authenticated.
+2026-07-08 18:30:01.967 +02:00 [DBG] AuthenticationScheme: Identity.Application was not authenticated.
+2026-07-08 18:30:02.228 +02:00 [DBG] Augmenting SignInContext
+2026-07-08 18:30:02.230 +02:00 [DBG] Adding idp claim with value: local
+2026-07-08 18:30:02.231 +02:00 [DBG] Adding auth_time claim with value: 1783528202
+2026-07-08 18:30:02.234 +02:00 [DBG] AuthenticationScheme: Identity.Application was not authenticated.
+2026-07-08 18:30:02.236 +02:00 [DBG] AuthenticationScheme: Identity.Application was not authenticated.
+2026-07-08 18:30:02.238 +02:00 [WRN] The cookie 'idsrv.session' has set 'SameSite=None' and must also set 'Secure'.
+2026-07-08 18:30:02.242 +02:00 [INF] AuthenticationScheme: Identity.Application signed in.
+2026-07-08 18:30:02.246 +02:00 [INF] HTTP POST /Identity/Account/Login responded 302 in 288.4995 ms
+2026-07-08 18:30:02.258 +02:00 [DBG] AuthenticationScheme: Identity.Application was successfully authenticated.
+2026-07-08 18:30:02.260 +02:00 [DBG] AuthenticationScheme: Identity.Application was successfully authenticated.
+2026-07-08 18:30:02.262 +02:00 [DBG] AuthenticationScheme: Identity.Application was successfully authenticated.
+2026-07-08 18:30:02.264 +02:00 [WRN] The cookie 'idsrv.session' has set 'SameSite=None' and must also set 'Secure'.
+2026-07-08 18:30:02.266 +02:00 [DBG] Request path /connect/authorize/callback matched to endpoint type Authorize
+2026-07-08 18:30:02.268 +02:00 [DBG] Endpoint enabled: Authorize, successfully created handler: Duende.IdentityServer.Endpoints.AuthorizeCallbackEndpoint
+2026-07-08 18:30:02.270 +02:00 [INF] Invoking IdentityServer endpoint: Duende.IdentityServer.Endpoints.AuthorizeCallbackEndpoint for /connect/authorize/callback
+2026-07-08 18:30:02.275 +02:00 [DBG] Start authorize callback request
+2026-07-08 18:30:02.276 +02:00 [DBG] User in authorize request: 13dbe175-1dfe-49c9-bed9-8dc205ed8234
+2026-07-08 18:30:02.277 +02:00 [DBG] Start authorize request protocol validation
+2026-07-08 18:30:02.278 +02:00 [DBG] client configuration validation for client VariBillWebApp.Interactive succeeded.
+2026-07-08 18:30:02.280 +02:00 [DBG] Checking for PKCE parameters
+2026-07-08 18:30:02.281 +02:00 [DBG] Calling into custom validator: Duende.IdentityServer.Validation.DefaultCustomAuthorizeRequestValidator
+2026-07-08 18:30:02.286 +02:00 [DBG] ValidatedAuthorizeRequest
+{"ClientId":"VariBillWebApp.Interactive","ClientName":"VariBill Web App (Interactive)","RedirectUri":"https://localhost:7253/signin-oidc","AllowedRedirectUris":["https://localhost:5005/signin-oidc","https://localhost:5006/signin-oidc","https://localhost:7253/signin-oidc","https://localhost:7055/signin-oidc"],"SubjectId":"13dbe175-1dfe-49c9-bed9-8dc205ed8234","ResponseType":"code","ResponseMode":"form_post","GrantType":"authorization_code","RequestedScopes":"openid profile email roles VariBillWebAPI","State":"CfDJ8AHyfddumpBOr0p0cPlbk0zKpuqYUjapVMaK3KUsKmIJ0bpLwgvPvvNKfPQ-rw6HGLpsLPztc1jMs7r4f6jbcskB9vt-bfh819U6AQyLbgZd6I5NGShRkAZHiRaeBHwWec175LUge2bRksB3b6Dl8X1kOhAJcs0iZDHXHihSSCnLK5-VOK7BIG1bR9TPIjPDZtH74-8XZ6yFe3YZ6txg2wn27RZ1bRtBH1rtGg4XIvL46uvfXizOW6Aq3D49ngEsWGKvaLScQWK9asxnmqQo04lNZHZHJc9TQz3WMb4i73Q3DklBEyUPsKInOtNuaDqi87ZkKaiVw1j9FMW34Rt43cFIGJ7uUPenacDnsH0ensQc2OYUBxUnlDVbqh01bh8Vsg","UiLocales":null,"Nonce":"639191250001920748.OTNkMTgyODgtODgwOS00ZDc2LWJjZDAtNzMyZDc0ZWVjNjE4NjA1NjhkOGMtMTU2MS00ZGIzLTg0OTktZThhZTBiMzI3Yzkx","AuthenticationContextReferenceClasses":null,"DisplayMode":null,"PromptMode":"","MaxAge":null,"LoginHint":null,"SessionId":"5DCEEEA3609C204F50BEBE4B2826E190","Raw":{"client_id":"VariBillWebApp.Interactive","redirect_uri":"https://localhost:7253/signin-oidc","response_type":"code","scope":"openid profile email roles VariBillWebAPI","code_challenge":"VHw57Dbzs_Dg4u_88x8XOSXU1I9TS_GhM3YD_yoZM7Y","code_challenge_method":"S256","response_mode":"form_post","nonce":"639191250001920748.OTNkMTgyODgtODgwOS00ZDc2LWJjZDAtNzMyZDc0ZWVjNjE4NjA1NjhkOGMtMTU2MS00ZGIzLTg0OTktZThhZTBiMzI3Yzkx","state":"CfDJ8AHyfddumpBOr0p0cPlbk0zKpuqYUjapVMaK3KUsKmIJ0bpLwgvPvvNKfPQ-rw6HGLpsLPztc1jMs7r4f6jbcskB9vt-bfh819U6AQyLbgZd6I5NGShRkAZHiRaeBHwWec175LUge2bRksB3b6Dl8X1kOhAJcs0iZDHXHihSSCnLK5-VOK7BIG1bR9TPIjPDZtH74-8XZ6yFe3YZ6txg2wn27RZ1bRtBH1rtGg4XIvL46uvfXizOW6Aq3D49ngEsWGKvaLScQWK9asxnmqQo04lNZHZHJc9TQz3WMb4i73Q3DklBEyUPsKInOtNuaDqi87ZkKaiVw1j9FMW34Rt43cFIGJ7uUPenacDnsH0ensQc2OYUBxUnlDVbqh01bh8Vsg","client_secret":"***REDACTED***"},"$type":"AuthorizeRequestValidationLog"}
+2026-07-08 18:30:02.335 +02:00 [DBG] Client is configured to not require consent, no consent is required
+2026-07-08 18:30:02.338 +02:00 [DBG] Creating Authorization Code Flow response.
+2026-07-08 18:30:02.367 +02:00 [INF] {"ClientId":"VariBillWebApp.Interactive","ClientName":"VariBill Web App (Interactive)","RedirectUri":"https://localhost:7253/signin-oidc","Endpoint":"Authorize","SubjectId":"13dbe175-1dfe-49c9-bed9-8dc205ed8234","Scopes":"openid profile email roles VariBillWebAPI","GrantType":"authorization_code","Tokens":[{"TokenType":"code","TokenValue":"****2A-1","$type":"Token"}],"Category":"Token","Name":"Token Issued Success","EventType":"Success","Id":2000,"Message":null,"ActivityId":"0HNMT1OI7S7GK:00000006","TimeStamp":"2026-07-08T16:30:02.3655458","ProcessId":24856,"LocalIpAddress":"::1:5000","RemoteIpAddress":"::1","$type":"TokenIssuedSuccessEvent"}
+2026-07-08 18:30:02.385 +02:00 [DBG] Authorize endpoint response
+{"SubjectId":"13dbe175-1dfe-49c9-bed9-8dc205ed8234","ClientId":"VariBillWebApp.Interactive","RedirectUri":"https://localhost:7253/signin-oidc","State":"CfDJ8AHyfddumpBOr0p0cPlbk0zKpuqYUjapVMaK3KUsKmIJ0bpLwgvPvvNKfPQ-rw6HGLpsLPztc1jMs7r4f6jbcskB9vt-bfh819U6AQyLbgZd6I5NGShRkAZHiRaeBHwWec175LUge2bRksB3b6Dl8X1kOhAJcs0iZDHXHihSSCnLK5-VOK7BIG1bR9TPIjPDZtH74-8XZ6yFe3YZ6txg2wn27RZ1bRtBH1rtGg4XIvL46uvfXizOW6Aq3D49ngEsWGKvaLScQWK9asxnmqQo04lNZHZHJc9TQz3WMb4i73Q3DklBEyUPsKInOtNuaDqi87ZkKaiVw1j9FMW34Rt43cFIGJ7uUPenacDnsH0ensQc2OYUBxUnlDVbqh01bh8Vsg","Scope":"openid profile email roles VariBillWebAPI","Error":null,"ErrorDescription":null,"$type":"AuthorizeResponseLog"}
+2026-07-08 18:30:02.400 +02:00 [DBG] Augmenting SignInContext
+2026-07-08 18:30:02.401 +02:00 [WRN] The cookie 'idsrv.session' has set 'SameSite=None' and must also set 'Secure'.
+2026-07-08 18:30:02.403 +02:00 [INF] AuthenticationScheme: Identity.Application signed in.
+2026-07-08 18:30:02.413 +02:00 [INF] HTTP GET /connect/authorize/callback responded 200 in 159.2272 ms
+2026-07-08 18:30:02.518 +02:00 [DBG] AuthenticationScheme: Identity.Application was not authenticated.
+2026-07-08 18:30:02.519 +02:00 [DBG] AuthenticationScheme: Identity.Application was not authenticated.
+2026-07-08 18:30:02.521 +02:00 [DBG] AuthenticationScheme: Identity.Application was not authenticated.
+2026-07-08 18:30:02.522 +02:00 [DBG] Request path /connect/token matched to endpoint type Token
+2026-07-08 18:30:02.532 +02:00 [DBG] Endpoint enabled: Token, successfully created handler: Duende.IdentityServer.Endpoints.TokenEndpoint
+2026-07-08 18:30:02.533 +02:00 [INF] Invoking IdentityServer endpoint: Duende.IdentityServer.Endpoints.TokenEndpoint for /connect/token
+2026-07-08 18:30:02.538 +02:00 [DBG] Start token request.
+2026-07-08 18:30:02.538 +02:00 [DBG] Start client validation
+2026-07-08 18:30:02.539 +02:00 [DBG] Start parsing Basic Authentication secret
+2026-07-08 18:30:02.540 +02:00 [DBG] Start parsing for secret in post body
+2026-07-08 18:30:02.541 +02:00 [DBG] Parser found secret: PostBodySecretParser
+2026-07-08 18:30:02.542 +02:00 [DBG] Secret id found: VariBillWebApp.Interactive
+2026-07-08 18:30:02.543 +02:00 [DBG] client configuration validation for client VariBillWebApp.Interactive succeeded.
+2026-07-08 18:30:02.545 +02:00 [DBG] Secret validator success: HashedSharedSecretValidator
+2026-07-08 18:30:02.546 +02:00 [DBG] Client validation success
+2026-07-08 18:30:02.548 +02:00 [INF] {"ClientId":"VariBillWebApp.Interactive","AuthenticationMethod":"SharedSecret","Category":"Authentication","Name":"Client Authentication Success","EventType":"Success","Id":1010,"Message":null,"ActivityId":"0HNMT1OI7S7GH:00000003","TimeStamp":"2026-07-08T16:30:02.5480205","ProcessId":24856,"LocalIpAddress":"::1:5000","RemoteIpAddress":"::1","$type":"ClientAuthenticationSuccessEvent"}
+2026-07-08 18:30:02.560 +02:00 [DBG] Start token request validation
+2026-07-08 18:30:02.567 +02:00 [DBG] Start validation of authorization code token request
+2026-07-08 18:30:02.582 +02:00 [DBG] Client required a proof key for code exchange. Starting PKCE validation
+2026-07-08 18:30:02.585 +02:00 [DBG] Validation of authorization code token request success
+2026-07-08 18:30:02.590 +02:00 [INF] Token request validation success: {"ClientId":"VariBillWebApp.Interactive","ClientName":"VariBill Web App (Interactive)","GrantType":"authorization_code","Scopes":null,"AuthorizationCode":"****2A-1","RefreshToken":"********","UserName":null,"AuthenticationContextReferenceClasses":null,"Tenant":null,"IdP":null,"Raw":{"client_id":"VariBillWebApp.Interactive","client_secret":"***REDACTED***","code":"***REDACTED***","grant_type":"authorization_code","redirect_uri":"https://localhost:7253/signin-oidc","code_verifier":"d1IMcDybcdXLbRwI5UyO3AG9Ka0Wq8XRKQ2GRZKp7rU"},"$type":"TokenRequestValidationLog"}
+2026-07-08 18:30:02.611 +02:00 [DBG] client configuration validation for client VariBillWebApp.Interactive succeeded.
+2026-07-08 18:30:02.620 +02:00 [DBG] Getting claims for access token for client: VariBillWebApp.Interactive
+2026-07-08 18:30:02.621 +02:00 [DBG] Getting claims for access token for subject: 13dbe175-1dfe-49c9-bed9-8dc205ed8234
+2026-07-08 18:30:02.689 +02:00 [DBG] client configuration validation for client VariBillWebApp.Interactive succeeded.
+2026-07-08 18:30:02.696 +02:00 [DBG] Getting claims for identity token for subject: 13dbe175-1dfe-49c9-bed9-8dc205ed8234 and client: VariBillWebApp.Interactive
+2026-07-08 18:30:02.698 +02:00 [DBG] In addition to an id_token, an access_token was requested. No claims other than sub are included in the id_token. To obtain more user claims, either use the user info endpoint or set AlwaysIncludeUserClaimsInIdToken on the client configuration.
+2026-07-08 18:30:02.704 +02:00 [INF] {"ClientId":"VariBillWebApp.Interactive","ClientName":"VariBill Web App (Interactive)","RedirectUri":null,"Endpoint":"Token","SubjectId":"13dbe175-1dfe-49c9-bed9-8dc205ed8234","Scopes":"openid profile email roles VariBillWebAPI","GrantType":"authorization_code","Tokens":[{"TokenType":"id_token","TokenValue":"****8byg","$type":"Token"},{"TokenType":"access_token","TokenValue":"****BMEA","$type":"Token"}],"Category":"Token","Name":"Token Issued Success","EventType":"Success","Id":2000,"Message":null,"ActivityId":"0HNMT1OI7S7GH:00000003","TimeStamp":"2026-07-08T16:30:02.7039603","ProcessId":24856,"LocalIpAddress":"::1:5000","RemoteIpAddress":"::1","$type":"TokenIssuedSuccessEvent"}
+2026-07-08 18:30:02.722 +02:00 [DBG] Token request success.
+2026-07-08 18:30:02.727 +02:00 [INF] HTTP POST /connect/token responded 200 in 210.0359 ms
+2026-07-08 18:30:02.798 +02:00 [DBG] AuthenticationScheme: Identity.Application was not authenticated.
+2026-07-08 18:30:02.800 +02:00 [DBG] AuthenticationScheme: Identity.Application was not authenticated.
+2026-07-08 18:30:02.801 +02:00 [DBG] AuthenticationScheme: Identity.Application was not authenticated.
+2026-07-08 18:30:02.802 +02:00 [DBG] Request path /connect/userinfo matched to endpoint type Userinfo
+2026-07-08 18:30:02.806 +02:00 [DBG] Endpoint enabled: Userinfo, successfully created handler: Duende.IdentityServer.Endpoints.UserInfoEndpoint
+2026-07-08 18:30:02.807 +02:00 [INF] Invoking IdentityServer endpoint: Duende.IdentityServer.Endpoints.UserInfoEndpoint for /connect/userinfo
+2026-07-08 18:30:02.812 +02:00 [DBG] Start userinfo request
+2026-07-08 18:30:02.814 +02:00 [DBG] Bearer token found in header
+2026-07-08 18:30:02.892 +02:00 [DBG] client configuration validation for client VariBillWebApp.Interactive succeeded.
+2026-07-08 18:30:02.897 +02:00 [DBG] client configuration validation for client VariBillWebApp.Interactive succeeded.
+2026-07-08 18:30:02.902 +02:00 [DBG] Calling into custom token validator: Duende.IdentityServer.Validation.DefaultCustomTokenValidator
+2026-07-08 18:30:02.905 +02:00 [DBG] Token validation success:{"ClientId":null,"ClientName":null,"ValidateLifetime":true,"AccessTokenType":"Jwt","ExpectedScope":"openid","TokenHandle":null,"JwtId":"958C0AA1394D6E410A69B03F30F5CB55","Claims":{"iss":"http://localhost:5000","nbf":1783528202,"iat":1783528202,"exp":1783531802,"aud":["VariBillWebAPI","http://localhost:5000/resources"],"scope":["openid","profile","email","roles","VariBillWebAPI"],"amr":"pwd","client_id":"VariBillWebApp.Interactive","sub":"13dbe175-1dfe-49c9-bed9-8dc205ed8234","auth_time":1783528202,"idp":"local","role":"Admin","sid":"5DCEEEA3609C204F50BEBE4B2826E190","jti":"958C0AA1394D6E410A69B03F30F5CB55"},"$type":"TokenValidationLog"}
+2026-07-08 18:30:02.924 +02:00 [DBG] Loading subject claims from access token
+2026-07-08 18:30:02.928 +02:00 [DBG] Creating userinfo response
+2026-07-08 18:30:02.932 +02:00 [DBG] Scopes in access token: openid profile email roles VariBillWebAPI
+2026-07-08 18:30:02.935 +02:00 [DBG] Requested claim types: sub name family_name given_name middle_name nickname preferred_username profile picture website gender birthdate zoneinfo locale updated_at email email_verified role
+2026-07-08 18:30:02.938 +02:00 [INF] Profile service returned the following claim types: sub email role preferred_username name email_verified
+2026-07-08 18:30:02.939 +02:00 [DBG] End userinfo request
+2026-07-08 18:30:02.941 +02:00 [INF] HTTP GET /connect/userinfo responded 200 in 143.6272 ms
+2026-07-08 18:31:13.567 +02:00 [INF] Starting Duende IdentityServer version 7.4.3+build.0.5aa266c91aede84c98903a06c5fe91e5f983eabc (.NET 9.0.16)
+2026-07-08 18:31:13.684 +02:00 [WRN] You do not have a valid license key for the Duende software. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please start a conversation with us: https://duende.link/l/contact
+2026-07-08 18:31:13.696 +02:00 [INF] You are using the in-memory version of the persisted grant store. This will store consent decisions, authorization codes, refresh and reference tokens in memory only. If you are using any of those features in production, you want to switch to a different store implementation.
+2026-07-08 18:31:13.712 +02:00 [INF] Using the default authentication scheme Identity.Application for IdentityServer
+2026-07-08 18:31:13.714 +02:00 [DBG] Using Identity.Application as default ASP.NET Core scheme for authentication
+2026-07-08 18:31:13.715 +02:00 [DBG] Using Identity.External as default ASP.NET Core scheme for sign-in
+2026-07-08 18:31:13.716 +02:00 [DBG] Using Identity.External as default ASP.NET Core scheme for sign-out
+2026-07-08 18:31:13.718 +02:00 [DBG] Using Identity.Application as default ASP.NET Core scheme for challenge
+2026-07-08 18:31:13.719 +02:00 [DBG] Using Identity.Application as default ASP.NET Core scheme for forbid
+2026-07-08 18:31:31.925 +02:00 [INF] Now listening on: http://localhost:5000
+2026-07-08 18:31:31.983 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-07-08 18:31:31.984 +02:00 [INF] Hosting environment: Development
+2026-07-08 18:31:31.986 +02:00 [INF] Content root path: C:\WerkSoekAssessments\FinalAssessment\Bongoe2\VariBill.Identity.Duende\Bongoe.Identity
+2026-07-08 18:31:32.239 +02:00 [DBG] Login Url: /Identity/Account/Login
+2026-07-08 18:31:32.242 +02:00 [DBG] Login Return Url Parameter: ReturnUrl
+2026-07-08 18:31:32.243 +02:00 [DBG] Logout Url: /Identity/Account/Logout
+2026-07-08 18:31:32.244 +02:00 [DBG] ConsentUrl Url: /consent
+2026-07-08 18:31:32.246 +02:00 [DBG] Consent Return Url Parameter: returnUrl
+2026-07-08 18:31:32.247 +02:00 [DBG] Error Url: /home/error
+2026-07-08 18:31:32.248 +02:00 [DBG] Error Id Parameter: errorId
+2026-07-08 18:31:32.253 +02:00 [DBG] AuthenticationScheme: Identity.Application was not authenticated.
+2026-07-08 18:31:32.259 +02:00 [DBG] AuthenticationScheme: Identity.Application was not authenticated.
+2026-07-08 18:31:32.267 +02:00 [DBG] AuthenticationScheme: Identity.Application was not authenticated.
+2026-07-08 18:31:32.273 +02:00 [DBG] Request path /.well-known/openid-configuration matched to endpoint type Discovery
+2026-07-08 18:31:32.288 +02:00 [DBG] Endpoint enabled: Discovery, successfully created handler: Duende.IdentityServer.Endpoints.DiscoveryEndpoint
+2026-07-08 18:31:32.297 +02:00 [INF] Invoking IdentityServer endpoint: Duende.IdentityServer.Endpoints.DiscoveryEndpoint for /.well-known/openid-configuration
+2026-07-08 18:31:32.301 +02:00 [DBG] Start discovery request
+2026-07-08 18:31:32.350 +02:00 [INF] HTTP GET /.well-known/openid-configuration responded 200 in 165.8826 ms
+2026-07-08 18:31:32.396 +02:00 [DBG] AuthenticationScheme: Identity.Application was not authenticated.
+2026-07-08 18:31:32.398 +02:00 [DBG] AuthenticationScheme: Identity.Application was not authenticated.
+2026-07-08 18:31:32.399 +02:00 [DBG] AuthenticationScheme: Identity.Application was not authenticated.
+2026-07-08 18:31:32.400 +02:00 [DBG] Request path /.well-known/openid-configuration/jwks matched to endpoint type Jwks
+2026-07-08 18:31:32.404 +02:00 [DBG] Endpoint enabled: Jwks, successfully created handler: Duende.IdentityServer.Endpoints.DiscoveryKeyEndpoint
+2026-07-08 18:31:32.406 +02:00 [INF] Invoking IdentityServer endpoint: Duende.IdentityServer.Endpoints.DiscoveryKeyEndpoint for /.well-known/openid-configuration/jwks
+2026-07-08 18:31:32.409 +02:00 [DBG] Start key discovery request
+2026-07-08 18:31:32.423 +02:00 [INF] HTTP GET /.well-known/openid-configuration/jwks responded 200 in 33.8992 ms
+2026-07-08 18:31:32.455 +02:00 [DBG] AuthenticationScheme: Identity.Application was not authenticated.
+2026-07-08 18:31:32.455 +02:00 [DBG] AuthenticationScheme: Identity.Application was not authenticated.
+2026-07-08 18:31:32.457 +02:00 [DBG] AuthenticationScheme: Identity.Application was not authenticated.
+2026-07-08 18:31:32.458 +02:00 [DBG] AuthenticationScheme: Identity.Application was not authenticated.
+2026-07-08 18:31:32.465 +02:00 [DBG] AuthenticationScheme: Identity.Application was not authenticated.
+2026-07-08 18:31:32.465 +02:00 [DBG] AuthenticationScheme: Identity.Application was not authenticated.
+2026-07-08 18:31:32.467 +02:00 [DBG] Request path /connect/par matched to endpoint type PushedAuthorization
+2026-07-08 18:31:32.468 +02:00 [DBG] Request path /connect/par matched to endpoint type PushedAuthorization
+2026-07-08 18:31:32.483 +02:00 [DBG] Endpoint enabled: PushedAuthorization, successfully created handler: Duende.IdentityServer.Endpoints.PushedAuthorizationEndpoint
+2026-07-08 18:31:32.483 +02:00 [DBG] Endpoint enabled: PushedAuthorization, successfully created handler: Duende.IdentityServer.Endpoints.PushedAuthorizationEndpoint
+2026-07-08 18:31:32.485 +02:00 [INF] Invoking IdentityServer endpoint: Duende.IdentityServer.Endpoints.PushedAuthorizationEndpoint for /connect/par
+2026-07-08 18:31:32.486 +02:00 [INF] Invoking IdentityServer endpoint: Duende.IdentityServer.Endpoints.PushedAuthorizationEndpoint for /connect/par
+2026-07-08 18:31:32.495 +02:00 [DBG] Start pushed authorization request
+2026-07-08 18:31:32.495 +02:00 [DBG] Start pushed authorization request
+2026-07-08 18:31:32.510 +02:00 [DBG] Start client validation
+2026-07-08 18:31:32.510 +02:00 [DBG] Start client validation
+2026-07-08 18:31:32.514 +02:00 [DBG] Start parsing Basic Authentication secret
+2026-07-08 18:31:32.514 +02:00 [DBG] Start parsing Basic Authentication secret
+2026-07-08 18:31:32.516 +02:00 [DBG] Start parsing for secret in post body
+2026-07-08 18:31:32.517 +02:00 [DBG] Start parsing for secret in post body
+2026-07-08 18:31:32.519 +02:00 [DBG] Parser found secret: PostBodySecretParser
+2026-07-08 18:31:32.520 +02:00 [DBG] Parser found secret: PostBodySecretParser
+2026-07-08 18:31:32.522 +02:00 [DBG] Secret id found: VariBillWebApp.Interactive
+2026-07-08 18:31:32.523 +02:00 [DBG] Secret id found: VariBillWebApp.Interactive
+2026-07-08 18:31:32.533 +02:00 [DBG] client configuration validation for client VariBillWebApp.Interactive succeeded.
+2026-07-08 18:31:32.533 +02:00 [DBG] client configuration validation for client VariBillWebApp.Interactive succeeded.
+2026-07-08 18:31:32.548 +02:00 [DBG] Secret validator success: HashedSharedSecretValidator
+2026-07-08 18:31:32.548 +02:00 [DBG] Secret validator success: HashedSharedSecretValidator
+2026-07-08 18:31:32.549 +02:00 [DBG] Client validation success
+2026-07-08 18:31:32.551 +02:00 [DBG] Client validation success
+2026-07-08 18:31:32.579 +02:00 [INF] {"ClientId":"VariBillWebApp.Interactive","AuthenticationMethod":"SharedSecret","Category":"Authentication","Name":"Client Authentication Success","EventType":"Success","Id":1010,"Message":null,"ActivityId":"0HNMT1PFB86I3:00000003","TimeStamp":"2026-07-08T16:31:32.5616445","ProcessId":12684,"LocalIpAddress":"::1:5000","RemoteIpAddress":"::1","$type":"ClientAuthenticationSuccessEvent"}
+2026-07-08 18:31:32.579 +02:00 [INF] {"ClientId":"VariBillWebApp.Interactive","AuthenticationMethod":"SharedSecret","Category":"Authentication","Name":"Client Authentication Success","EventType":"Success","Id":1010,"Message":null,"ActivityId":"0HNMT1PFB86I4:00000001","TimeStamp":"2026-07-08T16:31:32.5616415","ProcessId":12684,"LocalIpAddress":"::1:5000","RemoteIpAddress":"::1","$type":"ClientAuthenticationSuccessEvent"}
+2026-07-08 18:31:32.601 +02:00 [WRN] A request was made to the pushed authorization endpoint, but you do not have a license. This feature requires the Business Edition or higher tier of license.
+2026-07-08 18:31:32.618 +02:00 [DBG] Start authorize request protocol validation
+2026-07-08 18:31:32.618 +02:00 [DBG] Start authorize request protocol validation
+2026-07-08 18:31:32.623 +02:00 [DBG] client configuration validation for client VariBillWebApp.Interactive succeeded.
+2026-07-08 18:31:32.623 +02:00 [DBG] client configuration validation for client VariBillWebApp.Interactive succeeded.
+2026-07-08 18:31:32.635 +02:00 [DBG] Checking for PKCE parameters
+2026-07-08 18:31:32.635 +02:00 [DBG] Checking for PKCE parameters
+2026-07-08 18:31:32.663 +02:00 [DBG] Calling into custom validator: Duende.IdentityServer.Validation.DefaultCustomAuthorizeRequestValidator
+2026-07-08 18:31:32.663 +02:00 [DBG] Calling into custom validator: Duende.IdentityServer.Validation.DefaultCustomAuthorizeRequestValidator
+2026-07-08 18:31:32.735 +02:00 [INF] HTTP POST /connect/par responded 201 in 281.0519 ms
+2026-07-08 18:31:32.735 +02:00 [INF] HTTP POST /connect/par responded 201 in 281.0323 ms
+2026-07-08 18:31:32.760 +02:00 [DBG] AuthenticationScheme: Identity.Application was not authenticated.
+2026-07-08 18:31:32.761 +02:00 [DBG] AuthenticationScheme: Identity.Application was not authenticated.
+2026-07-08 18:31:32.766 +02:00 [DBG] IdentityServer CorsPolicyService didn't handle CORS request made for path: /connect/authorize from origin: https://localhost:7253 because it is not for an IdentityServer CORS endpoint. To allow CORS requests to non IdentityServer endpoints, please set up your own Cors policy for your application by calling app.UseCors("MyPolicy") in the pipeline setup.
+2026-07-08 18:31:32.766 +02:00 [DBG] IdentityServer CorsPolicyService didn't handle CORS request made for path: /connect/authorize from origin: https://localhost:7253 because it is not for an IdentityServer CORS endpoint. To allow CORS requests to non IdentityServer endpoints, please set up your own Cors policy for your application by calling app.UseCors("MyPolicy") in the pipeline setup.
+2026-07-08 18:31:32.769 +02:00 [DBG] AuthenticationScheme: Identity.Application was not authenticated.
+2026-07-08 18:31:32.771 +02:00 [DBG] AuthenticationScheme: Identity.Application was not authenticated.
+2026-07-08 18:31:32.772 +02:00 [DBG] AuthenticationScheme: Identity.Application was not authenticated.
+2026-07-08 18:31:32.773 +02:00 [DBG] AuthenticationScheme: Identity.Application was not authenticated.
+2026-07-08 18:31:32.774 +02:00 [DBG] Request path /connect/authorize matched to endpoint type Authorize
+2026-07-08 18:31:32.775 +02:00 [DBG] Request path /connect/authorize matched to endpoint type Authorize
+2026-07-08 18:31:32.785 +02:00 [DBG] Endpoint enabled: Authorize, successfully created handler: Duende.IdentityServer.Endpoints.AuthorizeEndpoint
+2026-07-08 18:31:32.785 +02:00 [DBG] Endpoint enabled: Authorize, successfully created handler: Duende.IdentityServer.Endpoints.AuthorizeEndpoint
+2026-07-08 18:31:32.787 +02:00 [INF] Invoking IdentityServer endpoint: Duende.IdentityServer.Endpoints.AuthorizeEndpoint for /connect/authorize
+2026-07-08 18:31:32.788 +02:00 [INF] Invoking IdentityServer endpoint: Duende.IdentityServer.Endpoints.AuthorizeEndpoint for /connect/authorize
+2026-07-08 18:31:32.792 +02:00 [DBG] Start authorize request
+2026-07-08 18:31:32.792 +02:00 [DBG] Start authorize request
+2026-07-08 18:31:32.795 +02:00 [INF] HTTP OPTIONS /connect/authorize responded 405 in 35.4070 ms
+2026-07-08 18:31:32.795 +02:00 [INF] HTTP OPTIONS /connect/authorize responded 405 in 34.2768 ms
+2026-07-08 18:31:33.942 +02:00 [DBG] AuthenticationScheme: Identity.Application was not authenticated.
+2026-07-08 18:31:33.944 +02:00 [DBG] AuthenticationScheme: Identity.Application was not authenticated.
+2026-07-08 18:31:33.945 +02:00 [DBG] AuthenticationScheme: Identity.Application was not authenticated.
+2026-07-08 18:31:33.948 +02:00 [DBG] Request path /connect/par matched to endpoint type PushedAuthorization
+2026-07-08 18:31:33.958 +02:00 [DBG] Endpoint enabled: PushedAuthorization, successfully created handler: Duende.IdentityServer.Endpoints.PushedAuthorizationEndpoint
+2026-07-08 18:31:33.961 +02:00 [INF] Invoking IdentityServer endpoint: Duende.IdentityServer.Endpoints.PushedAuthorizationEndpoint for /connect/par
+2026-07-08 18:31:33.964 +02:00 [DBG] Start pushed authorization request
+2026-07-08 18:31:33.966 +02:00 [DBG] Start client validation
+2026-07-08 18:31:33.968 +02:00 [DBG] Start parsing Basic Authentication secret
+2026-07-08 18:31:33.969 +02:00 [DBG] Start parsing for secret in post body
+2026-07-08 18:31:33.970 +02:00 [DBG] Parser found secret: PostBodySecretParser
+2026-07-08 18:31:33.972 +02:00 [DBG] Secret id found: VariBillWebApp.Interactive
+2026-07-08 18:31:33.973 +02:00 [DBG] client configuration validation for client VariBillWebApp.Interactive succeeded.
+2026-07-08 18:31:33.975 +02:00 [DBG] Secret validator success: HashedSharedSecretValidator
+2026-07-08 18:31:33.978 +02:00 [DBG] Client validation success
+2026-07-08 18:31:33.990 +02:00 [INF] {"ClientId":"VariBillWebApp.Interactive","AuthenticationMethod":"SharedSecret","Category":"Authentication","Name":"Client Authentication Success","EventType":"Success","Id":1010,"Message":null,"ActivityId":"0HNMT1PFB86I4:00000002","TimeStamp":"2026-07-08T16:31:33.9899801","ProcessId":12684,"LocalIpAddress":"::1:5000","RemoteIpAddress":"::1","$type":"ClientAuthenticationSuccessEvent"}
+2026-07-08 18:31:34.005 +02:00 [DBG] Start authorize request protocol validation
+2026-07-08 18:31:34.006 +02:00 [DBG] client configuration validation for client VariBillWebApp.Interactive succeeded.
+2026-07-08 18:31:34.010 +02:00 [DBG] Checking for PKCE parameters
+2026-07-08 18:31:34.014 +02:00 [DBG] Calling into custom validator: Duende.IdentityServer.Validation.DefaultCustomAuthorizeRequestValidator
+2026-07-08 18:31:34.018 +02:00 [INF] HTTP POST /connect/par responded 201 in 77.3189 ms
+2026-07-08 18:31:34.360 +02:00 [DBG] AuthenticationScheme: Identity.Application was not authenticated.
+2026-07-08 18:31:34.362 +02:00 [DBG] AuthenticationScheme: Identity.Application was not authenticated.
+2026-07-08 18:31:34.364 +02:00 [DBG] AuthenticationScheme: Identity.Application was not authenticated.
+2026-07-08 18:31:34.366 +02:00 [DBG] Request path /connect/authorize matched to endpoint type Authorize
+2026-07-08 18:31:34.405 +02:00 [DBG] Endpoint enabled: Authorize, successfully created handler: Duende.IdentityServer.Endpoints.AuthorizeEndpoint
+2026-07-08 18:31:34.407 +02:00 [INF] Invoking IdentityServer endpoint: Duende.IdentityServer.Endpoints.AuthorizeEndpoint for /connect/authorize
+2026-07-08 18:31:34.409 +02:00 [DBG] Start authorize request
+2026-07-08 18:31:34.422 +02:00 [DBG] AuthenticationScheme: Identity.Application was not authenticated.
+2026-07-08 18:31:34.428 +02:00 [DBG] No user present in authorize request
+2026-07-08 18:31:34.430 +02:00 [DBG] Start authorize request protocol validation
+2026-07-08 18:31:34.431 +02:00 [DBG] client configuration validation for client VariBillWebApp.Interactive succeeded.
+2026-07-08 18:31:34.442 +02:00 [DBG] Checking for PKCE parameters
+2026-07-08 18:31:34.444 +02:00 [DBG] Calling into custom validator: Duende.IdentityServer.Validation.DefaultCustomAuthorizeRequestValidator
+2026-07-08 18:31:34.459 +02:00 [DBG] ValidatedAuthorizeRequest
+{"ClientId":"VariBillWebApp.Interactive","ClientName":"VariBill Web App (Interactive)","RedirectUri":"https://localhost:7253/signin-oidc","AllowedRedirectUris":["https://localhost:5005/signin-oidc","https://localhost:5006/signin-oidc","https://localhost:7253/signin-oidc","https://localhost:7055/signin-oidc"],"SubjectId":"anonymous","ResponseType":"code","ResponseMode":"form_post","GrantType":"authorization_code","RequestedScopes":"openid profile email roles VariBillWebAPI","State":"CfDJ8AHyfddumpBOr0p0cPlbk0ym-VMmfhwnPnXn3K5-pRH6lhZAitIxbejplNs5mWfFGBwylOFuaUwwa72zVRHPDw3xIYB0lV7ZoxGS-WjoCWn_291_0VwVizetf4k9UkHtzyLseqlS5-so3G7q-mZVsPQRKxKlO6OlOwzLXa5logoykOmAD481U3CQZy-3NU-3Tf5FHl066VAi78nzeYRisXhT1U7MkIBmRSO2iDXUtQUKCKsHTMeAQSCay7wo3WyHu7JD2yXlEK1hNAlBJbX2Yw4TXZbBIwFXcZcFmqS9nd0e9QspGe_gA6sPhKNbmcZmuGwcABNXaAEuaduCUkdjOfjFezgUfYvMq81A2JlzZQ-42QGSyGWOqD8Tb9xeAUhjHQ","UiLocales":null,"Nonce":"639191250939403828.ZWZhNTgxYjAtN2U3Yi00NTYyLWFiOGEtYzRhNzNkZWU0MmI4NjhhMmIyMDItNzkwMi00ZjRjLTg1YzItOTk2Nzk3ZWVkZmRl","AuthenticationContextReferenceClasses":null,"DisplayMode":null,"PromptMode":"","MaxAge":null,"LoginHint":null,"SessionId":"","Raw":{"client_id":"VariBillWebApp.Interactive","redirect_uri":"https://localhost:7253/signin-oidc","response_type":"code","scope":"openid profile email roles VariBillWebAPI","code_challenge":"v3TGsdvdWfpiHXEwyLY2ZmltG3ZHs0giV-SxG7cozRc","code_challenge_method":"S256","response_mode":"form_post","nonce":"639191250939403828.ZWZhNTgxYjAtN2U3Yi00NTYyLWFiOGEtYzRhNzNkZWU0MmI4NjhhMmIyMDItNzkwMi00ZjRjLTg1YzItOTk2Nzk3ZWVkZmRl","state":"CfDJ8AHyfddumpBOr0p0cPlbk0ym-VMmfhwnPnXn3K5-pRH6lhZAitIxbejplNs5mWfFGBwylOFuaUwwa72zVRHPDw3xIYB0lV7ZoxGS-WjoCWn_291_0VwVizetf4k9UkHtzyLseqlS5-so3G7q-mZVsPQRKxKlO6OlOwzLXa5logoykOmAD481U3CQZy-3NU-3Tf5FHl066VAi78nzeYRisXhT1U7MkIBmRSO2iDXUtQUKCKsHTMeAQSCay7wo3WyHu7JD2yXlEK1hNAlBJbX2Yw4TXZbBIwFXcZcFmqS9nd0e9QspGe_gA6sPhKNbmcZmuGwcABNXaAEuaduCUkdjOfjFezgUfYvMq81A2JlzZQ-42QGSyGWOqD8Tb9xeAUhjHQ","client_secret":"***REDACTED***"},"$type":"AuthorizeRequestValidationLog"}
+2026-07-08 18:31:34.502 +02:00 [INF] Showing login: User is not authenticated
+2026-07-08 18:31:34.511 +02:00 [DBG] No supported culture found based on values in ui_locales of null, not storing cookie.
+2026-07-08 18:31:34.513 +02:00 [INF] HTTP GET /connect/authorize responded 302 in 153.6298 ms
+2026-07-08 18:31:34.531 +02:00 [DBG] AuthenticationScheme: Identity.Application was not authenticated.
+2026-07-08 18:31:34.533 +02:00 [DBG] AuthenticationScheme: Identity.Application was not authenticated.
+2026-07-08 18:31:34.534 +02:00 [DBG] AuthenticationScheme: Identity.Application was not authenticated.
+2026-07-08 18:31:34.600 +02:00 [WRN] The cookie 'Identity.External' has set 'SameSite=None' and must also set 'Secure'.
+2026-07-08 18:31:34.604 +02:00 [INF] AuthenticationScheme: Identity.External signed out.
+2026-07-08 18:31:34.768 +02:00 [INF] HTTP GET /Identity/Account/Login responded 200 in 240.8036 ms
+2026-07-08 18:31:34.962 +02:00 [INF] HTTP GET /Identity/lib/bootstrap/dist/js/bootstrap.bundle.js.map responded 200 in 26.7921 ms
+2026-07-08 18:31:37.131 +02:00 [DBG] AuthenticationScheme: Identity.Application was not authenticated.
+2026-07-08 18:31:37.133 +02:00 [DBG] AuthenticationScheme: Identity.Application was not authenticated.
+2026-07-08 18:31:37.135 +02:00 [DBG] AuthenticationScheme: Identity.Application was not authenticated.
+2026-07-08 18:31:37.413 +02:00 [DBG] Augmenting SignInContext
+2026-07-08 18:31:37.415 +02:00 [DBG] Adding idp claim with value: local
+2026-07-08 18:31:37.417 +02:00 [DBG] Adding auth_time claim with value: 1783528297
+2026-07-08 18:31:37.422 +02:00 [DBG] AuthenticationScheme: Identity.Application was not authenticated.
+2026-07-08 18:31:37.424 +02:00 [DBG] AuthenticationScheme: Identity.Application was not authenticated.
+2026-07-08 18:31:37.427 +02:00 [WRN] The cookie 'idsrv.session' has set 'SameSite=None' and must also set 'Secure'.
+2026-07-08 18:31:37.434 +02:00 [INF] AuthenticationScheme: Identity.Application signed in.
+2026-07-08 18:31:37.437 +02:00 [INF] HTTP POST /Identity/Account/Login responded 302 in 316.8576 ms
+2026-07-08 18:31:37.450 +02:00 [DBG] AuthenticationScheme: Identity.Application was successfully authenticated.
+2026-07-08 18:31:37.452 +02:00 [DBG] AuthenticationScheme: Identity.Application was successfully authenticated.
+2026-07-08 18:31:37.453 +02:00 [DBG] AuthenticationScheme: Identity.Application was successfully authenticated.
+2026-07-08 18:31:37.455 +02:00 [WRN] The cookie 'idsrv.session' has set 'SameSite=None' and must also set 'Secure'.
+2026-07-08 18:31:37.456 +02:00 [DBG] Request path /connect/authorize/callback matched to endpoint type Authorize
+2026-07-08 18:31:37.458 +02:00 [DBG] Endpoint enabled: Authorize, successfully created handler: Duende.IdentityServer.Endpoints.AuthorizeCallbackEndpoint
+2026-07-08 18:31:37.460 +02:00 [INF] Invoking IdentityServer endpoint: Duende.IdentityServer.Endpoints.AuthorizeCallbackEndpoint for /connect/authorize/callback
+2026-07-08 18:31:37.463 +02:00 [DBG] Start authorize callback request
+2026-07-08 18:31:37.464 +02:00 [DBG] User in authorize request: 13dbe175-1dfe-49c9-bed9-8dc205ed8234
+2026-07-08 18:31:37.465 +02:00 [DBG] Start authorize request protocol validation
+2026-07-08 18:31:37.466 +02:00 [DBG] client configuration validation for client VariBillWebApp.Interactive succeeded.
+2026-07-08 18:31:37.468 +02:00 [DBG] Checking for PKCE parameters
+2026-07-08 18:31:37.469 +02:00 [DBG] Calling into custom validator: Duende.IdentityServer.Validation.DefaultCustomAuthorizeRequestValidator
+2026-07-08 18:31:37.474 +02:00 [DBG] ValidatedAuthorizeRequest
+{"ClientId":"VariBillWebApp.Interactive","ClientName":"VariBill Web App (Interactive)","RedirectUri":"https://localhost:7253/signin-oidc","AllowedRedirectUris":["https://localhost:5005/signin-oidc","https://localhost:5006/signin-oidc","https://localhost:7253/signin-oidc","https://localhost:7055/signin-oidc"],"SubjectId":"13dbe175-1dfe-49c9-bed9-8dc205ed8234","ResponseType":"code","ResponseMode":"form_post","GrantType":"authorization_code","RequestedScopes":"openid profile email roles VariBillWebAPI","State":"CfDJ8AHyfddumpBOr0p0cPlbk0ym-VMmfhwnPnXn3K5-pRH6lhZAitIxbejplNs5mWfFGBwylOFuaUwwa72zVRHPDw3xIYB0lV7ZoxGS-WjoCWn_291_0VwVizetf4k9UkHtzyLseqlS5-so3G7q-mZVsPQRKxKlO6OlOwzLXa5logoykOmAD481U3CQZy-3NU-3Tf5FHl066VAi78nzeYRisXhT1U7MkIBmRSO2iDXUtQUKCKsHTMeAQSCay7wo3WyHu7JD2yXlEK1hNAlBJbX2Yw4TXZbBIwFXcZcFmqS9nd0e9QspGe_gA6sPhKNbmcZmuGwcABNXaAEuaduCUkdjOfjFezgUfYvMq81A2JlzZQ-42QGSyGWOqD8Tb9xeAUhjHQ","UiLocales":null,"Nonce":"639191250939403828.ZWZhNTgxYjAtN2U3Yi00NTYyLWFiOGEtYzRhNzNkZWU0MmI4NjhhMmIyMDItNzkwMi00ZjRjLTg1YzItOTk2Nzk3ZWVkZmRl","AuthenticationContextReferenceClasses":null,"DisplayMode":null,"PromptMode":"","MaxAge":null,"LoginHint":null,"SessionId":"E896163A3A615C475A9DE64FA4995ABF","Raw":{"client_id":"VariBillWebApp.Interactive","redirect_uri":"https://localhost:7253/signin-oidc","response_type":"code","scope":"openid profile email roles VariBillWebAPI","code_challenge":"v3TGsdvdWfpiHXEwyLY2ZmltG3ZHs0giV-SxG7cozRc","code_challenge_method":"S256","response_mode":"form_post","nonce":"639191250939403828.ZWZhNTgxYjAtN2U3Yi00NTYyLWFiOGEtYzRhNzNkZWU0MmI4NjhhMmIyMDItNzkwMi00ZjRjLTg1YzItOTk2Nzk3ZWVkZmRl","state":"CfDJ8AHyfddumpBOr0p0cPlbk0ym-VMmfhwnPnXn3K5-pRH6lhZAitIxbejplNs5mWfFGBwylOFuaUwwa72zVRHPDw3xIYB0lV7ZoxGS-WjoCWn_291_0VwVizetf4k9UkHtzyLseqlS5-so3G7q-mZVsPQRKxKlO6OlOwzLXa5logoykOmAD481U3CQZy-3NU-3Tf5FHl066VAi78nzeYRisXhT1U7MkIBmRSO2iDXUtQUKCKsHTMeAQSCay7wo3WyHu7JD2yXlEK1hNAlBJbX2Yw4TXZbBIwFXcZcFmqS9nd0e9QspGe_gA6sPhKNbmcZmuGwcABNXaAEuaduCUkdjOfjFezgUfYvMq81A2JlzZQ-42QGSyGWOqD8Tb9xeAUhjHQ","client_secret":"***REDACTED***"},"$type":"AuthorizeRequestValidationLog"}
+2026-07-08 18:31:37.521 +02:00 [DBG] Client is configured to not require consent, no consent is required
+2026-07-08 18:31:37.524 +02:00 [DBG] Creating Authorization Code Flow response.
+2026-07-08 18:31:37.555 +02:00 [INF] {"ClientId":"VariBillWebApp.Interactive","ClientName":"VariBill Web App (Interactive)","RedirectUri":"https://localhost:7253/signin-oidc","Endpoint":"Authorize","SubjectId":"13dbe175-1dfe-49c9-bed9-8dc205ed8234","Scopes":"openid profile email roles VariBillWebAPI","GrantType":"authorization_code","Tokens":[{"TokenType":"code","TokenValue":"****42-1","$type":"Token"}],"Category":"Token","Name":"Token Issued Success","EventType":"Success","Id":2000,"Message":null,"ActivityId":"0HNMT1PFB86I8:00000005","TimeStamp":"2026-07-08T16:31:37.5531510","ProcessId":12684,"LocalIpAddress":"::1:5000","RemoteIpAddress":"::1","$type":"TokenIssuedSuccessEvent"}
+2026-07-08 18:31:37.573 +02:00 [DBG] Authorize endpoint response
+{"SubjectId":"13dbe175-1dfe-49c9-bed9-8dc205ed8234","ClientId":"VariBillWebApp.Interactive","RedirectUri":"https://localhost:7253/signin-oidc","State":"CfDJ8AHyfddumpBOr0p0cPlbk0ym-VMmfhwnPnXn3K5-pRH6lhZAitIxbejplNs5mWfFGBwylOFuaUwwa72zVRHPDw3xIYB0lV7ZoxGS-WjoCWn_291_0VwVizetf4k9UkHtzyLseqlS5-so3G7q-mZVsPQRKxKlO6OlOwzLXa5logoykOmAD481U3CQZy-3NU-3Tf5FHl066VAi78nzeYRisXhT1U7MkIBmRSO2iDXUtQUKCKsHTMeAQSCay7wo3WyHu7JD2yXlEK1hNAlBJbX2Yw4TXZbBIwFXcZcFmqS9nd0e9QspGe_gA6sPhKNbmcZmuGwcABNXaAEuaduCUkdjOfjFezgUfYvMq81A2JlzZQ-42QGSyGWOqD8Tb9xeAUhjHQ","Scope":"openid profile email roles VariBillWebAPI","Error":null,"ErrorDescription":null,"$type":"AuthorizeResponseLog"}
+2026-07-08 18:31:37.589 +02:00 [DBG] Augmenting SignInContext
+2026-07-08 18:31:37.591 +02:00 [WRN] The cookie 'idsrv.session' has set 'SameSite=None' and must also set 'Secure'.
+2026-07-08 18:31:37.592 +02:00 [INF] AuthenticationScheme: Identity.Application signed in.
+2026-07-08 18:31:37.601 +02:00 [INF] HTTP GET /connect/authorize/callback responded 200 in 157.0080 ms
+2026-07-08 18:31:37.717 +02:00 [DBG] AuthenticationScheme: Identity.Application was not authenticated.
+2026-07-08 18:31:37.720 +02:00 [DBG] AuthenticationScheme: Identity.Application was not authenticated.
+2026-07-08 18:31:37.722 +02:00 [DBG] AuthenticationScheme: Identity.Application was not authenticated.
+2026-07-08 18:31:37.723 +02:00 [DBG] Request path /connect/token matched to endpoint type Token
+2026-07-08 18:31:37.734 +02:00 [DBG] Endpoint enabled: Token, successfully created handler: Duende.IdentityServer.Endpoints.TokenEndpoint
+2026-07-08 18:31:37.736 +02:00 [INF] Invoking IdentityServer endpoint: Duende.IdentityServer.Endpoints.TokenEndpoint for /connect/token
+2026-07-08 18:31:37.743 +02:00 [DBG] Start token request.
+2026-07-08 18:31:37.745 +02:00 [DBG] Start client validation
+2026-07-08 18:31:37.747 +02:00 [DBG] Start parsing Basic Authentication secret
+2026-07-08 18:31:37.749 +02:00 [DBG] Start parsing for secret in post body
+2026-07-08 18:31:37.750 +02:00 [DBG] Parser found secret: PostBodySecretParser
+2026-07-08 18:31:37.752 +02:00 [DBG] Secret id found: VariBillWebApp.Interactive
+2026-07-08 18:31:37.753 +02:00 [DBG] client configuration validation for client VariBillWebApp.Interactive succeeded.
+2026-07-08 18:31:37.755 +02:00 [DBG] Secret validator success: HashedSharedSecretValidator
+2026-07-08 18:31:37.756 +02:00 [DBG] Client validation success
+2026-07-08 18:31:37.757 +02:00 [INF] {"ClientId":"VariBillWebApp.Interactive","AuthenticationMethod":"SharedSecret","Category":"Authentication","Name":"Client Authentication Success","EventType":"Success","Id":1010,"Message":null,"ActivityId":"0HNMT1PFB86I4:00000003","TimeStamp":"2026-07-08T16:31:37.7577587","ProcessId":12684,"LocalIpAddress":"::1:5000","RemoteIpAddress":"::1","$type":"ClientAuthenticationSuccessEvent"}
+2026-07-08 18:31:37.773 +02:00 [DBG] Start token request validation
+2026-07-08 18:31:37.780 +02:00 [DBG] Start validation of authorization code token request
+2026-07-08 18:31:37.793 +02:00 [DBG] Client required a proof key for code exchange. Starting PKCE validation
+2026-07-08 18:31:37.797 +02:00 [DBG] Validation of authorization code token request success
+2026-07-08 18:31:37.801 +02:00 [INF] Token request validation success: {"ClientId":"VariBillWebApp.Interactive","ClientName":"VariBill Web App (Interactive)","GrantType":"authorization_code","Scopes":null,"AuthorizationCode":"****42-1","RefreshToken":"********","UserName":null,"AuthenticationContextReferenceClasses":null,"Tenant":null,"IdP":null,"Raw":{"client_id":"VariBillWebApp.Interactive","client_secret":"***REDACTED***","code":"***REDACTED***","grant_type":"authorization_code","redirect_uri":"https://localhost:7253/signin-oidc","code_verifier":"iO5gyRFm8FDedsgl3uyZOijg2_KbYLn3mSFC8UxZOmk"},"$type":"TokenRequestValidationLog"}
+2026-07-08 18:31:37.820 +02:00 [DBG] client configuration validation for client VariBillWebApp.Interactive succeeded.
+2026-07-08 18:31:37.825 +02:00 [DBG] Getting claims for access token for client: VariBillWebApp.Interactive
+2026-07-08 18:31:37.826 +02:00 [DBG] Getting claims for access token for subject: 13dbe175-1dfe-49c9-bed9-8dc205ed8234
+2026-07-08 18:31:37.889 +02:00 [DBG] client configuration validation for client VariBillWebApp.Interactive succeeded.
+2026-07-08 18:31:37.894 +02:00 [DBG] Getting claims for identity token for subject: 13dbe175-1dfe-49c9-bed9-8dc205ed8234 and client: VariBillWebApp.Interactive
+2026-07-08 18:31:37.896 +02:00 [DBG] In addition to an id_token, an access_token was requested. No claims other than sub are included in the id_token. To obtain more user claims, either use the user info endpoint or set AlwaysIncludeUserClaimsInIdToken on the client configuration.
+2026-07-08 18:31:37.900 +02:00 [INF] {"ClientId":"VariBillWebApp.Interactive","ClientName":"VariBill Web App (Interactive)","RedirectUri":null,"Endpoint":"Token","SubjectId":"13dbe175-1dfe-49c9-bed9-8dc205ed8234","Scopes":"openid profile email roles VariBillWebAPI","GrantType":"authorization_code","Tokens":[{"TokenType":"id_token","TokenValue":"****7usQ","$type":"Token"},{"TokenType":"access_token","TokenValue":"****Z3Ag","$type":"Token"}],"Category":"Token","Name":"Token Issued Success","EventType":"Success","Id":2000,"Message":null,"ActivityId":"0HNMT1PFB86I4:00000003","TimeStamp":"2026-07-08T16:31:37.9007973","ProcessId":12684,"LocalIpAddress":"::1:5000","RemoteIpAddress":"::1","$type":"TokenIssuedSuccessEvent"}
+2026-07-08 18:31:37.920 +02:00 [DBG] Token request success.
+2026-07-08 18:31:37.925 +02:00 [INF] HTTP POST /connect/token responded 200 in 207.9137 ms
+2026-07-08 18:31:38.015 +02:00 [DBG] AuthenticationScheme: Identity.Application was not authenticated.
+2026-07-08 18:31:38.016 +02:00 [DBG] AuthenticationScheme: Identity.Application was not authenticated.
+2026-07-08 18:31:38.017 +02:00 [DBG] AuthenticationScheme: Identity.Application was not authenticated.
+2026-07-08 18:31:38.019 +02:00 [DBG] Request path /connect/userinfo matched to endpoint type Userinfo
+2026-07-08 18:31:38.023 +02:00 [DBG] Endpoint enabled: Userinfo, successfully created handler: Duende.IdentityServer.Endpoints.UserInfoEndpoint
+2026-07-08 18:31:38.025 +02:00 [INF] Invoking IdentityServer endpoint: Duende.IdentityServer.Endpoints.UserInfoEndpoint for /connect/userinfo
+2026-07-08 18:31:38.031 +02:00 [DBG] Start userinfo request
+2026-07-08 18:31:38.034 +02:00 [DBG] Bearer token found in header
+2026-07-08 18:31:38.112 +02:00 [DBG] client configuration validation for client VariBillWebApp.Interactive succeeded.
+2026-07-08 18:31:38.115 +02:00 [DBG] client configuration validation for client VariBillWebApp.Interactive succeeded.
+2026-07-08 18:31:38.121 +02:00 [DBG] Calling into custom token validator: Duende.IdentityServer.Validation.DefaultCustomTokenValidator
+2026-07-08 18:31:38.123 +02:00 [DBG] Token validation success:{"ClientId":null,"ClientName":null,"ValidateLifetime":true,"AccessTokenType":"Jwt","ExpectedScope":"openid","TokenHandle":null,"JwtId":"35E447518AFD5279815625AFCEA45757","Claims":{"iss":"http://localhost:5000","nbf":1783528297,"iat":1783528297,"exp":1783531897,"aud":["VariBillWebAPI","http://localhost:5000/resources"],"scope":["openid","profile","email","roles","VariBillWebAPI"],"amr":"pwd","client_id":"VariBillWebApp.Interactive","sub":"13dbe175-1dfe-49c9-bed9-8dc205ed8234","auth_time":1783528297,"idp":"local","role":"Admin","sid":"E896163A3A615C475A9DE64FA4995ABF","jti":"35E447518AFD5279815625AFCEA45757"},"$type":"TokenValidationLog"}
+2026-07-08 18:31:38.141 +02:00 [DBG] Loading subject claims from access token
+2026-07-08 18:31:38.144 +02:00 [DBG] Creating userinfo response
+2026-07-08 18:31:38.147 +02:00 [DBG] Scopes in access token: openid profile email roles VariBillWebAPI
+2026-07-08 18:31:38.150 +02:00 [DBG] Requested claim types: sub name family_name given_name middle_name nickname preferred_username profile picture website gender birthdate zoneinfo locale updated_at email email_verified role
+2026-07-08 18:31:38.153 +02:00 [INF] Profile service returned the following claim types: sub email role preferred_username name email_verified
+2026-07-08 18:31:38.155 +02:00 [DBG] End userinfo request
+2026-07-08 18:31:38.157 +02:00 [INF] HTTP GET /connect/userinfo responded 200 in 142.7399 ms
+2026-07-08 18:32:51.768 +02:00 [INF] Starting Duende IdentityServer version 7.4.3+build.0.5aa266c91aede84c98903a06c5fe91e5f983eabc (.NET 9.0.16)
+2026-07-08 18:32:51.870 +02:00 [WRN] You do not have a valid license key for the Duende software. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please start a conversation with us: https://duende.link/l/contact
+2026-07-08 18:32:51.882 +02:00 [INF] You are using the in-memory version of the persisted grant store. This will store consent decisions, authorization codes, refresh and reference tokens in memory only. If you are using any of those features in production, you want to switch to a different store implementation.
+2026-07-08 18:32:51.895 +02:00 [INF] Using the default authentication scheme Identity.Application for IdentityServer
+2026-07-08 18:32:51.897 +02:00 [DBG] Using Identity.Application as default ASP.NET Core scheme for authentication
+2026-07-08 18:32:51.899 +02:00 [DBG] Using Identity.External as default ASP.NET Core scheme for sign-in
+2026-07-08 18:32:51.901 +02:00 [DBG] Using Identity.External as default ASP.NET Core scheme for sign-out
+2026-07-08 18:32:51.903 +02:00 [DBG] Using Identity.Application as default ASP.NET Core scheme for challenge
+2026-07-08 18:32:51.904 +02:00 [DBG] Using Identity.Application as default ASP.NET Core scheme for forbid
+2026-07-08 18:32:55.630 +02:00 [INF] Now listening on: http://localhost:5000
+2026-07-08 18:32:55.670 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-07-08 18:32:55.672 +02:00 [INF] Hosting environment: Development
+2026-07-08 18:32:55.673 +02:00 [INF] Content root path: C:\WerkSoekAssessments\FinalAssessment\Bongoe2\VariBill.Identity.Duende\Bongoe.Identity
+2026-07-08 18:32:55.943 +02:00 [DBG] Login Url: /Identity/Account/Login
+2026-07-08 18:32:55.946 +02:00 [DBG] Login Return Url Parameter: ReturnUrl
+2026-07-08 18:32:55.947 +02:00 [DBG] Logout Url: /Identity/Account/Logout
+2026-07-08 18:32:55.948 +02:00 [DBG] ConsentUrl Url: /consent
+2026-07-08 18:32:55.948 +02:00 [DBG] Consent Return Url Parameter: returnUrl
+2026-07-08 18:32:55.949 +02:00 [DBG] Error Url: /home/error
+2026-07-08 18:32:55.950 +02:00 [DBG] Error Id Parameter: errorId
+2026-07-08 18:32:55.956 +02:00 [DBG] AuthenticationScheme: Identity.Application was not authenticated.
+2026-07-08 18:32:55.963 +02:00 [DBG] AuthenticationScheme: Identity.Application was not authenticated.
+2026-07-08 18:32:55.974 +02:00 [DBG] AuthenticationScheme: Identity.Application was not authenticated.
+2026-07-08 18:32:55.980 +02:00 [DBG] Request path /.well-known/openid-configuration matched to endpoint type Discovery
+2026-07-08 18:32:55.996 +02:00 [DBG] Endpoint enabled: Discovery, successfully created handler: Duende.IdentityServer.Endpoints.DiscoveryEndpoint
+2026-07-08 18:32:56.006 +02:00 [INF] Invoking IdentityServer endpoint: Duende.IdentityServer.Endpoints.DiscoveryEndpoint for /.well-known/openid-configuration
+2026-07-08 18:32:56.009 +02:00 [DBG] Start discovery request
+2026-07-08 18:32:56.062 +02:00 [INF] HTTP GET /.well-known/openid-configuration responded 200 in 167.5876 ms
+2026-07-08 18:32:56.107 +02:00 [DBG] AuthenticationScheme: Identity.Application was not authenticated.
+2026-07-08 18:32:56.109 +02:00 [DBG] AuthenticationScheme: Identity.Application was not authenticated.
+2026-07-08 18:32:56.110 +02:00 [DBG] AuthenticationScheme: Identity.Application was not authenticated.
+2026-07-08 18:32:56.112 +02:00 [DBG] Request path /.well-known/openid-configuration/jwks matched to endpoint type Jwks
+2026-07-08 18:32:56.115 +02:00 [DBG] Endpoint enabled: Jwks, successfully created handler: Duende.IdentityServer.Endpoints.DiscoveryKeyEndpoint
+2026-07-08 18:32:56.116 +02:00 [INF] Invoking IdentityServer endpoint: Duende.IdentityServer.Endpoints.DiscoveryKeyEndpoint for /.well-known/openid-configuration/jwks
+2026-07-08 18:32:56.119 +02:00 [DBG] Start key discovery request
+2026-07-08 18:32:56.128 +02:00 [INF] HTTP GET /.well-known/openid-configuration/jwks responded 200 in 28.2766 ms
+2026-07-08 18:32:56.160 +02:00 [DBG] AuthenticationScheme: Identity.Application was not authenticated.
+2026-07-08 18:32:56.160 +02:00 [DBG] AuthenticationScheme: Identity.Application was not authenticated.
+2026-07-08 18:32:56.163 +02:00 [DBG] AuthenticationScheme: Identity.Application was not authenticated.
+2026-07-08 18:32:56.164 +02:00 [DBG] AuthenticationScheme: Identity.Application was not authenticated.
+2026-07-08 18:32:56.170 +02:00 [DBG] AuthenticationScheme: Identity.Application was not authenticated.
+2026-07-08 18:32:56.170 +02:00 [DBG] AuthenticationScheme: Identity.Application was not authenticated.
+2026-07-08 18:32:56.171 +02:00 [DBG] Request path /connect/par matched to endpoint type PushedAuthorization
+2026-07-08 18:32:56.174 +02:00 [DBG] Request path /connect/par matched to endpoint type PushedAuthorization
+2026-07-08 18:32:56.190 +02:00 [DBG] Endpoint enabled: PushedAuthorization, successfully created handler: Duende.IdentityServer.Endpoints.PushedAuthorizationEndpoint
+2026-07-08 18:32:56.190 +02:00 [DBG] Endpoint enabled: PushedAuthorization, successfully created handler: Duende.IdentityServer.Endpoints.PushedAuthorizationEndpoint
+2026-07-08 18:32:56.191 +02:00 [INF] Invoking IdentityServer endpoint: Duende.IdentityServer.Endpoints.PushedAuthorizationEndpoint for /connect/par
+2026-07-08 18:32:56.193 +02:00 [INF] Invoking IdentityServer endpoint: Duende.IdentityServer.Endpoints.PushedAuthorizationEndpoint for /connect/par
+2026-07-08 18:32:56.205 +02:00 [DBG] Start pushed authorization request
+2026-07-08 18:32:56.205 +02:00 [DBG] Start pushed authorization request
+2026-07-08 18:32:56.221 +02:00 [DBG] Start client validation
+2026-07-08 18:32:56.221 +02:00 [DBG] Start client validation
+2026-07-08 18:32:56.227 +02:00 [DBG] Start parsing Basic Authentication secret
+2026-07-08 18:32:56.227 +02:00 [DBG] Start parsing Basic Authentication secret
+2026-07-08 18:32:56.231 +02:00 [DBG] Start parsing for secret in post body
+2026-07-08 18:32:56.231 +02:00 [DBG] Start parsing for secret in post body
+2026-07-08 18:32:56.234 +02:00 [DBG] Parser found secret: PostBodySecretParser
+2026-07-08 18:32:56.234 +02:00 [DBG] Parser found secret: PostBodySecretParser
+2026-07-08 18:32:56.236 +02:00 [DBG] Secret id found: VariBillWebApp.Interactive
+2026-07-08 18:32:56.237 +02:00 [DBG] Secret id found: VariBillWebApp.Interactive
+2026-07-08 18:32:56.253 +02:00 [DBG] client configuration validation for client VariBillWebApp.Interactive succeeded.
+2026-07-08 18:32:56.253 +02:00 [DBG] client configuration validation for client VariBillWebApp.Interactive succeeded.
+2026-07-08 18:32:56.271 +02:00 [DBG] Secret validator success: HashedSharedSecretValidator
+2026-07-08 18:32:56.271 +02:00 [DBG] Secret validator success: HashedSharedSecretValidator
+2026-07-08 18:32:56.273 +02:00 [DBG] Client validation success
+2026-07-08 18:32:56.274 +02:00 [DBG] Client validation success
+2026-07-08 18:32:56.315 +02:00 [INF] {"ClientId":"VariBillWebApp.Interactive","AuthenticationMethod":"SharedSecret","Category":"Authentication","Name":"Client Authentication Success","EventType":"Success","Id":1010,"Message":null,"ActivityId":"0HNMT1Q89HDDP:00000003","TimeStamp":"2026-07-08T16:32:56.2911134","ProcessId":24688,"LocalIpAddress":"::1:5000","RemoteIpAddress":"::1","$type":"ClientAuthenticationSuccessEvent"}
+2026-07-08 18:32:56.315 +02:00 [INF] {"ClientId":"VariBillWebApp.Interactive","AuthenticationMethod":"SharedSecret","Category":"Authentication","Name":"Client Authentication Success","EventType":"Success","Id":1010,"Message":null,"ActivityId":"0HNMT1Q89HDDQ:00000001","TimeStamp":"2026-07-08T16:32:56.2911099","ProcessId":24688,"LocalIpAddress":"::1:5000","RemoteIpAddress":"::1","$type":"ClientAuthenticationSuccessEvent"}
+2026-07-08 18:32:56.337 +02:00 [WRN] A request was made to the pushed authorization endpoint, but you do not have a license. This feature requires the Business Edition or higher tier of license.
+2026-07-08 18:32:56.350 +02:00 [DBG] Start authorize request protocol validation
+2026-07-08 18:32:56.350 +02:00 [DBG] Start authorize request protocol validation
+2026-07-08 18:32:56.354 +02:00 [DBG] client configuration validation for client VariBillWebApp.Interactive succeeded.
+2026-07-08 18:32:56.354 +02:00 [DBG] client configuration validation for client VariBillWebApp.Interactive succeeded.
+2026-07-08 18:32:56.366 +02:00 [DBG] Checking for PKCE parameters
+2026-07-08 18:32:56.366 +02:00 [DBG] Checking for PKCE parameters
+2026-07-08 18:32:56.400 +02:00 [DBG] Calling into custom validator: Duende.IdentityServer.Validation.DefaultCustomAuthorizeRequestValidator
+2026-07-08 18:32:56.400 +02:00 [DBG] Calling into custom validator: Duende.IdentityServer.Validation.DefaultCustomAuthorizeRequestValidator
+2026-07-08 18:32:56.467 +02:00 [INF] HTTP POST /connect/par responded 201 in 307.4812 ms
+2026-07-08 18:32:56.467 +02:00 [INF] HTTP POST /connect/par responded 201 in 307.4767 ms
+2026-07-08 18:32:56.485 +02:00 [DBG] AuthenticationScheme: Identity.Application was not authenticated.
+2026-07-08 18:32:56.486 +02:00 [DBG] AuthenticationScheme: Identity.Application was not authenticated.
+2026-07-08 18:32:56.491 +02:00 [DBG] IdentityServer CorsPolicyService didn't handle CORS request made for path: /connect/authorize from origin: https://localhost:7253 because it is not for an IdentityServer CORS endpoint. To allow CORS requests to non IdentityServer endpoints, please set up your own Cors policy for your application by calling app.UseCors("MyPolicy") in the pipeline setup.
+2026-07-08 18:32:56.491 +02:00 [DBG] IdentityServer CorsPolicyService didn't handle CORS request made for path: /connect/authorize from origin: https://localhost:7253 because it is not for an IdentityServer CORS endpoint. To allow CORS requests to non IdentityServer endpoints, please set up your own Cors policy for your application by calling app.UseCors("MyPolicy") in the pipeline setup.
+2026-07-08 18:32:56.494 +02:00 [DBG] AuthenticationScheme: Identity.Application was not authenticated.
+2026-07-08 18:32:56.495 +02:00 [DBG] AuthenticationScheme: Identity.Application was not authenticated.
+2026-07-08 18:32:56.497 +02:00 [DBG] AuthenticationScheme: Identity.Application was not authenticated.
+2026-07-08 18:32:56.499 +02:00 [DBG] AuthenticationScheme: Identity.Application was not authenticated.
+2026-07-08 18:32:56.500 +02:00 [DBG] Request path /connect/authorize matched to endpoint type Authorize
+2026-07-08 18:32:56.501 +02:00 [DBG] Request path /connect/authorize matched to endpoint type Authorize
+2026-07-08 18:32:56.510 +02:00 [DBG] Endpoint enabled: Authorize, successfully created handler: Duende.IdentityServer.Endpoints.AuthorizeEndpoint
+2026-07-08 18:32:56.510 +02:00 [DBG] Endpoint enabled: Authorize, successfully created handler: Duende.IdentityServer.Endpoints.AuthorizeEndpoint
+2026-07-08 18:32:56.513 +02:00 [INF] Invoking IdentityServer endpoint: Duende.IdentityServer.Endpoints.AuthorizeEndpoint for /connect/authorize
+2026-07-08 18:32:56.515 +02:00 [INF] Invoking IdentityServer endpoint: Duende.IdentityServer.Endpoints.AuthorizeEndpoint for /connect/authorize
+2026-07-08 18:32:56.518 +02:00 [DBG] Start authorize request
+2026-07-08 18:32:56.518 +02:00 [DBG] Start authorize request
+2026-07-08 18:32:56.521 +02:00 [INF] HTTP OPTIONS /connect/authorize responded 405 in 36.0661 ms
+2026-07-08 18:32:56.521 +02:00 [INF] HTTP OPTIONS /connect/authorize responded 405 in 34.9850 ms
+2026-07-08 18:50:05.619 +02:00 [INF] Starting Duende IdentityServer version 7.4.3+build.0.5aa266c91aede84c98903a06c5fe91e5f983eabc (.NET 9.0.16)
+2026-07-08 18:50:05.856 +02:00 [WRN] You do not have a valid license key for the Duende software. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please start a conversation with us: https://duende.link/l/contact
+2026-07-08 18:50:05.870 +02:00 [INF] You are using the in-memory version of the persisted grant store. This will store consent decisions, authorization codes, refresh and reference tokens in memory only. If you are using any of those features in production, you want to switch to a different store implementation.
+2026-07-08 18:50:05.881 +02:00 [INF] Using the default authentication scheme Identity.Application for IdentityServer
+2026-07-08 18:50:05.884 +02:00 [DBG] Using Identity.Application as default ASP.NET Core scheme for authentication
+2026-07-08 18:50:05.895 +02:00 [DBG] Using Identity.External as default ASP.NET Core scheme for sign-in
+2026-07-08 18:50:05.907 +02:00 [DBG] Using Identity.External as default ASP.NET Core scheme for sign-out
+2026-07-08 18:50:05.910 +02:00 [DBG] Using Identity.Application as default ASP.NET Core scheme for challenge
+2026-07-08 18:50:05.914 +02:00 [DBG] Using Identity.Application as default ASP.NET Core scheme for forbid
+2026-07-08 18:50:10.914 +02:00 [INF] Now listening on: http://localhost:5000
+2026-07-08 18:50:10.990 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-07-08 18:50:10.992 +02:00 [INF] Hosting environment: Development
+2026-07-08 18:50:10.993 +02:00 [INF] Content root path: C:\WerkSoekAssessments\FinalAssessment\Bongoe2\VariBill.Identity.Duende\Bongoe.Identity
+2026-07-08 18:51:31.751 +02:00 [DBG] Login Url: /Identity/Account/Login
+2026-07-08 18:51:31.754 +02:00 [DBG] Login Return Url Parameter: ReturnUrl
+2026-07-08 18:51:31.755 +02:00 [DBG] Logout Url: /Identity/Account/Logout
+2026-07-08 18:51:31.756 +02:00 [DBG] ConsentUrl Url: /consent
+2026-07-08 18:51:31.757 +02:00 [DBG] Consent Return Url Parameter: returnUrl
+2026-07-08 18:51:31.758 +02:00 [DBG] Error Url: /home/error
+2026-07-08 18:51:31.759 +02:00 [DBG] Error Id Parameter: errorId
+2026-07-08 18:51:31.766 +02:00 [DBG] AuthenticationScheme: Identity.Application was not authenticated.
+2026-07-08 18:51:31.774 +02:00 [DBG] AuthenticationScheme: Identity.Application was not authenticated.
+2026-07-08 18:51:31.785 +02:00 [DBG] AuthenticationScheme: Identity.Application was not authenticated.
+2026-07-08 18:51:31.794 +02:00 [DBG] Request path /.well-known/openid-configuration matched to endpoint type Discovery
+2026-07-08 18:51:31.834 +02:00 [DBG] Endpoint enabled: Discovery, successfully created handler: Duende.IdentityServer.Endpoints.DiscoveryEndpoint
+2026-07-08 18:51:31.847 +02:00 [INF] Invoking IdentityServer endpoint: Duende.IdentityServer.Endpoints.DiscoveryEndpoint for /.well-known/openid-configuration
+2026-07-08 18:51:31.851 +02:00 [DBG] Start discovery request
+2026-07-08 18:51:31.937 +02:00 [INF] HTTP GET /.well-known/openid-configuration responded 200 in 243.7577 ms
+2026-07-08 18:51:32.179 +02:00 [DBG] AuthenticationScheme: Identity.Application was not authenticated.
+2026-07-08 18:51:32.181 +02:00 [DBG] AuthenticationScheme: Identity.Application was not authenticated.
+2026-07-08 18:51:32.182 +02:00 [DBG] AuthenticationScheme: Identity.Application was not authenticated.
+2026-07-08 18:51:32.191 +02:00 [DBG] Request path /.well-known/openid-configuration/jwks matched to endpoint type Jwks
+2026-07-08 18:51:32.196 +02:00 [DBG] Endpoint enabled: Jwks, successfully created handler: Duende.IdentityServer.Endpoints.DiscoveryKeyEndpoint
+2026-07-08 18:51:32.197 +02:00 [INF] Invoking IdentityServer endpoint: Duende.IdentityServer.Endpoints.DiscoveryKeyEndpoint for /.well-known/openid-configuration/jwks
+2026-07-08 18:51:32.200 +02:00 [DBG] Start key discovery request
+2026-07-08 18:51:32.216 +02:00 [INF] HTTP GET /.well-known/openid-configuration/jwks responded 200 in 49.1512 ms
+2026-07-08 18:51:35.839 +02:00 [DBG] AuthenticationScheme: Identity.Application was not authenticated.
+2026-07-08 18:51:35.842 +02:00 [DBG] AuthenticationScheme: Identity.Application was not authenticated.
+2026-07-08 18:51:35.848 +02:00 [DBG] AuthenticationScheme: Identity.Application was not authenticated.
+2026-07-08 18:51:35.850 +02:00 [DBG] Request path /connect/token matched to endpoint type Token
+2026-07-08 18:51:35.866 +02:00 [DBG] Endpoint enabled: Token, successfully created handler: Duende.IdentityServer.Endpoints.TokenEndpoint
+2026-07-08 18:51:35.868 +02:00 [INF] Invoking IdentityServer endpoint: Duende.IdentityServer.Endpoints.TokenEndpoint for /connect/token
+2026-07-08 18:51:35.883 +02:00 [DBG] Start token request.
+2026-07-08 18:51:35.886 +02:00 [DBG] Start client validation
+2026-07-08 18:51:35.891 +02:00 [DBG] Start parsing Basic Authentication secret
+2026-07-08 18:51:35.893 +02:00 [DBG] Start parsing for secret in post body
+2026-07-08 18:51:35.903 +02:00 [DBG] Parser found secret: PostBodySecretParser
+2026-07-08 18:51:35.905 +02:00 [DBG] Secret id found: VariBillWebAPI.ClientCredentials
+2026-07-08 18:51:35.912 +02:00 [DBG] client configuration validation for client VariBillWebAPI.ClientCredentials succeeded.
+2026-07-08 18:51:35.930 +02:00 [DBG] Secret validator success: HashedSharedSecretValidator
+2026-07-08 18:51:35.931 +02:00 [DBG] Client validation success
+2026-07-08 18:51:35.960 +02:00 [INF] {"ClientId":"VariBillWebAPI.ClientCredentials","AuthenticationMethod":"SharedSecret","Category":"Authentication","Name":"Client Authentication Success","EventType":"Success","Id":1010,"Message":null,"ActivityId":"0HNMT24KQ8956:00000003","TimeStamp":"2026-07-08T16:51:35.9432685","ProcessId":16952,"LocalIpAddress":"::1:5000","RemoteIpAddress":"::1","$type":"ClientAuthenticationSuccessEvent"}
+2026-07-08 18:51:35.981 +02:00 [DBG] Start token request validation
+2026-07-08 18:51:35.989 +02:00 [DBG] Start client credentials token request validation
+2026-07-08 18:51:36.004 +02:00 [DBG] VariBillWebAPI.ClientCredentials credentials token request validation success
+2026-07-08 18:51:36.013 +02:00 [INF] Token request validation success: {"ClientId":"VariBillWebAPI.ClientCredentials","ClientName":"VariBill Web API (Machine-to-Machine)","GrantType":"client_credentials","Scopes":"VariBillWebAPI","AuthorizationCode":"********","RefreshToken":"********","UserName":null,"AuthenticationContextReferenceClasses":null,"Tenant":null,"IdP":null,"Raw":{"grant_type":"client_credentials","scope":"VariBillWebAPI","client_id":"VariBillWebAPI.ClientCredentials","client_secret":"***REDACTED***"},"$type":"TokenRequestValidationLog"}
+2026-07-08 18:51:36.054 +02:00 [DBG] Getting claims for access token for client: VariBillWebAPI.ClientCredentials
+2026-07-08 18:51:36.140 +02:00 [INF] {"ClientId":"VariBillWebAPI.ClientCredentials","ClientName":"VariBill Web API (Machine-to-Machine)","RedirectUri":null,"Endpoint":"Token","SubjectId":null,"Scopes":"VariBillWebAPI","GrantType":"client_credentials","Tokens":[{"TokenType":"access_token","TokenValue":"****F8VQ","$type":"Token"}],"Category":"Token","Name":"Token Issued Success","EventType":"Success","Id":2000,"Message":null,"ActivityId":"0HNMT24KQ8956:00000003","TimeStamp":"2026-07-08T16:51:36.1361558","ProcessId":16952,"LocalIpAddress":"::1:5000","RemoteIpAddress":"::1","$type":"TokenIssuedSuccessEvent"}
+2026-07-08 18:51:36.159 +02:00 [DBG] Token request success.
+2026-07-08 18:51:36.164 +02:00 [INF] HTTP POST /connect/token responded 200 in 326.9191 ms
+2026-07-08 18:55:44.851 +02:00 [INF] Starting Duende IdentityServer version 7.4.3+build.0.5aa266c91aede84c98903a06c5fe91e5f983eabc (.NET 9.0.16)
+2026-07-08 18:55:44.954 +02:00 [WRN] You do not have a valid license key for the Duende software. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please start a conversation with us: https://duende.link/l/contact
+2026-07-08 18:55:44.963 +02:00 [INF] You are using the in-memory version of the persisted grant store. This will store consent decisions, authorization codes, refresh and reference tokens in memory only. If you are using any of those features in production, you want to switch to a different store implementation.
+2026-07-08 18:55:44.973 +02:00 [INF] Using the default authentication scheme Identity.Application for IdentityServer
+2026-07-08 18:55:44.975 +02:00 [DBG] Using Identity.Application as default ASP.NET Core scheme for authentication
+2026-07-08 18:55:44.976 +02:00 [DBG] Using Identity.External as default ASP.NET Core scheme for sign-in
+2026-07-08 18:55:44.977 +02:00 [DBG] Using Identity.External as default ASP.NET Core scheme for sign-out
+2026-07-08 18:55:44.979 +02:00 [DBG] Using Identity.Application as default ASP.NET Core scheme for challenge
+2026-07-08 18:55:44.980 +02:00 [DBG] Using Identity.Application as default ASP.NET Core scheme for forbid
+2026-07-08 18:55:48.221 +02:00 [INF] Now listening on: http://localhost:5000
+2026-07-08 18:55:48.250 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-07-08 18:55:48.251 +02:00 [INF] Hosting environment: Development
+2026-07-08 18:55:48.252 +02:00 [INF] Content root path: C:\WerkSoekAssessments\FinalAssessment\Bongoe2\VariBill.Identity.Duende\Bongoe.Identity
+2026-07-08 19:02:49.257 +02:00 [INF] Starting Duende IdentityServer version 7.4.3+build.0.5aa266c91aede84c98903a06c5fe91e5f983eabc (.NET 9.0.16)
+2026-07-08 19:02:49.374 +02:00 [WRN] You do not have a valid license key for the Duende software. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please start a conversation with us: https://duende.link/l/contact
+2026-07-08 19:02:49.390 +02:00 [INF] You are using the in-memory version of the persisted grant store. This will store consent decisions, authorization codes, refresh and reference tokens in memory only. If you are using any of those features in production, you want to switch to a different store implementation.
+2026-07-08 19:02:49.403 +02:00 [INF] Using the default authentication scheme Identity.Application for IdentityServer
+2026-07-08 19:02:49.409 +02:00 [DBG] Using Identity.Application as default ASP.NET Core scheme for authentication
+2026-07-08 19:02:49.412 +02:00 [DBG] Using Identity.External as default ASP.NET Core scheme for sign-in
+2026-07-08 19:02:49.414 +02:00 [DBG] Using Identity.External as default ASP.NET Core scheme for sign-out
+2026-07-08 19:02:49.416 +02:00 [DBG] Using Identity.Application as default ASP.NET Core scheme for challenge
+2026-07-08 19:02:49.420 +02:00 [DBG] Using Identity.Application as default ASP.NET Core scheme for forbid
+2026-07-08 19:02:52.805 +02:00 [INF] Now listening on: http://localhost:5000
+2026-07-08 19:02:52.828 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-07-08 19:02:52.829 +02:00 [INF] Hosting environment: Development
+2026-07-08 19:02:52.830 +02:00 [INF] Content root path: C:\WerkSoekAssessments\FinalAssessment\Bongoe2\VariBill.Identity.Duende\Bongoe.Identity

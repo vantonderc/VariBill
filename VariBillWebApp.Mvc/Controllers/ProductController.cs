@@ -72,7 +72,8 @@ public class ProductController : Controller
         if (result == null)
         {
             ModelState.AddModelError("", "Failed to create product.");
-            ViewBag.ProductTypes = await _productTypeService.GetAllProductTypesAsync();
+            var productTypes = await _productTypeService.GetAllProductTypesAsync();
+            ViewBag.ProductTypes = new SelectList(productTypes, "Id", "Name", model.ProductTypeId);
             return View(model);
         }
 

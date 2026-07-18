@@ -26,7 +26,7 @@ public class HomeController : Controller
     [HttpGet("legacyproducts")]
     public async Task<IActionResult> LegacyProducts()
     {
-      //  var products = await _productService.GetAllProductsAsync();
+       var products = await _productService.GetAllProductsAsync();
         return View();
     }
 

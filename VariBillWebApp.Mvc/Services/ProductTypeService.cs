@@ -1,3 +1,4 @@
+using Microsoft.AspNetCore.Authorization;
 using VariBillWebApp.Mvc.Models.ViewModels;
 using VariBillWebApp.Mvc.Services.Abstractions;
 
@@ -13,6 +14,7 @@ public sealed class ProductTypeService : VariBillDomainServiceBase, IProductType
         _logger = logger;
     }
 
+  
     public async Task<IReadOnlyList<ProductTypeModel>> GetAllProductTypesAsync()
     {
         _logger.LogDebug("ProductTypeService.GetAllProductTypesAsync: calling API endpoint 'api/producttypes'");

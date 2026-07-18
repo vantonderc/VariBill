@@ -155,8 +155,6 @@ C:\WerkSoekAssessments\FinalAssessment\Bongoe2\VariBillWebApp.Blazor\obj\Debug\n
 C:\WerkSoekAssessments\FinalAssessment\Bongoe2\VariBillWebApp.Blazor\obj\Debug\net9.0\VariBillWebApp.Blazor.pdb
 C:\WerkSoekAssessments\FinalAssessment\Bongoe2\VariBillWebApp.Blazor\obj\Debug\net9.0\VariBillWebApp.Blazor.genruntimeconfig.cache
 C:\WerkSoekAssessments\FinalAssessment\Bongoe2\VariBillWebApp.Blazor\obj\Debug\net9.0\ref\VariBillWebApp.Blazor.dll
-C:\WerkSoekAssessments\FinalAssessment\Bongoe2\VariBillWebApp.Blazor\obj\Debug\net9.0\compressed\avzoyylm20-{0}-khy4lop6wu-khy4lop6wu.gz
-C:\WerkSoekAssessments\FinalAssessment\Bongoe2\VariBillWebApp.Blazor\obj\Debug\net9.0\compressed\msg8woc9ih-{0}-xyncoa7qcf-xyncoa7qcf.gz
 C:\WerkSoekAssessments\FinalAssessment\Bongoe2\VariBillWebApp.Blazor\obj\Debug\net9.0\compressed\f3e8k1nglr-{0}-bqjiyaj88i-bqjiyaj88i.gz
 C:\WerkSoekAssessments\FinalAssessment\Bongoe2\VariBillWebApp.Blazor\obj\Debug\net9.0\compressed\dw556bhknp-{0}-c2jlpeoesf-c2jlpeoesf.gz
 C:\WerkSoekAssessments\FinalAssessment\Bongoe2\VariBillWebApp.Blazor\obj\Debug\net9.0\compressed\5z7qxefj7i-{0}-erw9l3u2r3-erw9l3u2r3.gz
@@ -204,3 +202,5 @@ C:\WerkSoekAssessments\FinalAssessment\Bongoe2\VariBillWebApp.Blazor\obj\Debug\n
 C:\WerkSoekAssessments\FinalAssessment\Bongoe2\VariBillWebApp.Blazor\obj\Debug\net9.0\swae.build.ex.cache
 C:\WerkSoekAssessments\FinalAssessment\Bongoe2\VariBillWebApp.Blazor\obj\Debug\net9.0\VariBillWebApp.Blazor.sourcelink.json
 C:\WerkSoekAssessments\FinalAssessment\Bongoe2\VariBillWebApp.Blazor\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt
+C:\WerkSoekAssessments\FinalAssessment\Bongoe2\VariBillWebApp.Blazor\obj\Debug\net9.0\compressed\avzoyylm20-{0}-lcg9ata44t-lcg9ata44t.gz
+C:\WerkSoekAssessments\FinalAssessment\Bongoe2\VariBillWebApp.Blazor\obj\Debug\net9.0\compressed\msg8woc9ih-{0}-uhriny96q7-uhriny96q7.gz

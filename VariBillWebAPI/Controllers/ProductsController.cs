@@ -26,7 +26,7 @@ public class ProductsController : ControllerBase
     /// <summary>
     /// Retrieves all products.
     /// </summary>
-    [HttpGet]
+
     [ProducesResponseType(typeof(IReadOnlyList<ProductResponseDto>), StatusCodes.Status200OK)]
     public async Task<ActionResult<IReadOnlyList<ProductResponseDto>>> GetAll()
     {

@@ -1,0 +1,937 @@
+2026-07-18 12:33:12.988 +02:00 [INF] Now listening on: https://localhost:7090
+2026-07-18 12:33:13.132 +02:00 [INF] Now listening on: http://localhost:5153
+2026-07-18 12:33:13.411 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-07-18 12:33:13.416 +02:00 [INF] Hosting environment: Development
+2026-07-18 12:33:13.418 +02:00 [INF] Content root path: C:\WerkSoekAssessments\FinalAssessment\Bongoe2\VariBillWebAPI
+2026-07-18 12:33:41.578 +02:00 [INF] HTTP GET /api/products responded 307 in 3.2744 ms
+2026-07-18 12:33:41.849 +02:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2026-07-18 12:33:49.656 +02:00 [INF] HTTP GET /api/products responded 200 in 7951.6055 ms
+2026-07-18 12:34:21.712 +02:00 [INF] HTTP GET /api/products responded 307 in 0.2011 ms
+2026-07-18 12:34:21.753 +02:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2026-07-18 12:34:21.880 +02:00 [INF] HTTP GET /api/products responded 200 in 127.2703 ms
+2026-07-18 12:38:12.304 +02:00 [INF] Now listening on: https://localhost:7090
+2026-07-18 12:38:12.378 +02:00 [INF] Now listening on: http://localhost:5153
+2026-07-18 12:38:12.473 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-07-18 12:38:12.474 +02:00 [INF] Hosting environment: Development
+2026-07-18 12:38:12.476 +02:00 [INF] Content root path: C:\WerkSoekAssessments\FinalAssessment\Bongoe2\VariBillWebAPI
+2026-07-18 12:38:44.656 +02:00 [INF] HTTP GET /api/producttypes responded 307 in 4.1850 ms
+2026-07-18 12:38:44.942 +02:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2026-07-18 12:38:44.963 +02:00 [INF] AuthenticationScheme: Bearer was challenged.
+2026-07-18 12:38:44.965 +02:00 [INF] HTTP GET /api/producttypes responded 401 in 154.5761 ms
+2026-07-18 12:38:59.106 +02:00 [INF] HTTP POST /api/producttypes responded 307 in 0.2492 ms
+2026-07-18 12:38:59.168 +02:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2026-07-18 12:38:59.171 +02:00 [INF] AuthenticationScheme: Bearer was challenged.
+2026-07-18 12:38:59.173 +02:00 [INF] HTTP POST /api/producttypes responded 401 in 10.8268 ms
+2026-07-18 12:39:36.365 +02:00 [INF] Now listening on: https://localhost:7090
+2026-07-18 12:39:36.422 +02:00 [INF] Now listening on: http://localhost:5153
+2026-07-18 12:39:36.533 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-07-18 12:39:36.557 +02:00 [INF] Hosting environment: Development
+2026-07-18 12:39:36.559 +02:00 [INF] Content root path: C:\WerkSoekAssessments\FinalAssessment\Bongoe2\VariBillWebAPI
+2026-07-18 12:42:46.590 +02:00 [INF] Now listening on: https://localhost:7090
+2026-07-18 12:42:46.666 +02:00 [INF] Now listening on: http://localhost:5153
+2026-07-18 12:42:46.850 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-07-18 12:42:46.851 +02:00 [INF] Hosting environment: Development
+2026-07-18 12:42:46.853 +02:00 [INF] Content root path: C:\WerkSoekAssessments\FinalAssessment\Bongoe2\VariBillWebAPI
+2026-07-18 13:01:39.991 +02:00 [INF] Now listening on: https://localhost:7090
+2026-07-18 13:01:40.040 +02:00 [INF] Now listening on: http://localhost:5153
+2026-07-18 13:01:40.257 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-07-18 13:01:40.259 +02:00 [INF] Hosting environment: Development
+2026-07-18 13:01:40.260 +02:00 [INF] Content root path: C:\WerkSoekAssessments\FinalAssessment\Bongoe2\VariBillWebAPI
+2026-07-18 13:02:31.149 +02:00 [DBG] Successfully validated the token.
+2026-07-18 13:02:31.158 +02:00 [DBG] AuthenticationScheme: Bearer was successfully authenticated.
+2026-07-18 13:02:36.241 +02:00 [INF] HTTP GET /api/products responded 200 in 5526.1639 ms
+2026-07-18 13:02:47.299 +02:00 [DBG] Successfully validated the token.
+2026-07-18 13:02:47.301 +02:00 [DBG] AuthenticationScheme: Bearer was successfully authenticated.
+2026-07-18 13:02:47.301 +02:00 [DBG] Successfully validated the token.
+2026-07-18 13:02:47.303 +02:00 [DBG] AuthenticationScheme: Bearer was successfully authenticated.
+2026-07-18 13:02:47.373 +02:00 [INF] HTTP GET /api/products responded 200 in 74.4020 ms
+2026-07-18 13:02:54.872 +02:00 [INF] HTTP GET /api/producttypes responded 200 in 7600.9044 ms
+2026-07-18 13:03:04.729 +02:00 [DBG] Successfully validated the token.
+2026-07-18 13:03:04.731 +02:00 [DBG] AuthenticationScheme: Bearer was successfully authenticated.
+2026-07-18 13:03:05.519 +02:00 [INF] HTTP GET /api/producttypes responded 200 in 790.2045 ms
+2026-07-18 13:03:14.387 +02:00 [DBG] Successfully validated the token.
+2026-07-18 13:03:14.389 +02:00 [DBG] Successfully validated the token.
+2026-07-18 13:03:14.390 +02:00 [DBG] AuthenticationScheme: Bearer was successfully authenticated.
+2026-07-18 13:03:14.391 +02:00 [DBG] AuthenticationScheme: Bearer was successfully authenticated.
+2026-07-18 13:03:17.832 +02:00 [INF] HTTP GET /api/products responded 200 in 3444.6757 ms
+2026-07-18 13:03:17.846 +02:00 [INF] HTTP GET /api/producttypes responded 200 in 3457.3806 ms
+2026-07-18 13:03:21.425 +02:00 [DBG] Successfully validated the token.
+2026-07-18 13:03:21.426 +02:00 [DBG] AuthenticationScheme: Bearer was successfully authenticated.
+2026-07-18 13:03:21.428 +02:00 [INF] HTTP GET /api/products responded 200 in 4.2272 ms
+2026-07-18 13:14:16.093 +02:00 [INF] Now listening on: https://localhost:7090
+2026-07-18 13:14:16.155 +02:00 [INF] Now listening on: http://localhost:5153
+2026-07-18 13:14:16.284 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-07-18 13:14:16.285 +02:00 [INF] Hosting environment: Development
+2026-07-18 13:14:16.286 +02:00 [INF] Content root path: C:\WerkSoekAssessments\FinalAssessment\Bongoe2\VariBillWebAPI
+2026-07-18 13:14:26.268 +02:00 [DBG] Successfully validated the token.
+2026-07-18 13:14:26.272 +02:00 [DBG] AuthenticationScheme: Bearer was successfully authenticated.
+2026-07-18 13:14:30.207 +02:00 [INF] HTTP GET /api/products responded 200 in 4255.1906 ms
+2026-07-18 13:15:11.082 +02:00 [INF] Now listening on: https://localhost:7090
+2026-07-18 13:15:11.131 +02:00 [INF] Now listening on: http://localhost:5153
+2026-07-18 13:15:11.266 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-07-18 13:15:11.267 +02:00 [INF] Hosting environment: Development
+2026-07-18 13:15:11.269 +02:00 [INF] Content root path: C:\WerkSoekAssessments\FinalAssessment\Bongoe2\VariBillWebAPI
+2026-07-18 13:18:17.815 +02:00 [INF] Now listening on: https://localhost:7090
+2026-07-18 13:18:17.898 +02:00 [INF] Now listening on: http://localhost:5153
+2026-07-18 13:18:18.135 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-07-18 13:18:18.151 +02:00 [INF] Hosting environment: Development
+2026-07-18 13:18:18.153 +02:00 [INF] Content root path: C:\WerkSoekAssessments\FinalAssessment\Bongoe2\VariBillWebAPI
+2026-07-18 13:19:39.225 +02:00 [INF] Now listening on: https://localhost:7090
+2026-07-18 13:19:39.277 +02:00 [INF] Now listening on: http://localhost:5153
+2026-07-18 13:19:39.419 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-07-18 13:19:39.423 +02:00 [INF] Hosting environment: Development
+2026-07-18 13:19:39.424 +02:00 [INF] Content root path: C:\WerkSoekAssessments\FinalAssessment\Bongoe2\VariBillWebAPI
+2026-07-18 13:19:48.821 +02:00 [DBG] Successfully validated the token.
+2026-07-18 13:19:48.826 +02:00 [DBG] AuthenticationScheme: Bearer was successfully authenticated.
+2026-07-18 13:19:52.994 +02:00 [INF] HTTP GET /api/products responded 200 in 4520.1512 ms
+2026-07-18 13:20:05.308 +02:00 [DBG] Successfully validated the token.
+2026-07-18 13:20:05.310 +02:00 [DBG] AuthenticationScheme: Bearer was successfully authenticated.
+2026-07-18 13:20:05.379 +02:00 [INF] HTTP GET /api/products responded 200 in 72.7598 ms
+2026-07-18 13:21:19.751 +02:00 [INF] Now listening on: https://localhost:7090
+2026-07-18 13:21:19.827 +02:00 [INF] Now listening on: http://localhost:5153
+2026-07-18 13:21:20.021 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-07-18 13:21:20.023 +02:00 [INF] Hosting environment: Development
+2026-07-18 13:21:20.024 +02:00 [INF] Content root path: C:\WerkSoekAssessments\FinalAssessment\Bongoe2\VariBillWebAPI
+2026-07-18 13:21:28.626 +02:00 [DBG] Successfully validated the token.
+2026-07-18 13:21:28.631 +02:00 [DBG] AuthenticationScheme: Bearer was successfully authenticated.
+2026-07-18 13:21:31.498 +02:00 [INF] HTTP GET /api/producttypes responded 200 in 3222.4639 ms
+2026-07-18 13:21:44.504 +02:00 [DBG] Successfully validated the token.
+2026-07-18 13:21:44.506 +02:00 [DBG] AuthenticationScheme: Bearer was successfully authenticated.
+2026-07-18 13:21:44.609 +02:00 [ERR] HTTP POST /api/producttypes responded 500 in 106.4315 ms
+System.InvalidOperationException: Record type 'VariBillWebAPI.Models.DTO.CreateProductTypeDto' has validation metadata defined on property 'Name' that will be ignored. 'Name' is a parameter in the record primary constructor and validation metadata must be associated with the constructor parameter.
+   at Microsoft.AspNetCore.Mvc.ModelBinding.ModelMetadata.ThrowIfRecordTypeHasValidationOnProperties()
+   at Microsoft.AspNetCore.Mvc.ModelBinding.Validation.DefaultComplexObjectValidationStrategy.Enumerator..ctor(ModelMetadata modelMetadata, String key, Object model)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.Validation.DefaultComplexObjectValidationStrategy.GetChildren(ModelMetadata metadata, String key, Object model)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.Validation.ValidationVisitor.VisitChildren(IValidationStrategy strategy)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.Validation.ValidationVisitor.VisitComplexType(IValidationStrategy defaultStrategy)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.Validation.ValidationVisitor.VisitImplementation(ModelMetadata& metadata, String& key, Object model)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.Validation.ValidationVisitor.Visit(ModelMetadata metadata, String key, Object model)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.ObjectModelValidator.Validate(ActionContext actionContext, ValidationStateDictionary validationState, String prefix, Object model, ModelMetadata metadata, Object container)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder.EnforceBindRequiredAndValidate(ObjectModelValidator baseObjectValidator, ActionContext actionContext, ParameterDescriptor parameter, ModelMetadata metadata, ModelBindingContext modelBindingContext, ModelBindingResult modelBindingResult, Object container)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder.BindModelAsync(ActionContext actionContext, IModelBinder modelBinder, IValueProvider valueProvider, ParameterDescriptor parameter, ModelMetadata metadata, Object value, Object container)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerBinderDelegateProvider.<>c__DisplayClass0_0.<<CreateBinderDelegate>g__Bind|0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2026-07-18 13:21:44.623 +02:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Record type 'VariBillWebAPI.Models.DTO.CreateProductTypeDto' has validation metadata defined on property 'Name' that will be ignored. 'Name' is a parameter in the record primary constructor and validation metadata must be associated with the constructor parameter.
+   at Microsoft.AspNetCore.Mvc.ModelBinding.ModelMetadata.ThrowIfRecordTypeHasValidationOnProperties()
+   at Microsoft.AspNetCore.Mvc.ModelBinding.Validation.DefaultComplexObjectValidationStrategy.Enumerator..ctor(ModelMetadata modelMetadata, String key, Object model)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.Validation.DefaultComplexObjectValidationStrategy.GetChildren(ModelMetadata metadata, String key, Object model)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.Validation.ValidationVisitor.VisitChildren(IValidationStrategy strategy)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.Validation.ValidationVisitor.VisitComplexType(IValidationStrategy defaultStrategy)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.Validation.ValidationVisitor.VisitImplementation(ModelMetadata& metadata, String& key, Object model)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.Validation.ValidationVisitor.Visit(ModelMetadata metadata, String key, Object model)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.ObjectModelValidator.Validate(ActionContext actionContext, ValidationStateDictionary validationState, String prefix, Object model, ModelMetadata metadata, Object container)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder.EnforceBindRequiredAndValidate(ObjectModelValidator baseObjectValidator, ActionContext actionContext, ParameterDescriptor parameter, ModelMetadata metadata, ModelBindingContext modelBindingContext, ModelBindingResult modelBindingResult, Object container)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder.BindModelAsync(ActionContext actionContext, IModelBinder modelBinder, IValueProvider valueProvider, ParameterDescriptor parameter, ModelMetadata metadata, Object value, Object container)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerBinderDelegateProvider.<>c__DisplayClass0_0.<<CreateBinderDelegate>g__Bind|0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2026-07-18 13:21:46.693 +02:00 [DBG] Successfully validated the token.
+2026-07-18 13:21:46.694 +02:00 [DBG] AuthenticationScheme: Bearer was successfully authenticated.
+2026-07-18 13:21:46.715 +02:00 [ERR] HTTP POST /api/producttypes responded 500 in 23.9710 ms
+System.InvalidOperationException: Record type 'VariBillWebAPI.Models.DTO.CreateProductTypeDto' has validation metadata defined on property 'Name' that will be ignored. 'Name' is a parameter in the record primary constructor and validation metadata must be associated with the constructor parameter.
+   at Microsoft.AspNetCore.Mvc.ModelBinding.ModelMetadata.ThrowIfRecordTypeHasValidationOnProperties()
+   at Microsoft.AspNetCore.Mvc.ModelBinding.Validation.DefaultComplexObjectValidationStrategy.Enumerator..ctor(ModelMetadata modelMetadata, String key, Object model)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.Validation.DefaultComplexObjectValidationStrategy.GetChildren(ModelMetadata metadata, String key, Object model)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.Validation.ValidationVisitor.VisitChildren(IValidationStrategy strategy)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.Validation.ValidationVisitor.VisitComplexType(IValidationStrategy defaultStrategy)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.Validation.ValidationVisitor.VisitImplementation(ModelMetadata& metadata, String& key, Object model)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.Validation.ValidationVisitor.Visit(ModelMetadata metadata, String key, Object model)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.ObjectModelValidator.Validate(ActionContext actionContext, ValidationStateDictionary validationState, String prefix, Object model, ModelMetadata metadata, Object container)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder.EnforceBindRequiredAndValidate(ObjectModelValidator baseObjectValidator, ActionContext actionContext, ParameterDescriptor parameter, ModelMetadata metadata, ModelBindingContext modelBindingContext, ModelBindingResult modelBindingResult, Object container)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder.BindModelAsync(ActionContext actionContext, IModelBinder modelBinder, IValueProvider valueProvider, ParameterDescriptor parameter, ModelMetadata metadata, Object value, Object container)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerBinderDelegateProvider.<>c__DisplayClass0_0.<<CreateBinderDelegate>g__Bind|0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2026-07-18 13:21:46.730 +02:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Record type 'VariBillWebAPI.Models.DTO.CreateProductTypeDto' has validation metadata defined on property 'Name' that will be ignored. 'Name' is a parameter in the record primary constructor and validation metadata must be associated with the constructor parameter.
+   at Microsoft.AspNetCore.Mvc.ModelBinding.ModelMetadata.ThrowIfRecordTypeHasValidationOnProperties()
+   at Microsoft.AspNetCore.Mvc.ModelBinding.Validation.DefaultComplexObjectValidationStrategy.Enumerator..ctor(ModelMetadata modelMetadata, String key, Object model)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.Validation.DefaultComplexObjectValidationStrategy.GetChildren(ModelMetadata metadata, String key, Object model)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.Validation.ValidationVisitor.VisitChildren(IValidationStrategy strategy)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.Validation.ValidationVisitor.VisitComplexType(IValidationStrategy defaultStrategy)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.Validation.ValidationVisitor.VisitImplementation(ModelMetadata& metadata, String& key, Object model)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.Validation.ValidationVisitor.Visit(ModelMetadata metadata, String key, Object model)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.ObjectModelValidator.Validate(ActionContext actionContext, ValidationStateDictionary validationState, String prefix, Object model, ModelMetadata metadata, Object container)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder.EnforceBindRequiredAndValidate(ObjectModelValidator baseObjectValidator, ActionContext actionContext, ParameterDescriptor parameter, ModelMetadata metadata, ModelBindingContext modelBindingContext, ModelBindingResult modelBindingResult, Object container)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder.BindModelAsync(ActionContext actionContext, IModelBinder modelBinder, IValueProvider valueProvider, ParameterDescriptor parameter, ModelMetadata metadata, Object value, Object container)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerBinderDelegateProvider.<>c__DisplayClass0_0.<<CreateBinderDelegate>g__Bind|0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2026-07-18 13:21:50.755 +02:00 [DBG] Successfully validated the token.
+2026-07-18 13:21:50.756 +02:00 [DBG] AuthenticationScheme: Bearer was successfully authenticated.
+2026-07-18 13:21:50.760 +02:00 [ERR] HTTP POST /api/producttypes responded 500 in 5.5076 ms
+System.InvalidOperationException: Record type 'VariBillWebAPI.Models.DTO.CreateProductTypeDto' has validation metadata defined on property 'Name' that will be ignored. 'Name' is a parameter in the record primary constructor and validation metadata must be associated with the constructor parameter.
+   at Microsoft.AspNetCore.Mvc.ModelBinding.ModelMetadata.ThrowIfRecordTypeHasValidationOnProperties()
+   at Microsoft.AspNetCore.Mvc.ModelBinding.Validation.DefaultComplexObjectValidationStrategy.Enumerator..ctor(ModelMetadata modelMetadata, String key, Object model)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.Validation.DefaultComplexObjectValidationStrategy.GetChildren(ModelMetadata metadata, String key, Object model)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.Validation.ValidationVisitor.VisitChildren(IValidationStrategy strategy)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.Validation.ValidationVisitor.VisitComplexType(IValidationStrategy defaultStrategy)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.Validation.ValidationVisitor.VisitImplementation(ModelMetadata& metadata, String& key, Object model)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.Validation.ValidationVisitor.Visit(ModelMetadata metadata, String key, Object model)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.ObjectModelValidator.Validate(ActionContext actionContext, ValidationStateDictionary validationState, String prefix, Object model, ModelMetadata metadata, Object container)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder.EnforceBindRequiredAndValidate(ObjectModelValidator baseObjectValidator, ActionContext actionContext, ParameterDescriptor parameter, ModelMetadata metadata, ModelBindingContext modelBindingContext, ModelBindingResult modelBindingResult, Object container)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder.BindModelAsync(ActionContext actionContext, IModelBinder modelBinder, IValueProvider valueProvider, ParameterDescriptor parameter, ModelMetadata metadata, Object value, Object container)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerBinderDelegateProvider.<>c__DisplayClass0_0.<<CreateBinderDelegate>g__Bind|0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2026-07-18 13:21:50.776 +02:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Record type 'VariBillWebAPI.Models.DTO.CreateProductTypeDto' has validation metadata defined on property 'Name' that will be ignored. 'Name' is a parameter in the record primary constructor and validation metadata must be associated with the constructor parameter.
+   at Microsoft.AspNetCore.Mvc.ModelBinding.ModelMetadata.ThrowIfRecordTypeHasValidationOnProperties()
+   at Microsoft.AspNetCore.Mvc.ModelBinding.Validation.DefaultComplexObjectValidationStrategy.Enumerator..ctor(ModelMetadata modelMetadata, String key, Object model)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.Validation.DefaultComplexObjectValidationStrategy.GetChildren(ModelMetadata metadata, String key, Object model)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.Validation.ValidationVisitor.VisitChildren(IValidationStrategy strategy)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.Validation.ValidationVisitor.VisitComplexType(IValidationStrategy defaultStrategy)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.Validation.ValidationVisitor.VisitImplementation(ModelMetadata& metadata, String& key, Object model)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.Validation.ValidationVisitor.Visit(ModelMetadata metadata, String key, Object model)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.ObjectModelValidator.Validate(ActionContext actionContext, ValidationStateDictionary validationState, String prefix, Object model, ModelMetadata metadata, Object container)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder.EnforceBindRequiredAndValidate(ObjectModelValidator baseObjectValidator, ActionContext actionContext, ParameterDescriptor parameter, ModelMetadata metadata, ModelBindingContext modelBindingContext, ModelBindingResult modelBindingResult, Object container)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder.BindModelAsync(ActionContext actionContext, IModelBinder modelBinder, IValueProvider valueProvider, ParameterDescriptor parameter, ModelMetadata metadata, Object value, Object container)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerBinderDelegateProvider.<>c__DisplayClass0_0.<<CreateBinderDelegate>g__Bind|0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2026-07-18 13:21:58.802 +02:00 [DBG] Successfully validated the token.
+2026-07-18 13:21:58.804 +02:00 [DBG] AuthenticationScheme: Bearer was successfully authenticated.
+2026-07-18 13:21:58.808 +02:00 [ERR] HTTP POST /api/producttypes responded 500 in 5.7668 ms
+System.InvalidOperationException: Record type 'VariBillWebAPI.Models.DTO.CreateProductTypeDto' has validation metadata defined on property 'Name' that will be ignored. 'Name' is a parameter in the record primary constructor and validation metadata must be associated with the constructor parameter.
+   at Microsoft.AspNetCore.Mvc.ModelBinding.ModelMetadata.ThrowIfRecordTypeHasValidationOnProperties()
+   at Microsoft.AspNetCore.Mvc.ModelBinding.Validation.DefaultComplexObjectValidationStrategy.Enumerator..ctor(ModelMetadata modelMetadata, String key, Object model)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.Validation.DefaultComplexObjectValidationStrategy.GetChildren(ModelMetadata metadata, String key, Object model)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.Validation.ValidationVisitor.VisitChildren(IValidationStrategy strategy)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.Validation.ValidationVisitor.VisitComplexType(IValidationStrategy defaultStrategy)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.Validation.ValidationVisitor.VisitImplementation(ModelMetadata& metadata, String& key, Object model)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.Validation.ValidationVisitor.Visit(ModelMetadata metadata, String key, Object model)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.ObjectModelValidator.Validate(ActionContext actionContext, ValidationStateDictionary validationState, String prefix, Object model, ModelMetadata metadata, Object container)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder.EnforceBindRequiredAndValidate(ObjectModelValidator baseObjectValidator, ActionContext actionContext, ParameterDescriptor parameter, ModelMetadata metadata, ModelBindingContext modelBindingContext, ModelBindingResult modelBindingResult, Object container)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder.BindModelAsync(ActionContext actionContext, IModelBinder modelBinder, IValueProvider valueProvider, ParameterDescriptor parameter, ModelMetadata metadata, Object value, Object container)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerBinderDelegateProvider.<>c__DisplayClass0_0.<<CreateBinderDelegate>g__Bind|0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2026-07-18 13:21:58.822 +02:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Record type 'VariBillWebAPI.Models.DTO.CreateProductTypeDto' has validation metadata defined on property 'Name' that will be ignored. 'Name' is a parameter in the record primary constructor and validation metadata must be associated with the constructor parameter.
+   at Microsoft.AspNetCore.Mvc.ModelBinding.ModelMetadata.ThrowIfRecordTypeHasValidationOnProperties()
+   at Microsoft.AspNetCore.Mvc.ModelBinding.Validation.DefaultComplexObjectValidationStrategy.Enumerator..ctor(ModelMetadata modelMetadata, String key, Object model)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.Validation.DefaultComplexObjectValidationStrategy.GetChildren(ModelMetadata metadata, String key, Object model)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.Validation.ValidationVisitor.VisitChildren(IValidationStrategy strategy)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.Validation.ValidationVisitor.VisitComplexType(IValidationStrategy defaultStrategy)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.Validation.ValidationVisitor.VisitImplementation(ModelMetadata& metadata, String& key, Object model)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.Validation.ValidationVisitor.Visit(ModelMetadata metadata, String key, Object model)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.ObjectModelValidator.Validate(ActionContext actionContext, ValidationStateDictionary validationState, String prefix, Object model, ModelMetadata metadata, Object container)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder.EnforceBindRequiredAndValidate(ObjectModelValidator baseObjectValidator, ActionContext actionContext, ParameterDescriptor parameter, ModelMetadata metadata, ModelBindingContext modelBindingContext, ModelBindingResult modelBindingResult, Object container)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder.BindModelAsync(ActionContext actionContext, IModelBinder modelBinder, IValueProvider valueProvider, ParameterDescriptor parameter, ModelMetadata metadata, Object value, Object container)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerBinderDelegateProvider.<>c__DisplayClass0_0.<<CreateBinderDelegate>g__Bind|0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2026-07-18 13:23:46.312 +02:00 [INF] Now listening on: https://localhost:7090
+2026-07-18 13:23:46.377 +02:00 [INF] Now listening on: http://localhost:5153
+2026-07-18 13:23:46.489 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-07-18 13:23:46.501 +02:00 [INF] Hosting environment: Development
+2026-07-18 13:23:46.507 +02:00 [INF] Content root path: C:\WerkSoekAssessments\FinalAssessment\Bongoe2\VariBillWebAPI
+2026-07-18 13:23:51.843 +02:00 [DBG] Successfully validated the token.
+2026-07-18 13:23:51.843 +02:00 [DBG] Successfully validated the token.
+2026-07-18 13:23:51.849 +02:00 [DBG] AuthenticationScheme: Bearer was successfully authenticated.
+2026-07-18 13:23:51.849 +02:00 [DBG] AuthenticationScheme: Bearer was successfully authenticated.
+2026-07-18 13:23:53.337 +02:00 [DBG] Successfully validated the token.
+2026-07-18 13:23:53.339 +02:00 [DBG] AuthenticationScheme: Bearer was successfully authenticated.
+2026-07-18 13:23:55.199 +02:00 [INF] HTTP GET /api/producttypes responded 200 in 4271.8912 ms
+2026-07-18 13:23:56.127 +02:00 [INF] HTTP GET /api/products responded 200 in 5202.0789 ms
+2026-07-18 13:23:56.127 +02:00 [INF] HTTP GET /api/products responded 200 in 2792.0451 ms
+2026-07-18 13:23:58.829 +02:00 [DBG] Successfully validated the token.
+2026-07-18 13:23:58.830 +02:00 [DBG] AuthenticationScheme: Bearer was successfully authenticated.
+2026-07-18 13:23:58.836 +02:00 [INF] HTTP GET /api/producttypes responded 200 in 7.3953 ms
+2026-07-18 13:24:09.890 +02:00 [DBG] Successfully validated the token.
+2026-07-18 13:24:09.891 +02:00 [DBG] AuthenticationScheme: Bearer was successfully authenticated.
+2026-07-18 13:24:09.899 +02:00 [INF] HTTP GET /api/producttypes responded 200 in 8.8166 ms
+2026-07-18 13:24:23.219 +02:00 [DBG] Successfully validated the token.
+2026-07-18 13:24:23.221 +02:00 [DBG] AuthenticationScheme: Bearer was successfully authenticated.
+2026-07-18 13:24:23.290 +02:00 [ERR] HTTP POST /api/products responded 500 in 72.1089 ms
+System.InvalidOperationException: Record type 'VariBillWebAPI.Models.DTO.CreateProductDto' has validation metadata defined on property 'ProductTypeId' that will be ignored. 'ProductTypeId' is a parameter in the record primary constructor and validation metadata must be associated with the constructor parameter.
+   at Microsoft.AspNetCore.Mvc.ModelBinding.ModelMetadata.ThrowIfRecordTypeHasValidationOnProperties()
+   at Microsoft.AspNetCore.Mvc.ModelBinding.Validation.DefaultComplexObjectValidationStrategy.Enumerator..ctor(ModelMetadata modelMetadata, String key, Object model)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.Validation.DefaultComplexObjectValidationStrategy.GetChildren(ModelMetadata metadata, String key, Object model)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.Validation.ValidationVisitor.VisitChildren(IValidationStrategy strategy)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.Validation.ValidationVisitor.VisitComplexType(IValidationStrategy defaultStrategy)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.Validation.ValidationVisitor.VisitImplementation(ModelMetadata& metadata, String& key, Object model)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.Validation.ValidationVisitor.Visit(ModelMetadata metadata, String key, Object model)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.ObjectModelValidator.Validate(ActionContext actionContext, ValidationStateDictionary validationState, String prefix, Object model, ModelMetadata metadata, Object container)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder.EnforceBindRequiredAndValidate(ObjectModelValidator baseObjectValidator, ActionContext actionContext, ParameterDescriptor parameter, ModelMetadata metadata, ModelBindingContext modelBindingContext, ModelBindingResult modelBindingResult, Object container)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder.BindModelAsync(ActionContext actionContext, IModelBinder modelBinder, IValueProvider valueProvider, ParameterDescriptor parameter, ModelMetadata metadata, Object value, Object container)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerBinderDelegateProvider.<>c__DisplayClass0_0.<<CreateBinderDelegate>g__Bind|0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2026-07-18 13:24:23.316 +02:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Record type 'VariBillWebAPI.Models.DTO.CreateProductDto' has validation metadata defined on property 'ProductTypeId' that will be ignored. 'ProductTypeId' is a parameter in the record primary constructor and validation metadata must be associated with the constructor parameter.
+   at Microsoft.AspNetCore.Mvc.ModelBinding.ModelMetadata.ThrowIfRecordTypeHasValidationOnProperties()
+   at Microsoft.AspNetCore.Mvc.ModelBinding.Validation.DefaultComplexObjectValidationStrategy.Enumerator..ctor(ModelMetadata modelMetadata, String key, Object model)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.Validation.DefaultComplexObjectValidationStrategy.GetChildren(ModelMetadata metadata, String key, Object model)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.Validation.ValidationVisitor.VisitChildren(IValidationStrategy strategy)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.Validation.ValidationVisitor.VisitComplexType(IValidationStrategy defaultStrategy)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.Validation.ValidationVisitor.VisitImplementation(ModelMetadata& metadata, String& key, Object model)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.Validation.ValidationVisitor.Visit(ModelMetadata metadata, String key, Object model)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.ObjectModelValidator.Validate(ActionContext actionContext, ValidationStateDictionary validationState, String prefix, Object model, ModelMetadata metadata, Object container)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder.EnforceBindRequiredAndValidate(ObjectModelValidator baseObjectValidator, ActionContext actionContext, ParameterDescriptor parameter, ModelMetadata metadata, ModelBindingContext modelBindingContext, ModelBindingResult modelBindingResult, Object container)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder.BindModelAsync(ActionContext actionContext, IModelBinder modelBinder, IValueProvider valueProvider, ParameterDescriptor parameter, ModelMetadata metadata, Object value, Object container)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerBinderDelegateProvider.<>c__DisplayClass0_0.<<CreateBinderDelegate>g__Bind|0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2026-07-18 13:24:24.274 +02:00 [DBG] Successfully validated the token.
+2026-07-18 13:24:24.275 +02:00 [DBG] AuthenticationScheme: Bearer was successfully authenticated.
+2026-07-18 13:24:24.280 +02:00 [INF] HTTP GET /api/producttypes responded 200 in 5.7599 ms
+2026-07-18 13:24:25.403 +02:00 [DBG] Successfully validated the token.
+2026-07-18 13:24:25.404 +02:00 [DBG] AuthenticationScheme: Bearer was successfully authenticated.
+2026-07-18 13:24:25.414 +02:00 [ERR] HTTP POST /api/products responded 500 in 11.9711 ms
+System.InvalidOperationException: Record type 'VariBillWebAPI.Models.DTO.CreateProductDto' has validation metadata defined on property 'ProductTypeId' that will be ignored. 'ProductTypeId' is a parameter in the record primary constructor and validation metadata must be associated with the constructor parameter.
+   at Microsoft.AspNetCore.Mvc.ModelBinding.ModelMetadata.ThrowIfRecordTypeHasValidationOnProperties()
+   at Microsoft.AspNetCore.Mvc.ModelBinding.Validation.DefaultComplexObjectValidationStrategy.Enumerator..ctor(ModelMetadata modelMetadata, String key, Object model)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.Validation.DefaultComplexObjectValidationStrategy.GetChildren(ModelMetadata metadata, String key, Object model)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.Validation.ValidationVisitor.VisitChildren(IValidationStrategy strategy)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.Validation.ValidationVisitor.VisitComplexType(IValidationStrategy defaultStrategy)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.Validation.ValidationVisitor.VisitImplementation(ModelMetadata& metadata, String& key, Object model)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.Validation.ValidationVisitor.Visit(ModelMetadata metadata, String key, Object model)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.ObjectModelValidator.Validate(ActionContext actionContext, ValidationStateDictionary validationState, String prefix, Object model, ModelMetadata metadata, Object container)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder.EnforceBindRequiredAndValidate(ObjectModelValidator baseObjectValidator, ActionContext actionContext, ParameterDescriptor parameter, ModelMetadata metadata, ModelBindingContext modelBindingContext, ModelBindingResult modelBindingResult, Object container)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder.BindModelAsync(ActionContext actionContext, IModelBinder modelBinder, IValueProvider valueProvider, ParameterDescriptor parameter, ModelMetadata metadata, Object value, Object container)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerBinderDelegateProvider.<>c__DisplayClass0_0.<<CreateBinderDelegate>g__Bind|0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2026-07-18 13:24:25.427 +02:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Record type 'VariBillWebAPI.Models.DTO.CreateProductDto' has validation metadata defined on property 'ProductTypeId' that will be ignored. 'ProductTypeId' is a parameter in the record primary constructor and validation metadata must be associated with the constructor parameter.
+   at Microsoft.AspNetCore.Mvc.ModelBinding.ModelMetadata.ThrowIfRecordTypeHasValidationOnProperties()
+   at Microsoft.AspNetCore.Mvc.ModelBinding.Validation.DefaultComplexObjectValidationStrategy.Enumerator..ctor(ModelMetadata modelMetadata, String key, Object model)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.Validation.DefaultComplexObjectValidationStrategy.GetChildren(ModelMetadata metadata, String key, Object model)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.Validation.ValidationVisitor.VisitChildren(IValidationStrategy strategy)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.Validation.ValidationVisitor.VisitComplexType(IValidationStrategy defaultStrategy)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.Validation.ValidationVisitor.VisitImplementation(ModelMetadata& metadata, String& key, Object model)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.Validation.ValidationVisitor.Visit(ModelMetadata metadata, String key, Object model)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.ObjectModelValidator.Validate(ActionContext actionContext, ValidationStateDictionary validationState, String prefix, Object model, ModelMetadata metadata, Object container)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder.EnforceBindRequiredAndValidate(ObjectModelValidator baseObjectValidator, ActionContext actionContext, ParameterDescriptor parameter, ModelMetadata metadata, ModelBindingContext modelBindingContext, ModelBindingResult modelBindingResult, Object container)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder.BindModelAsync(ActionContext actionContext, IModelBinder modelBinder, IValueProvider valueProvider, ParameterDescriptor parameter, ModelMetadata metadata, Object value, Object container)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerBinderDelegateProvider.<>c__DisplayClass0_0.<<CreateBinderDelegate>g__Bind|0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2026-07-18 13:24:29.452 +02:00 [DBG] Successfully validated the token.
+2026-07-18 13:24:29.453 +02:00 [DBG] AuthenticationScheme: Bearer was successfully authenticated.
+2026-07-18 13:24:29.456 +02:00 [ERR] HTTP POST /api/products responded 500 in 4.3441 ms
+System.InvalidOperationException: Record type 'VariBillWebAPI.Models.DTO.CreateProductDto' has validation metadata defined on property 'ProductTypeId' that will be ignored. 'ProductTypeId' is a parameter in the record primary constructor and validation metadata must be associated with the constructor parameter.
+   at Microsoft.AspNetCore.Mvc.ModelBinding.ModelMetadata.ThrowIfRecordTypeHasValidationOnProperties()
+   at Microsoft.AspNetCore.Mvc.ModelBinding.Validation.DefaultComplexObjectValidationStrategy.Enumerator..ctor(ModelMetadata modelMetadata, String key, Object model)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.Validation.DefaultComplexObjectValidationStrategy.GetChildren(ModelMetadata metadata, String key, Object model)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.Validation.ValidationVisitor.VisitChildren(IValidationStrategy strategy)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.Validation.ValidationVisitor.VisitComplexType(IValidationStrategy defaultStrategy)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.Validation.ValidationVisitor.VisitImplementation(ModelMetadata& metadata, String& key, Object model)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.Validation.ValidationVisitor.Visit(ModelMetadata metadata, String key, Object model)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.ObjectModelValidator.Validate(ActionContext actionContext, ValidationStateDictionary validationState, String prefix, Object model, ModelMetadata metadata, Object container)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder.EnforceBindRequiredAndValidate(ObjectModelValidator baseObjectValidator, ActionContext actionContext, ParameterDescriptor parameter, ModelMetadata metadata, ModelBindingContext modelBindingContext, ModelBindingResult modelBindingResult, Object container)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder.BindModelAsync(ActionContext actionContext, IModelBinder modelBinder, IValueProvider valueProvider, ParameterDescriptor parameter, ModelMetadata metadata, Object value, Object container)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerBinderDelegateProvider.<>c__DisplayClass0_0.<<CreateBinderDelegate>g__Bind|0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2026-07-18 13:24:29.469 +02:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Record type 'VariBillWebAPI.Models.DTO.CreateProductDto' has validation metadata defined on property 'ProductTypeId' that will be ignored. 'ProductTypeId' is a parameter in the record primary constructor and validation metadata must be associated with the constructor parameter.
+   at Microsoft.AspNetCore.Mvc.ModelBinding.ModelMetadata.ThrowIfRecordTypeHasValidationOnProperties()
+   at Microsoft.AspNetCore.Mvc.ModelBinding.Validation.DefaultComplexObjectValidationStrategy.Enumerator..ctor(ModelMetadata modelMetadata, String key, Object model)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.Validation.DefaultComplexObjectValidationStrategy.GetChildren(ModelMetadata metadata, String key, Object model)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.Validation.ValidationVisitor.VisitChildren(IValidationStrategy strategy)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.Validation.ValidationVisitor.VisitComplexType(IValidationStrategy defaultStrategy)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.Validation.ValidationVisitor.VisitImplementation(ModelMetadata& metadata, String& key, Object model)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.Validation.ValidationVisitor.Visit(ModelMetadata metadata, String key, Object model)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.ObjectModelValidator.Validate(ActionContext actionContext, ValidationStateDictionary validationState, String prefix, Object model, ModelMetadata metadata, Object container)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder.EnforceBindRequiredAndValidate(ObjectModelValidator baseObjectValidator, ActionContext actionContext, ParameterDescriptor parameter, ModelMetadata metadata, ModelBindingContext modelBindingContext, ModelBindingResult modelBindingResult, Object container)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder.BindModelAsync(ActionContext actionContext, IModelBinder modelBinder, IValueProvider valueProvider, ParameterDescriptor parameter, ModelMetadata metadata, Object value, Object container)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerBinderDelegateProvider.<>c__DisplayClass0_0.<<CreateBinderDelegate>g__Bind|0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2026-07-18 13:24:37.498 +02:00 [DBG] Successfully validated the token.
+2026-07-18 13:24:37.499 +02:00 [DBG] AuthenticationScheme: Bearer was successfully authenticated.
+2026-07-18 13:24:37.503 +02:00 [ERR] HTTP POST /api/products responded 500 in 5.1084 ms
+System.InvalidOperationException: Record type 'VariBillWebAPI.Models.DTO.CreateProductDto' has validation metadata defined on property 'ProductTypeId' that will be ignored. 'ProductTypeId' is a parameter in the record primary constructor and validation metadata must be associated with the constructor parameter.
+   at Microsoft.AspNetCore.Mvc.ModelBinding.ModelMetadata.ThrowIfRecordTypeHasValidationOnProperties()
+   at Microsoft.AspNetCore.Mvc.ModelBinding.Validation.DefaultComplexObjectValidationStrategy.Enumerator..ctor(ModelMetadata modelMetadata, String key, Object model)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.Validation.DefaultComplexObjectValidationStrategy.GetChildren(ModelMetadata metadata, String key, Object model)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.Validation.ValidationVisitor.VisitChildren(IValidationStrategy strategy)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.Validation.ValidationVisitor.VisitComplexType(IValidationStrategy defaultStrategy)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.Validation.ValidationVisitor.VisitImplementation(ModelMetadata& metadata, String& key, Object model)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.Validation.ValidationVisitor.Visit(ModelMetadata metadata, String key, Object model)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.ObjectModelValidator.Validate(ActionContext actionContext, ValidationStateDictionary validationState, String prefix, Object model, ModelMetadata metadata, Object container)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder.EnforceBindRequiredAndValidate(ObjectModelValidator baseObjectValidator, ActionContext actionContext, ParameterDescriptor parameter, ModelMetadata metadata, ModelBindingContext modelBindingContext, ModelBindingResult modelBindingResult, Object container)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder.BindModelAsync(ActionContext actionContext, IModelBinder modelBinder, IValueProvider valueProvider, ParameterDescriptor parameter, ModelMetadata metadata, Object value, Object container)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerBinderDelegateProvider.<>c__DisplayClass0_0.<<CreateBinderDelegate>g__Bind|0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2026-07-18 13:24:37.516 +02:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Record type 'VariBillWebAPI.Models.DTO.CreateProductDto' has validation metadata defined on property 'ProductTypeId' that will be ignored. 'ProductTypeId' is a parameter in the record primary constructor and validation metadata must be associated with the constructor parameter.
+   at Microsoft.AspNetCore.Mvc.ModelBinding.ModelMetadata.ThrowIfRecordTypeHasValidationOnProperties()
+   at Microsoft.AspNetCore.Mvc.ModelBinding.Validation.DefaultComplexObjectValidationStrategy.Enumerator..ctor(ModelMetadata modelMetadata, String key, Object model)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.Validation.DefaultComplexObjectValidationStrategy.GetChildren(ModelMetadata metadata, String key, Object model)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.Validation.ValidationVisitor.VisitChildren(IValidationStrategy strategy)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.Validation.ValidationVisitor.VisitComplexType(IValidationStrategy defaultStrategy)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.Validation.ValidationVisitor.VisitImplementation(ModelMetadata& metadata, String& key, Object model)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.Validation.ValidationVisitor.Visit(ModelMetadata metadata, String key, Object model)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.ObjectModelValidator.Validate(ActionContext actionContext, ValidationStateDictionary validationState, String prefix, Object model, ModelMetadata metadata, Object container)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder.EnforceBindRequiredAndValidate(ObjectModelValidator baseObjectValidator, ActionContext actionContext, ParameterDescriptor parameter, ModelMetadata metadata, ModelBindingContext modelBindingContext, ModelBindingResult modelBindingResult, Object container)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder.BindModelAsync(ActionContext actionContext, IModelBinder modelBinder, IValueProvider valueProvider, ParameterDescriptor parameter, ModelMetadata metadata, Object value, Object container)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerBinderDelegateProvider.<>c__DisplayClass0_0.<<CreateBinderDelegate>g__Bind|0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2026-07-18 13:24:37.544 +02:00 [DBG] Successfully validated the token.
+2026-07-18 13:24:37.546 +02:00 [DBG] AuthenticationScheme: Bearer was successfully authenticated.
+2026-07-18 13:24:37.553 +02:00 [INF] HTTP GET /api/producttypes responded 200 in 9.1781 ms
+2026-07-18 13:25:00.115 +02:00 [INF] Now listening on: https://localhost:7090
+2026-07-18 13:25:00.164 +02:00 [INF] Now listening on: http://localhost:5153
+2026-07-18 13:25:00.321 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-07-18 13:25:00.325 +02:00 [INF] Hosting environment: Development
+2026-07-18 13:25:00.326 +02:00 [INF] Content root path: C:\WerkSoekAssessments\FinalAssessment\Bongoe2\VariBillWebAPI
+2026-07-18 13:25:12.603 +02:00 [DBG] Successfully validated the token.
+2026-07-18 13:25:12.609 +02:00 [DBG] AuthenticationScheme: Bearer was successfully authenticated.
+2026-07-18 13:25:15.456 +02:00 [INF] HTTP GET /api/products responded 200 in 3172.1341 ms
+2026-07-18 13:25:17.262 +02:00 [DBG] Successfully validated the token.
+2026-07-18 13:25:17.264 +02:00 [DBG] AuthenticationScheme: Bearer was successfully authenticated.
+2026-07-18 13:25:17.395 +02:00 [INF] HTTP GET /api/producttypes responded 200 in 134.6976 ms
+2026-07-18 13:25:41.430 +02:00 [DBG] Successfully validated the token.
+2026-07-18 13:25:41.431 +02:00 [DBG] AuthenticationScheme: Bearer was successfully authenticated.
+2026-07-18 13:25:41.486 +02:00 [ERR] HTTP POST /api/products responded 500 in 58.4009 ms
+System.InvalidOperationException: Record type 'VariBillWebAPI.Models.DTO.CreateProductDto' has validation metadata defined on property 'ProductTypeId' that will be ignored. 'ProductTypeId' is a parameter in the record primary constructor and validation metadata must be associated with the constructor parameter.
+   at Microsoft.AspNetCore.Mvc.ModelBinding.ModelMetadata.ThrowIfRecordTypeHasValidationOnProperties()
+   at Microsoft.AspNetCore.Mvc.ModelBinding.Validation.DefaultComplexObjectValidationStrategy.Enumerator..ctor(ModelMetadata modelMetadata, String key, Object model)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.Validation.DefaultComplexObjectValidationStrategy.GetChildren(ModelMetadata metadata, String key, Object model)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.Validation.ValidationVisitor.VisitChildren(IValidationStrategy strategy)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.Validation.ValidationVisitor.VisitComplexType(IValidationStrategy defaultStrategy)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.Validation.ValidationVisitor.VisitImplementation(ModelMetadata& metadata, String& key, Object model)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.Validation.ValidationVisitor.Visit(ModelMetadata metadata, String key, Object model)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.ObjectModelValidator.Validate(ActionContext actionContext, ValidationStateDictionary validationState, String prefix, Object model, ModelMetadata metadata, Object container)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder.EnforceBindRequiredAndValidate(ObjectModelValidator baseObjectValidator, ActionContext actionContext, ParameterDescriptor parameter, ModelMetadata metadata, ModelBindingContext modelBindingContext, ModelBindingResult modelBindingResult, Object container)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder.BindModelAsync(ActionContext actionContext, IModelBinder modelBinder, IValueProvider valueProvider, ParameterDescriptor parameter, ModelMetadata metadata, Object value, Object container)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerBinderDelegateProvider.<>c__DisplayClass0_0.<<CreateBinderDelegate>g__Bind|0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2026-07-18 13:25:41.499 +02:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Record type 'VariBillWebAPI.Models.DTO.CreateProductDto' has validation metadata defined on property 'ProductTypeId' that will be ignored. 'ProductTypeId' is a parameter in the record primary constructor and validation metadata must be associated with the constructor parameter.
+   at Microsoft.AspNetCore.Mvc.ModelBinding.ModelMetadata.ThrowIfRecordTypeHasValidationOnProperties()
+   at Microsoft.AspNetCore.Mvc.ModelBinding.Validation.DefaultComplexObjectValidationStrategy.Enumerator..ctor(ModelMetadata modelMetadata, String key, Object model)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.Validation.DefaultComplexObjectValidationStrategy.GetChildren(ModelMetadata metadata, String key, Object model)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.Validation.ValidationVisitor.VisitChildren(IValidationStrategy strategy)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.Validation.ValidationVisitor.VisitComplexType(IValidationStrategy defaultStrategy)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.Validation.ValidationVisitor.VisitImplementation(ModelMetadata& metadata, String& key, Object model)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.Validation.ValidationVisitor.Visit(ModelMetadata metadata, String key, Object model)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.ObjectModelValidator.Validate(ActionContext actionContext, ValidationStateDictionary validationState, String prefix, Object model, ModelMetadata metadata, Object container)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder.EnforceBindRequiredAndValidate(ObjectModelValidator baseObjectValidator, ActionContext actionContext, ParameterDescriptor parameter, ModelMetadata metadata, ModelBindingContext modelBindingContext, ModelBindingResult modelBindingResult, Object container)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder.BindModelAsync(ActionContext actionContext, IModelBinder modelBinder, IValueProvider valueProvider, ParameterDescriptor parameter, ModelMetadata metadata, Object value, Object container)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerBinderDelegateProvider.<>c__DisplayClass0_0.<<CreateBinderDelegate>g__Bind|0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2026-07-18 13:25:43.552 +02:00 [DBG] Successfully validated the token.
+2026-07-18 13:25:43.553 +02:00 [DBG] AuthenticationScheme: Bearer was successfully authenticated.
+2026-07-18 13:25:43.563 +02:00 [ERR] HTTP POST /api/products responded 500 in 11.7189 ms
+System.InvalidOperationException: Record type 'VariBillWebAPI.Models.DTO.CreateProductDto' has validation metadata defined on property 'ProductTypeId' that will be ignored. 'ProductTypeId' is a parameter in the record primary constructor and validation metadata must be associated with the constructor parameter.
+   at Microsoft.AspNetCore.Mvc.ModelBinding.ModelMetadata.ThrowIfRecordTypeHasValidationOnProperties()
+   at Microsoft.AspNetCore.Mvc.ModelBinding.Validation.DefaultComplexObjectValidationStrategy.Enumerator..ctor(ModelMetadata modelMetadata, String key, Object model)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.Validation.DefaultComplexObjectValidationStrategy.GetChildren(ModelMetadata metadata, String key, Object model)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.Validation.ValidationVisitor.VisitChildren(IValidationStrategy strategy)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.Validation.ValidationVisitor.VisitComplexType(IValidationStrategy defaultStrategy)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.Validation.ValidationVisitor.VisitImplementation(ModelMetadata& metadata, String& key, Object model)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.Validation.ValidationVisitor.Visit(ModelMetadata metadata, String key, Object model)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.ObjectModelValidator.Validate(ActionContext actionContext, ValidationStateDictionary validationState, String prefix, Object model, ModelMetadata metadata, Object container)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder.EnforceBindRequiredAndValidate(ObjectModelValidator baseObjectValidator, ActionContext actionContext, ParameterDescriptor parameter, ModelMetadata metadata, ModelBindingContext modelBindingContext, ModelBindingResult modelBindingResult, Object container)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder.BindModelAsync(ActionContext actionContext, IModelBinder modelBinder, IValueProvider valueProvider, ParameterDescriptor parameter, ModelMetadata metadata, Object value, Object container)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerBinderDelegateProvider.<>c__DisplayClass0_0.<<CreateBinderDelegate>g__Bind|0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2026-07-18 13:25:43.579 +02:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Record type 'VariBillWebAPI.Models.DTO.CreateProductDto' has validation metadata defined on property 'ProductTypeId' that will be ignored. 'ProductTypeId' is a parameter in the record primary constructor and validation metadata must be associated with the constructor parameter.
+   at Microsoft.AspNetCore.Mvc.ModelBinding.ModelMetadata.ThrowIfRecordTypeHasValidationOnProperties()
+   at Microsoft.AspNetCore.Mvc.ModelBinding.Validation.DefaultComplexObjectValidationStrategy.Enumerator..ctor(ModelMetadata modelMetadata, String key, Object model)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.Validation.DefaultComplexObjectValidationStrategy.GetChildren(ModelMetadata metadata, String key, Object model)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.Validation.ValidationVisitor.VisitChildren(IValidationStrategy strategy)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.Validation.ValidationVisitor.VisitComplexType(IValidationStrategy defaultStrategy)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.Validation.ValidationVisitor.VisitImplementation(ModelMetadata& metadata, String& key, Object model)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.Validation.ValidationVisitor.Visit(ModelMetadata metadata, String key, Object model)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.ObjectModelValidator.Validate(ActionContext actionContext, ValidationStateDictionary validationState, String prefix, Object model, ModelMetadata metadata, Object container)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder.EnforceBindRequiredAndValidate(ObjectModelValidator baseObjectValidator, ActionContext actionContext, ParameterDescriptor parameter, ModelMetadata metadata, ModelBindingContext modelBindingContext, ModelBindingResult modelBindingResult, Object container)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder.BindModelAsync(ActionContext actionContext, IModelBinder modelBinder, IValueProvider valueProvider, ParameterDescriptor parameter, ModelMetadata metadata, Object value, Object container)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerBinderDelegateProvider.<>c__DisplayClass0_0.<<CreateBinderDelegate>g__Bind|0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2026-07-18 13:25:47.615 +02:00 [DBG] Successfully validated the token.
+2026-07-18 13:25:47.617 +02:00 [DBG] AuthenticationScheme: Bearer was successfully authenticated.
+2026-07-18 13:25:47.621 +02:00 [ERR] HTTP POST /api/products responded 500 in 5.8061 ms
+System.InvalidOperationException: Record type 'VariBillWebAPI.Models.DTO.CreateProductDto' has validation metadata defined on property 'ProductTypeId' that will be ignored. 'ProductTypeId' is a parameter in the record primary constructor and validation metadata must be associated with the constructor parameter.
+   at Microsoft.AspNetCore.Mvc.ModelBinding.ModelMetadata.ThrowIfRecordTypeHasValidationOnProperties()
+   at Microsoft.AspNetCore.Mvc.ModelBinding.Validation.DefaultComplexObjectValidationStrategy.Enumerator..ctor(ModelMetadata modelMetadata, String key, Object model)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.Validation.DefaultComplexObjectValidationStrategy.GetChildren(ModelMetadata metadata, String key, Object model)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.Validation.ValidationVisitor.VisitChildren(IValidationStrategy strategy)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.Validation.ValidationVisitor.VisitComplexType(IValidationStrategy defaultStrategy)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.Validation.ValidationVisitor.VisitImplementation(ModelMetadata& metadata, String& key, Object model)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.Validation.ValidationVisitor.Visit(ModelMetadata metadata, String key, Object model)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.ObjectModelValidator.Validate(ActionContext actionContext, ValidationStateDictionary validationState, String prefix, Object model, ModelMetadata metadata, Object container)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder.EnforceBindRequiredAndValidate(ObjectModelValidator baseObjectValidator, ActionContext actionContext, ParameterDescriptor parameter, ModelMetadata metadata, ModelBindingContext modelBindingContext, ModelBindingResult modelBindingResult, Object container)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder.BindModelAsync(ActionContext actionContext, IModelBinder modelBinder, IValueProvider valueProvider, ParameterDescriptor parameter, ModelMetadata metadata, Object value, Object container)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerBinderDelegateProvider.<>c__DisplayClass0_0.<<CreateBinderDelegate>g__Bind|0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2026-07-18 13:25:47.635 +02:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Record type 'VariBillWebAPI.Models.DTO.CreateProductDto' has validation metadata defined on property 'ProductTypeId' that will be ignored. 'ProductTypeId' is a parameter in the record primary constructor and validation metadata must be associated with the constructor parameter.
+   at Microsoft.AspNetCore.Mvc.ModelBinding.ModelMetadata.ThrowIfRecordTypeHasValidationOnProperties()
+   at Microsoft.AspNetCore.Mvc.ModelBinding.Validation.DefaultComplexObjectValidationStrategy.Enumerator..ctor(ModelMetadata modelMetadata, String key, Object model)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.Validation.DefaultComplexObjectValidationStrategy.GetChildren(ModelMetadata metadata, String key, Object model)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.Validation.ValidationVisitor.VisitChildren(IValidationStrategy strategy)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.Validation.ValidationVisitor.VisitComplexType(IValidationStrategy defaultStrategy)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.Validation.ValidationVisitor.VisitImplementation(ModelMetadata& metadata, String& key, Object model)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.Validation.ValidationVisitor.Visit(ModelMetadata metadata, String key, Object model)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.ObjectModelValidator.Validate(ActionContext actionContext, ValidationStateDictionary validationState, String prefix, Object model, ModelMetadata metadata, Object container)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder.EnforceBindRequiredAndValidate(ObjectModelValidator baseObjectValidator, ActionContext actionContext, ParameterDescriptor parameter, ModelMetadata metadata, ModelBindingContext modelBindingContext, ModelBindingResult modelBindingResult, Object container)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder.BindModelAsync(ActionContext actionContext, IModelBinder modelBinder, IValueProvider valueProvider, ParameterDescriptor parameter, ModelMetadata metadata, Object value, Object container)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerBinderDelegateProvider.<>c__DisplayClass0_0.<<CreateBinderDelegate>g__Bind|0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2026-07-18 13:25:55.663 +02:00 [DBG] Successfully validated the token.
+2026-07-18 13:25:55.664 +02:00 [DBG] AuthenticationScheme: Bearer was successfully authenticated.
+2026-07-18 13:25:55.667 +02:00 [ERR] HTTP POST /api/products responded 500 in 5.2742 ms
+System.InvalidOperationException: Record type 'VariBillWebAPI.Models.DTO.CreateProductDto' has validation metadata defined on property 'ProductTypeId' that will be ignored. 'ProductTypeId' is a parameter in the record primary constructor and validation metadata must be associated with the constructor parameter.
+   at Microsoft.AspNetCore.Mvc.ModelBinding.ModelMetadata.ThrowIfRecordTypeHasValidationOnProperties()
+   at Microsoft.AspNetCore.Mvc.ModelBinding.Validation.DefaultComplexObjectValidationStrategy.Enumerator..ctor(ModelMetadata modelMetadata, String key, Object model)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.Validation.DefaultComplexObjectValidationStrategy.GetChildren(ModelMetadata metadata, String key, Object model)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.Validation.ValidationVisitor.VisitChildren(IValidationStrategy strategy)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.Validation.ValidationVisitor.VisitComplexType(IValidationStrategy defaultStrategy)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.Validation.ValidationVisitor.VisitImplementation(ModelMetadata& metadata, String& key, Object model)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.Validation.ValidationVisitor.Visit(ModelMetadata metadata, String key, Object model)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.ObjectModelValidator.Validate(ActionContext actionContext, ValidationStateDictionary validationState, String prefix, Object model, ModelMetadata metadata, Object container)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder.EnforceBindRequiredAndValidate(ObjectModelValidator baseObjectValidator, ActionContext actionContext, ParameterDescriptor parameter, ModelMetadata metadata, ModelBindingContext modelBindingContext, ModelBindingResult modelBindingResult, Object container)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder.BindModelAsync(ActionContext actionContext, IModelBinder modelBinder, IValueProvider valueProvider, ParameterDescriptor parameter, ModelMetadata metadata, Object value, Object container)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerBinderDelegateProvider.<>c__DisplayClass0_0.<<CreateBinderDelegate>g__Bind|0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2026-07-18 13:25:55.682 +02:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Record type 'VariBillWebAPI.Models.DTO.CreateProductDto' has validation metadata defined on property 'ProductTypeId' that will be ignored. 'ProductTypeId' is a parameter in the record primary constructor and validation metadata must be associated with the constructor parameter.
+   at Microsoft.AspNetCore.Mvc.ModelBinding.ModelMetadata.ThrowIfRecordTypeHasValidationOnProperties()
+   at Microsoft.AspNetCore.Mvc.ModelBinding.Validation.DefaultComplexObjectValidationStrategy.Enumerator..ctor(ModelMetadata modelMetadata, String key, Object model)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.Validation.DefaultComplexObjectValidationStrategy.GetChildren(ModelMetadata metadata, String key, Object model)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.Validation.ValidationVisitor.VisitChildren(IValidationStrategy strategy)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.Validation.ValidationVisitor.VisitComplexType(IValidationStrategy defaultStrategy)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.Validation.ValidationVisitor.VisitImplementation(ModelMetadata& metadata, String& key, Object model)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.Validation.ValidationVisitor.Visit(ModelMetadata metadata, String key, Object model)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.ObjectModelValidator.Validate(ActionContext actionContext, ValidationStateDictionary validationState, String prefix, Object model, ModelMetadata metadata, Object container)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder.EnforceBindRequiredAndValidate(ObjectModelValidator baseObjectValidator, ActionContext actionContext, ParameterDescriptor parameter, ModelMetadata metadata, ModelBindingContext modelBindingContext, ModelBindingResult modelBindingResult, Object container)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder.BindModelAsync(ActionContext actionContext, IModelBinder modelBinder, IValueProvider valueProvider, ParameterDescriptor parameter, ModelMetadata metadata, Object value, Object container)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerBinderDelegateProvider.<>c__DisplayClass0_0.<<CreateBinderDelegate>g__Bind|0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2026-07-18 13:26:03.849 +02:00 [DBG] Successfully validated the token.
+2026-07-18 13:26:03.850 +02:00 [DBG] AuthenticationScheme: Bearer was successfully authenticated.
+2026-07-18 13:26:03.858 +02:00 [INF] HTTP GET /api/producttypes responded 200 in 8.7702 ms
+2026-07-18 13:29:15.699 +02:00 [INF] Now listening on: https://localhost:7090
+2026-07-18 13:29:15.758 +02:00 [INF] Now listening on: http://localhost:5153
+2026-07-18 13:29:15.956 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-07-18 13:29:15.958 +02:00 [INF] Hosting environment: Development
+2026-07-18 13:29:15.962 +02:00 [INF] Content root path: C:\WerkSoekAssessments\FinalAssessment\Bongoe2\VariBillWebAPI
+2026-07-18 13:29:24.198 +02:00 [DBG] Successfully validated the token.
+2026-07-18 13:29:24.203 +02:00 [DBG] AuthenticationScheme: Bearer was successfully authenticated.
+2026-07-18 13:29:26.986 +02:00 [INF] HTTP GET /api/products responded 200 in 3145.0402 ms
+2026-07-18 13:29:30.844 +02:00 [DBG] Successfully validated the token.
+2026-07-18 13:29:30.846 +02:00 [DBG] AuthenticationScheme: Bearer was successfully authenticated.
+2026-07-18 13:29:30.961 +02:00 [INF] HTTP GET /api/producttypes responded 200 in 119.4046 ms
+2026-07-18 13:29:54.523 +02:00 [DBG] Successfully validated the token.
+2026-07-18 13:29:54.524 +02:00 [DBG] AuthenticationScheme: Bearer was successfully authenticated.
+2026-07-18 13:29:54.571 +02:00 [ERR] HTTP POST /api/products responded 500 in 50.3120 ms
+System.InvalidOperationException: Record type 'VariBillWebAPI.Models.DTO.CreateProductDto' has validation metadata defined on property 'ProductTypeId' that will be ignored. 'ProductTypeId' is a parameter in the record primary constructor and validation metadata must be associated with the constructor parameter.
+   at Microsoft.AspNetCore.Mvc.ModelBinding.ModelMetadata.ThrowIfRecordTypeHasValidationOnProperties()
+   at Microsoft.AspNetCore.Mvc.ModelBinding.Validation.DefaultComplexObjectValidationStrategy.Enumerator..ctor(ModelMetadata modelMetadata, String key, Object model)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.Validation.DefaultComplexObjectValidationStrategy.GetChildren(ModelMetadata metadata, String key, Object model)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.Validation.ValidationVisitor.VisitChildren(IValidationStrategy strategy)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.Validation.ValidationVisitor.VisitComplexType(IValidationStrategy defaultStrategy)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.Validation.ValidationVisitor.VisitImplementation(ModelMetadata& metadata, String& key, Object model)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.Validation.ValidationVisitor.Visit(ModelMetadata metadata, String key, Object model)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.ObjectModelValidator.Validate(ActionContext actionContext, ValidationStateDictionary validationState, String prefix, Object model, ModelMetadata metadata, Object container)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder.EnforceBindRequiredAndValidate(ObjectModelValidator baseObjectValidator, ActionContext actionContext, ParameterDescriptor parameter, ModelMetadata metadata, ModelBindingContext modelBindingContext, ModelBindingResult modelBindingResult, Object container)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder.BindModelAsync(ActionContext actionContext, IModelBinder modelBinder, IValueProvider valueProvider, ParameterDescriptor parameter, ModelMetadata metadata, Object value, Object container)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerBinderDelegateProvider.<>c__DisplayClass0_0.<<CreateBinderDelegate>g__Bind|0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2026-07-18 13:29:54.585 +02:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Record type 'VariBillWebAPI.Models.DTO.CreateProductDto' has validation metadata defined on property 'ProductTypeId' that will be ignored. 'ProductTypeId' is a parameter in the record primary constructor and validation metadata must be associated with the constructor parameter.
+   at Microsoft.AspNetCore.Mvc.ModelBinding.ModelMetadata.ThrowIfRecordTypeHasValidationOnProperties()
+   at Microsoft.AspNetCore.Mvc.ModelBinding.Validation.DefaultComplexObjectValidationStrategy.Enumerator..ctor(ModelMetadata modelMetadata, String key, Object model)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.Validation.DefaultComplexObjectValidationStrategy.GetChildren(ModelMetadata metadata, String key, Object model)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.Validation.ValidationVisitor.VisitChildren(IValidationStrategy strategy)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.Validation.ValidationVisitor.VisitComplexType(IValidationStrategy defaultStrategy)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.Validation.ValidationVisitor.VisitImplementation(ModelMetadata& metadata, String& key, Object model)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.Validation.ValidationVisitor.Visit(ModelMetadata metadata, String key, Object model)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.ObjectModelValidator.Validate(ActionContext actionContext, ValidationStateDictionary validationState, String prefix, Object model, ModelMetadata metadata, Object container)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder.EnforceBindRequiredAndValidate(ObjectModelValidator baseObjectValidator, ActionContext actionContext, ParameterDescriptor parameter, ModelMetadata metadata, ModelBindingContext modelBindingContext, ModelBindingResult modelBindingResult, Object container)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder.BindModelAsync(ActionContext actionContext, IModelBinder modelBinder, IValueProvider valueProvider, ParameterDescriptor parameter, ModelMetadata metadata, Object value, Object container)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerBinderDelegateProvider.<>c__DisplayClass0_0.<<CreateBinderDelegate>g__Bind|0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2026-07-18 13:29:56.651 +02:00 [DBG] Successfully validated the token.
+2026-07-18 13:29:56.652 +02:00 [DBG] AuthenticationScheme: Bearer was successfully authenticated.
+2026-07-18 13:29:56.661 +02:00 [ERR] HTTP POST /api/products responded 500 in 10.3134 ms
+System.InvalidOperationException: Record type 'VariBillWebAPI.Models.DTO.CreateProductDto' has validation metadata defined on property 'ProductTypeId' that will be ignored. 'ProductTypeId' is a parameter in the record primary constructor and validation metadata must be associated with the constructor parameter.
+   at Microsoft.AspNetCore.Mvc.ModelBinding.ModelMetadata.ThrowIfRecordTypeHasValidationOnProperties()
+   at Microsoft.AspNetCore.Mvc.ModelBinding.Validation.DefaultComplexObjectValidationStrategy.Enumerator..ctor(ModelMetadata modelMetadata, String key, Object model)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.Validation.DefaultComplexObjectValidationStrategy.GetChildren(ModelMetadata metadata, String key, Object model)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.Validation.ValidationVisitor.VisitChildren(IValidationStrategy strategy)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.Validation.ValidationVisitor.VisitComplexType(IValidationStrategy defaultStrategy)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.Validation.ValidationVisitor.VisitImplementation(ModelMetadata& metadata, String& key, Object model)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.Validation.ValidationVisitor.Visit(ModelMetadata metadata, String key, Object model)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.ObjectModelValidator.Validate(ActionContext actionContext, ValidationStateDictionary validationState, String prefix, Object model, ModelMetadata metadata, Object container)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder.EnforceBindRequiredAndValidate(ObjectModelValidator baseObjectValidator, ActionContext actionContext, ParameterDescriptor parameter, ModelMetadata metadata, ModelBindingContext modelBindingContext, ModelBindingResult modelBindingResult, Object container)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder.BindModelAsync(ActionContext actionContext, IModelBinder modelBinder, IValueProvider valueProvider, ParameterDescriptor parameter, ModelMetadata metadata, Object value, Object container)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerBinderDelegateProvider.<>c__DisplayClass0_0.<<CreateBinderDelegate>g__Bind|0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2026-07-18 13:29:56.674 +02:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Record type 'VariBillWebAPI.Models.DTO.CreateProductDto' has validation metadata defined on property 'ProductTypeId' that will be ignored. 'ProductTypeId' is a parameter in the record primary constructor and validation metadata must be associated with the constructor parameter.
+   at Microsoft.AspNetCore.Mvc.ModelBinding.ModelMetadata.ThrowIfRecordTypeHasValidationOnProperties()
+   at Microsoft.AspNetCore.Mvc.ModelBinding.Validation.DefaultComplexObjectValidationStrategy.Enumerator..ctor(ModelMetadata modelMetadata, String key, Object model)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.Validation.DefaultComplexObjectValidationStrategy.GetChildren(ModelMetadata metadata, String key, Object model)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.Validation.ValidationVisitor.VisitChildren(IValidationStrategy strategy)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.Validation.ValidationVisitor.VisitComplexType(IValidationStrategy defaultStrategy)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.Validation.ValidationVisitor.VisitImplementation(ModelMetadata& metadata, String& key, Object model)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.Validation.ValidationVisitor.Visit(ModelMetadata metadata, String key, Object model)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.ObjectModelValidator.Validate(ActionContext actionContext, ValidationStateDictionary validationState, String prefix, Object model, ModelMetadata metadata, Object container)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder.EnforceBindRequiredAndValidate(ObjectModelValidator baseObjectValidator, ActionContext actionContext, ParameterDescriptor parameter, ModelMetadata metadata, ModelBindingContext modelBindingContext, ModelBindingResult modelBindingResult, Object container)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder.BindModelAsync(ActionContext actionContext, IModelBinder modelBinder, IValueProvider valueProvider, ParameterDescriptor parameter, ModelMetadata metadata, Object value, Object container)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerBinderDelegateProvider.<>c__DisplayClass0_0.<<CreateBinderDelegate>g__Bind|0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2026-07-18 13:30:00.701 +02:00 [DBG] Successfully validated the token.
+2026-07-18 13:30:00.702 +02:00 [DBG] AuthenticationScheme: Bearer was successfully authenticated.
+2026-07-18 13:30:00.707 +02:00 [ERR] HTTP POST /api/products responded 500 in 5.6997 ms
+System.InvalidOperationException: Record type 'VariBillWebAPI.Models.DTO.CreateProductDto' has validation metadata defined on property 'ProductTypeId' that will be ignored. 'ProductTypeId' is a parameter in the record primary constructor and validation metadata must be associated with the constructor parameter.
+   at Microsoft.AspNetCore.Mvc.ModelBinding.ModelMetadata.ThrowIfRecordTypeHasValidationOnProperties()
+   at Microsoft.AspNetCore.Mvc.ModelBinding.Validation.DefaultComplexObjectValidationStrategy.Enumerator..ctor(ModelMetadata modelMetadata, String key, Object model)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.Validation.DefaultComplexObjectValidationStrategy.GetChildren(ModelMetadata metadata, String key, Object model)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.Validation.ValidationVisitor.VisitChildren(IValidationStrategy strategy)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.Validation.ValidationVisitor.VisitComplexType(IValidationStrategy defaultStrategy)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.Validation.ValidationVisitor.VisitImplementation(ModelMetadata& metadata, String& key, Object model)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.Validation.ValidationVisitor.Visit(ModelMetadata metadata, String key, Object model)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.ObjectModelValidator.Validate(ActionContext actionContext, ValidationStateDictionary validationState, String prefix, Object model, ModelMetadata metadata, Object container)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder.EnforceBindRequiredAndValidate(ObjectModelValidator baseObjectValidator, ActionContext actionContext, ParameterDescriptor parameter, ModelMetadata metadata, ModelBindingContext modelBindingContext, ModelBindingResult modelBindingResult, Object container)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder.BindModelAsync(ActionContext actionContext, IModelBinder modelBinder, IValueProvider valueProvider, ParameterDescriptor parameter, ModelMetadata metadata, Object value, Object container)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerBinderDelegateProvider.<>c__DisplayClass0_0.<<CreateBinderDelegate>g__Bind|0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2026-07-18 13:30:00.721 +02:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Record type 'VariBillWebAPI.Models.DTO.CreateProductDto' has validation metadata defined on property 'ProductTypeId' that will be ignored. 'ProductTypeId' is a parameter in the record primary constructor and validation metadata must be associated with the constructor parameter.
+   at Microsoft.AspNetCore.Mvc.ModelBinding.ModelMetadata.ThrowIfRecordTypeHasValidationOnProperties()
+   at Microsoft.AspNetCore.Mvc.ModelBinding.Validation.DefaultComplexObjectValidationStrategy.Enumerator..ctor(ModelMetadata modelMetadata, String key, Object model)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.Validation.DefaultComplexObjectValidationStrategy.GetChildren(ModelMetadata metadata, String key, Object model)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.Validation.ValidationVisitor.VisitChildren(IValidationStrategy strategy)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.Validation.ValidationVisitor.VisitComplexType(IValidationStrategy defaultStrategy)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.Validation.ValidationVisitor.VisitImplementation(ModelMetadata& metadata, String& key, Object model)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.Validation.ValidationVisitor.Visit(ModelMetadata metadata, String key, Object model)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.ObjectModelValidator.Validate(ActionContext actionContext, ValidationStateDictionary validationState, String prefix, Object model, ModelMetadata metadata, Object container)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder.EnforceBindRequiredAndValidate(ObjectModelValidator baseObjectValidator, ActionContext actionContext, ParameterDescriptor parameter, ModelMetadata metadata, ModelBindingContext modelBindingContext, ModelBindingResult modelBindingResult, Object container)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder.BindModelAsync(ActionContext actionContext, IModelBinder modelBinder, IValueProvider valueProvider, ParameterDescriptor parameter, ModelMetadata metadata, Object value, Object container)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerBinderDelegateProvider.<>c__DisplayClass0_0.<<CreateBinderDelegate>g__Bind|0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2026-07-18 13:30:08.745 +02:00 [DBG] Successfully validated the token.
+2026-07-18 13:30:08.747 +02:00 [DBG] AuthenticationScheme: Bearer was successfully authenticated.
+2026-07-18 13:30:08.750 +02:00 [ERR] HTTP POST /api/products responded 500 in 5.0696 ms
+System.InvalidOperationException: Record type 'VariBillWebAPI.Models.DTO.CreateProductDto' has validation metadata defined on property 'ProductTypeId' that will be ignored. 'ProductTypeId' is a parameter in the record primary constructor and validation metadata must be associated with the constructor parameter.
+   at Microsoft.AspNetCore.Mvc.ModelBinding.ModelMetadata.ThrowIfRecordTypeHasValidationOnProperties()
+   at Microsoft.AspNetCore.Mvc.ModelBinding.Validation.DefaultComplexObjectValidationStrategy.Enumerator..ctor(ModelMetadata modelMetadata, String key, Object model)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.Validation.DefaultComplexObjectValidationStrategy.GetChildren(ModelMetadata metadata, String key, Object model)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.Validation.ValidationVisitor.VisitChildren(IValidationStrategy strategy)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.Validation.ValidationVisitor.VisitComplexType(IValidationStrategy defaultStrategy)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.Validation.ValidationVisitor.VisitImplementation(ModelMetadata& metadata, String& key, Object model)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.Validation.ValidationVisitor.Visit(ModelMetadata metadata, String key, Object model)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.ObjectModelValidator.Validate(ActionContext actionContext, ValidationStateDictionary validationState, String prefix, Object model, ModelMetadata metadata, Object container)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder.EnforceBindRequiredAndValidate(ObjectModelValidator baseObjectValidator, ActionContext actionContext, ParameterDescriptor parameter, ModelMetadata metadata, ModelBindingContext modelBindingContext, ModelBindingResult modelBindingResult, Object container)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder.BindModelAsync(ActionContext actionContext, IModelBinder modelBinder, IValueProvider valueProvider, ParameterDescriptor parameter, ModelMetadata metadata, Object value, Object container)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerBinderDelegateProvider.<>c__DisplayClass0_0.<<CreateBinderDelegate>g__Bind|0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2026-07-18 13:30:08.774 +02:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Record type 'VariBillWebAPI.Models.DTO.CreateProductDto' has validation metadata defined on property 'ProductTypeId' that will be ignored. 'ProductTypeId' is a parameter in the record primary constructor and validation metadata must be associated with the constructor parameter.
+   at Microsoft.AspNetCore.Mvc.ModelBinding.ModelMetadata.ThrowIfRecordTypeHasValidationOnProperties()
+   at Microsoft.AspNetCore.Mvc.ModelBinding.Validation.DefaultComplexObjectValidationStrategy.Enumerator..ctor(ModelMetadata modelMetadata, String key, Object model)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.Validation.DefaultComplexObjectValidationStrategy.GetChildren(ModelMetadata metadata, String key, Object model)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.Validation.ValidationVisitor.VisitChildren(IValidationStrategy strategy)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.Validation.ValidationVisitor.VisitComplexType(IValidationStrategy defaultStrategy)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.Validation.ValidationVisitor.VisitImplementation(ModelMetadata& metadata, String& key, Object model)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.Validation.ValidationVisitor.Visit(ModelMetadata metadata, String key, Object model)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.ObjectModelValidator.Validate(ActionContext actionContext, ValidationStateDictionary validationState, String prefix, Object model, ModelMetadata metadata, Object container)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder.EnforceBindRequiredAndValidate(ObjectModelValidator baseObjectValidator, ActionContext actionContext, ParameterDescriptor parameter, ModelMetadata metadata, ModelBindingContext modelBindingContext, ModelBindingResult modelBindingResult, Object container)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder.BindModelAsync(ActionContext actionContext, IModelBinder modelBinder, IValueProvider valueProvider, ParameterDescriptor parameter, ModelMetadata metadata, Object value, Object container)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerBinderDelegateProvider.<>c__DisplayClass0_0.<<CreateBinderDelegate>g__Bind|0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2026-07-18 13:30:08.823 +02:00 [DBG] Successfully validated the token.
+2026-07-18 13:30:08.824 +02:00 [DBG] AuthenticationScheme: Bearer was successfully authenticated.
+2026-07-18 13:30:08.833 +02:00 [INF] HTTP GET /api/producttypes responded 200 in 10.0650 ms
+2026-07-18 13:38:53.921 +02:00 [INF] Now listening on: https://localhost:7090
+2026-07-18 13:38:53.983 +02:00 [INF] Now listening on: http://localhost:5153
+2026-07-18 13:38:54.120 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-07-18 13:38:54.121 +02:00 [INF] Hosting environment: Development
+2026-07-18 13:38:54.122 +02:00 [INF] Content root path: C:\WerkSoekAssessments\FinalAssessment\Bongoe2\VariBillWebAPI
+2026-07-18 13:39:01.877 +02:00 [DBG] Successfully validated the token.
+2026-07-18 13:39:01.881 +02:00 [DBG] AuthenticationScheme: Bearer was successfully authenticated.
+2026-07-18 13:39:04.750 +02:00 [INF] HTTP GET /api/products responded 200 in 3215.7803 ms
+2026-07-18 13:39:06.922 +02:00 [DBG] Successfully validated the token.
+2026-07-18 13:39:06.923 +02:00 [DBG] AuthenticationScheme: Bearer was successfully authenticated.
+2026-07-18 13:39:07.063 +02:00 [INF] HTTP GET /api/producttypes responded 200 in 143.8258 ms
+2026-07-18 13:39:24.253 +02:00 [DBG] Successfully validated the token.
+2026-07-18 13:39:24.255 +02:00 [DBG] AuthenticationScheme: Bearer was successfully authenticated.
+2026-07-18 13:39:24.368 +02:00 [INF] HTTP POST /api/products responded 400 in 117.5351 ms
+2026-07-18 13:39:24.379 +02:00 [DBG] Successfully validated the token.
+2026-07-18 13:39:24.380 +02:00 [DBG] AuthenticationScheme: Bearer was successfully authenticated.
+2026-07-18 13:39:24.389 +02:00 [INF] HTTP GET /api/producttypes responded 200 in 10.2925 ms
+2026-07-18 13:40:26.623 +02:00 [INF] Now listening on: https://localhost:7090
+2026-07-18 13:40:26.681 +02:00 [INF] Now listening on: http://localhost:5153
+2026-07-18 13:40:26.821 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-07-18 13:40:26.823 +02:00 [INF] Hosting environment: Development
+2026-07-18 13:40:26.824 +02:00 [INF] Content root path: C:\WerkSoekAssessments\FinalAssessment\Bongoe2\VariBillWebAPI
+2026-07-18 13:40:38.921 +02:00 [DBG] Successfully validated the token.
+2026-07-18 13:40:38.926 +02:00 [DBG] AuthenticationScheme: Bearer was successfully authenticated.
+2026-07-18 13:40:41.793 +02:00 [INF] HTTP GET /api/products responded 200 in 3215.7812 ms
+2026-07-18 13:40:43.939 +02:00 [DBG] Successfully validated the token.
+2026-07-18 13:40:43.941 +02:00 [DBG] AuthenticationScheme: Bearer was successfully authenticated.
+2026-07-18 13:40:44.149 +02:00 [INF] HTTP GET /api/producttypes responded 200 in 213.0617 ms
+2026-07-18 13:40:56.680 +02:00 [DBG] Successfully validated the token.
+2026-07-18 13:40:56.682 +02:00 [DBG] AuthenticationScheme: Bearer was successfully authenticated.
+2026-07-18 13:40:56.752 +02:00 [INF] HTTP POST /api/products responded 400 in 73.5851 ms
+2026-07-18 13:40:56.764 +02:00 [DBG] Successfully validated the token.
+2026-07-18 13:40:56.765 +02:00 [DBG] AuthenticationScheme: Bearer was successfully authenticated.
+2026-07-18 13:40:56.775 +02:00 [INF] HTTP GET /api/producttypes responded 200 in 11.5862 ms

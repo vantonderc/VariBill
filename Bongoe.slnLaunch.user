@@ -11,6 +11,10 @@
         "Action": "Start"
       },
       {
+        "Path": "VariBillWebApp.Blazor\\VariBillWebApp.Blazor.csproj",
+        "Action": "Start"
+      },
+      {
         "Path": "VariBillWebApp.Mvc\\VariBillWebApp.Mvc.csproj",
         "Action": "Start"
       }

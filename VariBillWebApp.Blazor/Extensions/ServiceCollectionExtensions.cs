@@ -1,4 +1,4 @@
-﻿using Microsoft.AspNetCore.Authentication.Cookies;
+using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Authentication.OpenIdConnect;
 using Polly;
 using Polly.Extensions.Http;
@@ -29,6 +29,17 @@ public static class ServiceCollectionExtensions
         services.AddAntiforgery(options =>
         {
             options.HeaderName = "RequestVerificationToken";
+        });
+
+
+        services.AddCors(options =>
+        {
+            options.AddPolicy(name: "BongoePolicy", builder =>
+            {
+                builder.AllowAnyOrigin()
+                       .AllowAnyMethod()
+                       .AllowAnyHeader();
+            });
         });
 
         // Authentication: Cookie + OpenID Connect

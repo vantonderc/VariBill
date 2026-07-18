@@ -58,8 +58,8 @@ public class ProductService : IProductService
             throw new Exceptions.ValidationException($"Product type '{dto.ProductTypeId}' was not found.");
 
         // Validate SKU uniqueness
-        var existing = await _unitOfWork.Products.FindAsync(p => p.SKU == dto.SKU);
-        if (existing.Any())
+        IReadOnlyList<Product> existing = await _unitOfWork.Products.FindAsync(p => p.SKU == dto.SKU);
+        if (existing != null && existing.Any())
             throw new BusinessRuleException($"A product with SKU '{dto.SKU}' already exists.");
 
         var product = new Product
