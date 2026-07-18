@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("VariBillWebAPI.IntegrationTests")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6b2069597631d8abdad6e751001450a2abb07545")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+18d9f4a1e655728ae7a7c337caedd54d19b02fbf")]
 [assembly: System.Reflection.AssemblyProductAttribute("VariBillWebAPI.IntegrationTests")]
 [assembly: System.Reflection.AssemblyTitleAttribute("VariBillWebAPI.IntegrationTests")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
